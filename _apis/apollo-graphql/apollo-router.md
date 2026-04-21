@@ -1,0 +1,29 @@
+---
+aid: apollo-graphql:apollo-router
+baseURL: ''
+description: Apollo Router is a high-performance graph router written in Rust for running federated supergraphs using Apollo Federation 2. It serves as the execution engine for graph-based API orchestration, sitting in front of existing REST and GraphQL APIs.
+humanURL: https://www.apollographql.com/docs/graphos/routing
+image: ''
+layout: api
+name: Apollo Router
+properties:
+- type: Documentation
+  url: https://www.apollographql.com/docs/graphos/routing
+- type: Configuration
+  url: https://www.apollographql.com/docs/graphos/routing/configuration/overview
+- type: GitHubRepository
+  url: https://github.com/apollographql/router
+- type: Changelog
+  url: https://github.com/apollographql/router/releases
+- type: Security
+  url: https://www.apollographql.com/docs/graphos/routing/security/jwt
+provider_name: Apollo GraphQL
+provider_slug: apollo-graphql
+slug: apollo-router
+tags:
+- Federation
+- Gateway
+- GraphQL
+- Router
+- Rust
+---

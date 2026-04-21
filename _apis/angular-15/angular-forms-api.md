@@ -1,0 +1,20 @@
+---
+aid: angular-15:angular-forms-api
+baseURL: https://angular.io/api/forms
+description: Angular 15 forms APIs with stable strictly typed reactive forms and improved form validation.
+humanURL: https://v15.angular.io/api/forms
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+layout: api
+name: Angular 15 Forms API
+properties:
+- type: Documentation
+  url: https://v15.angular.io/api/forms
+provider_name: Angular 15
+provider_slug: angular-15
+slug: angular-forms-api
+tags:
+- Forms
+- Reactive Forms
+- Typed Forms
+- Validation
+---

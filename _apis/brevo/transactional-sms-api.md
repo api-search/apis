@@ -1,0 +1,22 @@
+---
+aid: brevo:transactional-sms-api
+baseURL: https://api.brevo.com/v3
+description: The Brevo Transactional SMS API allows developers to send non-promotional SMS messages such as order confirmations, delivery notifications, and verification codes using recipients' phone numbers. It supports sending individual messages with customizable sender names and provides endpoints for tracking SMS delivery status and activity. The API is designed for time-sensitive notifications that require immediate delivery to mobile devices.
+humanURL: https://developers.brevo.com/docs/transactional-sms-endpoints
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+layout: api
+name: Brevo Transactional SMS API
+properties:
+- type: Documentation
+  url: https://developers.brevo.com/docs/transactional-sms-endpoints
+- type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-transactional-sms-openapi.yml
+provider_name: brevo
+provider_slug: brevo
+slug: transactional-sms-api
+tags:
+- Messaging
+- Mobile
+- SMS
+- Transactional
+---

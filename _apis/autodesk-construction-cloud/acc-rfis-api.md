@@ -1,0 +1,24 @@
+---
+aid: autodesk-construction-cloud:acc-rfis-api
+baseURL: https://developer.api.autodesk.com
+description: The ACC RFIs API enables management of Requests for Information (RFIs) in Autodesk Construction Cloud. REST APIs support RFI creation, tracking, response workflows, and reporting for construction project documentation and decision management.
+humanURL: https://aps.autodesk.com/en/docs/acc/v1/overview/
+image: ''
+layout: api
+name: Autodesk Construction Cloud RFIs API
+properties:
+- type: Documentation
+  url: https://aps.autodesk.com/en/docs/acc/v1/overview/
+- type: APIReference
+  url: https://aps.autodesk.com/en/docs/acc/v1/reference/http/rfis-rfi-search-POST/
+- type: GettingStarted
+  url: https://aps.autodesk.com/en/docs/acc/v1/tutorials/getting-started
+provider_name: Autodesk Construction Cloud
+provider_slug: autodesk-construction-cloud
+slug: acc-rfis-api
+tags:
+- ACC
+- Construction
+- Document Management
+- RFI
+---
