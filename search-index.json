@@ -1,0 +1,17 @@
+---
+layout: none
+---
+[
+{% assign idx = 0 %}{% for api in site.apis %}{
+"i":{{ idx }},
+"type":"api",
+"n":{{ api.name | jsonify }},
+"d":{{ api.description | strip_html | strip_newlines | truncate: 300 | jsonify }},
+"t":{{ api.tags | jsonify }},
+"p":{{ api.provider_name | default: api.provider_slug | jsonify }},
+"ps":{{ api.provider_slug | jsonify }},
+"h":{{ api.humanURL | jsonify }},
+"u":"{{ api.url | absolute_url }}"
+}{% assign idx = idx | plus: 1 %}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

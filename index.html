@@ -1,0 +1,54 @@
+---
+layout: default
+meta_title: "APIs | APIs.io"
+meta_description: "Browse all APIs indexed on APIs.io. Find APIs by name, provider, and tags."
+---
+
+<style>
+  .page-hero { text-align: center; padding: 2rem 0 1.5rem; }
+  .page-hero h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+  .page-hero p { color: #666; margin-bottom: 1.5rem; }
+  .filter-bar { max-width: 960px; margin: 0 auto 1.5rem; }
+  .api-list { max-width: 960px; margin: 0 auto; }
+  .api-item { background: white; border: 1px solid #e3e7ee; border-left: 3px solid #0d6efd; border-radius: 8px; padding: 1rem 1.25rem; margin-bottom: 0.5rem; transition: all 0.15s; }
+  .api-item:hover { border-color: #0d6efd; box-shadow: 0 2px 8px rgba(13,110,253,0.1); }
+  .api-item h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.25rem; }
+  .api-item h3 a { color: #1a1a2e; text-decoration: none; }
+  .api-item h3 a:hover { color: #0d6efd; }
+  .api-provider { font-size: 0.8rem; color: #6c757d; }
+  .api-desc { font-size: 0.85rem; color: #666; margin-top: 0.25rem; }
+  .api-tags { display: flex; flex-wrap: wrap; gap: 0.25rem; margin-top: 0.4rem; }
+  .tag-sm { display: inline-block; padding: 0.15em 0.5em; background: #eef2f7; color: #4a5568; border-radius: 999px; font-size: 0.7rem; }
+</style>
+
+<div class="page-hero">
+  <h1>APIs</h1>
+  <p>Browse <strong>{{ site.apis | size }}</strong> APIs across the APIs.io network</p>
+  <div class="filter-bar">
+    <input type="text" class="form-control" id="api-filter" placeholder="Filter APIs..." style="max-width: 400px; margin: 0 auto;">
+  </div>
+</div>
+
+<div class="api-list" id="api-list">
+  {% for api in site.apis %}
+  <div class="api-item" data-name="{{ api.name | downcase }} {{ api.provider_name | downcase }}">
+    <h3><a href="{{ api.url }}">{{ api.name }}</a></h3>
+    <div class="api-provider"><a href="https://providers.apis.io/providers/{{ api.provider_slug }}/">{{ api.provider_name }}</a></div>
+    {% if api.description %}<div class="api-desc">{{ api.description | strip_html | truncate: 200 }}</div>{% endif %}
+    {% if api.tags.size > 0 %}
+    <div class="api-tags">
+      {% for tag in api.tags limit: 5 %}<span class="tag-sm">{{ tag }}</span>{% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+
+<script>
+document.getElementById('api-filter').addEventListener('input', function() {
+  var q = this.value.toLowerCase();
+  document.querySelectorAll('.api-item').forEach(function(item) {
+    item.style.display = item.getAttribute('data-name').indexOf(q) !== -1 ? '' : 'none';
+  });
+});
+</script>
