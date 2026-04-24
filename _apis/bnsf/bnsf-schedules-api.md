@@ -1,0 +1,20 @@
+---
+aid: bnsf:bnsf-schedules-api
+baseURL: ''
+description: The BNSF Schedules API provides intermodal transit schedules enabling customers to view planned departure and arrival times to help schedule freight shipments across the BNSF rail network.
+humanURL: https://www.bnsf.com/ship-with-bnsf/support-services/customer-api/
+image: ''
+layout: api
+name: BNSF Schedules API
+properties:
+- type: Documentation
+  url: https://www.bnsf.com/ship-with-bnsf/support-services/customer-api/catalog/
+provider_name: BNSF
+provider_slug: bnsf
+slug: bnsf-schedules-api
+tags:
+- Freight
+- Schedules
+- Transit
+- Intermodal
+---

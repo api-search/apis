@@ -1,0 +1,21 @@
+---
+aid: bunq:bunq-user-token-qr-request-eal-api
+baseURL: ''
+description: The Bunq User Token Qr Request Eal API is a feature that allows users to securely generate and request a one-time QR code token for authentication purposes. This token is used to access sensitive information or perform transactions within the Bunq platform. The API ensures that only authorized users can access their accounts by requiring them to scan the QR code with their mobile device.
+humanURL: ''
+image: ''
+layout: api
+name: Bunq User Token Qr Request Eal API
+properties:
+- type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-token-qr-request-ideal-openapi-original.yml
+- type: Documentation
+  url: https://doc.bunq.com/
+provider_name: Bunq
+provider_slug: bunq
+slug: bunq-user-token-qr-request-eal-api
+tags:
+- Ideal
+- Tokens
+- Users
+---

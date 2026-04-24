@@ -1,0 +1,22 @@
+---
+aid: bunq:bunq-certificate-pinning-api
+baseURL: ''
+description: The Bunq Certificate Pinning API is a security feature that helps protect users from man-in-the-middle attacks by verifying the authenticity of the server's SSL certificate. By implementing certificate pinning, Bunq ensures that the app only communicates with servers that have a specific, pre-defined SSL certificate, making it extremely difficult for attackers to intercept and manipulate the data being sent and received.
+humanURL: https://doc.bunq.com/#/certificate-pinned
+image: ''
+layout: api
+name: Bunq Certificate Pinning API
+properties:
+- type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-certificate-pinned-openapi-original.yml
+- type: Documentation
+  url: https://doc.bunq.com/
+provider_name: Bunq
+provider_slug: bunq
+slug: bunq-certificate-pinning-api
+tags:
+- Certificates
+- Items
+- Pinned
+- Users
+---

@@ -1,0 +1,21 @@
+---
+aid: bunq:bunq-user-event-api
+baseURL: ''
+description: The Bunq User Event API is a tool that allows Bunq users to access and manage real-time data about their account activities and events. This API enables users to retrieve information such as transaction history, account balances, and notifications in a quick and efficient manner. With the Bunq User Event API, users have the ability to stay informed about their financial transactions and make more informed decisions about their money management.
+humanURL: ''
+image: ''
+layout: api
+name: Bunq User Event API
+properties:
+- type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-event-openapi-original.yml
+- type: Documentation
+  url: https://doc.bunq.com/
+provider_name: Bunq
+provider_slug: bunq
+slug: bunq-user-event-api
+tags:
+- Events
+- Items
+- Users
+---
