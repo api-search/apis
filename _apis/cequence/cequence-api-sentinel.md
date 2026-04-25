@@ -1,0 +1,23 @@
+---
+aid: cequence:cequence-api-sentinel
+baseURL: ''
+description: API Sentinel is the Cequence API posture and compliance module that continuously inventories internal and external APIs, classifies sensitive data flows, scores API risk against governance policies, and generates remediation guidance for security and platform teams.
+humanURL: https://www.cequence.ai/products/
+image: ''
+layout: api
+name: Cequence API Sentinel
+properties:
+- type: Website
+  url: https://www.cequence.ai/products/
+- type: HelpCenter
+  url: https://helpdesk.cequence.ai/
+provider_name: Cequence Security
+provider_slug: cequence
+slug: cequence-api-sentinel
+tags:
+- API Inventory
+- Compliance
+- Posture
+- Risk
+- Sensitive Data
+---
