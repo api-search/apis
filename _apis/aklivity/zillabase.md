@@ -14,6 +14,8 @@ properties:
 provider_name: Aklivity
 provider_slug: aklivity
 slug: zillabase
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: aklivity:zillabase\nname: ZillaBase\ndescription: ZillaBase is an event-driven backend framework for the next generation of web, mobile, and\n  AI applications, built on top of Apache Kafka and Zilla to enable real-time, event-sourced application\n  development.\nhumanURL: https://github.com/aklivity/zillabase\ntags:\n- Backend Framework\n- Event-Driven\n- Real-Time\nproperties:\n- type: Documentation\n  url: https://docs.aklivity.io/\n- type: GitHubRepository\n  url: https://github.com/aklivity/zillabase\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/apis.yml
 tags:

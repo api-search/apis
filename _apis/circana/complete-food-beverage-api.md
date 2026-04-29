@@ -12,6 +12,8 @@ properties:
 provider_name: Circana
 provider_slug: circana
 slug: complete-food-beverage-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: circana:complete-food-beverage-api\nname: Circana Complete Food and Beverage API\ntags:\n- Food\n- Beverage\n- Foodservice\n- CPG\nhumanURL: https://www.circana.com/solutions/complete-food-and-beverage\ndescription: Complete Food and Beverage unites retail, CPG, foodservice, and consumption data to deliver\n  a complete understanding of U.S. food and beverage consumption patterns.\nproperties:\n- type: Documentation\n  url: https://www.circana.com/solutions/complete-food-and-beverage\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/apis.yml
 tags:

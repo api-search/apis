@@ -14,6 +14,8 @@ properties:
 provider_name: Avaloq
 provider_slug: avaloq
 slug: avaloq-client-management-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: avaloq:avaloq-client-management-api\nname: Avaloq Client Management API\ndescription: Client onboarding, KYC, and relationship management API for banking and wealth management\n  institutions. Provides customer data management, document collection, and compliance screening for financial\n  services.\nhumanURL: https://developer.avaloq.com/\nbaseURL: https://api.avaloq.com\ntags:\n- Client Management\n- Financial Services\n- KYC\n- Onboarding\nproperties:\n- type: Documentation\n  url: https://developer.avaloq.com/\n- type: OpenAPI\n  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-client-management-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/apis.yml
 tags:

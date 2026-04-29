@@ -14,6 +14,8 @@ properties:
 provider_name: Apache Libcloud
 provider_slug: apache-libcloud
 slug: compute-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: apache-libcloud:compute-api\nname: Apache Libcloud Compute API\ndescription: The Libcloud Compute API provides a unified Python interface for managing virtual machine\n  instances, images, sizes, and networks across AWS EC2, Azure, GCP, DigitalOcean, Linode, and 25+ other\n  providers.\nhumanURL: https://libcloud.readthedocs.io/en/stable/compute/\ntags:\n- Cloud\n- Compute\n- Python\n- VM Management\nproperties:\n- type: Documentation\n  url: https://libcloud.readthedocs.io/en/stable/compute/\n- type: SDK\n  url: https://pypi.org/project/apache-libcloud/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-libcloud/refs/heads/main/apis.yml
 tags:

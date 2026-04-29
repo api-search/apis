@@ -16,6 +16,8 @@ properties:
 provider_name: Salesforce
 provider_slug: salesforce
 slug: salesforce-reports-and-dashboards-rest-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: salesforce:salesforce-reports-and-dashboards-rest-api\nname: Salesforce Reports and Dashboards REST API\ntags:\n- Analytics\n- CRM\n- Dashboards\n- Reports\nimage: https://www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg\nhumanURL: https://developer.salesforce.com/docs/atlas.en-us.api_analytics.meta/api_analytics/\nbaseURL: https://{instance}.salesforce.com/services/data/v{version}/analytics\nproperties:\n- url: https://developer.salesforce.com/docs/atlas.en-us.api_analytics.meta/api_analytics/\n  type: Documentation\n- url: https://developer.salesforce.com/docs/atlas.en-us.api_analytics.meta/api_analytics/sforce_analytics_rest_api_getstarted.htm\n  type: GettingStarted\n- url: https://developer.salesforce.com/docs/atlas.en-us.api_analytics.meta/api_analytics/sforce_analytics_rest_api_resource_index.htm\n  type: APIReference\ndescription: The Salesforce Reports and Dashboards REST API enables developers to programmatically access\n  report results,\
   \ list reports and dashboards, and run and filter reports. It supports accessing standard\n  and custom Salesforce reports without the need to navigate the UI.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/apis.yml

@@ -20,6 +20,8 @@ properties:
 provider_name: Factset
 provider_slug: factset
 slug: factset-mergers-and-acquisitions-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: factset:factset-mergers-and-acquisitions-api\nname: FactSet Mergers and Acquisitions API\ntags:\n- Acquisitions\n- Deals\n- Mergers\n- Transactions\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://example.com\nhumanURL: https://developer.factset.com/api-catalog/factset-mergers-and-acquisitions-api\noverlays: []\nproperties:\n- url: https://developer.factset.com/api-catalog/factset-mergers-and-acquisitions-api#overview\n  type: Documentation\n- url: https://developer.factset.com/api-catalog/factset-mergers-and-acquisitions-api#sdkLibrary\n  type: SDK\n- url: https://developer.factset.com/api-catalog/factset-mergers-and-acquisitions-api#notebooks\n  type: Tutorials\n- url: https://developer.factset.com/api-catalog/factset-mergers-and-acquisitions-api#codeSnippet\n  type: CodeExamples\n- url: https://developer.factset.com/api-catalog/factset-mergers-and-acquisitions-api#changelog\n  type: ChangeLog\ndescription: Access key\
   \ transactions and pricing metrics on publicly announced mergers, acquisitions,\n  divestitures, and spinoffs involving public and private companies.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/apis.yml

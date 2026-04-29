@@ -12,6 +12,8 @@ properties:
 provider_name: Datadog
 provider_slug: datadog
 slug: datadog-fastly-integration-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: datadog:datadog-fastly-integration-api\nname: Datadog Fastly Integration API\ntags:\n- CDN\n- Fastly\n- Integrations\nhumanURL: https://docs.datadoghq.com/api/latest/fastly-integration/\nbaseURL: https://api.datadoghq.com\nimage: https://imgix.datadoghq.com/img/dd_logo_n_70x75.png\nproperties:\n- url: https://docs.datadoghq.com/api/latest/fastly-integration/\n  type: Documentation\ndescription: The Fastly Integration API allows you to manage your Datadog-Fastly integration accounts\n  and services directly through the Datadog API. It supports listing and managing Fastly accounts.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/apis.yml
 tags:

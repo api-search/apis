@@ -16,6 +16,8 @@ properties:
 provider_name: Salesforce
 provider_slug: salesforce
 slug: salesforce-apex-rest-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: salesforce:salesforce-apex-rest-api\nname: Salesforce Apex REST API\ntags:\n- Apex\n- CRM\n- Custom APIs\n- Development\n- REST\nimage: https://www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg\nhumanURL: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_rest.htm\nbaseURL: https://{instance}.salesforce.com/services/apexrest\nproperties:\n- url: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_rest.htm\n  type: Documentation\n- url: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_rest_code_sample_intro.htm\n  type: GettingStarted\n- url: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_rest_methods.htm\n  type: APIReference\ndescription: Salesforce Apex REST enables developers to expose custom Apex classes as RESTful web services.\n  By annotating Apex classes and methods with @RestResource and HTTP method annotations, developers can\n\
   \  create custom API endpoints that extend Salesforce functionality.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/apis.yml

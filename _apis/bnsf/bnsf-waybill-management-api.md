@@ -12,6 +12,8 @@ properties:
 provider_name: BNSF
 provider_slug: bnsf
 slug: bnsf-waybill-management-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: bnsf:bnsf-waybill-management-api\nname: BNSF Waybill Management API\ndescription: The BNSF Waybill Management API enables customers to submit bills of lading with transit\n  details and retrieve submissions for carload shipments. Supports electronic submission and retrieval\n  of waybill documentation for freight management.\nhumanURL: https://www.bnsf.com/ship-with-bnsf/support-services/customer-api/\ntags:\n- Freight\n- Waybill\n- Documentation\n- Carload\nproperties:\n- type: Documentation\n  url: https://www.bnsf.com/ship-with-bnsf/support-services/customer-api/catalog/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/apis.yml
 tags:

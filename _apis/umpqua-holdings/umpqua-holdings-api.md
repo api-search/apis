@@ -12,6 +12,8 @@ properties:
 provider_name: Umpqua Holdings
 provider_slug: umpqua-holdings
 slug: umpqua-holdings-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: umpqua-holdings:umpqua-holdings-api\nname: Umpqua Holdings API\ntags:\n- Banking\n- Financial Services\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.umpquabank.com\nhumanURL: https://developer.umpquabank.com\nproperties:\n- url: https://developer.umpquabank.com/docs\n  type: Documentation\ndescription: The Umpqua Holdings API provides access to platform services and data for enterprise integration\n  and automation.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/umpqua-holdings/refs/heads/main/apis.yml
 tags:

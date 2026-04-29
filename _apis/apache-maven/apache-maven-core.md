@@ -21,6 +21,8 @@ properties:
 provider_name: Apache Maven
 provider_slug: apache-maven
 slug: apache-maven-core
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: apache-maven:apache-maven-core\nname: Apache Maven Core\ndescription: Maven provides a Java API for programmatic build execution, a Plugin API (Mojo) for extending\n  build capabilities, a Repository API for artifact management via Maven Artifact Resolver, and the Wagon\n  transport API for repository access. Maven 4 introduces improved APIs and the Maven Upgrade Tool for\n  migration.\nhumanURL: https://maven.apache.org/guides/index.html\ntags:\n- Build\n- Java\n- Plugins\n- Project Object Model\nproperties:\n- type: Documentation\n  url: https://maven.apache.org/guides/index.html\n- type: GettingStarted\n  url: https://maven.apache.org/install.html\n- type: APIReference\n  url: https://maven.apache.org/ref/current/\n- type: SDK\n  url: https://central.sonatype.com/artifact/org.apache.maven/maven-core\n  title: Maven Central (Java)\n- type: GitHubRepository\n  url: https://github.com/apache/maven\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-maven/refs/heads/main/apis.yml
 tags:

@@ -14,6 +14,8 @@ properties:
 provider_name: Apache Arrow
 provider_slug: apache-arrow
 slug: apache-arrow-libraries
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: apache-arrow:apache-arrow-libraries\nname: Apache Arrow Libraries\ndescription: Arrow provides native libraries in C++, Java, Python (PyArrow), R, Go, Rust, JavaScript,\n  C#, Ruby, Julia, and Swift for reading, writing, and processing columnar data in the Arrow in-memory\n  format. Libraries enable zero-copy data sharing between processes and language runtimes.\nhumanURL: https://arrow.apache.org/docs/\ntags:\n- Data Processing\n- Libraries\n- SDK\nproperties:\n- type: Documentation\n  url: https://arrow.apache.org/docs/\n- type: APIReference\n  url: https://arrow.apache.org/docs/python/api.html\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-arrow/refs/heads/main/apis.yml
 tags:

@@ -14,6 +14,8 @@ properties:
 provider_name: Dynatrace
 provider_slug: dynatrace
 slug: dynatrace-extensions-api-v2
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: dynatrace:dynatrace-extensions-api-v2\nname: Dynatrace Extensions API 2.0\ntags:\n- Extensions\n- Integrations\n- Monitoring\n- Observability\nhumanURL: https://docs.dynatrace.com/docs/discover-dynatrace/references/dynatrace-api/environment-api/extensions-v2\nbaseURL: https://mySampleEnv.live.dynatrace.com/api/v2\nimage: https://www.dynatrace.com/logo.png\nproperties:\n- url: https://docs.dynatrace.com/docs/discover-dynatrace/references/dynatrace-api/environment-api/extensions-v2\n  type: Documentation\n- url: https://docs.dynatrace.com/docs/ingest-from/extensions/manage-extensions\n  type: APIReference\ndescription: The Dynatrace Extensions API 2.0 provides endpoints for managing monitoring extensions including\n  uploading, activating, configuring, and removing extensions within a Dynatrace environment. It supports\n  the Extensions 2.0 framework used for custom data collection and integration with third-party systems\n  and technologies.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/apis.yml
 tags:

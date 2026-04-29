@@ -12,6 +12,8 @@ properties:
 provider_name: Avalara
 provider_slug: avalara
 slug: avalara
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: avalara:avalara\nname: Avalara\ntags:\n- Taxes\nhumanURL: ' https://developer.avalara.com/'\nproperties:\n- url: ' https://developer.avalara.com/'\n  type: Documentation\ndescription: Automate compliance with Avalara MCP servers for AI-driven tax workflows and APIs. Have your\n  agent call our agent.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/apis.yml
 tags:

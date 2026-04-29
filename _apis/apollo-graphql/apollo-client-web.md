@@ -22,6 +22,8 @@ properties:
 provider_name: Apollo GraphQL
 provider_slug: apollo-graphql
 slug: apollo-client-web
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: apollo-graphql:apollo-client-web\nname: Apollo Client (Web)\ntags:\n- Client\n- GraphQL\n- JavaScript\n- React\n- State Management\n- TypeScript\nhumanURL: https://www.apollographql.com/docs/react\nproperties:\n- url: https://www.apollographql.com/docs/react\n  type: Documentation\n- url: https://www.apollographql.com/docs/react/get-started\n  type: GettingStarted\n- url: https://www.apollographql.com/docs/react/api/core/ApolloClient\n  type: APIReference\n- url: https://github.com/apollographql/apollo-client\n  type: GitHubRepository\n- url: https://www.npmjs.com/package/@apollo/client\n  type: PackageManager\n- url: https://github.com/apollographql/apollo-client/blob/main/CHANGELOG.md\n  type: Changelog\ndescription: Apollo Client is a comprehensive state management library for JavaScript and TypeScript applications.\n  It is the industry-leading GraphQL client for React, Vue, Angular, and more, with powerful caching,\n  intuitive APIs, and comprehensive developer tools.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/apis.yml
 tags:

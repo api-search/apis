@@ -16,6 +16,8 @@ properties:
 provider_name: Google Workspace
 provider_slug: google-workspace
 slug: license-manager
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: google-workspace:license-manager\nname: Enterprise License Manager API\ndescription: Manage Google Workspace and related product licenses for all users of a customer.\nhumanURL: https://developers.google.com/admin-sdk/licensing\nbaseURL: https://licensing.googleapis.com\ntags:\n- Admin\n- Licensing\n- Management\nproperties:\n- type: Documentation\n  url: https://developers.google.com/admin-sdk/licensing/v1/how-tos/using\n- type: APIReference\n  url: https://developers.google.com/workspace/admin/licensing/reference/rest\n- type: Authentication\n  url: https://developers.google.com/admin-sdk/licensing/v1/how-tos/authorizing\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/apis.yml
 tags:

@@ -12,6 +12,8 @@ properties:
 provider_name: Autopay
 provider_slug: autopay
 slug: tap-park-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: autopay:tap-park-api\nname: Autopay Tap and Park API\ndescription: The Autopay Tap and Park API enables third-party applications to validate parking sessions\n  in Autopay-managed zones, supporting contactless parking validation via NFC, mobile apps, or access\n  control systems.\nhumanURL: https://developer.autopay.io\ntags:\n- Parking Validation\n- NFC\n- Mobile Payments\n- Contactless\nproperties:\n- type: Documentation\n  url: https://developer.autopay.io\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/apis.yml
 tags:

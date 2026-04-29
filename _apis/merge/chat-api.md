@@ -12,6 +12,8 @@ properties:
 provider_name: Merge
 provider_slug: merge
 slug: chat-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: merge:chat-api\nname: Merge Chat API\ntags:\n- Chat\n- Messaging\n- Unified API\nhumanURL: https://www.merge.dev/categories/chat\nproperties:\n- url: https://www.merge.dev/categories/chat\n  type: Website\ndescription: Merge Chat Unified API provides real-time, normalized access to chat and messaging platforms\n  including Microsoft Teams, with Slack on the roadmap. It normalizes five core object types including\n  Messages, Conversations, Users, Groups, and Members, enabling enterprise search, context-aware AI agents,\n  and near-real-time insights.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/apis.yml
 tags:

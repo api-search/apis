@@ -14,6 +14,8 @@ properties:
 provider_name: Qlik
 provider_slug: qlik
 slug: reload-tasks
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: qlik:reload-tasks\nname: Qlik Reload Tasks API\ndescription: Manages scheduled reload tasks for analytics applications, enabling automated data refresh\n  on defined schedules.\nhumanURL: https://qlik.dev/apis/rest/reload-tasks/\ntags:\n- Reloads\n- Scheduling\nproperties:\n- type: Documentation\n  url: https://qlik.dev/apis/rest/reload-tasks/\n- type: OpenAPI\n  url: https://qlik.dev/specs/rest/reload-tasks.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/apis.yml
 tags:

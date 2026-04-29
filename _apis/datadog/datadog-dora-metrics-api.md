@@ -14,6 +14,8 @@ properties:
 provider_name: Datadog
 provider_slug: datadog
 slug: datadog-dora-metrics-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: datadog:datadog-dora-metrics-api\nname: Datadog DORA Metrics API\ntags:\n- CI/CD\n- DevOps\n- DORA Metrics\nhumanURL: https://docs.datadoghq.com/api/latest/dora-metrics/\nbaseURL: https://api.datadoghq.com\nimage: https://imgix.datadoghq.com/img/dd_logo_n_70x75.png\nproperties:\n- url: https://docs.datadoghq.com/api/latest/dora-metrics/\n  type: Documentation\n- url: https://docs.datadoghq.com/dora_metrics/\n  type: Reference\ndescription: The DORA Metrics API allows you to search and send events for DORA Metrics to measure and\n  improve software delivery performance. It tracks deployment frequency, lead time for changes, change\n  failure rate, and time to restore service.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/apis.yml
 tags:

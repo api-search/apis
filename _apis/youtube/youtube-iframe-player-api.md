@@ -16,6 +16,8 @@ properties:
 provider_name: Youtube
 provider_slug: youtube
 slug: youtube-iframe-player-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: youtube:youtube-iframe-player-api\nname: YouTube IFrame Player API\ntags:\n- Embed\n- Player\n- Videos\nimage: https://www.youtube.com/img/desktop/yt_1200.png\nhumanURL: https://developers.google.com/youtube/iframe_api_reference\nproperties:\n- url: https://developers.google.com/youtube/iframe_api_reference\n  type: Documentation\n- url: https://developers.google.com/youtube/iframe_api_reference#Getting_started\n  type: GettingStarted\n- url: https://developers.google.com/youtube/player_parameters\n  type: APIReference\ndescription: Enables embedding a YouTube video player on websites and controlling playback through JavaScript.\n  The API supports queuing and playing videos, adjusting volume, retrieving video information, and subscribing\n  to player state change events.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/apis.yml
 tags:

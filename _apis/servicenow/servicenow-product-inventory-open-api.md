@@ -12,6 +12,8 @@ properties:
 provider_name: ServiceNow
 provider_slug: servicenow
 slug: servicenow-product-inventory-open-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: servicenow:servicenow-product-inventory-open-api\nname: ServiceNow Product Inventory Open API\ntags:\n- Inventory\n- Products\n- Telecommunications\n- TMF\nimage: https://www.servicenow.com/content/dam/servicenow-assets/images/meganav/servicenow-logo.svg\nhumanURL: https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/integrate/inbound-rest/concept/product-inventory-open-api.html\nbaseURL: https://{instance}.service-now.com/api/sn_ind_tmt_orm/productInventoryManagement/v4\nproperties:\n- url: https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/integrate/inbound-rest/concept/product-inventory-open-api.html\n  type: Documentation\ndescription: The ServiceNow Product Inventory Open API provides REST endpoints for managing product inventory\n  data based on TM Forum specifications. It supports querying and managing product instances and their\n  lifecycle states for telecommunications product inventory management.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/apis.yml
 tags:

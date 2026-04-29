@@ -15,6 +15,8 @@ properties:
 provider_name: Apache Giraph
 provider_slug: apache-giraph
 slug: apache-giraph-java-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: apache-giraph:apache-giraph-java-api\nname: Apache Giraph Java API\ndescription: Java API based on the Bulk Synchronous Parallel (BSP) model for implementing graph algorithms,\n  with Vertex, Edge, and Master compute APIs for distributed graph processing on Hadoop.\nhumanURL: https://giraph.apache.org/apidocs/\ntags:\n- BSP\n- Graph\n- Java\n- SDK\nproperties:\n- type: Documentation\n  url: https://giraph.apache.org/apidocs/\n- type: SDK\n  url: https://search.maven.org/artifact/org.apache.giraph/giraph-core\n  title: Java SDK (Maven Central)\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/apis.yml
 tags:

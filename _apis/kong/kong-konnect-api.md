@@ -18,6 +18,8 @@ properties:
 provider_name: Kong
 provider_slug: kong
 slug: kong-konnect-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: kong:kong-konnect-api\nname: Kong Konnect API\ndescription: The Kong Konnect API provides a programmatic interface for managing the Konnect cloud platform,\n  including control planes, API products, teams, system accounts, and developer portal configuration.\n  It is used to automate Konnect operations and integrate with CI/CD pipelines.\nhumanURL: https://developer.konghq.com/konnect-api/\nbaseURL: https://konghq.com/\ntags:\n- Cloud\n- Konnect\n- Management\n- REST API\nproperties:\n- type: Documentation\n  url: https://developer.konghq.com/konnect-api/\n- type: APIReference\n  url: https://developer.konghq.com/api/\n- type: Authentication\n  url: https://developer.konghq.com/konnect-api/\n- type: GitHubRepository\n  url: https://github.com/Kong/kong\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/apis.yml
 tags:

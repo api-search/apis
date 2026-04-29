@@ -12,6 +12,8 @@ properties:
 provider_name: Asana
 provider_slug: asana
 slug: asana-audit-log-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: asana:asana-audit-log-api\nname: Asana Audit Log API\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://developers.asana.com/\nproperties:\n- url: https://developers.asana.com/reference/audit-log-api\n  type: Documentation\ndescription: The Asana Audit Log API provides an immutable log of important events within an organization's\n  Asana instance. This API enables organizations to set up proactive alerting with SIEM tools, conduct\n  reactive investigations during security incidents, and visualize key domain data to identify security\n  trends. Access is restricted to Service Accounts belonging to organizations on the Asana Enterprise+\n  tier.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/apis.yml
 tags: []

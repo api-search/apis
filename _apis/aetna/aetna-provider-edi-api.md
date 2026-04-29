@@ -14,6 +14,8 @@ properties:
 provider_name: Aetna
 provider_slug: aetna
 slug: aetna-provider-edi-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: aetna-provider-edi-api\nname: Aetna Provider EDI API\ndescription: Electronic Data Interchange connectivity for healthcare providers enabling electronic submission\n  of claims, eligibility verification, claim status inquiries, and remittance advice. Accessible through\n  the Availity provider portal supporting EDI 837 (claims), 270/271 (eligibility), 276/277 (claim status),\n  and 835 (remittance) HIPAA transactions.\ntags:\n- EDI\n- Claims\n- Eligibility\n- Provider Portal\n- HIPAA\nproperties:\n- type: Documentation\n  url: https://www.aetna.com/health-care-professionals/claims-payment/claims-submission.html\n- type: Portal\n  url: https://www.availity.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/apis.yml
 tags:

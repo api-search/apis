@@ -14,6 +14,8 @@ properties:
 provider_name: Circle
 provider_slug: circle
 slug: xreserve
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: circle:xreserve\nname: xReserve\ntags:\n- Issuance\n- Reserves\n- Stablecoin\nhumanURL: https://developers.circle.com/xreserve\nproperties:\n- url: https://developers.circle.com/xreserve\n  type: Documentation\n- url: https://developers.circle.com/openapi/xreserve.yaml\n  type: OpenAPI\ndescription: Issue and redeem regulated stablecoins backed by USDC reserves; manage minting, burning,\n  and reserve attestations.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/apis.yml
 tags:

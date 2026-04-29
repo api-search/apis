@@ -16,6 +16,8 @@ properties:
 provider_name: Analog Devices
 provider_slug: analog-devices
 slug: pyadi-iio-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: analog-devices:pyadi-iio-api\nname: Analog Devices PyADI-IIO Python API\ndescription: PyADI-IIO provides Python interfaces for ADI hardware with IIO drivers, enabling Python developers\n  to interact with ADI evaluation boards and production hardware. It abstracts libiio with device-specific\n  high-level interfaces for transceivers, converters, and sensors.\ntags:\n- ADC\n- Embedded Systems\n- Hardware\n- Python\n- RF\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://github.com/analogdevicesinc/pyadi-iio\nhumanURL: https://analogdevicesinc.github.io/pyadi-iio/\nproperties:\n- url: https://analogdevicesinc.github.io/pyadi-iio/\n  type: Documentation\n- url: https://github.com/analogdevicesinc/pyadi-iio\n  type: GitHubRepository\n- url: https://pypi.org/project/pyadi-iio/\n  type: SDK\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/apis.yml
 tags:

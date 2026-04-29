@@ -12,6 +12,8 @@ properties:
 provider_name: ServiceNow
 provider_slug: servicenow
 slug: servicenow-service-catalog-open-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: servicenow:servicenow-service-catalog-open-api\nname: ServiceNow Service Catalog Open API\ntags:\n- Commerce\n- Service Catalog\n- Telecommunications\n- TMF\nimage: https://www.servicenow.com/content/dam/servicenow-assets/images/meganav/servicenow-logo.svg\nhumanURL: https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/integrate/inbound-rest/concept/service-catalog-open-api.html\nbaseURL: https://{instance}.service-now.com/api/sn_ind_tmt_orm/serviceCatalogManagement/v4\nproperties:\n- url: https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/integrate/inbound-rest/concept/service-catalog-open-api.html\n  type: Documentation\ndescription: The ServiceNow Service Catalog Open API provides REST endpoints for managing service catalog\n  data based on the TM Forum TMF633 specification. It supports querying and managing service specifications\n  and service candidates for telecommunications service management.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/apis.yml
 tags:

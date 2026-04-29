@@ -12,6 +12,8 @@ properties:
 provider_name: Allscripts Healthcare Solutions
 provider_slug: allscripts-healthcare-solutions
 slug: allscripts-healthcare-solutions-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: allscripts-healthcare-solutions:allscripts-healthcare-solutions-api\nname: Allscripts Healthcare Solutions API\ntags:\n- Healthcare IT\n- EHR\n- Clinical\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.allscripts.com\nhumanURL: https://developer.allscripts.com\nproperties:\n- url: https://developer.allscripts.com/docs\n  type: Documentation\ndescription: The Allscripts Healthcare Solutions API provides access to platform services and data for\n  enterprise integration and automation.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/apis.yml
 tags:

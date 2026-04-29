@@ -12,6 +12,8 @@ properties:
 provider_name: Ansible Automation Platform
 provider_slug: ansible-automation-platform
 slug: hub-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: ansible-automation-platform:hub-api\nname: Ansible Automation Hub API\ndescription: REST API for Ansible Automation Hub providing access to certified and validated Ansible content\n  collections, roles, and execution environments. Supports searching, downloading, and publishing automation\n  content.\nhumanURL: https://docs.ansible.com/automation-hub/\nbaseURL: https://hub-host/api/galaxy/\ntags:\n- Collections\n- Content Hub\n- REST\n- Roles\nproperties:\n- type: Documentation\n  url: https://docs.ansible.com/automation-hub/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/apis.yml
 tags:

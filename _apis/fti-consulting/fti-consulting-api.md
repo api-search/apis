@@ -12,6 +12,8 @@ properties:
 provider_name: FTI Consulting
 provider_slug: fti-consulting
 slug: fti-consulting-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: fti-consulting:fti-consulting-api\nname: FTI Consulting API\ntags:\n- Consulting\n- Economic\n- Financial Advisory\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.fticonsulting.com\nhumanURL: https://developer.fticonsulting.com\nproperties:\n- url: https://developer.fticonsulting.com/docs\n  type: Documentation\ndescription: The FTI Consulting API provides access to platform services and data for enterprise integration\n  and automation.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fti-consulting/refs/heads/main/apis.yml
 tags:

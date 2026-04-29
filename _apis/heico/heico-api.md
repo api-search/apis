@@ -12,6 +12,8 @@ properties:
 provider_name: HEICO Corporation
 provider_slug: heico
 slug: heico-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: heico:heico-api\nname: HEICO Corporation API\ntags:\n- Aerospace\n- Aviation\n- Defense\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.heico.com\nhumanURL: https://developer.heico.com\nproperties:\n- url: https://developer.heico.com/docs\n  type: Documentation\ndescription: The HEICO Corporation API provides access to platform services and data for enterprise integration\n  and automation.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heico/refs/heads/main/apis.yml
 tags:

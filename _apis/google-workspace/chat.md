@@ -14,6 +14,8 @@ properties:
 provider_name: Google Workspace
 provider_slug: google-workspace
 slug: chat
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: google-workspace:chat\nname: Google Chat API\ndescription: Build bots and integrations for Google Chat.\nimage: https://www.gstatic.com/images/branding/product/2x/chat_2020q4_48dp.png\nhumanURL: https://developers.google.com/chat\nbaseURL: https://chat.googleapis.com\ntags:\n- Chat\n- Collaboration\n- Messaging\nproperties:\n- type: Documentation\n  url: https://developers.google.com/chat/api/guides/overview\n- type: APIReference\n  url: https://developers.google.com/chat/api/reference/rest\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/apis.yml
 tags:

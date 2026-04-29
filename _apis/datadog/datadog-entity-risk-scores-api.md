@@ -12,6 +12,8 @@ properties:
 provider_name: Datadog
 provider_slug: datadog
 slug: datadog-entity-risk-scores-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: datadog:datadog-entity-risk-scores-api\nname: Datadog Entity Risk Scores API\ntags:\n- Cloud Security\n- Risk Scores\n- Security\nhumanURL: https://docs.datadoghq.com/api/latest/entity-risk-scores/\nbaseURL: https://api.datadoghq.com\nimage: https://imgix.datadoghq.com/img/dd_logo_n_70x75.png\nproperties:\n- url: https://docs.datadoghq.com/api/latest/entity-risk-scores/\n  type: Documentation\ndescription: The Entity Risk Scores API provides security risk assessments for entities like cloud resources,\n  identities, or services based on detected signals, misconfigurations, and identity risks.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/apis.yml
 tags:

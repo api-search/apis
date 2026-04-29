@@ -12,6 +12,8 @@ properties:
 provider_name: HubSpot
 provider_slug: hubspot
 slug: hubspot-transactional-email-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: hubspot:hubspot-transactional-email-api\nname: HubSpot Transactional Email API\ntags:\n- Marketing\n- SMTP\n- Transactional Email\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.hubapi.com\nhumanURL: https://developers.hubspot.com/docs/api-reference/marketing-transactional-single-send-v3/guide\nproperties:\n- url: https://developers.hubspot.com/docs/api-reference/marketing-transactional-single-send-v3/guide\n  type: Documentation\ndescription: The transactional email API enables sending template-based transactional emails through HubSpot\n  using the Single Send API and managing SMTP tokens. You can send emails for commerce receipts, account\n  updates, and other essential business transactions over a dedicated IP address.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/apis.yml
 tags:

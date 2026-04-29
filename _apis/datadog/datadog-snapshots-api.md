@@ -12,6 +12,8 @@ properties:
 provider_name: Datadog
 provider_slug: datadog
 slug: datadog-snapshots-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: datadog:datadog-snapshots-api\nname: Datadog Snapshots API\ntags:\n- Graphs\n- Snapshots\n- Visualizations\nhumanURL: https://docs.datadoghq.com/api/latest/snapshots/\nbaseURL: https://api.datadoghq.com\nimage: https://imgix.datadoghq.com/img/dd_logo_n_70x75.png\nproperties:\n- url: https://docs.datadoghq.com/api/latest/snapshots/\n  type: Documentation\ndescription: The Snapshots API allows you to take graph snapshots. Snapshots are PNG images generated\n  by rendering a specified widget and capturing it once the data is available.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/apis.yml
 tags:

@@ -14,6 +14,8 @@ properties:
 provider_name: National Council on Disability
 provider_slug: national-council-on-disability
 slug: ncd-accountability-data
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: national-council-on-disability:ncd-accountability-data\nname: National Council on Disability Accountability Reports\ndescription: Performance, accountability, and budget data from the National Council on Disability. Includes\n  Annual Performance Reports, Congressional Budget Justification Reports, financial audits, and EEO policy\n  statements providing transparency into agency operations and resource allocation.\nhumanURL: https://www.ncd.gov/accountability/\nbaseURL: https://www.ncd.gov\ntags:\n- Accountability\n- Budget\n- Performance\n- Transparency\nproperties:\n- type: Documentation\n  url: https://www.ncd.gov/accountability/\n- type: DataAPI\n  url: https://www.ncd.gov/accountability/congressional-budget-justification-reports/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/apis.yml
 tags:

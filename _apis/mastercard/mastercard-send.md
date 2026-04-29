@@ -21,6 +21,8 @@ properties:
 provider_name: Mastercard
 provider_slug: mastercard
 slug: mastercard-send
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: mastercard:mastercard-send\nname: Mastercard Send\ntags:\n- Disbursements\n- Money Transfer\n- Real-Time Payments\nhumanURL: https://developer.mastercard.com/mastercard-send/documentation/\nproperties:\n- url: https://developer.mastercard.com/mastercard-send/documentation/\n  type: Documentation\n- url: https://developer.mastercard.com/mastercard-send/documentation/implementation/\n  name: Implementation | Mastercard Send | Mastercard Developers\n  type: Tutorials\n- url: https://developer.mastercard.com/mastercard-send/documentation/implementation/getting-started/\n  name: Getting Started with the APIs | Mastercard Send | Mastercard Developers\n  type: GettingStarted\n- url: https://developer.mastercard.com/mastercard-send/documentation/send-release-notes/\n  name: Release Notes and Dates | Mastercard Send | Mastercard Developers\n  type: ChangeLog\ndescription: Mastercard Send is a suite of API services enabling real-time money transfers including person-to-person\n\
   \  payments, disbursements, and funding transactions across the Mastercard network and other supported\n  networks.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/apis.yml

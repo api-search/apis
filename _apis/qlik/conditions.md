@@ -14,6 +14,8 @@ properties:
 provider_name: Qlik
 provider_slug: qlik
 slug: conditions
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: qlik:conditions\nname: Qlik Conditions API\ndescription: Manages conditions used for evaluating expressions and triggering actions within Qlik Cloud.\nhumanURL: https://qlik.dev/apis/rest/conditions/\ntags:\n- Conditions\nproperties:\n- type: Documentation\n  url: https://qlik.dev/apis/rest/conditions/\n- type: OpenAPI\n  url: https://qlik.dev/specs/rest/conditions.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/apis.yml
 tags:

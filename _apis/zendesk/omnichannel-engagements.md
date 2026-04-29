@@ -12,6 +12,8 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: omnichannel-engagements
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: zendesk:omnichannel-engagements\nname: Zendesk Omnichannel Engagements API\ntags:\n- Engagements\n- Omnichannel\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://{subdomain}.zendesk.com\nhumanURL: https://developer.zendesk.com/api-reference/agent-availability/omnichannel-engagements/omnichannel_engagements/\nproperties:\n- url: https://developer.zendesk.com/api-reference/agent-availability/omnichannel-engagements/omnichannel_engagements/\n  type: Documentation\ndescription: The Zendesk Omnichannel Engagements API provides access to engagement data for agents across\n  all channels. It enables tracking and reporting on how agents interact with work items, including assignment\n  history, response metrics, and engagement patterns across Support, Messaging, and Talk.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:

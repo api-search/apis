@@ -12,6 +12,8 @@ properties:
 provider_name: Capital One
 provider_slug: capital-one
 slug: data-protection-and-client-authentication-public-key-sharing-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: capital-one:data-protection-and-client-authentication-public-key-sharing-api\nname: Capital One Data Protection and Client Authentication Public Key Sharing API\ntags: []\nhumanURL: https://developer.capitalone.com/products/data-protection-and-client-authentication-public-key-sharing?id=9721-1\nproperties:\n- url: https://developer.capitalone.com/products/data-protection-and-client-authentication-public-key-sharing?id=9721-1\n  type: Documentation\ndescription: The Capital One Data Protection and Client Authentication Public Key Sharing API is a secure\n  and efficient solution for encrypting and authenticating client data in transit. This API allows clients\n  to securely share public keys with Capital One, enabling secure communication and data exchange. By\n  using advanced encryption techniques and secure key exchange mechanisms, the API ensures that sensitive\n  client information remains protected and confidential throughout the entire data transfer process.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/apis.yml
 tags: []

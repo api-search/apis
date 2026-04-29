@@ -12,6 +12,8 @@ properties:
 provider_name: BrowserStack
 provider_slug: browserstack
 slug: screenshots-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: browserstack:screenshots-api\nname: BrowserStack Screenshots API\ntags:\n- Cross-Browser Testing\n- Screenshots\n- Visual Testing\nhumanURL: https://www.browserstack.com/screenshots/api\nproperties:\n- url: https://www.browserstack.com/screenshots/api\n  type: Documentation\ndescription: The BrowserStack Screenshots API enables headless screenshot creation for any URL across\n  3000+ real browser and OS combinations. It supports generating, managing, and retrieving screenshots\n  via REST endpoints.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/apis.yml
 tags:

@@ -14,8 +14,10 @@ properties:
 provider_name: Ameriprise Financial
 provider_slug: ameriprise-financial
 slug: website
-source_yaml: "aid: ameriprise-financial:website\nname: Ameriprise Financial Website\ntags:\n- Financial Planning\n- Financial Services\n- Insurance\n- Wealth Management\n- Retirement\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://www.ameriprise.com\nhumanURL: https://www.ameriprise.com\nproperties:\n- type: Website\n  url: https://www.ameriprise.com\n- type: OpenAPI\n  url: openapi/ameriprise.yml\ndescription: Ameriprise Financial is a diversified financial services company providing financial planning,\n  products, and services including wealth management, asset management, insurance, and annuities. The\n  company does not currently offer a public developer API. Third-party access to Ameriprise account data\n  is available through aggregators like Plaid.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ameriprise-financial/refs/heads/main/apis.yml
+source_filename: ameriprise.yml
+source_heading: OpenAPI Specification
+source_yaml: "openapi: 3.1.0\ninfo:\n  title: Ameriprise Financial API\n  description: >-\n    Ameriprise Financial provides financial planning and wealth management\n    services. This is a placeholder specification as Ameriprise Financial\n    does not currently publish a public developer API. Third-party data\n    access is available through aggregators like Plaid.\n  version: 1.0.0\n  contact:\n    name: Ameriprise Financial\n    url: https://www.ameriprise.com\nservers:\n  - url: https://www.ameriprise.com\n    description: Ameriprise Financial Website\npaths: {}\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ameriprise-financial/refs/heads/main/openapi/ameriprise.yml
 tags:
 - Financial Planning
 - Financial Services

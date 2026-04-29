@@ -12,6 +12,8 @@ properties:
 provider_name: Bloomberg Media Platforms
 provider_slug: bloomberg-media-platforms
 slug: bloomberg-news-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: bloomberg-media-platforms:bloomberg-news-api\nname: Bloomberg News API\ndescription: Access Bloomberg's real-time financial news, market reports, and editorial content through\n  Bloomberg's news data feeds. Available to Bloomberg Terminal subscribers and enterprise data license\n  clients.\nhumanURL: https://www.bloomberg.com/professional/solution/news/\nbaseURL: blpapi://localhost:8194\ntags:\n- News\n- Financial News\n- Real-Time News\n- Content Feed\nproperties:\n- type: Documentation\n  url: https://www.bloomberg.com/professional/solution/news/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-media-platforms/refs/heads/main/apis.yml
 tags:

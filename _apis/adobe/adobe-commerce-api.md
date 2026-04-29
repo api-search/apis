@@ -18,6 +18,8 @@ properties:
 provider_name: Adobe
 provider_slug: adobe
 slug: adobe-commerce-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: adobe:adobe-commerce-api\nname: Adobe Commerce API\ntags:\n- E-Commerce\n- REST\nhumanURL: https://developer.adobe.com/commerce/webapi/\nproperties:\n- type: Documentation\n  url: https://developer.adobe.com/commerce/docs/\n- type: APIReference\n  url: https://developer.adobe.com/commerce/webapi/rest/reference/\n- type: GettingStarted\n  url: https://developer.adobe.com/commerce/webapi/get-started/\n- type: Authentication\n  url: https://developer.adobe.com/commerce/webapi/get-started/authentication/\ndescription: Build and integrate e-commerce applications with REST, GraphQL, and SOAP web APIs.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/apis.yml
 tags:

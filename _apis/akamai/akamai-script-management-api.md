@@ -12,6 +12,8 @@ properties:
 provider_name: Akamai
 provider_slug: akamai
 slug: akamai-script-management-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: akamai:akamai-script-management-api\nname: Akamai Script Management API\ntags: []\nhumanURL: https://techdocs.akamai.com/script-management/reference/api\nproperties:\n- url: https://techdocs.akamai.com/script-management/reference/api\n  type: Documentation\ndescription: Use the Script Management API to create and view policies. These policies can help minimize\n  performance impacts from third-party JavaScripts used by your site or app.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/apis.yml
 tags: []

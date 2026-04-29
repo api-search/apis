@@ -18,6 +18,8 @@ properties:
 provider_name: Alibaba Sentinel
 provider_slug: alibaba-sentinel
 slug: sentinel-dashboard-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: alibaba-sentinel:sentinel-dashboard-api\nname: Sentinel Dashboard API\ndescription: The Sentinel Dashboard API provides a REST interface for the Sentinel dashboard application,\n  which allows real-time monitoring of clients and dynamic configuration of flow control, circuit breaking,\n  and system protection rules. The dashboard supports cluster aggregation of runtime info for up to 500\n  nodes and enables operators to manage resources and rules without application restarts.\nhumanURL: https://sentinelguard.io/en-us/docs/dashboard.html\nbaseURL: https://localhost:8080\ntags:\n- Dashboard\n- Monitoring\n- Flow Control\n- Circuit Breaker\n- Rate Limiting\nproperties:\n- type: Documentation\n  url: https://sentinelguard.io/en-us/docs/dashboard.html\n- type: OpenAPI\n  url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/openapi/sentinel-dashboard-api.yml\n- type: JSONSchema\n  url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/json-schema/flow-rule.json\n\
   - type: JSONSchema\n  url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/json-schema/degrade-rule.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/apis.yml

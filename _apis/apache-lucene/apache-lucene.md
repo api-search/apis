@@ -21,6 +21,8 @@ properties:
 provider_name: Apache Lucene
 provider_slug: apache-lucene
 slug: apache-lucene
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: apache-lucene:apache-lucene\nname: Apache Lucene\ndescription: Lucene provides a comprehensive Java API for full-text indexing, searching, faceting, hit\n  highlighting, spatial search, vector nearest-neighbor search, and text analysis with support for custom\n  analyzers, query parsers, and pluggable ranking models including BM25 and Vector Space Model.\nhumanURL: https://lucene.apache.org/core/\ntags:\n- Indexing\n- Java\n- Search\n- Vector Search\n- Text Analysis\nproperties:\n- type: Documentation\n  url: https://lucene.apache.org/core/\n- type: Documentation\n  url: https://lucene.apache.org/core/10_4_0/index.html\n- type: GettingStarted\n  url: https://lucene.apache.org/core/quickstart.html\n- type: SDK\n  url: https://central.sonatype.com/artifact/org.apache.lucene/lucene-core\n  title: Maven Central (Java)\n- type: GitHubRepository\n  url: https://github.com/apache/lucene\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-lucene/refs/heads/main/apis.yml
 tags:

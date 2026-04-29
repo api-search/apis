@@ -12,6 +12,8 @@ properties:
 provider_name: AutoNation
 provider_slug: autonation
 slug: service-scheduling
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: autonation:service-scheduling\nname: AutoNation Service Scheduling\ndescription: AutoNation provides online and app-based service appointment scheduling for vehicle maintenance\n  and repairs at AutoNation dealership service centers across the United States. Customers can schedule\n  oil changes, recalls, warranty repairs, and other automotive services.\nhumanURL: https://www.autonation.com/service\ntags:\n- Service Scheduling\n- Vehicle Maintenance\n- Repair\n- Automotive Service\nproperties:\n- type: Website\n  url: https://www.autonation.com/service\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/apis.yml
 tags:

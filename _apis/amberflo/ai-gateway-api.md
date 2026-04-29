@@ -12,6 +12,8 @@ properties:
 provider_name: Amberflo
 provider_slug: amberflo
 slug: ai-gateway-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: amberflo:ai-gateway-api\nname: Amberflo AI Gateway API\ndescription: The Amberflo AI Gateway provides a unified API for routing requests to 1,500+ LLM models\n  with intelligent model routing, cost optimization, built-in fallbacks, and MCP server traffic monitoring.\n  It tracks LLM model rates and metrics for AI cost governance.\nhumanURL: https://docs.amberflo.io/docs/ai-gateway\nbaseURL: https://app.amberflo.io\ntags:\n- AI Gateway\n- LLM\n- Model Routing\n- AI Cost Management\nproperties:\n- type: Documentation\n  url: https://docs.amberflo.io/docs/ai-gateway\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/apis.yml
 tags:

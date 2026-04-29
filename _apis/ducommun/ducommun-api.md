@@ -12,6 +12,8 @@ properties:
 provider_name: Ducommun
 provider_slug: ducommun
 slug: ducommun-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: ducommun:ducommun-api\nname: Ducommun API\ntags:\n- Aerospace\n- Defense\n- Manufacturing\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.ducommun.com\nhumanURL: https://developer.ducommun.com\nproperties:\n- url: https://developer.ducommun.com/docs\n  type: Documentation\ndescription: The Ducommun API provides access to platform services and data for enterprise integration\n  and automation.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ducommun/refs/heads/main/apis.yml
 tags:

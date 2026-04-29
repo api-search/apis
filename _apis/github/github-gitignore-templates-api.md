@@ -14,6 +14,8 @@ properties:
 provider_name: GitHub
 provider_slug: github
 slug: github-gitignore-templates-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: github:github-gitignore-templates-api\nname: GitHub Gitignore Templates API\ntags:\n- Gitignore\n- Templates\nbaseURL: https://api.github.com\nhumanURL: https://docs.github.com/en/rest/gitignore?apiVersion=2022-11-28\noverlays:\n- url: overlays/github-gitignore-templates-openapi-search.yml\n  type: OpenAPI\nproperties:\n- url: openapi/github-gitignore-templates-api-openapi.yml\n  type: OpenAPI\n- url: https://docs.github.com/en/rest/gitignore\n  type: Documentation\ndescription: The GitHub Gitignore Templates API is a REST interface that lets you discover and fetch canonical\n  .gitignore templates maintained by GitHub, so you can programmatically create ignore files tailored\n  to specific languages, frameworks, IDEs, or operating systems. It provides endpoints to list all available\n  template names and to retrieve the full content of a chosen template (for example, Node, Python, macOS,\n  or VisualStudio) via GET /gitignore/templates and GET /gitignore/templates/{name}.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/apis.yml
 tags:

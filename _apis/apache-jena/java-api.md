@@ -14,6 +14,8 @@ properties:
 provider_name: Apache Jena
 provider_slug: apache-jena
 slug: java-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: apache-jena:java-api\nname: Apache Jena Java API\ndescription: The Jena Java API provides programmatic access to RDF model creation, SPARQL query execution,\n  OWL reasoning, and TDB2 triplestore management for building Semantic Web applications.\nhumanURL: https://jena.apache.org/documentation/\ntags:\n- Java\n- OWL\n- RDF\n- SDK\nproperties:\n- type: Documentation\n  url: https://jena.apache.org/documentation/\n- type: GettingStarted\n  url: https://jena.apache.org/tutorials/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/apis.yml
 tags:

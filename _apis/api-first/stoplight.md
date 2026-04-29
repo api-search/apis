@@ -12,6 +12,8 @@ properties:
 provider_name: API-First
 provider_slug: api-first
 slug: stoplight
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: api-first:stoplight\nname: Stoplight - API Design Platform\ndescription: Stoplight provides a collaborative API design platform with visual OpenAPI editing, style\n  guides, governance, mock servers, and developer portals supporting API-first workflows.\nhumanURL: https://stoplight.io\ntags:\n- API Design\n- API Governance\n- OpenAPI\nproperties:\n- type: Documentation\n  url: https://stoplight.io/api-design-guide/basics\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-first/refs/heads/main/apis.yml
 tags:

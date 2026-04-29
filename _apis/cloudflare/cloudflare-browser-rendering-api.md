@@ -16,6 +16,8 @@ properties:
 provider_name: Cloudflare
 provider_slug: cloudflare
 slug: cloudflare-browser-rendering-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: cloudflare:cloudflare-browser-rendering-api\nname: Cloudflare Browser Rendering API\ntags:\n- Browser Automation\n- Headless Browser\n- Rendering\nhumanURL: https://developers.cloudflare.com/browser-rendering/\nbaseURL: https://api.cloudflare.com\nproperties:\n- url: https://developers.cloudflare.com/browser-rendering/\n  type: Documentation\n- url: https://developers.cloudflare.com/browser-rendering/rest-api/\n  type: APIReference\n- url: https://developers.cloudflare.com/api/resources/browser_rendering/\n  type: APIReference\ndescription: The Cloudflare Browser Rendering API enables developers to control headless browser instances\n  on Cloudflare's global network. The REST API provides endpoints for capturing screenshots, extracting\n  HTML content, generating PDFs, scraping elements, and converting pages to markdown, with support for\n  Puppeteer and Playwright automation.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/apis.yml
 tags:

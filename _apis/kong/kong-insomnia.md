@@ -14,6 +14,8 @@ properties:
 provider_name: Kong
 provider_slug: kong
 slug: kong-insomnia
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: kong:kong-insomnia\nname: Kong Insomnia\ndescription: Kong Insomnia is an open-source API development platform for designing, debugging, and testing\n  APIs. It supports REST, GraphQL, gRPC, and WebSocket protocols and provides collections, environments,\n  mock servers, and OpenAPI spec editing for developers.\nhumanURL: https://developer.konghq.com/insomnia/\nbaseURL: https://konghq.com/\ntags:\n- API Client\n- Developer Tools\n- Open Source\n- Testing\nproperties:\n- type: Documentation\n  url: https://developer.konghq.com/insomnia/\n- type: GitHubRepository\n  url: https://github.com/Kong/insomnia\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/apis.yml
 tags:

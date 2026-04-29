@@ -14,6 +14,8 @@ properties:
 provider_name: Circle
 provider_slug: circle
 slug: gateway
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: circle:gateway\nname: Circle Gateway\ntags:\n- Cross-Chain\n- Liquidity\n- USDC\nhumanURL: https://developers.circle.com/gateway\nproperties:\n- url: https://developers.circle.com/gateway\n  type: Documentation\n- url: https://developers.circle.com/openapi/gateway.yaml\n  type: OpenAPI\ndescription: Unified USDC balance across multiple EVM chains and support for nanopayments down to $0.000001\n  of USDC.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/apis.yml
 tags:

@@ -16,6 +16,8 @@ properties:
 provider_name: Google Android
 provider_slug: google-android
 slug: android-over-the-air-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: google-android:android-over-the-air-api\nname: Android Over the Air API\ndescription: The Android Over the Air API provides the infrastructure used by the Android partner portal\n  for managing device system updates, including deployments, configurations, groups, and packages.\nimage: https://www.gstatic.com/devrel-devsite/prod/v2ff77c87c709f3e5e323c03865ecedf5b4afc4446d0e0e2904abf9d5/android/images/touchicon-180.png\nhumanURL: https://developers.google.com/android/over-the-air/reference/rest\nbaseURL: https://androidovertheair.googleapis.com\ntags:\n- Device Updates\n- Firmware\n- OTA Updates\n- System Updates\nproperties:\n- type: Documentation\n  url: https://developers.google.com/android/over-the-air/reference/rest\n- type: OpenAPI\n  url: https://androidovertheair.googleapis.com/$discovery/rest?version=v1\n- type: Authentication\n  url: https://developers.google.com/android/over-the-air/v1/how-tos/authorizing\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/apis.yml
 tags:

@@ -18,6 +18,8 @@ properties:
 provider_name: BrowserStack
 provider_slug: browserstack
 slug: accessibility-testing-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: browserstack:accessibility-testing-api\nname: BrowserStack Accessibility Testing API\ntags:\n- Accessibility\n- Testing\n- WCAG\nhumanURL: https://www.browserstack.com/docs/accessibility/api-reference\nproperties:\n- url: https://www.browserstack.com/docs/accessibility/api-reference\n  type: Documentation\n- url: https://www.browserstack.com/docs/accessibility/api/authentication\n  type: Authentication\n- url: https://www.browserstack.com/docs/accessibility/api\n  type: Reference\n- url: https://www.browserstack.com/docs/accessibility/overview/introduction\n  type: Getting Started\ndescription: The BrowserStack Accessibility Testing API provides REST access to workflow analyzer, assisted\n  tests, website scanner, and automated tests results for identifying and managing accessibility issues\n  across web applications.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/apis.yml
 tags:

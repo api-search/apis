@@ -14,7 +14,9 @@ properties:
 provider_name: Bunq
 provider_slug: bunq
 slug: bunq-user-item-api
-source_yaml: "aid: bunq:bunq-user-item-api\nname: Bunq User Item API\ntags: []\nproperties:\n- url: openapi/bunq-user-itemid--openapi-original.yml\n  type: OpenAPI\n- url: https://doc.bunq.com/\n  type: Documentation\ndescription: Bunq User Item API is a tool that allows users to access and manage items within their Bunq\n  account. With this API, users can view, create, update, and delete various items such as transactions,\n  payments, and account information. The API provides a user-friendly interface that makes it easy for\n  individuals to interact with their account data and make any necessary adjustments.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/apis.yml
+source_filename: bunq-user-itemid--openapi-original.yml
+source_heading: OpenAPI Specification
+source_yaml: "openapi: 3.0.0\ninfo:\n  title: 'Bunq user/{itemId}/'\n  description: Needs description.\n  termsOfService: http://bunq.com/terms-api/\n  contact:\n    name: bunq Developer Support\n    url: http://bunq.com/developer\n  license:\n    name: Apache 2.0\n    url: https://www.apache.org/licenses/LICENSE-2.0.html\n  version: '1.0'\nservers:\n  - url: https://public-api.sandbox.bunq.com/{basePath}\n    description: Sandbox server\n    variables:\n      basePath:\n        default: v1\n  - url: https://api.bunq.com/{basePath}\n    description: Production server\n    variables:\n      basePath:\n        default: v1\ncomponents:\n  schemas: {}\npaths: {}\ntags: []\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-itemid--openapi-original.yml
 tags: []
 ---

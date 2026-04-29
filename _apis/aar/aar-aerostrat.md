@@ -12,6 +12,8 @@ properties:
 provider_name: AAR Corp
 provider_slug: aar
 slug: aar-aerostrat
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: aar:aar-aerostrat\nname: AAR Aerostrat\ntags:\n- Aviation\n- Software\n- Supply Chain\n- Parts Management\nhumanURL: https://www.aarcorp.com\nproperties:\n- url: https://www.aarcorp.com\n  type: Documentation\ndescription: Aerostrat is AAR's aviation supply chain and parts management software, providing inventory\n  optimization, demand forecasting, and procurement automation for airlines and MRO providers.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/apis.yml
 tags:

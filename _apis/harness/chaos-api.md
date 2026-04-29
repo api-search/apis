@@ -14,6 +14,8 @@ properties:
 provider_name: Harness
 provider_slug: harness
 slug: chaos-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: harness:chaos-api\nname: Harness Chaos Engineering API\ndescription: APIs for chaos engineering, load testing, and disaster recovery testing including chaos experiments,\n  probes, actions, faults, and resilience scoring.\nhumanURL: https://developer.harness.io/docs/resilience-testing\ntags:\n- Chaos Engineering\n- Reliability\n- Resilience Testing\nproperties:\n- type: Documentation\n  url: https://developer.harness.io/docs/resilience-testing\n- type: APIReference\n  url: https://apidocs.harness.io/chaos.html\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harness/refs/heads/main/apis.yml
 tags:

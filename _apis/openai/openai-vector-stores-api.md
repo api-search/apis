@@ -14,6 +14,8 @@ properties:
 provider_name: OpenAI
 provider_slug: openai
 slug: openai-vector-stores-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: openai:openai-vector-stores-api\nname: OpenAI Vector Stores API\ntags:\n- Retrieval\n- Search\n- Vector Stores\nscore: 100\nbaseURL: https://api.openai.com\nhumanURL: https://platform.openai.com/docs/api-reference/vector-stores\nproperties:\n- url: https://platform.openai.com/docs/api-reference/vector-stores\n  type: Documentation\n- url: https://platform.openai.com/docs/guides/retrieval\n  type: Documentation\ndescription: Vector stores are collections of processed files that power semantic search for the file_search\n  tool in the Responses and Assistants APIs. When you add a file to a vector store it is automatically\n  chunked, embedded, and indexed. You can query a vector store using natural language to retrieve relevant\n  chunks with similarity scores.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/apis.yml
 tags:

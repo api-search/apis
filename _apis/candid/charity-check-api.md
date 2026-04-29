@@ -14,6 +14,8 @@ properties:
 provider_name: Candid
 provider_slug: candid
 slug: charity-check-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: candid:charity-check-api\nname: Candid Charity Check API\ndescription: Real-time nonprofit verification and compliance screening used for due diligence, donation\n  compliance, and tax-deductibility checks. Returns IRS 501(c)(3) status, revocation history, public-charity\n  / private- foundation classification, OFAC watchlist screening, and more. Offers national and state-level\n  endpoints.\nhumanURL: https://developer.candid.org/reference/welcome\nbaseURL: https://api.candid.org/charitycheck\ntags:\n- Compliance\n- Verification\n- IRS\n- Due Diligence\nproperties:\n- type: Documentation\n  url: https://developer.candid.org/reference/welcome\n- type: Portal\n  url: https://developer.candid.org/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/candid/refs/heads/main/apis.yml
 tags:

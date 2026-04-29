@@ -14,6 +14,8 @@ properties:
 provider_name: Boeing
 provider_slug: boeing
 slug: boeing-standard-minimums-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: boeing:boeing-standard-minimums-api\nname: Boeing Standard Minimums API\ndescription: The Boeing Standard Minimums API provides worldwide, detailed, and current information about\n  instrument approach standard minimums for airports globally, supporting flight dispatch and operations\n  planning.\nhumanURL: https://developer.boeing.com/apis/standard-minimums\ntags:\n- Aviation\n- Minimums\n- Instrument\n- Flight Planning\nproperties:\n- type: Documentation\n  url: https://developer.boeing.com/apis/standard-minimums\n- type: Portal\n  url: https://developer.boeing.com/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boeing/refs/heads/main/apis.yml
 tags:

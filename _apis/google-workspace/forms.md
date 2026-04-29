@@ -16,6 +16,8 @@ properties:
 provider_name: Google Workspace
 provider_slug: google-workspace
 slug: forms
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: google-workspace:forms\nname: Google Forms API\ndescription: Create and modify forms and quizzes, retrieve form responses and quiz grades.\nhumanURL: https://developers.google.com/workspace/forms/api\nbaseURL: https://forms.googleapis.com\ntags:\n- Forms\n- Quizzes\n- Surveys\nproperties:\n- type: Documentation\n  url: https://developers.google.com/workspace/forms/api/guides\n- type: APIReference\n  url: https://developers.google.com/workspace/forms/api/reference/rest\n- type: Quickstart\n  url: https://developers.google.com/workspace/forms/api/quickstart/python\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/apis.yml
 tags:

@@ -12,6 +12,8 @@ properties:
 provider_name: Knight-Swift Transportation
 provider_slug: knight-swift-transportation
 slug: knight-swift-transportation-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: knight-swift-transportation:knight-swift-transportation-api\nname: Knight-Swift Transportation API\ntags:\n- Trucking\n- Transportation\n- Logistics\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.knight-swift.com\nhumanURL: https://developer.knight-swift.com\nproperties:\n- url: https://developer.knight-swift.com/docs\n  type: Documentation\ndescription: The Knight-Swift Transportation API provides access to platform services and data for enterprise\n  integration and automation.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knight-swift-transportation/refs/heads/main/apis.yml
 tags:

@@ -14,6 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: microsoft-azure-data-manager-for-agriculture-data-plane-service
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: microsoft-azure-one:microsoft-azure-data-manager-for-agriculture-data-plane-service\nname: Microsoft Azure Data Manager for Agriculture Data Plane Service\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/rest/api/data-manager-for-agri/\nproperties:\n- url: openapimicrosoft-azure-data-manager-for-agriculture-data-plane-service-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/rest/api/data-manager-for-agri/\n  type: Documentation\ndescription: Microsoft Azure Data Manager for Agriculture Data Plane Service is a cloud-based platform\n  that helps farmers and agricultural businesses collect, process, and analyze data to make informed decisions\n  about their operations. It allows users to securely store and manage agricultural data from various\n  sources, such as sensors, drones, and weather stations, and provides tools for visualization, reporting,\n  and\
   \ predictive analytics.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml

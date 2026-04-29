@@ -12,6 +12,8 @@ properties:
 provider_name: Amazon Bedrock
 provider_slug: amazon-bedrock
 slug: amazon-bedrock-agent-runtime-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: amazon-bedrock:amazon-bedrock-agent-runtime-api\nname: Amazon Bedrock Agent Runtime API\ndescription: The Amazon Bedrock Agent Runtime API provides operations for invoking Bedrock agents and\n  retrieving from knowledge bases for RAG applications.\nhumanURL: https://docs.aws.amazon.com/bedrock/latest/APIReference/\nbaseURL: https://bedrock-agent-runtime.us-east-1.amazonaws.com\ntags:\n- Agents\n- RAG\n- Retrieval\nproperties:\n- type: Documentation\n  url: https://docs.aws.amazon.com/bedrock/latest/APIReference/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/apis.yml
 tags:

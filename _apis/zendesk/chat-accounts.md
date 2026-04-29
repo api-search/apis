@@ -12,6 +12,8 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: chat-accounts
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: zendesk:chat-accounts\nname: Zendesk Chat Accounts API\ntags:\n- Accounts\n- Chat\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://www.zopim.com\nhumanURL: https://developer.zendesk.com/api-reference/live-chat/chat-api/accounts/\nproperties:\n- url: https://developer.zendesk.com/api-reference/live-chat/chat-api/accounts/\n  type: Documentation\ndescription: The Zendesk Chat Accounts API lets you get or set account information for your Zendesk Chat\n  instance. If you created your Zendesk Chat account in Zendesk Support, access to the Chat Accounts and\n  Agents APIs is restricted to GET requests. You can still use the other Chat APIs normally.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:

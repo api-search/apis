@@ -16,6 +16,8 @@ properties:
 provider_name: Salesforce
 provider_slug: salesforce
 slug: salesforce-analytics-rest-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: salesforce:salesforce-analytics-rest-api\nname: Salesforce Analytics REST API\ntags:\n- Analytics\n- CRM\n- CRM Analytics\n- Dashboards\n- Reports\n- Tableau CRM\nimage: https://www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg\nhumanURL: https://developer.salesforce.com/docs/atlas.en-us.bi_dev_guide_rest.meta/bi_dev_guide_rest/\nbaseURL: https://{instance}.salesforce.com/services/data/v{version}/wave\nproperties:\n- url: https://developer.salesforce.com/docs/atlas.en-us.bi_dev_guide_rest.meta/bi_dev_guide_rest/\n  type: Documentation\n- url: https://developer.salesforce.com/docs/atlas.en-us.bi_dev_guide_rest.meta/bi_dev_guide_rest/bi_rest_overview.htm\n  type: GettingStarted\n- url: https://developer.salesforce.com/docs/atlas.en-us.bi_dev_guide_rest.meta/bi_dev_guide_rest/bi_rest_resources_list.htm\n  type: APIReference\ndescription: The Salesforce Analytics REST API (also known as CRM Analytics or Wave API) provides programmatic\n  access to CRM\
   \ Analytics datasets, lenses, dashboards, and queries. Developers can read and write analytics\n  assets and run SAQL queries against analytics datasets.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/apis.yml

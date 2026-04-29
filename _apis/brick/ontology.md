@@ -18,6 +18,8 @@ properties:
 provider_name: BRICK Schema
 provider_slug: brick
 slug: ontology
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: brick:ontology\nname: BRICK Ontology\ntags:\n- Ontology\n- RDF\n- OWL\n- Building Systems\n- Semantic Web\nhumanURL: https://brickschema.org/\nproperties:\n- url: https://brickschema.org/\n  type: Website\n- url: https://docs.brickschema.org/\n  type: Documentation\n- url: https://ontology.brickschema.org/\n  type: OntologyBrowser\n- url: https://github.com/BrickSchema/Brick\n  type: GitHubRepository\ndescription: The BRICK ontology v1.4.4 defines a standardized vocabulary of building system concepts,\n  relationships, and data model for smart building analytics. Available as RDF/OWL files, BRICK describes\n  sensors, equipment, locations, and control points in HVAC, lighting, fire safety, and security systems.\n  Includes SHACL shapes for ontology validation and Python tooling via the brickschema Python package.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brick/refs/heads/main/apis.yml
 tags:

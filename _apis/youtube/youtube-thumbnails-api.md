@@ -16,6 +16,8 @@ properties:
 provider_name: Youtube
 provider_slug: youtube
 slug: youtube-thumbnails-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: youtube:youtube-thumbnails-api\nname: Youtube Thumbnails API\ntags:\n- Thumbnails\n- Videos\nimage: https://www.youtube.com/img/desktop/yt_1200.png\nhumanURL: https://developers.google.com/youtube/v3/docs/thumbnails\nbaseURL: https://www.googleapis.com/youtube/v3\nproperties:\n- url: https://developers.google.com/youtube/v3/docs/thumbnails\n  type: Documentation\n- url: https://developers.google.com/youtube/v3/getting-started\n  type: GettingStarted\n- url: https://developers.google.com/youtube/v3/guides/authentication\n  type: Authentication\ndescription: Manages custom video thumbnail images, enabling upload of a custom thumbnail image for a\n  video that the authenticated user owns.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/apis.yml
 tags:

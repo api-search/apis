@@ -12,6 +12,8 @@ properties:
 provider_name: Citigroup
 provider_slug: citigroup
 slug: citi-accounts-transactions-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: citigroup:citi-accounts-transactions-api\nname: Citi Accounts and Transactions API\ntags:\n- Accounts\n- Balances\n- Banking\n- Statements\n- Transactions\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://sandbox.developerhub.citi.com/api/united-states/retail-bank/accounts/accounts-and-transactions/documentation\nproperties:\n- url: https://sandbox.developerhub.citi.com/api/united-states/retail-bank/accounts/accounts-and-transactions/documentation\n  type: Documentation\ndescription: The Citi Accounts and Transactions API provides authorized access to retail customer accounts,\n  balances, and transaction histories. Authentication uses OAuth 2.0 access tokens issued through the\n  Citi Developer Hub authorization flow.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/citigroup/refs/heads/main/apis.yml
 tags:

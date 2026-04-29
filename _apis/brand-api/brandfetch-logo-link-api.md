@@ -12,6 +12,8 @@ properties:
 provider_name: Brand API (Brandfetch)
 provider_slug: brand-api
 slug: brandfetch-logo-link-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: brand-api:brandfetch-logo-link-api\nname: Brandfetch Logo Link API\ntags:\n- Logos\n- CDN\n- Brand Assets\nhumanURL: https://docs.brandfetch.com/docs/logo-link\nproperties:\n- url: https://docs.brandfetch.com/docs/logo-link\n  type: Documentation\ndescription: 'Logo Link delivers brand logos directly via CDN URL embedding. Supports lookup by domain,\n  stock ticker, crypto symbol, or ISIN. Parameters include logo type (icon, symbol, logo), theme (light/dark),\n  height/width, format (webp, png, jpg, svg), and fallback behavior. Base CDN URL: https://cdn.brandfetch.io/{identifier}?c=CLIENT_ID.\n  Free with fair-use rate limits; no attribution required.'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/apis.yml
 tags:

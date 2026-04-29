@@ -12,6 +12,8 @@ properties:
 provider_name: Authologic
 provider_slug: authologic
 slug: authologic-aml-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: authologic:authologic-aml-api\nname: Authologic AML API\ndescription: 'The Authologic AML API enables Anti-Money Laundering screening combined with identity verification\n  in a single integrated flow for KYC/AML compliance.\n\n  '\nhumanURL: https://developer.authologic.com/docs/developer-documentation/product-aml-api-integration-with-identity\nbaseURL: https://api.authologic.com\ntags:\n- AML\n- Compliance\n- Identity Verification\n- KYC\nproperties:\n- type: Documentation\n  url: https://developer.authologic.com/docs/developer-documentation/product-aml-api-integration-with-identity\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/apis.yml
 tags:

@@ -12,6 +12,8 @@ properties:
 provider_name: Energizer Holdings
 provider_slug: energizer-holdings
 slug: energizer-holdings-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: energizer-holdings:energizer-holdings-api\nname: Energizer Holdings API\ntags:\n- Consumer Products\n- Batteries\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.energizer.com\nhumanURL: https://developer.energizer.com\nproperties:\n- url: https://developer.energizer.com/docs\n  type: Documentation\ndescription: The Energizer Holdings API provides access to platform services and data for enterprise integration\n  and automation.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/energizer-holdings/refs/heads/main/apis.yml
 tags:

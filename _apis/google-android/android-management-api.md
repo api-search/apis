@@ -16,6 +16,8 @@ properties:
 provider_name: Google Android
 provider_slug: google-android
 slug: android-management-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: google-android:android-management-api\nname: Android Management API\ndescription: The Android Management API provides remote enterprise management of Android devices by creating\n  and managing policies that control device behavior and apps.\nimage: https://www.gstatic.com/devrel-devsite/prod/v2ff77c87c709f3e5e323c03865ecedf5b4afc4446d0e0e2904abf9d5/android/images/touchicon-180.png\nhumanURL: https://developers.google.com/android/management\nbaseURL: https://androidmanagement.googleapis.com\ntags:\n- Device Management\n- Enterprise\n- MDM\n- Policies\nproperties:\n- type: Documentation\n  url: https://developers.google.com/android/management/reference/rest\n- type: OpenAPI\n  url: https://androidmanagement.googleapis.com/$discovery/rest?version=v1\n- type: Authentication\n  url: https://developers.google.com/android/management/authentication\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/apis.yml
 tags:

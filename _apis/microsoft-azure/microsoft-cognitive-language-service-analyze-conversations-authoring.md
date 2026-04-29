@@ -14,6 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: microsoft-cognitive-language-service-analyze-conversations-authoring
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: microsoft-azure-one:microsoft-cognitive-language-service-analyze-conversations-authoring\nname: Microsoft Azure Microsoft Cognitive Language Service  Analyze Conversations Authoring\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.language.conversations-readme?view=azure-dotnet\nproperties:\n- url: openapimicrosoft-cognitive-language-service-analyze-conversations-authoring-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.language.conversations-readme?view=azure-dotnet\n  type: Documentation\ndescription: Microsoft Azure Cognitive Services - Language Service Analyze Conversations Authoring helps\n  developers understand and analyze text-based conversations. By leveraging advanced natural language\n  processing technology, this service can extract valuable insights, sentiments, and intentions from\
   \ long-form\n  text conversations. It can also identify key topics, entities, and relationships within the text, helping\n  users gain a deeper understanding of their conversations.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml

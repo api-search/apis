@@ -14,6 +14,8 @@ properties:
 provider_name: Bureau of Consular Affairs
 provider_slug: bureau-of-consular-affairs
 slug: travel-advisories
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: bureau-of-consular-affairs:travel-advisories\nname: Travel Advisories API\ntags:\n- Federal Government\n- Travel\n- Travel Advisories\nhumanURL: https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/\nbaseURL: https://travel.state.gov\nproperties:\n- url: https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/\n  type: Documentation\n- url: https://travelmaps.state.gov/TSGMap/\n  type: DataAPI\ndescription: The State Department publishes travel advisory levels (Level 1-4) for every country. Advisory\n  data is available for consumption by travel applications and services to help inform travelers about\n  safety conditions.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/apis.yml
 tags:

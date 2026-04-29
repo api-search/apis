@@ -12,6 +12,8 @@ properties:
 provider_name: VMware
 provider_slug: vmware
 slug: vmware-aria-operations-for-networks-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: vmware:vmware-aria-operations-for-networks-api\nname: VMware Aria Operations for Networks API\ndescription: API for network visibility, analytics, and troubleshooting providing access to application\n  discovery, microsegmentation planning, and network flow analysis.\nhumanURL: https://developer.broadcom.com/xapis/vmware-aria-operations-for-networks-api/latest/\nbaseURL: https://{{vrni-host}}/api/ni\ntags:\n- Microsegmentation\n- Network Analytics\n- Network Monitoring\n- Troubleshooting\nproperties:\n- type: APIReference\n  url: https://developer.broadcom.com/xapis/vmware-aria-operations-for-networks-api/latest/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/apis.yml
 tags:

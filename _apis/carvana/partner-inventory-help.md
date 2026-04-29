@@ -12,6 +12,8 @@ properties:
 provider_name: Carvana
 provider_slug: carvana
 slug: partner-inventory-help
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: carvana:partner-inventory-help\nname: Carvana Partner Inventory Help Center\ndescription: Consumer-facing explainer describing how Carvana sources partner inventory (rental fleets\n  and other partners) into the buyer catalog.\nhumanURL: https://www.carvana.com/help/carvana-inventory/where-is-partner-inventory\ntags:\n- Partner\n- Inventory\n- Consumer\nproperties:\n- type: Documentation\n  url: https://www.carvana.com/help/carvana-inventory/where-is-partner-inventory\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carvana/refs/heads/main/apis.yml
 tags:

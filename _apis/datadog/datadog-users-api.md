@@ -14,6 +14,8 @@ properties:
 provider_name: Datadog
 provider_slug: datadog
 slug: datadog-users-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: datadog:datadog-users-api\nname: Datadog Users API\ntags:\n- Account Management\n- Users\nhumanURL: https://docs.datadoghq.com/api/latest/users/\nbaseURL: https://api.datadoghq.com\nimage: https://imgix.datadoghq.com/img/dd_logo_n_70x75.png\nproperties:\n- url: https://docs.datadoghq.com/api/latest/users/\n  type: Documentation\n- url: https://docs.datadoghq.com/account_management/users/\n  type: Reference\ndescription: The Users API allows you to create, edit, and disable users within your Datadog organization.\n  It supports role assignment and user management for access control purposes.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/apis.yml
 tags:

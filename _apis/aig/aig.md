@@ -24,6 +24,8 @@ properties:
 provider_name: AIG
 provider_slug: aig
 slug: aig
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: aig:aig\nname: AIG Insurance\ntags:\n- Insurance\n- Property Casualty\n- Cyber\n- Professional Liability\n- Specialty\nhumanURL: https://www.aig.com\ndescription: AIG offers commercial and personal insurance products globally including property casualty,\n  cyber insurance, casualty, professional liability, financial lines, specialty risk, and reinsurance.\n  AIG serves multinational corporations, financial institutions, governments, and individuals.\nproperties:\n- url: https://www.aig.com\n  type: Website\n- url: https://www.aig.com/business\n  type: Documentation\n  title: Business Insurance\n- url: https://www.aig.com/individual\n  type: Documentation\n  title: Individual Insurance\n- url: https://myaig.aig.com\n  type: Portal\n  title: myAIG Broker Portal\n- url: https://www.aig.com/home/resources/global-network/claims\n  type: Portal\n  title: Claims Portal\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/apis.yml
 tags:

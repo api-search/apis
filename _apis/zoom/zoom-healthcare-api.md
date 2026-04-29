@@ -12,6 +12,8 @@ properties:
 provider_name: Zoom
 provider_slug: zoom
 slug: zoom-healthcare-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: zoom:zoom-healthcare-api\nname: Zoom Healthcare API\ndescription: The Zoom Healthcare API allows developers to get, list, and update clinical notes programmatically,\n  designed for healthcare professionals using Zoom for telehealth appointments to integrate clinical note\n  management into their workflows and EHR systems.\nhumanURL: https://developers.zoom.us/docs/api/healthcare/\nbaseURL: https://api.zoom.us/v2\ntags:\n- Clinical Notes\n- Healthcare\n- Telehealth\nproperties:\n- type: Documentation\n  url: https://developers.zoom.us/docs/api/healthcare/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/apis.yml
 tags:

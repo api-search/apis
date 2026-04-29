@@ -12,6 +12,8 @@ properties:
 provider_name: Sykes Enterprises
 provider_slug: sykes-enterprises
 slug: sykes-enterprises-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: sykes-enterprises:sykes-enterprises-api\nname: Sykes Enterprises API\ntags:\n- BPO\n- Customer Engagement\n- Technology\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.sykes.com\nhumanURL: https://developer.sykes.com\nproperties:\n- url: https://developer.sykes.com/docs\n  type: Documentation\ndescription: The Sykes Enterprises API provides access to platform services and data for enterprise integration\n  and automation.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sykes-enterprises/refs/heads/main/apis.yml
 tags:

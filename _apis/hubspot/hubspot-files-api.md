@@ -12,6 +12,8 @@ properties:
 provider_name: HubSpot
 provider_slug: hubspot
 slug: hubspot-files-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: hubspot:hubspot-files-api\nname: HubSpot Files API\ntags:\n- Files\n- Storage\n- Uploads\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.hubapi.com\nhumanURL: https://developers.hubspot.com/docs/guides/api/library/files\nproperties:\n- url: https://developers.hubspot.com/docs/guides/api/library/files\n  type: Documentation\ndescription: The files API allows you to upload, manage, and organize files in HubSpot's file manager.\n  You can upload files, organize them into folders, control file accessibility and privacy settings, retrieve\n  file details, and attach files to CRM records.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/apis.yml
 tags:

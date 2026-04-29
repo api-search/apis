@@ -14,6 +14,8 @@ properties:
 provider_name: Cloud Native Buildpacks
 provider_slug: buildpacks
 slug: platform-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: buildpacks:platform-api\nname: Platform API Specification\ndescription: The Platform API defines the contract between a platform (such as pack or kpack) and the\n  CNB lifecycle. It covers builder configuration, build inputs and outputs, stack definitions, and run\n  image management.\nhumanURL: https://buildpacks.io/docs/reference/spec/platform-api/\ntags:\n- API Specification\n- Container Images\n- Platforms\nproperties:\n- type: Documentation\n  url: https://buildpacks.io/docs/reference/spec/platform-api/\n- type: GitHubRepository\n  url: https://github.com/buildpacks/spec\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/apis.yml
 tags:

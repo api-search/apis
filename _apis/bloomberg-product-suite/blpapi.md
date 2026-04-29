@@ -12,6 +12,8 @@ properties:
 provider_name: Bloomberg Product Suite
 provider_slug: bloomberg-product-suite
 slug: blpapi
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: bloomberg-product-suite:blpapi\nname: Bloomberg Open API (BLPAPI)\ndescription: The core API providing programmatic access to the Bloomberg data ecosystem including real-time\n  prices, reference data, news, analytics, and Terminal functions.\nhumanURL: https://bloomberg.github.io/blpapi-docs/\nbaseURL: blpapi://localhost:8194\ntags:\n- Core API\n- Market Data\n- Reference Data\nproperties:\n- type: Documentation\n  url: https://bloomberg.github.io/blpapi-docs/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-product-suite/refs/heads/main/apis.yml
 tags:

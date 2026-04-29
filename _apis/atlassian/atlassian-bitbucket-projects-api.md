@@ -12,6 +12,8 @@ properties:
 provider_name: Atlassian
 provider_slug: atlassian
 slug: atlassian-bitbucket-projects-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: atlassian:atlassian-bitbucket-projects-api\nname: Atlassian Bitbucket Projects API\ndescription: The Atlassian Bitbucket Projects API enables managing projects for grouping related repositories\n  within workspaces.\nhumanURL: https://developer.atlassian.com/cloud/bitbucket/rest/api-group-projects/#api-group-projects\ntags:\n- Bitbucket\n- Organization\n- Projects\nproperties:\n- type: Documentation\n  url: https://developer.atlassian.com/cloud/bitbucket/rest/api-group-projects/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/apis.yml
 tags:

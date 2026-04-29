@@ -12,6 +12,8 @@ properties:
 provider_name: Qlik Sense APIs
 provider_slug: qliksense
 slug: reports-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: qliksense:reports-api\nname: Qlik Reports API\ndescription: Generate downloadable report assets from data with configurable templates and output formats.\nhumanURL: https://qlik.dev/apis/rest/reports\nbaseURL: https://your-tenant.qlikcloud.com/api/v1/reports\ntags:\n- Export\n- Reports\n- REST\nproperties:\n- type: Documentation\n  url: https://qlik.dev/apis/rest/reports\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/apis.yml
 tags:

@@ -12,6 +12,8 @@ properties:
 provider_name: API.Video
 provider_slug: api-video
 slug: live-streaming
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: api-video:live-streaming\nname: api.video Live Streaming API\ndescription: The api.video Live Streaming API enables low-latency live video broadcasts with RTMP ingest,\n  automatic recording, and global CDN delivery for audiences worldwide.\nhumanURL: https://docs.api.video/reference\ntags:\n- Broadcasting\n- Live Streaming\n- RTMP\n- Video\nproperties:\n- type: Documentation\n  url: https://docs.api.video/reference\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/apis.yml
 tags:

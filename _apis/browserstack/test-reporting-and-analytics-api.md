@@ -14,6 +14,8 @@ properties:
 provider_name: BrowserStack
 provider_slug: browserstack
 slug: test-reporting-and-analytics-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: browserstack:test-reporting-and-analytics-api\nname: BrowserStack Test Reporting and Analytics API\ntags:\n- Analytics\n- Observability\n- Reporting\n- Testing\nhumanURL: https://www.browserstack.com/docs/test-reporting-and-analytics/api-reference\nproperties:\n- url: https://www.browserstack.com/docs/test-reporting-and-analytics/api-reference\n  type: Documentation\n- url: https://www.browserstack.com/docs/test-reporting-and-analytics/api\n  type: Reference\ndescription: The BrowserStack Test Reporting and Analytics API provides programmatic access to upload\n  JUnit XML and Allure reports, manage projects and builds, retrieve test executions, and check Quality\n  Gate status for automated quality workflows.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/apis.yml
 tags:

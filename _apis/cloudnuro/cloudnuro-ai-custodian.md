@@ -12,6 +12,8 @@ properties:
 provider_name: CloudNuro
 provider_slug: cloudnuro
 slug: cloudnuro-ai-custodian
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: cloudnuro:cloudnuro-ai-custodian\nname: CloudNuro AI Custodian\ndescription: AI workload oversight, governance, and cost allocation for enterprise AI usage.\nhumanURL: https://www.cloudnuro.ai\ntags:\n- AI Governance\nproperties:\n- type: Documentation\n  url: https://www.cloudnuro.ai\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudnuro/refs/heads/main/apis.yml
 tags:

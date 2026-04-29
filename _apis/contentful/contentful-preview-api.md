@@ -12,6 +12,8 @@ properties:
 provider_name: Contentful
 provider_slug: contentful
 slug: contentful-preview-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: contentful:contentful-preview-api\nname: Contentful Preview API\ntags:\n- CMS\n- Content\n- Preview\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.example.com\nhumanURL: https://www.contentful.com/developers/docs/references/content-preview-api/\nproperties:\n- url: https://www.contentful.com/developers/docs/references/content-preview-api/\n  type: Documentation\ndescription: In addition to the Content Delivery API (CDA) for published content, is the Preview API for\n  previewing both published and unpublished content. It maintains the same behaviour and parameters as\n  the CDA, but delivers the latest drafts for entries and assets. The Content Preview API is used to display\n  the latest version of an entry.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/apis.yml
 tags:

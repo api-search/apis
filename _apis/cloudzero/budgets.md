@@ -12,6 +12,8 @@ properties:
 provider_name: CloudZero
 provider_slug: cloudzero
 slug: budgets
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: cloudzero:budgets\nname: CloudZero Budgets API\ndescription: The Budgets API manages cost-and-usage budgets, alerts, thresholds, and actuals tracking.\n  Endpoints under /v2/budgets list, create, update, and delete budgets and surface current consumption\n  against limits.\nhumanURL: https://docs.cloudzero.com/reference/budgets\nbaseURL: https://api.cloudzero.com/v2/budgets\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- Alerts\n- Budgets\n- FinOps\nproperties:\n- type: Documentation\n  url: https://docs.cloudzero.com/reference/budgets\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/apis.yml
 tags:

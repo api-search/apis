@@ -14,6 +14,8 @@ properties:
 provider_name: Bloomberg
 provider_slug: bloomberg
 slug: bloomberg-market-data-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: bloomberg:bloomberg-market-data-api\nname: Bloomberg Market Data API\ndescription: Provides real-time and historical market data, including stock prices, indices, commodities,\n  and currencies.\nhumanURL: https://www.bloomberg.com/professional/support/api-library/\ntags:\n- Financial Data\n- Indices\n- Market Data\n- Real-Time\n- Stocks\nproperties:\n- type: Documentation\n  url: https://www.bloomberg.com/professional/support/api-library/\n- type: SDK\n  url: https://bloomberg.github.io/blpapi-docs/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/apis.yml
 tags:

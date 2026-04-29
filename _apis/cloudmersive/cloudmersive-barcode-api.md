@@ -14,6 +14,8 @@ properties:
 provider_name: Cloudmersive
 provider_slug: cloudmersive
 slug: cloudmersive-barcode-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: cloudmersive:cloudmersive-barcode-api\nname: Cloudmersive Barcode API\ntags:\n- Barcode\n- QR Code\nhumanURL: https://cloudmersive.com/barcode-api\nproperties:\n- url: https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Barcode%20API\n  type: Documentation\n- url: https://api-console.cloudmersive.com/swagger/api/barcode\n  type: OpenAPI\ndescription: Generate and recognize barcodes including QR codes, EAN, UPC, Code 128, and more.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/apis.yml
 tags:

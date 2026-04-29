@@ -14,6 +14,8 @@ properties:
 provider_name: Atlassian Jira
 provider_slug: atlassian-jira
 slug: jira-service-management-rest-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: atlassian-jira:jira-service-management-rest-api\nname: Jira Service Management REST API\ndescription: REST API for Jira Service Management features including request types, service desk queues,\n  and customer portals.\nhumanURL: https://developer.atlassian.com/cloud/jira/service-desk/rest/intro/\nbaseURL: https://your-domain.atlassian.net/rest/servicedeskapi\ntags:\n- Customer Support\n- Itsm\n- Service Desk\nproperties:\n- type: Documentation\n  url: https://developer.atlassian.com/cloud/jira/service-desk/rest/intro/\n- type: OpenAPI\n  url: https://developer.atlassian.com/cloud/jira/service-desk/swagger.v3.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/apis.yml
 tags:

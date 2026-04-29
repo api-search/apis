@@ -12,6 +12,8 @@ properties:
 provider_name: Motadata
 provider_slug: motadata
 slug: motadata
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: motadata:motadata\nname: Motadata\ndescription: Motadata is an AIOps platform for IT infrastructure monitoring, log management, network analytics,\n  and service desk automation.\nhumanURL: https://www.motadata.com\ntags:\n- AIOps\nproperties:\n- type: Documentation\n  url: https://docs.motadata.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/motadata/refs/heads/main/apis.yml
 tags:

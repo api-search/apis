@@ -16,6 +16,8 @@ properties:
 provider_name: Central Intelligence Agency
 provider_slug: central-intelligence-agency
 slug: cia-world-factbook
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: central-intelligence-agency:cia-world-factbook\nname: CIA World Factbook (Country Profiles)\ntags:\n- Country Profiles\n- Demographics\n- Geography\n- Open Data\n- Reference\n- World Factbook\nhumanURL: https://www.cia.gov/the-world-factbook/\nproperties:\n- url: https://www.cia.gov/the-world-factbook/\n  type: Website\n- url: https://github.com/factbook/factbook.json\n  type: OpenData\n- url: https://github.com/factbook/factbook.json\n  type: GitHubRepository\ndescription: The CIA World Factbook is the long-running unclassified almanac of reference information\n  on 260 world entities including all sovereign countries, dependencies, and oceans, organized into the\n  categories of Geography, People and Society, Environment, Government, Economy, Energy, Communications,\n  Transportation, Military and Security, Space, Terrorism, and Transnational Issues. The web product was\n  discontinued 4 February 2026; the community-maintained `factbook.json` GitHub project preserves\
   \ a CC0\n  / public-domain JSON dataset of all entities for programmatic access.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/central-intelligence-agency/refs/heads/main/apis.yml

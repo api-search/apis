@@ -12,6 +12,8 @@ properties:
 provider_name: Autodesk
 provider_slug: autodesk
 slug: aec-data-model-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: autodesk:aec-data-model-api\nname: Autodesk AEC Data Model API\ndescription: The AEC Data Model API provides direct cloud access to granular design data via GraphQL,\n  enabling navigation through data structures from hubs and projects to individual elements and parameters\n  without requiring desktop authoring plugins. Currently offers read-only access to Revit elements and\n  properties.\nhumanURL: https://aps.autodesk.com/developer/overview/aec-data-model-api\nbaseURL: https://developer.api.autodesk.com\ntags:\n- AEC\n- BIM\n- Design Data\n- GraphQL\nproperties:\n- type: Documentation\n  url: https://aps.autodesk.com/developer/overview/aec-data-model-api\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/apis.yml
 tags:

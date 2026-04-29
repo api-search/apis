@@ -16,6 +16,8 @@ properties:
 provider_name: Cloudflare
 provider_slug: cloudflare
 slug: cloudflare-workflows-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: cloudflare:cloudflare-workflows-api\nname: Cloudflare Workflows API\ntags:\n- Durable Execution\n- Serverless\n- Workflows\nhumanURL: https://developers.cloudflare.com/workflows/\nbaseURL: https://api.cloudflare.com\nproperties:\n- url: https://developers.cloudflare.com/workflows/\n  type: Documentation\n- url: https://developers.cloudflare.com/api/resources/workflows/\n  type: APIReference\n- url: https://developers.cloudflare.com/workflows/get-started/\n  type: GettingStarted\ndescription: Cloudflare Workflows enables developers to build durable, multi-step applications on Workers\n  that automatically retry failed tasks and persist state for minutes, hours, or weeks. The API provides\n  endpoints for creating, managing, and monitoring workflow instances with support for step functions,\n  sleep, and event-driven execution.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/apis.yml
 tags:

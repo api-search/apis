@@ -16,6 +16,8 @@ properties:
 provider_name: Adobe Photoshop
 provider_slug: adobe-photoshop
 slug: uxp-hybrid-plugins
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: adobe-photoshop:uxp-hybrid-plugins\nname: Adobe Photoshop UXP Hybrid Plugins\ntags:\n- C++\n- Filters\n- Hybrid\n- Native Code\n- Performance\n- Plugin\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.example.com\nhumanURL: https://developer.adobe.com/photoshop/uxp/2022/guides/hybrid-plugins/\nproperties:\n- url: https://developer.adobe.com/photoshop/uxp/2022/guides/hybrid-plugins/\n  type: Documentation\n- url: https://developer.adobe.com/photoshop/uxp/2022/guides/hybrid-plugins/getting-started/\n  type: GettingStarted\n- url: https://developer.adobe.com/photoshop/uxp/2022/ps_reference/media/cpp-pluginsdk/\n  type: APIReference\ndescription: A specialized plugin type that combines UXP's JavaScript, HTML, and CSS plugin framework\n  with native C++ code compiled as a .uxpaddon. This allows developers to write performance-critical code\n  in C++ such as pixel-level image processing while using UXP for the user interface\
   \ layer. Hybrid plugins\n  can integrate with the traditional Photoshop C++ SDK to create filters that appear in Photoshop's Filter\n  menu or implement new file format support. Requires Photoshop v24.2.0 or later.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/apis.yml

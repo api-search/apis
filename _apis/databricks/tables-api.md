@@ -12,6 +12,8 @@ properties:
 provider_name: Databricks
 provider_slug: databricks
 slug: tables-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: databricks:tables-api\nname: Databricks Tables API\ntags:\n- Data Governance\n- Tables\n- Unity Catalog\nhumanURL: https://docs.databricks.com/api/workspace/tables\nproperties:\n- url: https://docs.databricks.com/api/workspace/tables\n  type: Documentation\ndescription: The Databricks Tables API is part of Unity Catalog and allows you to create, update, list,\n  and delete tables. Tables reside within schemas and represent structured data assets, supporting managed\n  and external table types with full governance and access control through Unity Catalog.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/apis.yml
 tags:

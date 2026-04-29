@@ -12,6 +12,8 @@ properties:
 provider_name: Premier Inc
 provider_slug: premier-inc
 slug: premier-inc-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: premier-inc:premier-inc-api\nname: Premier Inc API\ntags:\n- Healthcare\n- Group Purchasing\n- Analytics\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.premierinc.com\nhumanURL: https://developer.premierinc.com\nproperties:\n- url: https://developer.premierinc.com/docs\n  type: Documentation\ndescription: The Premier Inc API provides access to platform services and data for enterprise integration\n  and automation.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/premier-inc/refs/heads/main/apis.yml
 tags:

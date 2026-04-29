@@ -12,6 +12,8 @@ properties:
 provider_name: SuperAgent
 provider_slug: superagent
 slug: superagent
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: superagent:superagent\nname: SuperAgent\ndescription: SuperAgent is an open-source framework for building and deploying AI agents with APIs.\nhumanURL: https://www.superagent.sh\ntags:\n- AI Automation\nproperties:\n- type: Documentation\n  url: https://docs.superagent.sh\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superagent/refs/heads/main/apis.yml
 tags:

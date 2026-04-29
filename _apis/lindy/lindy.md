@@ -12,6 +12,8 @@ properties:
 provider_name: Lindy
 provider_slug: lindy
 slug: lindy
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: lindy:lindy\nname: Lindy\ndescription: Lindy is an AI automation platform for building customizable AI agents across CRM, inbox,\n  and internal tools.\nhumanURL: https://www.lindy.ai\ntags:\n- AI Automation\nproperties:\n- type: Documentation\n  url: https://docs.lindy.ai\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/apis.yml
 tags:

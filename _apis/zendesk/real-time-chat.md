@@ -12,6 +12,8 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: real-time-chat
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: zendesk:real-time-chat\nname: Zendesk Real-Time Chat API\ntags:\n- Chat\n- Real-Time\n- Streaming\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://rtm.zopim.com\nhumanURL: https://developer.zendesk.com/api-reference/live-chat/real-time-chat-api/introduction/\nproperties:\n- url: https://developer.zendesk.com/api-reference/live-chat/real-time-chat-api/introduction/\n  type: Documentation\ndescription: The Zendesk Real-Time Chat API provides streaming access to real-time chat metrics and activity\n  data. It enables building live dashboards and monitoring tools that display current chat volume, agent\n  activity, and visitor information as events occur.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:

@@ -12,6 +12,8 @@ properties:
 provider_name: Barclays
 provider_slug: barclays
 slug: dynamic-client-registration-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: barclays:dynamic-client-registration-api\nname: Barclays Dynamic Client Registration API\ntags:\n- Client Registration\n- Open Banking\n- Security\nhumanURL: https://developer.barclays.com/apis/dynamic-client-registration/ace18310-2523-49f0-a66d-4c6e37aae59f.bdn/documentation\nproperties:\n- url: https://developer.barclays.com/apis/dynamic-client-registration/ace18310-2523-49f0-a66d-4c6e37aae59f.bdn/documentation\n  type: Documentation\ndescription: Programmatically register TPP client applications with Barclays for Open Banking access.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/barclays/refs/heads/main/apis.yml
 tags:

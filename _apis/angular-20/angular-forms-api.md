@@ -12,6 +12,8 @@ properties:
 provider_name: Angular 20
 provider_slug: angular-20
 slug: angular-forms-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: angular-20:angular-forms-api\nname: Angular 20 Forms API\ntags:\n- Forms\n- Reactive Forms\n- Signal Forms\n- Typed Forms\n- Validation\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://angular.dev/api/forms\nhumanURL: https://angular.dev/api/forms\nproperties:\n- url: https://angular.dev/api/forms\n  type: Documentation\ndescription: Angular 20 forms APIs with signal-based form integration and typed reactive forms.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/angular-20/refs/heads/main/apis.yml
 tags:

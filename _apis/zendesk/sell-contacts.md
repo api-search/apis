@@ -12,6 +12,8 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: sell-contacts
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: zendesk:sell-contacts\nname: Zendesk Sell Contacts API\ntags:\n- Contacts\n- CRM\n- Sell\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.getbase.com\nhumanURL: https://developer.zendesk.com/api-reference/sales-crm/resources/contacts/\nproperties:\n- url: https://developer.zendesk.com/api-reference/sales-crm/resources/contacts/\n  type: Documentation\ndescription: The Zendesk Sell Contacts API provides a simple interface to manage your contacts. A contact\n  represents an individual or an organization. Each contact has customer_status and prospect_status fields\n  describing the relationship to your business. You can create, read, update, and delete contacts.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:

@@ -14,6 +14,8 @@ properties:
 provider_name: Ameren
 provider_slug: ameren
 slug: renewables-portal-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: ameren:renewables-portal-api\nname: Ameren Renewables Portal API\ndescription: The Ameren Renewables Portal enables generation owners to manage community solar and collectively\n  owned generation facilities, track subscriber accounts, and manage billing usage credits in Illinois.\n  Supports community renewable energy including solar, wind, hydro-electric, fuel cells, and agricultural\n  energy sources.\nhumanURL: https://www.ameren.com/service/renewables/developers/renewables-portal\nbaseURL: https://anm.ameren.com\ntags:\n- Renewable Energy\n- Community Solar\n- Generation Management\n- Illinois\nproperties:\n- type: Documentation\n  url: https://www.ameren.com/service/renewables/developers/renewables-portal\n- type: Portal\n  url: https://anm.ameren.com/illinois/registration\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/apis.yml
 tags:

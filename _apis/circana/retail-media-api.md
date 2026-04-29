@@ -12,6 +12,8 @@ properties:
 provider_name: Circana
 provider_slug: circana
 slug: retail-media-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: circana:retail-media-api\nname: Circana Retail Media API\ntags:\n- Retail Media\n- Advertising\n- ROAS\n- Media Analytics\nhumanURL: https://www.circana.com/solutions/retail-media\ndescription: Retail Media connects shopper analytics to activation, linking marketing to retail sales\n  for longitudinal insights and improved ROAS with AI-driven media channel performance assessment.\nproperties:\n- type: Documentation\n  url: https://www.circana.com/solutions/retail-media\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/apis.yml
 tags:

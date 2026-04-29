@@ -12,6 +12,8 @@ properties:
 provider_name: Akamai
 provider_slug: akamai
 slug: akamai-siem-integration-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: akamai:akamai-siem-integration-api\nname: Akamai SIEM Integration API\ntags: []\nhumanURL: https://techdocs.akamai.com/siem-integration/reference/api\nproperties:\n- url: https://techdocs.akamai.com/siem-integration/reference/api\n  type: Documentation\ndescription: The Security Information and Event Management API allows you to capture security events generated\n  on the Akamai platform in your SIEM application.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/apis.yml
 tags: []

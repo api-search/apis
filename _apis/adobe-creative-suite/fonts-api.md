@@ -16,6 +16,8 @@ properties:
 provider_name: Adobe Creative Suite
 provider_slug: adobe-creative-suite
 slug: fonts-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "name: Adobe Fonts API\ndescription: The Adobe Fonts API provides access to the Adobe Fonts library for discovering and embedding\n  web fonts in applications and websites. It allows querying font families, retrieving font metadata,\n  and generating web font embed codes for use with Creative Cloud subscriptions. The API is commonly used\n  by design tools and CMSs to expose the Adobe Fonts catalog to users.\nimage: https://www.adobe.com/content/dam/cc/icons/cc-icon.svg\nhumanURL: https://fonts.adobe.com/\nbaseURL: https://fonts.adobe.io\ntags:\n- Design\n- Fonts\n- Typography\n- Web Fonts\nproperties:\n- type: Documentation\n  url: https://developer.adobe.com/fonts/docs/\n- type: Reference\n  url: https://developer.adobe.com/fonts/docs/api/\n- type: Authentication\n  url: https://developer.adobe.com/developer-console/docs/guides/authentication/\ncontact:\n- FN: Adobe Developer Support\n  url: https://developer.adobe.com/support/\naid: adobe-creative-suite:fonts-api\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/apis.yml
 tags:

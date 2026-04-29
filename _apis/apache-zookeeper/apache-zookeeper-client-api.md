@@ -20,6 +20,8 @@ properties:
 provider_name: Apache ZooKeeper
 provider_slug: apache-zookeeper
 slug: apache-zookeeper-client-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: apache-zookeeper:apache-zookeeper-client-api\nname: Apache ZooKeeper Client API\ndescription: The ZooKeeper client API provides Java and C language bindings for distributed coordination\n  operations. Operations include create (create znodes), delete, exists (check existence), getData, setData,\n  getChildren, getACL, setACL, and multi (batch operations). Watch mechanisms notify clients of znode\n  changes. Curator is the recommended high-level Java client with recipes for distributed locks, leader\n  elections, service discovery, and caches.\nhumanURL: https://zookeeper.apache.org/doc/current/zookeeperProgrammers.html\ntags:\n- Java\n- C\n- Coordination\n- Leader Election\nproperties:\n- type: Documentation\n  url: https://zookeeper.apache.org/doc/current/zookeeperProgrammers.html\n- type: APIReference\n  url: https://zookeeper.apache.org/doc/current/apidocs/zookeeper-server/\n- type: SDK\n  url: https://search.maven.org/search?q=org.apache.zookeeper\n  title: Java Maven\
   \ SDK\n- type: SDK\n  url: https://curator.apache.org/\n  title: Apache Curator (High-Level Java Client)\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/apis.yml

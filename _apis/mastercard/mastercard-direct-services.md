@@ -10,6 +10,8 @@ properties: []
 provider_name: Mastercard
 provider_slug: mastercard
 slug: mastercard-direct-services
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: 'aid: mastercard:mastercard-direct-services
 
   name: Mastercard Direct Services

@@ -16,6 +16,8 @@ properties:
 provider_name: Indeed
 provider_slug: indeed
 slug: sponsored-jobs
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: indeed:sponsored-jobs\nname: Indeed Sponsored Jobs API\ndescription: A GraphQL API used to get information about and manage an employer's sponsored job campaigns\n  on Indeed, including campaign creation, budget management, and performance insights.\nimage: https://www.indeed.com/images/indeed-logo.png\nhumanURL: https://docs.indeed.com/sponsored-jobs-api/\nbaseURL: https://apis.indeed.com/graphql\ntags:\n- Advertising\n- Campaigns\n- GraphQL\n- Sponsored\nproperties:\n- type: Documentation\n  url: https://docs.indeed.com/sponsored-jobs-api/\n- type: GettingStarted\n  url: https://docs.indeed.com/sponsored-jobs-api/sponsored-jobs-api-1-guides/get-started\n- type: APIReference\n  url: https://docs.indeed.com/api/sponsored-jobs-api/sponsored-jobs-api-reference\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/apis.yml
 tags:

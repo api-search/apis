@@ -14,6 +14,8 @@ properties:
 provider_name: Bureau of Consular Affairs
 provider_slug: bureau-of-consular-affairs
 slug: passport-issuance-statistics
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: bureau-of-consular-affairs:passport-issuance-statistics\nname: Passport Issuance Statistics\ntags:\n- Federal Government\n- Passports\n- Statistics\nhumanURL: https://cadatacatalog.state.gov/dataset/passportstatistics\nproperties:\n- url: https://cadatacatalog.state.gov/dataset/passportstatistics\n  type: DataAPI\n- url: https://cadatacatalog.state.gov/dataset/passportstatistics\n  type: Documentation\ndescription: Annual and monthly passport issuance statistics published by the Bureau of Consular Affairs,\n  available as downloadable datasets through the CA data catalog.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/apis.yml
 tags:

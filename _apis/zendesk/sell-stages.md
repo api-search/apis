@@ -12,6 +12,8 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: sell-stages
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: zendesk:sell-stages\nname: Zendesk Sell Stages API\ntags:\n- CRM\n- Sell\n- Stages\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.getbase.com\nhumanURL: https://developer.zendesk.com/api-reference/sales-crm/resources/stages/\nproperties:\n- url: https://developer.zendesk.com/api-reference/sales-crm/resources/stages/\n  type: Documentation\ndescription: The Zendesk Sell Stages API provides read-only access to details of your sales pipeline stages.\n  Stages are key components of a sales pipeline, and each stage can have any number of deals associated\n  with it.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:

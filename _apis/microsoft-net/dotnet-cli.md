@@ -14,6 +14,8 @@ properties:
 provider_name: Microsoft .NET
 provider_slug: microsoft-net
 slug: dotnet-cli
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: microsoft-net:dotnet-cli\nname: .NET CLI\ndescription: Cross-platform command-line interface for developing, building, running, and publishing .NET\n  applications. Provides commands for project creation, package management, testing, and deployment.\nhumanURL: https://learn.microsoft.com/en-us/dotnet/core/tools/\nbaseURL: https://learn.microsoft.com/en-us/dotnet/core/tools/\ntags:\n- Build\n- CLI\n- Developer Tools\n- Tooling\nproperties:\n- type: Documentation\n  url: https://learn.microsoft.com/en-us/dotnet/core/tools/\n- type: GettingStarted\n  url: https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/apis.yml
 tags:

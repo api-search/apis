@@ -14,6 +14,8 @@ properties:
 provider_name: Beamy
 provider_slug: beamy
 slug: beamy
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: beamy:beamy\nname: Beamy SaaS Management Platform\ndescription: Beamy provides a SaaS governance platform with browser extension-based discovery, SSO integration,\n  spend analytics, user lifecycle management, and compliance reporting. Organizations use Beamy to achieve\n  full visibility into their SaaS landscape, manage vendor relationships, and enforce security policies\n  for cloud applications.\nhumanURL: https://www.beamy.io\ntags:\n- SaaS Management\n- Shadow IT\n- IT Asset Management\nproperties:\n- type: Documentation\n  url: https://www.beamy.io/product/\n- type: Website\n  url: https://www.beamy.io\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beamy/refs/heads/main/apis.yml
 tags:

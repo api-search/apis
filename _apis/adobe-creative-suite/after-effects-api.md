@@ -16,6 +16,8 @@ properties:
 provider_name: Adobe Creative Suite
 provider_slug: adobe-creative-suite
 slug: after-effects-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "name: Adobe After Effects API\ndescription: The Adobe After Effects API enables scripting and plugin development for motion graphics\n  and visual effects workflows. Developers can automate rendering, manipulate compositions programmatically,\n  and build custom effects using the SDK. The API supports ExtendScript, CEP panels, and the newer UXP\n  and plugin SDK approaches.\nimage: https://www.adobe.com/content/dam/cc/icons/after-effects.svg\nhumanURL: https://developer.adobe.com/after-effects/\nbaseURL: https://aftereffects-api.adobe.io\ntags:\n- After Effects\n- Animation\n- Motion Graphics\n- Visual Effects\nproperties:\n- type: Documentation\n  url: https://developer.adobe.com/after-effects/docs/\n- type: Reference\n  url: https://ae-scripting.docsforadobe.dev/\n- type: Authentication\n  url: https://developer.adobe.com/developer-console/docs/guides/authentication/\ncontact:\n- FN: Adobe Developer Support\n  url: https://developer.adobe.com/support/\naid: adobe-creative-suite:after-effects-api\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/apis.yml
 tags:

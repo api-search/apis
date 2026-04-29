@@ -14,6 +14,8 @@ properties:
 provider_name: Datadog
 provider_slug: datadog
 slug: datadog-ci-visibility-pipelines-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: datadog:datadog-ci-visibility-pipelines-api\nname: Datadog CI Visibility Pipelines API\ntags:\n- CI\n- CI/CD\n- Pipelines\nhumanURL: https://docs.datadoghq.com/api/latest/ci-visibility-pipelines/\nbaseURL: https://api.datadoghq.com\nimage: https://imgix.datadoghq.com/img/dd_logo_n_70x75.png\nproperties:\n- url: https://docs.datadoghq.com/api/latest/ci-visibility-pipelines/\n  type: Documentation\n- url: https://docs.datadoghq.com/continuous_integration/pipelines/\n  type: Reference\ndescription: The CI Visibility Pipelines API allows you to search or aggregate CI Visibility pipeline\n  events and send them to your Datadog site over HTTP. It provides insight into the performance and reliability\n  of CI/CD pipelines.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/apis.yml
 tags:

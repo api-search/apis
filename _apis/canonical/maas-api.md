@@ -16,6 +16,8 @@ properties:
 provider_name: Canonical
 provider_slug: canonical
 slug: maas-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: canonical:maas-api\nname: MAAS API\ndescription: The RESTful API for MAAS (Metal as a Service). Everything the MAAS UI can do — commissioning,\n  allocation, deployment, DHCP/DNS, tags, zones, pools, users, machines — is available through the API,\n  making bare- metal infrastructure programmable and suitable for Infrastructure as Code workflows. Python\n  and CLI bindings are provided.\nhumanURL: https://canonical.com/maas/docs/api\nbaseURL: https://<maas-host>/MAAS/api/2.0\ntags:\n- Bare Metal\n- Provisioning\n- Infrastructure\nproperties:\n- type: Documentation\n  url: https://canonical.com/maas/docs/api\n- type: Overview\n  url: https://canonical.com/maas\n- type: Portal\n  url: https://maas.io/docs\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/apis.yml
 tags:

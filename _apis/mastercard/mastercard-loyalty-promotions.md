@@ -10,6 +10,8 @@ properties: []
 provider_name: Mastercard
 provider_slug: mastercard
 slug: mastercard-loyalty-promotions
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: mastercard:mastercard-loyalty-promotions\nname: Mastercard Loyalty Promotions\ntags:\n- Consumer Engagement\n- Loyalty\n- Promotions\nhumanURL: https://developer.mastercard.com/product/mastercard-loyalty-promotions/\nproperties: []\ndescription: Drive consumer engagement with customizable promotions delivered through your digital touchpoints\n  to the right customers at the right time.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/apis.yml
 tags:

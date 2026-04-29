@@ -12,6 +12,8 @@ properties:
 provider_name: Akamai
 provider_slug: akamai
 slug: akamai-cloud-access-manager-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: akamai:akamai-cloud-access-manager-api\nname: Akamai Cloud Access Manager API\ntags: []\nhumanURL: https://techdocs.akamai.com/cloud-access-mgr/reference/api\nproperties:\n- url: https://techdocs.akamai.com/cloud-access-mgr/reference/api\n  type: Documentation\ndescription: The Cloud Access Manager (CAM) API connects the Akamai Intelligent Platform and your cloud\n  provider. Use CAM to enable cloud origin authentication and securely store and manage your cloud provider\n  origin credentials as access keys. You can easily select an access key in the Origin Characteristics\n  behavior when creating a Property Manager property for your Akamai product, eliminating the need to\n  manually provide the credentials.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/apis.yml
 tags: []

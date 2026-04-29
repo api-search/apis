@@ -16,6 +16,8 @@ properties:
 provider_name: Anodot
 provider_slug: anodot
 slug: anodot-business-monitoring-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: anodot:anodot-business-monitoring-api\nname: Anodot Business Monitoring API\ndescription: The Anodot Business Monitoring API provides REST endpoints for anomaly detection, alert management,\n  forecasting, metric submission, user management, and data integration. It supports bearer token authentication\n  and basic authentication with a data collection key. Regional deployments cover US, EU (Frankfurt),\n  Asia Pacific, India, and US West Coast. Rate limits are 500 calls/minute by default (5,000 RPM for metric\n  posting).\nhumanURL: https://docs.anodot.com/\nbaseURL: https://app.anodot.com\ntags:\n- AI\n- Alerts\n- Anomaly Detection\n- Business Monitoring\n- Forecasting\n- Machine Learning\n- Metrics\n- REST\n- Webhooks\nproperties:\n- url: https://docs.anodot.com/\n  type: Documentation\n- url: https://docs.anodot.com/reference/authentication\n  type: Authentication\n- url: https://www.anodot.com/\n  type: Website\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/apis.yml
 tags:

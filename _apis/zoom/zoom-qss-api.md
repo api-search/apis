@@ -12,6 +12,8 @@ properties:
 provider_name: Zoom
 provider_slug: zoom
 slug: zoom-qss-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: zoom:zoom-qss-api\nname: Zoom QSS API\ndescription: The Zoom Quality of Service Subscription API enables developers to receive details about\n  network traffic in near real-time for meetings, webinars, and phone calls, helping proactively identify\n  and troubleshoot network-related issues.\nhumanURL: https://developers.zoom.us/docs/api/qss/\nbaseURL: https://api.zoom.us/v2\ntags:\n- Monitoring\n- Network\n- Quality of Service\nproperties:\n- type: Documentation\n  url: https://developers.zoom.us/docs/api/qss/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/apis.yml
 tags:

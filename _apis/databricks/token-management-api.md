@@ -12,6 +12,8 @@ properties:
 provider_name: Databricks
 provider_slug: databricks
 slug: token-management-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: databricks:token-management-api\nname: Databricks Token Management API\ntags:\n- Authentication\n- Security\n- Tokens\nhumanURL: https://docs.databricks.com/api/workspace/tokenmanagement\nproperties:\n- url: https://docs.databricks.com/api/workspace/tokenmanagement\n  type: Documentation\ndescription: The Databricks Token Management API enables workspace administrators to manage personal access\n  tokens for users and service principals. It allows creating, listing, and revoking tokens, providing\n  centralized control over API authentication credentials.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/apis.yml
 tags:

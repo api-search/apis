@@ -12,6 +12,8 @@ properties:
 provider_name: Sunrun
 provider_slug: sunrun
 slug: sunrun-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: sunrun:sunrun-api\nname: Sunrun API\ntags:\n- Residential Solar\n- Clean Energy\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.sunrun.com\nhumanURL: https://developer.sunrun.com\nproperties:\n- url: https://developer.sunrun.com/docs\n  type: Documentation\ndescription: The Sunrun API provides access to platform services and data for enterprise integration and\n  automation.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sunrun/refs/heads/main/apis.yml
 tags:

@@ -17,6 +17,8 @@ properties:
 provider_name: Apache MINA
 provider_slug: apache-mina
 slug: apache-ftpserver
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: apache-mina:apache-ftpserver\nname: Apache FtpServer\ndescription: Apache FtpServer is a 100% pure Java FTP server built on MINA. It is designed to be used\n  as a complete and portable FTP server engine solution based on currently available open protocols. Current\n  version is 1.2.1.\nhumanURL: https://mina.apache.org/ftpserver-project/index.html\ntags:\n- FTP\n- Java\n- Server\nproperties:\n- type: Documentation\n  url: https://mina.apache.org/ftpserver-project/index.html\n- type: SDK\n  url: https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver-core\n  title: Maven Central (Java)\n- type: GitHubRepository\n  url: https://github.com/apache/mina\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-mina/refs/heads/main/apis.yml
 tags:

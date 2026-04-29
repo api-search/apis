@@ -12,6 +12,8 @@ properties:
 provider_name: EMC
 provider_slug: emc
 slug: unisphere-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: emc:unisphere-api\nname: EMC Unisphere REST API\ndescription: The Unisphere Management REST API provides programmatic access to manage Dell EMC Unity and\n  PowerStore storage arrays. It supports storage resource provisioning, performance monitoring, alert\n  management, and system configuration operations.\nhumanURL: https://www.dell.com/support/kbdoc/en-us/000020064/ecs-api-documentation\nbaseURL: https://unity.example.com/api\ntags:\n- Enterprise Storage\n- Management\n- Monitoring\n- Storage Arrays\nproperties:\n- type: Documentation\n  url: https://www.dell.com/support/kbdoc/en-us/000020064/ecs-api-documentation\ncontact:\n- type: Support\n  url: https://www.dell.com/support/home/en-us\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/apis.yml
 tags:

@@ -16,6 +16,8 @@ properties:
 provider_name: Chief Financial Officers Council
 provider_slug: chief-financial-officers-council
 slug: cfoc-website
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: chief-financial-officers-council:cfoc-website\nname: CFO Council Website\ntags:\n- Council\n- Federal Financial Management\n- Resources\nhumanURL: https://www.cfo.gov/\nproperties:\n- url: https://www.cfo.gov/\n  type: Website\n- url: https://www.cfo.gov/about-the-council/\n  type: About\n- url: https://www.cfo.gov/resources/\n  type: Resources\ndescription: The cfo.gov public website is the official portal for the federal CFO Council, hosting member\n  rosters, council news, working-group outputs, financial-management policy guidance, and links to companion\n  federal financial-management resources.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chief-financial-officers-council/refs/heads/main/apis.yml
 tags:

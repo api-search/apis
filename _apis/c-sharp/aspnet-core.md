@@ -14,6 +14,8 @@ properties:
 provider_name: C#
 provider_slug: c-sharp
 slug: aspnet-core
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: c-sharp:aspnet-core\nname: ASP.NET Core\ntags:\n- Web Framework\n- ASP.NET\nhumanURL: https://learn.microsoft.com/en-us/aspnet/core\nproperties:\n- type: Documentation\n  url: https://learn.microsoft.com/en-us/aspnet/core\n- type: GitHub\n  url: https://github.com/dotnet/aspnetcore\ndescription: ASP.NET Core is the cross-platform web framework for C#, used to build web applications,\n  APIs, and real-time services on the .NET runtime.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/c-sharp/refs/heads/main/apis.yml
 tags:

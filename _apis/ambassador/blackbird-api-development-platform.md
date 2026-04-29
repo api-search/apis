@@ -26,6 +26,8 @@ properties:
 provider_name: Ambassador
 provider_slug: ambassador
 slug: blackbird-api-development-platform
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: ambassador:blackbird-api-development-platform\nname: Ambassador Blackbird API Development Platform\ntags:\n- API Development\n- Code Generation\n- Mocking\n- OpenAPI\n- Testing\nhumanURL: https://www.getambassador.io/products/blackbird/api-development\nproperties:\n- url: https://www.getambassador.io/products/blackbird/api-development\n  type: Documentation\n- url: https://www.getambassador.io/docs/blackbird\n  type: Documentation\n- url: https://www.getambassador.io/docs/blackbird/latest/install/quickstart\n  type: GettingStarted\n- url: https://www.getambassador.io/docs/blackbird/latest/guides/api/quickstart\n  type: GettingStarted\n- url: https://www.getambassador.io/docs/blackbird/latest/guides/code/quickstart\n  type: GettingStarted\n- url: https://www.getambassador.io/docs/blackbird/latest/guides/deployments/quickstart\n  type: GettingStarted\n- url: https://www.getambassador.io/docs/blackbird/latest/release-notes\n  type: ReleaseNotes\n- url: https://www.getambassador.io/docs/blackbird/latest/reference/mcp\n\
   \  type: Documentation\ndescription: Blackbird is an API development platform that helps developers design, build, test, and manage\n  APIs with AI-powered code generation, mocking, and production-like test environments. It supports OpenAPI\n  specifications and provides integrated debugging tools.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/apis.yml

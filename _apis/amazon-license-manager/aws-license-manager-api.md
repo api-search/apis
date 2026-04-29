@@ -24,6 +24,8 @@ properties:
 provider_name: Amazon License Manager
 provider_slug: amazon-license-manager
 slug: aws-license-manager-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: amazon-license-manager:aws-license-manager-api\nname: AWS License Manager API\ndescription: The AWS License Manager API provides programmatic access to create and manage license configurations,\n  license associations, grants, tokens, and license reports for managing software licenses across AWS.\nhumanURL: https://aws.amazon.com/license-manager/\nbaseURL: https://license-manager.amazonaws.com\ntags:\n- Compliance\n- License Management\n- Software Licensing\nproperties:\n- type: Documentation\n  url: https://docs.aws.amazon.com/license-manager/latest/APIReference/Welcome.html\n- type: OpenAPI\n  url: https://api.apis.guru/v2/specs/amazonaws.com/license-manager/2018-08-01/openapi.yaml\n- type: GettingStarted\n  url: https://aws.amazon.com/license-manager/getting-started/\n- type: Pricing\n  url: https://aws.amazon.com/license-manager/pricing/\n- type: FAQ\n  url: https://aws.amazon.com/license-manager/faqs/\n- type: JSONSchema\n  url: json-schema/amazon-license-manager-license-configuration-schema.json\n\
   - type: JSONLD\n  url: json-ld/amazon-license-manager-context.jsonld\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/apis.yml

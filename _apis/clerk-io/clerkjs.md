@@ -12,6 +12,8 @@ properties:
 provider_name: Clerk.io
 provider_slug: clerk-io
 slug: clerkjs
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: clerk-io:clerkjs\nname: Clerk.js Client Library\ntags:\n- Client Library\n- JavaScript\nhumanURL: https://docs.clerk.io/docs/clerkjs-quick-start\nproperties:\n- url: https://docs.clerk.io/docs/clerkjs-quick-start\n  type: Documentation\ndescription: Clerk.js is the browser-side JavaScript library for embedding Clerk.io recommendation slots,\n  search, and email opens on a storefront, with Liquid templating support and event tracking.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/apis.yml
 tags:

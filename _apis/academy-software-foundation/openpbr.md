@@ -14,6 +14,8 @@ properties:
 provider_name: Academy Software Foundation
 provider_slug: academy-software-foundation
 slug: openpbr
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: academy-software-foundation:openpbr\nname: OpenPBR\ndescription: OpenPBR is an open specification and reference implementation for a physically-based shading\n  model. It defines a standard material definition language that can be used across different renderers\n  to achieve consistent appearance.\nhumanURL: https://academysoftwarefoundation.github.io/OpenPBR/\ntags:\n- Rendering\n- Materials\n- Standards\nproperties:\n- type: Documentation\n  url: https://academysoftwarefoundation.github.io/OpenPBR/\n- type: GitHubRepository\n  url: https://github.com/AcademySoftwareFoundation/OpenPBR\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/apis.yml
 tags:

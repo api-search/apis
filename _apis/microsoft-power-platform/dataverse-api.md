@@ -12,6 +12,8 @@ properties:
 provider_name: Microsoft Power Platform
 provider_slug: microsoft-power-platform
 slug: dataverse-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: microsoft-power-platform:dataverse-api\nname: Microsoft Dataverse Web API\ntags:\n- Data Platform\n- Dataverse\n- OData\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://{org}.api.crm.dynamics.com/api/data/v9.2/\nhumanURL: https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/overview\nproperties:\n- url: https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/overview\n  type: Documentation\ndescription: The Microsoft Dataverse Web API provides OData v4 RESTful access to the Dataverse data platform\n  that underpins Power Platform. Developers can perform CRUD operations on tables, execute actions and\n  functions, manage metadata, and query data using standard OData conventions.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-platform/refs/heads/main/apis.yml
 tags:

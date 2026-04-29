@@ -14,6 +14,8 @@ properties:
 provider_name: Qlik
 provider_slug: qlik
 slug: direct-access-agents
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: qlik:direct-access-agents\nname: Qlik Direct Access Agents API\ndescription: Manages Direct Access Agents that provide secure connectivity between Qlik Cloud and on-premises\n  data sources.\nhumanURL: https://qlik.dev/apis/rest/direct-access-agents/\ntags:\n- Agents\n- Direct Access\nproperties:\n- type: Documentation\n  url: https://qlik.dev/apis/rest/direct-access-agents/\n- type: OpenAPI\n  url: https://qlik.dev/specs/rest/direct-access-agents.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/apis.yml
 tags:

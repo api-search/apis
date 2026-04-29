@@ -12,6 +12,8 @@ properties:
 provider_name: VMware
 provider_slug: vmware
 slug: vcf-operations-for-networks-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: vmware:vcf-operations-for-networks-api\nname: VCF Operations for Networks API\ndescription: API for VCF Operations for Networks providing network visibility, analytics, and troubleshooting\n  for VMware Cloud Foundation deployments.\nhumanURL: https://developer.broadcom.com/xapis/vcf-operations-for-networks-api/latest/\nbaseURL: https://{{vrni-host}}/api/ni\ntags:\n- Cloud Foundation\n- Network Analytics\n- Network Monitoring\n- Troubleshooting\nproperties:\n- type: APIReference\n  url: https://developer.broadcom.com/xapis/vcf-operations-for-networks-api/latest/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/apis.yml
 tags:

@@ -12,6 +12,8 @@ properties:
 provider_name: Apache Storm
 provider_slug: apache-storm
 slug: apache-storm-rest-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: apache-storm:apache-storm-rest-api\nname: Apache Storm REST API\ndescription: The Storm UI REST API provides HTTP endpoints for monitoring and managing Storm clusters,\n  topologies, and components. It exposes cluster summary, topology listing, topology detail, component\n  statistics, supervisor info, nimbus info, and topology actions (activate, deactivate, rebalance, kill).\n  The API serves the Storm UI dashboard and can be used programmatically.\nhumanURL: https://storm.apache.org/releases/current/STORM-UI-REST-API.html\ntags:\n- REST\n- Monitoring\n- Cluster Management\n- Topologies\nproperties:\n- type: Documentation\n  url: https://storm.apache.org/releases/current/STORM-UI-REST-API.html\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/apis.yml
 tags:

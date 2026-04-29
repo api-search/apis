@@ -14,6 +14,8 @@ properties:
 provider_name: CloudEvents
 provider_slug: cloudevents
 slug: cloudevents-kafka-binding
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: cloudevents:cloudevents-kafka-binding\nname: CloudEvents Kafka Protocol Binding\ndescription: The Kafka protocol binding for CloudEvents defines how events are mapped to Apache Kafka\n  messages. It specifies how CloudEvents attributes are encoded as Kafka message headers and how the event\n  payload is placed in the Kafka message value, enabling standardized event interchange over Kafka topics.\nhumanURL: https://github.com/cloudevents/spec/blob/v1.0.2/cloudevents/bindings/kafka-protocol-binding.md\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nproperties:\n- type: Documentation\n  url: https://github.com/cloudevents/spec/blob/v1.0.2/cloudevents/bindings/kafka-protocol-binding.md\n- type: Reference\n  url: https://github.com/cloudevents/spec/blob/main/cloudevents/bindings/kafka-protocol-binding.md\ntags:\n- Kafka\n- Messaging\n- Protocol Binding\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudevents/refs/heads/main/apis.yml
 tags:

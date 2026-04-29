@@ -16,6 +16,8 @@ properties:
 provider_name: Bloomberg News
 provider_slug: bloomberg-news
 slug: news-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: bloomberg-news:news-api\nname: Bloomberg News API\ndescription: Access to Bloomberg's breaking news, articles, and multimedia content covering global markets\n  and business through the Bloomberg Professional platform.\nhumanURL: https://www.bloomberg.com/professional/support/news-api/\nbaseURL: https://api.bloomberg.com/news/v1\ntags:\n- Articles\n- Business News\n- Financial News\n- News\nproperties:\n- type: Documentation\n  url: https://www.bloomberg.com/professional/support/news-api/\n- type: Pricing\n  url: https://www.bloomberg.com/professional/pricing/\n- type: GettingStarted\n  url: https://developer.bloomberg.com/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-news/refs/heads/main/apis.yml
 tags:

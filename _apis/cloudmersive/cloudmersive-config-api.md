@@ -14,6 +14,8 @@ properties:
 provider_name: Cloudmersive
 provider_slug: cloudmersive
 slug: cloudmersive-config-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: cloudmersive:cloudmersive-config-api\nname: Cloudmersive Configuration API\ntags:\n- Configuration\n- Feature Flags\nhumanURL: https://cloudmersive.com/config-api\nproperties:\n- url: https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Config%20API\n  type: Documentation\n- url: https://api-console.cloudmersive.com/swagger/api/config\n  type: OpenAPI\ndescription: Hosted configuration management and feature flag service.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/apis.yml
 tags:

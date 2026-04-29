@@ -12,6 +12,8 @@ properties:
 provider_name: Atlassian
 provider_slug: atlassian
 slug: atlassian-jira-service-management-request-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: atlassian:atlassian-jira-service-management-request-api\nname: Atlassian Jira Service Management Request API\ndescription: The Atlassian Jira Service Management Request API enables creating and managing service requests\n  within JSM.\nhumanURL: https://developer.atlassian.com/cloud/jira/service-desk/rest/api-group-request/#api-group-request\ntags:\n- ITSM\n- Requests\n- Service Desk\nproperties:\n- type: Documentation\n  url: https://developer.atlassian.com/cloud/jira/service-desk/rest/api-group-request/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/apis.yml
 tags:

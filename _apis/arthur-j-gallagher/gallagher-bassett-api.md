@@ -12,6 +12,8 @@ properties:
 provider_name: Arthur J. Gallagher
 provider_slug: arthur-j-gallagher
 slug: gallagher-bassett-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: arthur-j-gallagher:gallagher-bassett-api\nname: Gallagher Bassett Claims Management API\ndescription: API for integrating with Gallagher Bassett claims management services. Gallagher Bassett\n  is a global third-party claims administrator and subsidiary of Arthur J. Gallagher, providing workers\n  compensation, liability, property, and disability claims management.\nhumanURL: https://developer.gallagherbassett.com/\nbaseURL: https://api.gallagherbassett.com\ntags:\n- Claims\n- Insurance\n- Risk Management\n- Workers Compensation\nproperties:\n- type: Documentation\n  url: https://developer.gallagherbassett.com/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/apis.yml
 tags:

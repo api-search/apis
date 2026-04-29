@@ -12,6 +12,8 @@ properties:
 provider_name: Cloudability
 provider_slug: cloudability
 slug: vendor-credentials
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: cloudability:vendor-credentials\nname: Cloudability Vendor Credentials API\ntags:\n- AWS\n- Azure\n- GCP\n- Onboarding\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.cloudability.com/v3/vendors\nhumanURL: https://www.ibm.com/docs/en/cloudability-commercial/cloudability-premium/saas\nproperties:\n- url: https://www.ibm.com/docs/en/cloudability-commercial/cloudability-premium/saas\n  type: Documentation\ndescription: The Vendor Credentials API manages connections to AWS payer accounts, Azure billing scopes,\n  GCP billing projects, OCI tenancies and other cloud vendors. It supports listing existing credentials,\n  validating connectivity, rotating secrets, and onboarding new accounts.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/apis.yml
 tags:

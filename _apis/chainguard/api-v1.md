@@ -14,6 +14,8 @@ properties:
 provider_name: Chainguard
 provider_slug: chainguard
 slug: api-v1
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: chainguard:api-v1\nname: Chainguard API v1\ndescription: Chainguard API v1 is the legacy REST API for the Chainguard platform, covering the same broad\n  surface as v2 (IAM, registry, vulnerabilities) and remaining available for existing integrations while\n  customers migrate to v2.\nhumanURL: https://edu.chainguard.dev/chainguard/api/spec-api-v1/\nbaseURL: https://console-api.enforce.dev\ntags:\n- IAM\n- Legacy\n- REST\n- Registry\n- Vulnerabilities\nproperties:\n- type: Documentation\n  url: https://edu.chainguard.dev/chainguard/api/spec-api-v1/\n- type: Authentication\n  url: https://edu.chainguard.dev/chainguard/api/authentication/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chainguard/refs/heads/main/apis.yml
 tags:

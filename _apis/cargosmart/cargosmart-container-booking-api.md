@@ -14,6 +14,8 @@ properties:
 provider_name: CargoSmart
 provider_slug: cargosmart
 slug: cargosmart-container-booking-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: cargosmart:cargosmart-container-booking-api\nname: CargoSmart Container Booking API\ndescription: The CargoSmart Container Booking API enables programmatic submission of container booking\n  requests across multiple ocean carriers. APIs support booking creation, amendment, cancellation, and\n  confirmation workflows for shippers, NVOCCs, and logistics service providers.\nhumanURL: https://www.cargosmart.com/\nbaseURL: https://api.cargosmart.com\ntags:\n- Booking\n- Container\n- Logistics\n- Maritime\n- Ocean Freight\n- Shipping\nimage: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/image.png\nproperties:\n- url: https://www.cargosmart.com/\n  type: Documentation\n- url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-shipment-tracking-openapi.yml\n  type: OpenAPI\nx-features:\n- Multi-carrier container booking submission\n- Booking creation, amendment, and cancellation\n- Acknowledgment and confirmation\
   \ callbacks\n- Shipper, NVOCC, and LSP role support\n- Integration with carrier back-ends via CargoSmart\nx-use-cases:\n- Shipper TMS booking automation\n- NVOCC consolidation booking\n- Freight forwarder tender flow\n- Enterprise ERP-to-carrier booking integration\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/apis.yml

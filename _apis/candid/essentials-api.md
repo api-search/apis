@@ -14,6 +14,8 @@ properties:
 provider_name: Candid
 provider_slug: candid
 slug: essentials-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: candid:essentials-api\nname: Candid Essentials API\ndescription: Core nonprofit search and lookup. Provides fast search over Candid's database of U.S. nonprofits\n  by name, EIN, location, NTEE code, size, and more. Returns summary records suitable for autocompletes,\n  lookups, and basic-verification flows. Available in versions v1–v4 with POST and GET variants.\nhumanURL: https://developer.candid.org/reference/welcome\nbaseURL: https://api.candid.org/essentials\ntags:\n- Nonprofits\n- Search\n- Lookup\nproperties:\n- type: Documentation\n  url: https://developer.candid.org/reference/welcome\n- type: Portal\n  url: https://developer.candid.org/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/candid/refs/heads/main/apis.yml
 tags:

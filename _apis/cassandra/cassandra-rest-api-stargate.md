@@ -16,6 +16,8 @@ properties:
 provider_name: Apache Cassandra
 provider_slug: cassandra
 slug: cassandra-rest-api-stargate
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: cassandra:cassandra-rest-api-stargate\nname: Cassandra REST API (Stargate)\ntags:\n- Database\n- REST\n- Stargate\nhumanURL: https://stargate.io/docs/latest/develop/api-rest/\nproperties:\n- url: https://stargate.io/docs/latest/develop/api-rest/\n  type: Documentation\n- url: https://stargate.io/docs/latest/develop/api-rest/swagger.html\n  type: Swagger\n- url: https://github.com/stargate/stargate\n  type: SourceCode\ndescription: HTTP/JSON REST API for Cassandra provided by the Stargate data gateway. Enables CRUD operations\n  and SQL-like query via REST without the CQL driver.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/apis.yml
 tags:

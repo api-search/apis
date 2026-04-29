@@ -14,6 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-sql-database-disaster-recovery-configurations
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: microsoft-azure:azure-sql-database-disaster-recovery-configurations\nname: Microsoft Azure SQL Database Disaster Recovery Configurations\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-sql/database/disaster-recovery-guidance?view=azuresql\nproperties:\n- url: openapiazure-sql-database-disaster-recovery-configurations-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-sql/database/disaster-recovery-guidance?view=azuresql\n  type: Documentation\ndescription: Microsoft Azure SQL Database Disaster Recovery Configurations allow users to set up a failover\n  environment in case of a disaster or outage. This includes configuring geo-replication to replicate\n  data to a secondary region, setting up automatic failover to switch to the secondary region in case\n  of an outage, and configuring point-in-time restore to recover data to a specific\
   \ point in time.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml

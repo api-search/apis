@@ -14,8 +14,12 @@ properties:
 provider_name: Alibaba
 provider_slug: alibaba
 slug: alibaba-cloud-api
-source_yaml: "aid: alibaba:alibaba-cloud-api\nname: Alibaba Cloud API\ndescription: Alibaba Cloud provides a comprehensive API ecosystem covering all major cloud services including\n  Elastic Compute Service (ECS), Object Storage Service (OSS), Container Service for Kubernetes (ACK),\n  Relational Database Service (RDS), MaxCompute (big data), Function Compute (serverless), API Gateway,\n  Content Delivery Network (CDN), and hundreds of additional services. The OpenAPI Explorer provides a\n  web interface and WebCLI for calling APIs and automatically generating SDK code in Java, Python, Node.js,\n  PHP, Go, and other languages.\nhumanURL: https://api.alibabacloud.com/\nbaseURL: https://ecs.aliyuncs.com\ntags:\n- Cloud\n- Cloud Computing\n- Storage\n- Networking\n- AI\n- Machine Learning\n- Big Data\n- Serverless\nproperties:\n- type: Documentation\n  url: https://api.alibabacloud.com/\n- type: OpenAPI\n  url: openapi/alibaba-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alibaba/refs/heads/main/apis.yml
+source_filename: alibaba-openapi.yml
+source_heading: OpenAPI Specification
+source_yaml: '{}
+
+  '
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alibaba/refs/heads/main/openapi/alibaba-openapi.yml
 tags:
 - Cloud
 - Cloud Computing

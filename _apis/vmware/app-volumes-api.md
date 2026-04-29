@@ -12,6 +12,8 @@ properties:
 provider_name: VMware
 provider_slug: vmware
 slug: app-volumes-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: vmware:app-volumes-api\nname: App Volumes API\ndescription: API for VMware App Volumes providing programmatic access to real-time application delivery\n  and lifecycle management for virtual desktops and published applications.\nhumanURL: https://developer.broadcom.com/xapis/app-volumes-api/latest/\nbaseURL: https://{{app-volumes-manager}}/api\ntags:\n- Application Delivery\n- Application Management\n- Desktop Virtualization\n- VDI\nproperties:\n- type: APIReference\n  url: https://developer.broadcom.com/xapis/app-volumes-api/latest/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/apis.yml
 tags:

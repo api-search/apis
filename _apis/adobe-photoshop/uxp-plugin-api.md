@@ -20,6 +20,8 @@ properties:
 provider_name: Adobe Photoshop
 provider_slug: adobe-photoshop
 slug: uxp-plugin-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: adobe-photoshop:uxp-plugin-api\nname: Adobe Photoshop UXP Plugin API\ntags:\n- Desktop\n- DOM API\n- HTML/CSS\n- JavaScript\n- Plugin Platform\n- Spectrum UI\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.example.com\nhumanURL: https://developer.adobe.com/photoshop/uxp/2022/\nproperties:\n- url: https://developer.adobe.com/photoshop/uxp/2022/\n  type: Documentation\n- url: https://developer.adobe.com/photoshop/uxp/2022/ps_reference/\n  type: APIReference\n- url: https://developer.adobe.com/photoshop/uxp/2022/uxp-api/\n  type: APIReference\n- url: https://developer.adobe.com/photoshop/uxp/2022/guides/\n  type: GettingStarted\n- url: json-schema/adobe-photoshop-uxp-plugin-manifest-schema.json\n  type: JSONSchema\ndescription: The modern plugin development platform for Photoshop, replacing the legacy CEP framework.\n  UXP (Unified Extensibility Platform) is powered by a V8 JavaScript engine supporting ES6+ and provides\n\
   \  Spectrum design components for building panels and dialogs using HTML, CSS, and modern JavaScript. Plugins\n  access a rich Photoshop DOM API for interacting with documents, layers, and actions, along with platform\n  APIs for file system access, network I/O, clipboard operations, and more.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/apis.yml

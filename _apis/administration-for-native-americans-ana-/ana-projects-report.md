@@ -14,6 +14,8 @@ properties:
 provider_name: Administration for Native Americans (ANA)
 provider_slug: administration-for-native-americans-ana-
 slug: ana-projects-report
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: administration-for-native-americans-ana-:ana-projects-report\nname: ANA Projects Report Dataset\ndescription: The ANA Projects Report dataset provides results and impact analysis for ANA-funded projects\n  in Native American communities. Available through the data.gov and healthdata.gov catalogs, the dataset\n  includes project summaries, community impact assessments, and funding outcomes. Published under the\n  Open Data Commons ODbL 1.0 license for public access and reuse.\nhumanURL: https://catalog.data.gov/dataset/administration-for-native-americans-ana-projects-report\ntags:\n- Native Americans\n- Grants\n- Open Data\n- Community Development\nproperties:\n- type: Documentation\n  url: https://catalog.data.gov/dataset/administration-for-native-americans-ana-projects-report\n- type: DataAPI\n  url: https://healthdata.gov/dataset/Administration-for-Native-Americans-ANA-Projects-R/c57a-jjpd/data\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/administration-for-native-americans-ana-/refs/heads/main/apis.yml
 tags:

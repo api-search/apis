@@ -12,6 +12,8 @@ properties:
 provider_name: CloudZero
 provider_slug: cloudzero
 slug: insights
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: cloudzero:insights\nname: CloudZero Insights API\ndescription: The Insights API stores and surfaces actionable cost insights and recommendations. Endpoints\n  under /v2/insights support listing, creating, updating, and deleting insight records, including assigned\n  owners, severity, status, and estimated savings.\nhumanURL: https://docs.cloudzero.com/reference/insights\nbaseURL: https://api.cloudzero.com/v2/insights\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- Cost Optimization\n- Insights\n- Recommendations\nproperties:\n- type: Documentation\n  url: https://docs.cloudzero.com/reference/insights\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/apis.yml
 tags:

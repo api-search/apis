@@ -12,6 +12,8 @@ properties:
 provider_name: Capital One
 provider_slug: capital-one
 slug: real-time-proactive-prescreen-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: capital-one:real-time-proactive-prescreen-api\nname: Capital One Real-Time Proactive Prescreen API\ntags: []\nhumanURL: https://developer.capitalone.com/products/real-time-proactive-prescreen?id=320973-1\nproperties:\n- url: https://developer.capitalone.com/products/real-time-proactive-prescreen?id=320973-1\n  type: Documentation\ndescription: The Capital One Real-Time Proactive Prescreen API is a powerful tool that allows businesses\n  to accurately assess creditworthiness in real-time. This API provides instant access to detailed information\n  about a customer's credit history, enabling companies to make quick and informed decisions about extending\n  credit. By leveraging this technology, businesses can streamline their application process, reduce the\n  risk of fraudulent activity, and improve overall customer satisfaction.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/apis.yml
 tags: []

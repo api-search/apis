@@ -12,6 +12,8 @@ properties:
 provider_name: Zoom
 provider_slug: zoom
 slug: zoom-chatbot-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: zoom:zoom-chatbot-api\nname: Zoom Chatbot API\ndescription: The Zoom Chatbot API enables chatbots to send and receive messages, respond to user inputs,\n  and perform actions within Zoom Team Chat, allowing developers to automate tasks, send notifications,\n  and integrate third-party services.\nhumanURL: https://developers.zoom.us/docs/api/chatbot/\nbaseURL: https://api.zoom.us/v2\ntags:\n- Automation\n- Bots\n- Chatbot\nproperties:\n- type: Documentation\n  url: https://developers.zoom.us/docs/api/rest/reference/chatbot/methods/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/apis.yml
 tags:

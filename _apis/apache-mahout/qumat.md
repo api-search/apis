@@ -21,6 +21,8 @@ properties:
 provider_name: Apache Mahout
 provider_slug: apache-mahout
 slug: qumat
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: apache-mahout:qumat\nname: Qumat\ndescription: Qumat is a unified Python API for building and executing quantum circuits across multiple\n  quantum computing backends including Qiskit, Cirq, and Amazon Braket. It provides a hardware-agnostic\n  interface for quantum gate operations, parameterized circuits, measurement, and state vector retrieval.\nhumanURL: https://mahout.apache.org/docs/qumat\ntags:\n- Python\n- Quantum Computing\n- Quantum Circuits\nproperties:\n- type: Documentation\n  url: https://mahout.apache.org/docs/qumat\n- type: APIReference\n  url: https://mahout.apache.org/docs/qumat/api\n- type: GettingStarted\n  url: https://mahout.apache.org/docs/qumat/getting-started\n- type: SDK\n  url: https://pypi.org/project/qumat/\n  title: Python SDK (PyPI)\n- type: GitHubRepository\n  url: https://github.com/apache/mahout\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-mahout/refs/heads/main/apis.yml
 tags:

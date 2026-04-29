@@ -14,6 +14,8 @@ properties:
 provider_name: C#
 provider_slug: c-sharp
 slug: roslyn-compiler
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: c-sharp:roslyn-compiler\nname: Roslyn (.NET Compiler Platform)\ntags:\n- Compiler\n- Roslyn\n- Open Source\nhumanURL: https://github.com/dotnet/roslyn\nproperties:\n- type: GitHub\n  url: https://github.com/dotnet/roslyn\n- type: Documentation\n  url: https://learn.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/\ndescription: Roslyn is the open-source .NET compiler platform that provides C# and Visual Basic compilers\n  with rich code analysis APIs, enabling custom analyzers, refactorings, and tooling.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/c-sharp/refs/heads/main/apis.yml
 tags:

@@ -12,6 +12,8 @@ properties:
 provider_name: Harness
 provider_slug: harness
 slug: code-repo-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: harness:code-repo-api\nname: Harness Code Repository API\ndescription: Source control management APIs for repositories, collaboration tools, pull requests, and\n  pipeline integration.\nhumanURL: https://developer.harness.io/docs/code-repository\ntags:\n- Code Repository\n- Git\n- Source Control\nproperties:\n- type: Documentation\n  url: https://developer.harness.io/docs/code-repository\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harness/refs/heads/main/apis.yml
 tags:

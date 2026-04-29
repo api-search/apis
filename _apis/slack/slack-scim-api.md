@@ -14,6 +14,8 @@ properties:
 provider_name: Slack
 provider_slug: slack
 slug: slack-scim-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: slack:slack-scim-api\nname: Slack SCIM API\ntags:\n- Enterprise\n- Identity\n- Provisioning\n- SCIM\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.slack.com/scim/v1\nhumanURL: https://docs.slack.dev/admins/scim-api\nproperties:\n- url: https://docs.slack.dev/admins/scim-api\n  type: Documentation\n- url: https://docs.slack.dev/reference/scim-api\n  type: APIReference\ndescription: The Slack SCIM API lets teams on Plus and Enterprise plans provision and manage user accounts\n  and groups programmatically using the SCIM (System for Cross-domain Identity Management) protocol. It\n  supports both SCIM v1.1 and v2.0, enabling identity providers and SSO services to automate user lifecycle\n  management including creating, updating, deactivating, and deleting users, as well as creating and managing\n  groups.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/apis.yml
 tags:

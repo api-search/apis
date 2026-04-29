@@ -12,6 +12,8 @@ properties:
 provider_name: Autodesk
 provider_slug: autodesk
 slug: acc-autospecs-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: autodesk:acc-autospecs-api\nname: Autodesk ACC AutoSpecs API\ndescription: The ACC AutoSpecs API retrieves Smart Register data from specification PDFs and submittal\n  requirements within Autodesk Construction Cloud.\nhumanURL: https://aps.autodesk.com/developer/overview/autodesk-construction-cloud\nbaseURL: https://developer.api.autodesk.com\ntags:\n- Construction\n- Specifications\n- Submittals\nproperties:\n- type: Documentation\n  url: https://aps.autodesk.com/developer/overview/autodesk-construction-cloud\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/apis.yml
 tags:

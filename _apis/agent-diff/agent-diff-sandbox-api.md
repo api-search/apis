@@ -14,6 +14,8 @@ properties:
 provider_name: Agent Diff
 provider_slug: agent-diff
 slug: agent-diff-sandbox-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: agent-diff:agent-diff-sandbox-api\nname: Agent Diff Sandbox API\ndescription: Create and manage isolated, ephemeral sandbox replicas of third-party APIs. Run AI agents\n  against sandboxes to produce deterministic state-change diffs without rate limits or side effects.\nhumanURL: https://www.agentdiff.dev/\nbaseURL: https://api.agentdiff.dev/v1\ntags:\n- API Sandboxing\n- State Diffing\n- Agent Testing\nproperties:\n- type: Documentation\n  url: https://www.agentdiff.dev/\n- url: https://raw.githubusercontent.com/api-evangelist/agent-diff/refs/heads/main/openapi/agent-diff-sandbox-openapi.yml\n  type: OpenAPI\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agent-diff/refs/heads/main/apis.yml
 tags:

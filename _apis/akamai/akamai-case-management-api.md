@@ -12,6 +12,8 @@ properties:
 provider_name: Akamai
 provider_slug: akamai
 slug: akamai-case-management-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: akamai:akamai-case-management-api\nname: Akamai Case Management API\ntags: []\nhumanURL: https://techdocs.akamai.com/case-mgmt/reference/api\nproperties:\n- url: https://techdocs.akamai.com/case-mgmt/reference/api\n  type: Documentation\ndescription: Manage support requests to resolve any issues with your Akamai applications and services\n  using the Case Management API.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/apis.yml
 tags: []

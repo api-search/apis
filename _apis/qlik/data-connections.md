@@ -14,6 +14,8 @@ properties:
 provider_name: Qlik
 provider_slug: qlik
 slug: data-connections
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: qlik:data-connections\nname: Qlik Data Connections API\ndescription: Manages connections between Qlik Cloud Analytics apps and Data Integration projects and external\n  data sources.\nhumanURL: https://qlik.dev/apis/rest/data-connections/\ntags:\n- Data Connections\n- Integration\nproperties:\n- type: Documentation\n  url: https://qlik.dev/apis/rest/data-connections/\n- type: OpenAPI\n  url: https://qlik.dev/specs/rest/data-connections.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/apis.yml
 tags:

@@ -12,6 +12,8 @@ properties:
 provider_name: HubSpot
 provider_slug: hubspot
 slug: hubspot-feedback-submissions-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: hubspot:hubspot-feedback-submissions-api\nname: HubSpot Feedback Submissions API\ntags:\n- CRM\n- Feedback\n- Surveys\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.hubapi.com\nhumanURL: https://developers.hubspot.com/docs/guides/api/crm/objects/feedback-submissions\nproperties:\n- url: https://developers.hubspot.com/docs/guides/api/crm/objects/feedback-submissions\n  type: Documentation\ndescription: The feedback submissions API allows you to retrieve survey response data from HubSpot surveys\n  including NPS, CSAT, CES, and custom surveys. This is a read-only API that provides access to existing\n  survey responses and their associated properties.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/apis.yml
 tags:

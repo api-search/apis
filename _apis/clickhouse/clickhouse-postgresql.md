@@ -12,6 +12,8 @@ properties:
 provider_name: ClickHouse
 provider_slug: clickhouse
 slug: clickhouse-postgresql
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: clickhouse:clickhouse-postgresql\nname: ClickHouse PostgreSQL Interface\ntags:\n- PostgreSQL\n- Wire Protocol\nhumanURL: https://clickhouse.com/docs/en/interfaces/postgresql\nproperties:\n- url: https://clickhouse.com/docs/en/interfaces/postgresql\n  type: Documentation\ndescription: PostgreSQL wire protocol compatibility for connecting psql, JDBC and other PostgreSQL clients\n  to ClickHouse.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/apis.yml
 tags:

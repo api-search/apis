@@ -14,6 +14,8 @@ properties:
 provider_name: Artillery
 provider_slug: artillery
 slug: artillery-cloud-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: artillery:artillery-cloud-api\nname: Artillery Cloud API\ndescription: Artillery Cloud provides a hosted platform for running distributed load tests at scale, storing\n  test results, team collaboration, and integrating with CI/CD pipelines. The Artillery Cloud API enables\n  programmatic triggering of test runs, retrieval of test results, and management of test configurations.\nhumanURL: https://www.artillery.io/docs/reference/cli/run-test\nbaseURL: https://app.artillery.io/api\ntags:\n- Load Testing\n- Cloud\n- CI/CD\n- Performance\nproperties:\n- type: Documentation\n  url: https://www.artillery.io/docs/reference/cli/run-test\n- type: GettingStarted\n  url: https://www.artillery.io/docs/get-started/get-artillery\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artillery/refs/heads/main/apis.yml
 tags:

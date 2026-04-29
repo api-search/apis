@@ -14,6 +14,8 @@ properties:
 provider_name: CAMARA
 provider_slug: camara
 slug: device-location-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: camara:device-location-api\nname: CAMARA Device Location API\ndescription: Provides location-verification, location-retrieval, and geofencing subscription endpoints\n  allowing applications to confirm whether a mobile device is in a specified area, to retrieve the last\n  known area the device connected from, and to receive asynchronous notifications when a device enters\n  or leaves a geofenced region — all using operator network data rather than handset GPS.\nhumanURL: https://github.com/camaraproject/DeviceLocation\nbaseURL: https://api.example.com/location/v0\ntags:\n- Location\n- Geofencing\n- Network\nproperties:\n- type: Documentation\n  url: https://github.com/camaraproject/DeviceLocation\n- type: Repository\n  url: https://github.com/camaraproject/DeviceLocation\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/camara/refs/heads/main/apis.yml
 tags:

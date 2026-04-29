@@ -14,6 +14,8 @@ properties:
 provider_name: Datadog
 provider_slug: datadog
 slug: datadog-container-images-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: datadog:datadog-container-images-api\nname: Datadog Container Images API\ntags:\n- Container Images\n- Containers\n- Infrastructure\nhumanURL: https://docs.datadoghq.com/api/latest/container-images/\nbaseURL: https://api.datadoghq.com\nimage: https://imgix.datadoghq.com/img/dd_logo_n_70x75.png\nproperties:\n- url: https://docs.datadoghq.com/api/latest/container-images/\n  type: Documentation\n- url: https://docs.datadoghq.com/infrastructure/containers/container_images/\n  type: Reference\ndescription: The Container Images API allows you to get all container images for your organization. It\n  provides visibility into the container images running across your infrastructure.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/apis.yml
 tags:

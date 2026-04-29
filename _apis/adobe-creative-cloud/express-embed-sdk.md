@@ -18,6 +18,8 @@ properties:
 provider_name: Adobe Creative Cloud
 provider_slug: adobe-creative-cloud
 slug: express-embed-sdk
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: adobe-creative-cloud:express-embed-sdk\nname: Adobe Express Embed SDK\ntags:\n- Editor\n- Embed SDK\n- JavaScript\n- Quick Actions\n- Web Components\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.example.com\nhumanURL: https://developer.adobe.com/express/embed-sdk/docs/guides/\nproperties:\n- url: https://developer.adobe.com/express/embed-sdk/docs/guides/\n  type: Documentation\n- url: https://developer.adobe.com/express/embed-sdk/docs/guides/quickstart/\n  type: GettingStarted\n- url: https://developer.adobe.com/express/embed-sdk/docs/v4/\n  type: APIReference\n- url: https://github.com/AdobeDocs/cc-everywhere\n  type: GitHubRepository\ndescription: A JavaScript SDK for embedding Adobe Express creative editing tools directly into web applications.\n  The SDK provides a full editor component for design creation, quick actions for common image and video\n  operations such as resize, crop, remove background, and convert\
   \ formats, and template access for professional\n  design starting points. Developers integrate using API keys from the Adobe Developer Console.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/apis.yml

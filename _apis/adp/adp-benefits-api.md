@@ -12,6 +12,8 @@ properties:
 provider_name: ADP
 provider_slug: adp
 slug: adp-benefits-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: adp:adp-benefits-api\nname: ADP Benefits Administration API\ndescription: The ADP Benefits Administration API provides access to employee benefits enrollment, eligibility,\n  and plan data. APIs support benefits carrier connectivity, open enrollment workflows, and benefits data\n  exchange for insurance carriers and benefits administrators.\ntags:\n- Benefits\n- Enrollment\n- HCM\n- HR\nimage: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/image.png\nhumanURL: https://developers.adp.com/\nbaseURL: https://api.adp.com\nproperties:\n- type: Documentation\n  url: https://developers.adp.com/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/apis.yml
 tags:

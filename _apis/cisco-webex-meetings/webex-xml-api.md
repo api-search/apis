@@ -12,6 +12,8 @@ properties:
 provider_name: Cisco Webex Meetings
 provider_slug: cisco-webex-meetings
 slug: webex-xml-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: cisco-webex-meetings:webex-xml-api\nname: Webex XML API\ntags:\n- Enterprise\n- Legacy\n- SOAP\n- XML\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://developer.cisco.com/docs/webex-xml-api-reference-guide/\nproperties:\n- url: https://developer.cisco.com/docs/webex-xml-api-reference-guide/\n  type: Documentation\ndescription: The Webex XML API is the legacy SOAP-style interface for deep integration with Webex Meetings.\n  It supports site administration, user provisioning, and meeting management for scenarios that pre-date\n  the REST API.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/apis.yml
 tags:

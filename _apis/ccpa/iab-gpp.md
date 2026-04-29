@@ -16,6 +16,8 @@ properties:
 provider_name: CCPA (California Consumer Privacy Act)
 provider_slug: ccpa
 slug: iab-gpp
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: ccpa:iab-gpp\nname: IAB Tech Lab Global Privacy Platform (GPP)\ntags:\n- AdTech\n- Consent\n- IAB\n- Signals\nhumanURL: https://iabtechlab.com/gpp/\nproperties:\n- url: https://iabtechlab.com/gpp/\n  type: Documentation\n- url: https://github.com/InteractiveAdvertisingBureau/Global-Privacy-Platform\n  type: SourceCode\n- url: https://github.com/InteractiveAdvertisingBureau/USPrivacy\n  type: LegacySpec\ndescription: The IAB Tech Lab Global Privacy Platform (GPP) is the successor to the US Privacy (USP) string.\n  It provides a standardized way to communicate user consent and opt-out signals between publishers, consent\n  management platforms, and adtech vendors for CCPA, CPRA, and other jurisdictions.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/apis.yml
 tags:

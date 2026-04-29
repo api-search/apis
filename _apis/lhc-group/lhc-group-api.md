@@ -12,6 +12,8 @@ properties:
 provider_name: LHC Group
 provider_slug: lhc-group
 slug: lhc-group-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: lhc-group:lhc-group-api\nname: LHC Group API\ntags:\n- Home Health\n- Hospice\n- Healthcare\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.lhcgroup.com\nhumanURL: https://developer.lhcgroup.com\nproperties:\n- url: https://developer.lhcgroup.com/docs\n  type: Documentation\ndescription: The LHC Group API provides access to platform services and data for enterprise integration\n  and automation.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lhc-group/refs/heads/main/apis.yml
 tags:

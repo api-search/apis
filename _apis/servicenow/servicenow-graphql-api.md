@@ -14,6 +14,8 @@ properties:
 provider_name: ServiceNow
 provider_slug: servicenow
 slug: servicenow-graphql-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: servicenow:servicenow-graphql-api\nname: ServiceNow GraphQL API\ntags:\n- Custom APIs\n- GraphQL\n- Integration\n- Platform\nimage: https://www.servicenow.com/content/dam/servicenow-assets/images/meganav/servicenow-logo.svg\nhumanURL: https://docs.servicenow.com/bundle/tokyo-application-development/page/integrate/graphql/concept/scripted-graph-ql.html\nbaseURL: https://{instance}.service-now.com/api/now/graphql\nproperties:\n- url: https://docs.servicenow.com/bundle/tokyo-application-development/page/integrate/graphql/concept/scripted-graph-ql.html\n  type: Documentation\n- url: https://www.servicenow.com/community/developer-articles/getting-started-graphql-api-framework/ta-p/2312207\n  type: GettingStarted\ndescription: The ServiceNow GraphQL API framework allows developers to create custom GraphQL API schemas\n  on the Now Platform for querying record data from components or external systems. It supports defining\n  resolvers with server-side scripts and enables flexible,\
   \ client-driven queries as an alternative to\n  REST-based integration.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/apis.yml

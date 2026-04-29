@@ -14,6 +14,8 @@ properties:
 provider_name: Cequence Security
 provider_slug: cequence
 slug: cequence-api-sentinel
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: cequence:cequence-api-sentinel\nname: Cequence API Sentinel\ntags:\n- API Inventory\n- Compliance\n- Posture\n- Risk\n- Sensitive Data\nhumanURL: https://www.cequence.ai/products/\nproperties:\n- url: https://www.cequence.ai/products/\n  type: Website\n- url: https://helpdesk.cequence.ai/\n  type: HelpCenter\ndescription: API Sentinel is the Cequence API posture and compliance module that continuously inventories\n  internal and external APIs, classifies sensitive data flows, scores API risk against governance policies,\n  and generates remediation guidance for security and platform teams.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/apis.yml
 tags:

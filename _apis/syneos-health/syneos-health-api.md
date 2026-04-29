@@ -12,6 +12,8 @@ properties:
 provider_name: Syneos Health
 provider_slug: syneos-health
 slug: syneos-health-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: syneos-health:syneos-health-api\nname: Syneos Health API\ntags:\n- Clinical Research\n- Biopharmaceutical\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.syneoshealth.com\nhumanURL: https://developer.syneoshealth.com\nproperties:\n- url: https://developer.syneoshealth.com/docs\n  type: Documentation\ndescription: The Syneos Health API provides access to platform services and data for enterprise integration\n  and automation.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/syneos-health/refs/heads/main/apis.yml
 tags:

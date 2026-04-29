@@ -16,6 +16,8 @@ properties:
 provider_name: Cloudflare
 provider_slug: cloudflare
 slug: cloudflare-argo-smart-routing-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: cloudflare:cloudflare-argo-smart-routing-api\nname: Cloudflare Argo Smart Routing API\ntags:\n- Network Optimization\n- Performance\n- Routing\nhumanURL: https://developers.cloudflare.com/argo-smart-routing/\nbaseURL: https://api.cloudflare.com\nproperties:\n- url: https://developers.cloudflare.com/argo-smart-routing/\n  type: Documentation\n- url: https://developers.cloudflare.com/api/resources/argo/subresources/smart_routing/\n  type: APIReference\n- url: https://developers.cloudflare.com/argo-smart-routing/get-started/\n  type: GettingStarted\ndescription: The Cloudflare Argo Smart Routing API enables developers to manage intelligent traffic routing\n  that detects real-time network congestion and routes web traffic across the fastest network paths. It\n  provides endpoints for enabling, disabling, and monitoring smart routing performance.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/apis.yml
 tags:

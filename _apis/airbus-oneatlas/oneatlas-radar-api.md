@@ -26,6 +26,8 @@ properties:
 provider_name: Airbus OneAtlas
 provider_slug: airbus-oneatlas
 slug: oneatlas-radar-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: airbus-oneatlas:oneatlas-radar-api\nname: OneAtlas Radar API\ntags:\n- Airbus\n- Geospatial\n- Imagery\n- Radar\n- SAR\n- Satellites\n- Tasking\nhumanURL: https://api.oneatlas.airbus.com/api-catalog-v2/radar/overview/index.html\nproperties:\n- url: https://api.oneatlas.airbus.com/api-catalog-v2/radar/tutorials/\n  name: Radar Tasking & Archive - API\n  type: Tutorials\n  description: 'null'\n- url: https://api.oneatlas.airbus.com/api-catalog-v2/radar/notebooks/\n  name: Radar Notebooks & Postman collections\n  type: JupyterNotebook\n  description: 'null'\n- url: https://api.oneatlas.airbus.com/api-catalog-v2/radar/notebooks/\n  name: Radar Notebooks & Postman collections\n  type: PostmanCollection\n  description: 'null'\n- url: https://api.oneatlas.airbus.com/releases/#radar\n  name: Releases\n  type: ChangeLog\n  description: 'null'\ndescription: OneAtlas Radar API is a powerful tool that allows developers to access and integrate radar\n  satellite data into their applications\
   \ and processes. By utilizing this API, users can access real-time\n  and historical radar imagery, which can be used for a wide range of applications including agriculture,\n  disaster management, urban planning, and security.\nfeatures:\n- Access SAR (synthetic aperture radar) imagery from Airbus radar satellites\n- Supports both archive search and new tasking acquisitions\n- All-weather, day-night imaging capability\n- Multiple polarization modes and resolutions\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/apis.yml

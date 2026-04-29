@@ -12,6 +12,8 @@ properties:
 provider_name: Donnelley Financial Solutions
 provider_slug: donnelley-financial-solutions
 slug: donnelley-financial-solutions-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: donnelley-financial-solutions:donnelley-financial-solutions-api\nname: Donnelley Financial Solutions API\ntags:\n- Financial\n- Regulatory Compliance\n- Software\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.dfsco.com\nhumanURL: https://developer.dfsco.com\nproperties:\n- url: https://developer.dfsco.com/docs\n  type: Documentation\ndescription: The Donnelley Financial Solutions API provides access to platform services and data for enterprise\n  integration and automation.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/donnelley-financial-solutions/refs/heads/main/apis.yml
 tags:

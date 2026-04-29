@@ -12,6 +12,8 @@ properties:
 provider_name: Browser Use
 provider_slug: browser-use
 slug: browser-use
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: browser-use:browser-use\nname: Browser Use\ndescription: Browser Use is an open-source framework for AI-powered browser automation and web interaction.\nhumanURL: https://browser-use.com\ntags:\n- AI Automation\nproperties:\n- type: Documentation\n  url: https://docs.browser-use.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/apis.yml
 tags:

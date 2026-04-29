@@ -12,6 +12,8 @@ properties:
 provider_name: CData
 provider_slug: cdata
 slug: audit-api
+source_filename: apis.yml
+source_heading: API entry from apis.yml
 source_yaml: "aid: cdata:audit-api\nname: CData Audit API\ntags:\n- Audit\n- Compliance\n- Security\nhumanURL: https://cloud.cdata.com/docs/Audit-API.html\nproperties:\n- url: https://cloud.cdata.com/docs/Audit-API.html\n  type: Documentation\ndescription: The CData Cloud Audit API tracks system activities and administrative events, supporting\n  compliance and security monitoring requirements such as SOC 2 and GDPR.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/apis.yml
 tags:
