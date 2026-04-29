@@ -24,6 +24,8 @@ properties:
 provider_name: Merge
 provider_slug: merge
 slug: crm-api
+source_yaml: "aid: merge:crm-api\nname: Merge CRM API\ntags:\n- CRM\n- Customer Relationship Management\n- Unified API\nhumanURL: https://www.merge.dev/categories/crm-api\nproperties:\n- url: https://www.merge.dev/categories/crm-api\n  type: Website\n- url: https://docs.merge.dev/crm/overview/\n  type: Documentation\n- url: openapi/merge-crm-api-openapi.yaml\n  type: OpenAPI\n- url: json-schema/crm-api-opportunity-schema.json\n  type: JSONSchema\n- url: json-structure/crm-api-opportunity-structure.json\n  type: JSONStructure\n- url: json-ld/merge-crm-api-context.jsonld\n  type: JSONLD\n- url: examples/crm-api-opportunity-example.json\n  type: Example\ndescription: Merge CRM API provides unified access to 20+ CRM platforms including Salesforce, HubSpot,\n  Pipedrive, and Zoho CRM. It offers read and write capabilities for standardized CRM data objects such\n  as Accounts, Contacts, Leads, Opportunities, and Engagements, along with custom object support.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/apis.yml
 tags:
 - CRM
 - Customer Relationship Management

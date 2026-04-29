@@ -14,6 +14,8 @@ properties:
 provider_name: Binance
 provider_slug: binance
 slug: margin-trading-api
+source_yaml: "aid: binance:margin-trading-api\nname: Binance Margin Trading API\ntags:\n- Borrowing\n- Cryptocurrency\n- Leverage\n- Margin\n- Trading\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.binance.com\nhumanURL: https://developers.binance.com/docs/margin_trading/general-info\nproperties:\n- url: https://developers.binance.com/docs/margin_trading/general-info\n  type: Documentation\n- url: openapi/binance-margin-trading-openapi.yml\n  type: OpenAPI\ndescription: The Binance Margin Trading API allows developers to programmatically access cross-margin\n  and isolated-margin trading functionality. Users can borrow assets, place leveraged trades, repay loans,\n  and manage margin account balances. The API provides endpoints for transferring assets between spot\n  and margin accounts, querying interest rates and borrow limits, and monitoring margin level and liquidation\n  thresholds for risk management purposes.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/apis.yml
 tags:
 - Borrowing
 - Cryptocurrency

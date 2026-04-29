@@ -22,6 +22,8 @@ properties:
 provider_name: OpenAI
 provider_slug: openai
 slug: openai-embeddings-api
+source_yaml: "aid: openai:openai-embeddings-api\nname: OpenAI Embeddings API\ntags:\n- Embedding\n- Embeddings\n- Inputs\n- Representing\n- Text\n- Vectors\nscore: 112\nbaseURL: https://api.openai.com\nhumanURL: https://platform.openai.com/docs/guides/embeddings\nproperties:\n- url: https://platform.openai.com/docs/guides/embeddings\n  type: Documentation\n- url: https://platform.openai.com/docs/api-reference/embeddings\n  type: Documentation\n- url: openapi/embeddings-openapi-original.yml\n  type: OpenAPI\n- url: openapi/openai-embeddings-openapi.yml\n  type: OpenAPI\n- url: json-schema/openai-embedding-schema.json\n  type: JSONSchema\n- url: json-ld/openai-context.jsonld\n  type: JSONLD\ndescription: Learn how to turn text into numbers, unlocking use cases like search. OpenAI's text embeddings\n  measure the relatedness of text strings.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/apis.yml
 tags:
 - Embedding
 - Embeddings

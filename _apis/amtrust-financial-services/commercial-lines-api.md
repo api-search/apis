@@ -18,6 +18,9 @@ properties:
 provider_name: AmTrust Financial Services
 provider_slug: amtrust-financial-services
 slug: commercial-lines-api
+source_yaml: "aid: amtrust-financial-services:commercial-lines-api\nname: AmTrust Commercial Lines API\ndescription: The AmTrust Commercial Lines API enables insurance agents, brokers, and technology partners\n  to programmatically review coverage appetite, generate quotes, and bind commercial lines policies. It\n  supports workers' compensation, business owners' policy, general liability, and commercial package products\n  across 300+ eligible class codes.\ntags:\n- Commercial Lines\n- Commercial Package\n- General Liability\n- Insurance\n- Workers Compensation\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.amtrustservices.com\nhumanURL: https://amtrustfinancial.com/api\nproperties:\n- url: https://amtrustfinancial.com/api\n  type: Documentation\n- url: https://utapiportal.amtrustgroup.com\n  type: Portal\n- url: https://utapiportal.amtrustgroup.com/authentication\n  type: Authentication\n- url: openapi/amtrust-financial-services-commercial-lines-api.yaml\n\
+  \  type: OpenAPI\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/apis.yml
 tags:
 - Commercial Lines
 - Commercial Package

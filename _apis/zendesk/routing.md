@@ -14,6 +14,8 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: routing
+source_yaml: "aid: zendesk:routing\nname: Zendesk Routing API\ntags:\n- Routing\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://{subdomain}.zendesk.com\nhumanURL: https://developer.zendesk.com/api-reference/ticketing/ticket-management/skill_based_routing/\nproperties:\n- url: https://developer.zendesk.com/api-reference/ticketing/ticket-management/skill_based_routing/\n  type: Documentation\n- url: openapi/routing-openapi-original.yml\n  type: OpenAPI\ndescription: The Zendesk Routing API gives you programmatic control over how customer work is distributed\n  to agents across channels. It lets you create and update work items (from tickets, messaging conversations,\n  calls, or external tasks), enrich them with attributes such as skills, priority, and required capacity,\n  and have Zendesks omnichannel router match them to available agents based on unified agent status and\n  capacity limits.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:
 - Routing
 ---

@@ -14,6 +14,8 @@ properties:
 provider_name: Bunq
 provider_slug: bunq
 slug: bunq-confirmation-of-funds-api
+source_yaml: "aid: bunq:bunq-confirmation-of-funds-api\nname: Bunq Confirmation of Funds API\ntags:\n- Confirmation\n- Funds\n- Users\nscore: 85\nhumanURL: https://doc.bunq.com/#/confirmation-of-funds/CREATE_ConfirmationOfFunds_for_User\nproperties:\n- url: openapi/bunq-user-userid-confirmation-of-funds-openapi-original.yml\n  type: OpenAPI\n- url: https://doc.bunq.com/\n  type: Documentation\ndescription: Bunq Confirmation Of Funds API is a service that allows businesses to verify the availability\n  of funds in a customer's account before processing a payment. This helps to reduce the risk of insufficient\n  funds and associated fees, as well as providing peace of mind for both the business and the customer.\n  By using this API, businesses can ensure that transactions will go through smoothly and efficiently,\n  enhancing the overall customer experience.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/apis.yml
 tags:
 - Confirmation
 - Funds

@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: purview-devops-policies-rest-api-document
+source_yaml: "aid: microsoft-azure:purview-devops-policies-rest-api-document\nname: Microsoft Azure Purview Devops Policies  API Document\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/purview/legacy/concept-policies-devops\nproperties:\n- url: openapi/purview-devops-policies-rest-api-document-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/purview/legacy/concept-policies-devops\n  type: Documentation\ndescription: The Microsoft Azure Purview DevOps Policies REST API Document provides developers with a\n  comprehensive guide to leveraging Azure Purview's policy management capabilities within a DevOps workflow.\n  This document outlines the various REST API endpoints and operations available for interacting with\n  Purview's policy engines, allowing developers to define, enforce, and monitor governance policies across\n  their data assets.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

@@ -12,6 +12,8 @@ properties:
 provider_name: Databricks
 provider_slug: databricks
 slug: connections-api
+source_yaml: "aid: databricks:connections-api\nname: Databricks Connections API\ntags:\n- Connections\n- External Data\n- Unity Catalog\nhumanURL: https://docs.databricks.com/api/workspace/connections\nproperties:\n- url: https://docs.databricks.com/api/workspace/connections\n  type: Documentation\ndescription: The Databricks Connections API is part of Unity Catalog and allows you to create, update,\n  list, and delete connections to external data sources. Connections enable federated queries across external\n  databases and data systems, extending Unity Catalog governance to data outside the lakehouse.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/apis.yml
 tags:
 - Connections
 - External Data

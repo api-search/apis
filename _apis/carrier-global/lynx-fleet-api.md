@@ -18,6 +18,8 @@ properties:
 provider_name: Carrier Global
 provider_slug: carrier-global
 slug: lynx-fleet-api
+source_yaml: "aid: carrier-global:lynx-fleet-api\nname: Carrier Lynx Fleet API\ndescription: REST API surface exposing Lynx Fleet telematics and control data for diesel and electric\n  transport refrigeration units (TRUs). Enables systems integrators to pull asset inventory, setpoints,\n  temperatures, alarms, and GPS location, and to issue two-way commands to connected refrigeration units\n  directly from existing transport-management systems.\nhumanURL: https://doc-api.fleet.lynx.carrier.io/\nbaseURL: https://doc-api.fleet.lynx.carrier.io/\ntags:\n- Cold Chain\n- Telematics\n- Fleet\n- Refrigeration\n- IoT\nproperties:\n- type: Documentation\n  url: https://doc-api.fleet.lynx.carrier.io/api-documentation\n- type: Portal\n  url: https://api.tta.lynxfleet.carrier.com/\n- type: Reference\n  url: https://doc-api.fleet.lynx.carrier.io/docs/lynx-prod-api/1/routes/v1/assets/get\n- type: Products\n  url: https://api.tta.lynxfleet.carrier.com/products\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/apis.yml
 tags:
 - Cold Chain
 - Telematics

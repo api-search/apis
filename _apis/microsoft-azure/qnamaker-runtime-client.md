@@ -14,5 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: qnamaker-runtime-client
+source_yaml: "aid: microsoft-azure-one:qnamaker-runtime-client\nname: Microsoft Azure Qn Amaker Runtime Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.cognitiveservices.knowledge.qnamaker.runtime?view=azure-dotnet-legacy\nproperties:\n- url: openapi/qnamaker-runtime-client-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.cognitiveservices.knowledge.qnamaker.runtime?view=azure-dotnet-legacy\n  type: Documentation\ndescription: The Microsoft Azure QnA Maker Runtime Client is a software tool that allows developers to\n  integrate question and answer functionality into their applications. This tool uses natural language\n  processing to interpret user queries and provide accurate responses based on pre-defined knowledge bases.\n  Developers can easily customize and train the QnA Maker Runtime Client to better understand\
+  \ user intent\n  and provide more accurate answers over time.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

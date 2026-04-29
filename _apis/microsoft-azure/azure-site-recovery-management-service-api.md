@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-site-recovery-management-service-api
+source_yaml: "aid: microsoft-azure:azure-site-recovery-management-service-api\nname: Microsoft Azure Site Recovery Management Service API\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/rest/api/site-recovery/\nproperties:\n- url: openapi/azure-site-recovery-management-service-api-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/rest/api/site-recovery/\n  type: Documentation\ndescription: The Microsoft Azure Site Recovery Management Service API is a tool that allows users to manage\n  and monitor their disaster recovery processes on the Azure cloud platform. This API enables users to\n  automate the configuration, monitoring, and failover processes for their virtual machines and physical\n  servers.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

@@ -14,6 +14,9 @@ properties:
 provider_name: booking-com
 provider_slug: booking-com
 slug: car-rentals-api
+source_yaml: "aid: booking-com:car-rentals-api\nname: Booking.com Car Rentals API\ntags:\n- Car Rentals\n- Transportation\n- Travel\n- Vehicles\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://demandapi.booking.com\nhumanURL: https://developers.booking.com/demand/docs/open-api/demand-api/cars\nproperties:\n- url: https://developers.booking.com/demand/docs/open-api/demand-api/cars\n  type: Documentation\n- url: openapi/booking-com-car-rentals-api-openapi.yml\n  type: OpenAPI\ndescription: The Booking.com Car Rentals API is part of the Demand API and provides endpoints specific\n  to the car rental segment of the connected trip experience. Developers can use it to search for available\n  car rentals, retrieve car details, and look up depots and suppliers. The API enables affiliate partners\n  to integrate Booking.com's car rental inventory into their own platforms, offering users the ability\n  to find and book vehicles as part of their travel\
+  \ planning workflow.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/apis.yml
 tags:
 - Car Rentals
 - Transportation

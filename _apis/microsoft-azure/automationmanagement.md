@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: automationmanagement
+source_yaml: "aid: microsoft-azure-one:automationmanagement\nname: Microsoft Azure Automation Management\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/automation/\nproperties:\n- url: openapi/automationmanagement-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/automation/\n  type: Documentation\ndescription: Microsoft Azure Automation Management is a cloud-based service that allows organizations\n  to automate repetitive tasks and processes within their Azure environment. It provides a centralized\n  platform for creating, scheduling, and managing automation workflows, allowing users to streamline their\n  operations and improve efficiency. With Azure Automation Management, users can automate tasks such as\n  provisioning and managing resources, running scripts, and orchestrating complex workflows.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

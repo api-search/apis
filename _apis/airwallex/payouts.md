@@ -17,6 +17,8 @@ properties:
 provider_name: Airwallex
 provider_slug: airwallex
 slug: payouts
+source_yaml: "aid: airwallex:payouts\nname: Airwallex Payouts API\ntags:\n- Payouts\n- Cross-Border Payments\n- Transfers\n- International\nhumanURL: https://www.airwallex.com/docs/api#/Payouts\nbaseURL: https://api.airwallex.com/api/v1\ndescription: The Airwallex Payouts API enables businesses to send cross-border payments to suppliers,\n  contractors, and employees globally. Supports bank transfers to 150+ countries, bulk payouts, and beneficiary\n  management.\nproperties:\n- url: https://www.airwallex.com/docs/api#/Payouts\n  type: Documentation\n- url: https://www.airwallex.com/docs/api#/Payouts\n  type: APIReference\n- url: https://github.com/airwallex/payouts-web-sdk\n  type: SDK\n  title: Payouts Web SDK\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airwallex/refs/heads/main/apis.yml
 tags:
 - Payouts
 - Cross-Border Payments

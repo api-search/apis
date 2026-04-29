@@ -14,6 +14,8 @@ properties:
 provider_name: Google Android
 provider_slug: google-android
 slug: android-device-provisioning-partner-api
+source_yaml: "aid: google-android:android-device-provisioning-partner-api\nname: Android Device Provisioning Partner API\ndescription: The Android Device Provisioning Partner API allows device resellers and enterprise mobility\n  management providers to programmatically manage zero-touch enrollment for enterprise Android devices,\n  including creating customers, claiming devices, and managing device metadata.\nimage: https://www.gstatic.com/devrel-devsite/prod/v2ff77c87c709f3e5e323c03865ecedf5b4afc4446d0e0e2904abf9d5/android/images/touchicon-180.png\nhumanURL: https://developers.google.com/zero-touch\nbaseURL: https://androiddeviceprovisioning.googleapis.com\ntags:\n- Device Provisioning\n- Enterprise\n- Reseller\n- Zero-Touch Enrollment\nproperties:\n- type: Documentation\n  url: https://developers.google.com/zero-touch/reference/reseller/rest\n- type: Getting Started\n  url: https://developers.google.com/zero-touch/guides/overview\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/apis.yml
 tags:
 - Device Provisioning
 - Enterprise

@@ -32,6 +32,9 @@ properties:
 provider_name: Splunk
 provider_slug: splunk
 slug: splunk-enterprise-rest-api
+source_yaml: "aid: splunk:splunk-enterprise-rest-api\nname: Splunk Enterprise REST API\ndescription: The Splunk Enterprise REST API provides programmatic access to the same information and functionality\n  available to core system software and Splunk Web. It supports GET, POST, and DELETE operations over\n  HTTPS on the splunkd management port 8089.\nhumanURL: https://docs.splunk.com/Documentation/Splunk/latest/RESTREF/RESTprolog\ntags:\n- Data\n- Enterprise\n- Management\n- REST\n- Search\nproperties:\n- type: Documentation\n  url: https://docs.splunk.com/Documentation/Splunk/latest/RESTREF/RESTprolog\n- type: GettingStarted\n  url: https://docs.splunk.com/Documentation/Splunk/latest/RESTUM/RESTusing\n- type: APIReference\n  url: https://dev.splunk.com/enterprise/reference\n- type: APIReference\n  url: https://help.splunk.com/en/splunk-enterprise/leverage-rest-apis/rest-api-reference/10.2/introduction/endpoints-reference-list\n  title: Endpoints Reference List\n- type: Authentication\n\
+  \  url: https://docs.splunk.com/Documentation/Splunk/latest/RESTUM/RESTusing\n- type: Documentation\n  url: https://docs.splunk.com/Documentation/Splunk/latest/RESTREF/RESTsearch\n  title: Search REST Reference\n- type: OpenAPI\n  url: openapi/splunk-enterprise-rest-api.yml\n- type: JSONSchema\n  url: json-schema/splunk-search-job-schema.json\n- type: JSONSchema\n  url: json-schema/splunk-event-schema.json\n- type: JSONLD\n  url: json-ld/splunk-context.jsonld\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/apis.yml
 tags:
 - Data
 - Enterprise

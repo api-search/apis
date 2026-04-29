@@ -14,5 +14,7 @@ properties:
 provider_name: Asana
 provider_slug: asana
 slug: asana-memberships-api
+source_yaml: "aid: asana:asana-memberships-api\nname: Asana Memberships  API\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://developers.asana.com/\nproperties:\n- url: openapi/asana-memberships-api-openapi.yml\n  type: OpenAPI\n- type: Documentation\n  url: https://developers.asana.com/reference/memberships\ndescription: The Asana Memberships API is a tool that allows developers to integrate Asana's membership\n  features into their own applications. This API allows users to access and manage information related\n  to team membership, such as adding and removing members from teams, assigning roles and permissions,\n  and viewing membership details. With the Asana Memberships API, developers can create custom workflows\n  and automations that streamline the process of managing team membership within the Asana platform.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/apis.yml
 tags: []
 ---

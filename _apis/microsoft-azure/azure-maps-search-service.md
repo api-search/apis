@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-maps-search-service
+source_yaml: "aid: microsoft-azure:azure-maps-search-service\nname: Microsoft Azure Maps Search Service\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-maps/\nproperties:\n- url: openapi/azure-maps-search-service-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-maps/\n  type: Documentation\ndescription: Microsoft Azure Maps Search Service is a powerful tool that allows users to easily search\n  for specific locations, addresses, and points of interest on a map. With this service, users can quickly\n  find nearby businesses, restaurants, landmarks, and more with just a few clicks. In addition, the Search\n  Service provides detailed information about each location, such as contact information, ratings, reviews,\n  and even real-time traffic updates.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

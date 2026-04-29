@@ -14,6 +14,8 @@ properties:
 provider_name: brevo
 provider_slug: brevo
 slug: transactional-email-api
+source_yaml: "aid: brevo:transactional-email-api\nname: Brevo Transactional Email API\ntags:\n- Email\n- Messaging\n- SMTP\n- Transactional\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.brevo.com/v3\nhumanURL: https://developers.brevo.com/docs/send-a-transactional-email\nproperties:\n- url: https://developers.brevo.com/docs/send-a-transactional-email\n  type: Documentation\n- url: openapi/brevo-transactional-email-openapi.yml\n  type: OpenAPI\ndescription: The Brevo Transactional Email API allows developers to send transactional emails such as\n  order confirmations, password resets, and account notifications programmatically. It supports single\n  and batch sending, scheduled deliveries, template-based emails, and attachment handling. The API also\n  provides endpoints for tracking email activity including opens, clicks, bounces, and delivery status\n  through detailed event logs and real-time webhooks.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/apis.yml
 tags:
 - Email
 - Messaging

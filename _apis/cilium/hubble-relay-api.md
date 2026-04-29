@@ -18,6 +18,8 @@ properties:
 provider_name: Cilium
 provider_slug: cilium
 slug: hubble-relay-api
+source_yaml: "aid: cilium:hubble-relay-api\nname: Hubble Relay API\ntags:\n- gRPC\n- Kubernetes\n- Networking\n- Observability\nhumanURL: https://docs.cilium.io/en/stable/observability/hubble/index.html\nproperties:\n- url: https://docs.cilium.io/en/stable/observability/hubble/index.html\n  type: Documentation\n- url: https://github.com/cilium/cilium/tree/main/api/v1/relay\n  type: Reference\n- url: https://github.com/cilium/cilium\n  type: GitHubRepository\n- url: https://github.com/cilium/cilium/releases\n  type: Change Log\ndescription: The Hubble Relay API is a gRPC service that aggregates and relays network flow data from\n  multiple Hubble agents running across Kubernetes cluster nodes. It provides a single cluster-wide endpoint\n  for the Hubble Observer service, enabling centralized queries of flow data, DNS events, and HTTP metrics\n  from all nodes through Hubble Relay without connecting to each node individually.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/apis.yml
 tags:
 - gRPC
 - Kubernetes

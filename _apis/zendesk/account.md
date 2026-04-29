@@ -14,6 +14,8 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: account
+source_yaml: "aid: zendesk:account\nname: Zendesk Account API\ntags:\n- Accounts\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.getbase.com\nhumanURL: https://developer.zendesk.com/api-reference/sales-crm/resources/account/\nproperties:\n- url: https://developer.zendesk.com/api-reference/sales-crm/resources/account/\n  type: Documentation\n- url: openapi/account-openapi-original.yml\n  type: OpenAPI\ndescription: The Zendesk Account API lets you programmatically work with account-level records and settings\n  so you can keep Zendesk in sync with the rest of your stack. In Zendesk Sell, it exposes endpoints to\n  list, retrieve, create, update, and delete account objects (the companies you do business with), manage\n  custom fields and tags, and relate accounts to contacts and deals, with search, filtering, and pagination\n  for efficient data access.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:
 - Accounts
 ---

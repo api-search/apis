@@ -18,6 +18,9 @@ properties:
 provider_name: Adobe Creative Cloud
 provider_slug: adobe-creative-cloud
 slug: firefly-api
+source_yaml: "aid: adobe-creative-cloud:firefly-api\nname: Adobe Firefly API\ntags:\n- AI/ML\n- Generative AI\n- Generative Fill\n- Image Generation\n- Text-To-Image\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://firefly-api.adobe.io/v2\nhumanURL: https://developer.adobe.com/firefly-services/docs/firefly-api/\nproperties:\n- url: https://developer.adobe.com/firefly-services/docs/firefly-api/\n  type: Documentation\n- url: https://developer.adobe.com/firefly-services/docs/firefly-api/guides/\n  type: GettingStarted\n- url: https://developer.adobe.com/firefly-services/docs/firefly-api/guides/api/\n  type: APIReference\n- url: openapi/adobe-firefly-api-openapi-original.yml\n  type: OpenAPI\ndescription: The Adobe Firefly API provides programmatic access to generative AI capabilities for image\n  creation and manipulation. Key endpoints include text-to-image generation, generative fill for inpainting\n  masked regions, image expansion for\
+  \ extending content beyond original boundaries, and style transfer\n  for matching visual aesthetics.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/apis.yml
 tags:
 - AI/ML
 - Generative AI

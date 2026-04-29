@@ -18,6 +18,9 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: organizations
+source_yaml: "aid: zendesk:organizations\nname: Zendesk Organizations API\ntags:\n- Organizations\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://{subdomain}.zendesk.com\nhumanURL: https://developer.zendesk.com/api-reference/ticketing/organizations/organizations/\nproperties:\n- url: https://developer.zendesk.com/api-reference/ticketing/organizations/organizations/\n  type: Documentation\n- url: openapi/organizations-openapi-original.yml\n  type: OpenAPI\n- url: openapi/zendesk-support-openapi.yml\n  type: OpenAPI\n- url: json-ld/zendesk-context.jsonld\n  type: JSON-LD\ndescription: The Zendesk Organizations API is a RESTful interface for managing the companies or groups\n  that your users belong to in Zendesk Support. It lets you create, read, update, and delete organizations;\n  set attributes like domains, notes, tags, external_id, and custom fields; and configure behaviors such\n  as shared tickets and comments. You can search and\
+  \ list organizations, use autocomplete, merge duplicates,\n  and perform bulk operations via asynchronous jobs to import or update many records at once.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:
 - Organizations
 ---

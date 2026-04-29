@@ -17,6 +17,8 @@ properties:
 provider_name: Bloomberg Terminals
 provider_slug: bloomberg-terminals
 slug: blpapi
+source_yaml: "aid: bloomberg-terminals:blpapi\nname: Bloomberg Open API (BLPAPI)\ndescription: The Bloomberg Open API provides programmatic access to data available in the Bloomberg Terminal\n  including real-time prices, reference data, historical data, news, and analytics. SDKs for C++, Java,\n  Python, C#/.NET, and Perl.\nhumanURL: https://bloomberg.github.io/blpapi-docs/\nbaseURL: blpapi://localhost:8194\ntags:\n- BLPAPI\n- Market Data\n- Real-Time\n- Terminal API\nproperties:\n- type: Documentation\n  url: https://bloomberg.github.io/blpapi-docs/\n- type: GitHubRepository\n  url: https://github.com/bloomberg/blpapi-node\n- type: SDK\n  url: https://pypi.org/project/blpapi/\n  title: Python SDK\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-terminals/refs/heads/main/apis.yml
 tags:
 - BLPAPI
 - Market Data

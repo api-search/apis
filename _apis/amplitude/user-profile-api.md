@@ -14,6 +14,8 @@ properties:
 provider_name: Amplitude
 provider_slug: amplitude
 slug: user-profile-api
+source_yaml: "aid: amplitude:user-profile-api\nname: Amplitude User Profile API\ntags:\n- Analytics\n- Profiles\n- Recommendations\n- Users\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://profile-api.amplitude.com\nhumanURL: https://amplitude.com/docs/apis/analytics/user-profile\nproperties:\n- url: https://amplitude.com/docs/apis/analytics/user-profile\n  type: Documentation\n- url: openapi/amplitude-user-profile-api-openapi.yml\n  type: OpenAPI\ndescription: The Amplitude User Profile API serves user profiles that include user properties, computed\n  user properties, a list of cohort IDs the user belongs to, and personalized recommendations. It enables\n  real-time access to enriched user data for powering personalization engines, in-app experiences, and\n  targeted content delivery. This API is particularly useful for retrieving recommendation results generated\n  by Amplitude's machine learning models.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/apis.yml
 tags:
 - Analytics
 - Profiles

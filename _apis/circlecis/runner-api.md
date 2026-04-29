@@ -12,6 +12,8 @@ properties:
 provider_name: CircleCI
 provider_slug: circlecis
 slug: runner-api
+source_yaml: "aid: circlecis:runner-api\nname: CircleCI Self-Hosted Runner API\ntags:\n- CI/CD\n- Runners\n- Self-Hosted\nhumanURL: https://circleci.com/docs/runner-api/\nproperties:\n- url: https://circleci.com/docs/runner-api/\n  type: Documentation\ndescription: The CircleCI Runner API is used for the management and execution of self-hosted runner jobs.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/circlecis/refs/heads/main/apis.yml
 tags:
 - CI/CD
 - Runners

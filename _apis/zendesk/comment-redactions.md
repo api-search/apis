@@ -14,6 +14,9 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: comment-redactions
+source_yaml: "aid: zendesk:comment-redactions\nname: Zendesk Comment Redactions API\ntags:\n- Comments\n- Redactions\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://{subdomain}.zendesk.com\nhumanURL: https://developer.zendesk.com/api-reference/ticketing/tickets/ticket_comments/\nproperties:\n- url: https://developer.zendesk.com/api-reference/ticketing/tickets/ticket_comments/\n  type: Documentation\n- url: openapi/comment-redactions-openapi-original.yml\n  type: OpenAPI\ndescription: The Zendesk Comment Redactions API lets you programmatically and permanently remove sensitive\n  information from ticket conversations without deleting the entire message. By targeting a specific ticket\n  comment and supplying the text to scrub (for example, credit card numbers, passwords, or PII), the API\n  replaces the matching content in both the plain text and HTML versions with a redacted placeholder and\n  records a redaction event in the tickets audit\
+  \ trail.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:
 - Comments
 - Redactions

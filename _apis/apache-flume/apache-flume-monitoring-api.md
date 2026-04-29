@@ -18,6 +18,8 @@ properties:
 provider_name: Apache Flume
 provider_slug: apache-flume
 slug: apache-flume-monitoring-api
+source_yaml: "aid: apache-flume:apache-flume-monitoring-api\nname: Apache Flume Monitoring API\ndescription: REST API for monitoring Apache Flume agents, retrieving component metrics for sources, channels,\n  and sinks, and accessing agent health information.\nhumanURL: https://flume.apache.org/FlumeUserGuide.html\nbaseURL: http://localhost:41414\ntags:\n- Monitoring\n- Metrics\n- REST API\nproperties:\n- type: Documentation\n  url: https://flume.apache.org/FlumeUserGuide.html\n- type: OpenAPI\n  url: openapi/apache-flume-monitoring-openapi.yml\n- type: JSONSchema\n  url: json-schema/flume-monitoring-agent-metrics-schema.json\n- type: JSON-LD\n  url: json-ld/apache-flume-monitoring-context.jsonld\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-flume/refs/heads/main/apis.yml
 tags:
 - Monitoring
 - Metrics

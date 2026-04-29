@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: workbookclient
+source_yaml: "aid: microsoft-azure-one:workbookclient\nname: Microsoft Azure Workbook Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-overview\nproperties:\n- url: openapi/workbookclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-overview\n  type: Documentation\ndescription: Microsoft Azure Workbook Client is a powerful tool that allows users to visualize and analyze\n  data from their Azure environment. This tool enables users to create custom interactive dashboards and\n  reports to monitor the performance and health of their resources. With Azure Workbook Client, users\n  can easily track key metrics, trends, and anomalies, making it easier to identify and address issues\n  before they impact the overall system.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

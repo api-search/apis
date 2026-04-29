@@ -12,6 +12,8 @@ properties:
 provider_name: Tapestry
 provider_slug: tapestry
 slug: tapestry-api
+source_yaml: "aid: tapestry:tapestry-api\nname: Tapestry API\ntags:\n- Retail\n- Luxury\n- Fashion\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.tapestry.com\nhumanURL: https://developer.tapestry.com\nproperties:\n- url: https://developer.tapestry.com/docs\n  type: Documentation\ndescription: The Tapestry API provides access to platform services and data for enterprise integration\n  and automation.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tapestry/refs/heads/main/apis.yml
 tags:
 - Retail
 - Luxury

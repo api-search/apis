@@ -18,6 +18,9 @@ properties:
 provider_name: Salesforce
 provider_slug: salesforce
 slug: salesforce-ui-api
+source_yaml: "aid: salesforce:salesforce-ui-api\nname: Salesforce UI API\ntags:\n- Components\n- CRM\n- Lightning\n- UI\n- User Interface\nimage: https://www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg\nhumanURL: https://developer.salesforce.com/docs/atlas.en-us.uiapi.meta/uiapi/\nbaseURL: https://{instance}.salesforce.com/services/data/v{version}/ui-api\nproperties:\n- url: https://developer.salesforce.com/docs/atlas.en-us.uiapi.meta/uiapi/\n  type: Documentation\n- url: https://developer.salesforce.com/docs/atlas.en-us.uiapi.meta/uiapi/ui_api_get_started.htm\n  type: GettingStarted\n- url: https://developer.salesforce.com/docs/atlas.en-us.uiapi.meta/uiapi/ui_api_resources_list.htm\n  type: APIReference\n- url: openapi/salesforce-ui-api-openapi.yml\n  type: OpenAPI\ndescription: The Salesforce UI API provides a comprehensive REST interface for building UIs that work\n  with Salesforce metadata and data. It returns layout information, picklist values, list views, record\n\
+  \  data, and object metadata that Lightning components rely on.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/apis.yml
 tags:
 - Components
 - CRM

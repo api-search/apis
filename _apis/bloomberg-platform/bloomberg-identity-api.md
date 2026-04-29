@@ -12,6 +12,8 @@ properties:
 provider_name: Bloomberg Platform
 provider_slug: bloomberg-platform
 slug: bloomberg-identity-api
+source_yaml: "aid: bloomberg-platform:bloomberg-identity-api\nname: Bloomberg Identity and Access Management\ndescription: Authentication and authorization services for the Bloomberg Platform providing entitlement\n  management, user authentication, and access control for Bloomberg data and applications.\nhumanURL: https://www.bloomberg.com/professional/support/api-library/\nbaseURL: https://auth.bloomberg.com\ntags:\n- Authentication\n- Authorization\n- Identity\n- Entitlements\nproperties:\n- type: Documentation\n  url: https://www.bloomberg.com/professional/support/api-library/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-platform/refs/heads/main/apis.yml
 tags:
 - Authentication
 - Authorization

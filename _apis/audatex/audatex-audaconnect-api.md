@@ -16,6 +16,8 @@ properties:
 provider_name: Audatex
 provider_slug: audatex
 slug: audatex-audaconnect-api
+source_yaml: "aid: audatex:audatex-audaconnect-api\nname: Audatex AudaConnect API\ndescription: 'The AudaConnect API enables third-party software developers to access, query, and update\n  the Audatex platform including assessments, vehicle reference data, repair orders, and photo management\n  using RESTful methods with OAuth 2.0.\n\n  '\nhumanURL: https://audaconnect-demo.ax-aee.co.uk/AudaAPI.Portal/Home/About\nbaseURL: https://audaconnect-demo.ax-aee.co.uk/AudaAPI.Bmsapi\ntags:\n- Assessments\n- Claims\n- Insurance\n- Repair\nproperties:\n- type: Documentation\n  url: https://audaconnect-demo.ax-aee.co.uk/AudaAPI.Portal/Home/About\n- type: OpenAPI\n  url: https://audaconnect-demo.ax-aee.co.uk/AudaAPI.Bmsapi/\n- type: Authentication\n  url: https://audaconnect-demo.ax-aee.co.uk/AudaAPI.Portal/Home/About\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/audatex/refs/heads/main/apis.yml
 tags:
 - Assessments
 - Claims

@@ -12,6 +12,8 @@ properties:
 provider_name: ServiceNow
 provider_slug: servicenow
 slug: servicenow-resource-inventory-open-api
+source_yaml: "aid: servicenow:servicenow-resource-inventory-open-api\nname: ServiceNow Resource Inventory Open API\ntags:\n- Inventory\n- Resources\n- Telecommunications\n- TMF\nimage: https://www.servicenow.com/content/dam/servicenow-assets/images/meganav/servicenow-logo.svg\nhumanURL: https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/integrate/inbound-rest/concept/resource-inventory-api.html\nbaseURL: https://{instance}.service-now.com/api/sn_ind_tmt_orm/resourceInventoryManagement/v4\nproperties:\n- url: https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/integrate/inbound-rest/concept/resource-inventory-api.html\n  type: Documentation\ndescription: The ServiceNow Resource Inventory Open API provides REST endpoints for managing resource\n  inventory data based on TM Forum specifications. It supports querying and managing physical and logical\n  resource records for telecommunications network inventory management.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/apis.yml
 tags:
 - Inventory
 - Resources

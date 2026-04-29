@@ -12,6 +12,8 @@ properties:
 provider_name: Databricks
 provider_slug: databricks
 slug: secrets-api
+source_yaml: "aid: databricks:secrets-api\nname: Databricks Secrets API\ntags:\n- Credentials\n- Secrets\n- Security\nhumanURL: https://docs.databricks.com/api/workspace/secrets\nproperties:\n- url: https://docs.databricks.com/api/workspace/secrets\n  type: Documentation\ndescription: The Databricks Secrets API allows you to manage secrets, secret scopes, and secret ACLs.\n  Secrets provide a secure way to store and reference credentials and other sensitive information in notebooks\n  and jobs without exposing them in plaintext.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/apis.yml
 tags:
 - Credentials
 - Secrets

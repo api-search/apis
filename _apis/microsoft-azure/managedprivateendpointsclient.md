@@ -14,5 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: managedprivateendpointsclient
+source_yaml: "aid: microsoft-azure:managedprivateendpointsclient\nname: Microsoft Azure Managed Private Endpoints Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints\nproperties:\n- url: openapi/managedprivateendpointsclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints\n  type: Documentation\ndescription: Microsoft Azure Managed Private Endpoints Client is a powerful tool that allows users to\n  securely connect to Azure services from their virtual network. By creating a private endpoint, users\n  can access Azure resources without exposing them to the public internet, greatly enhancing security\n  and privacy. This client also simplifies the management of private endpoints by automating the configuration\n  and\
+  \ maintenance processes.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

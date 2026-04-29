@@ -12,6 +12,8 @@ properties:
 provider_name: Circana
 provider_slug: circana
 slug: liquid-data-go-api
+source_yaml: "aid: circana:liquid-data-go-api\nname: Circana Liquid Data Go API\ntags:\n- Market Intelligence\n- CPG\n- Analytics\n- Emerging Brands\nhumanURL: https://www.circana.com/solutions/liquid-data-go\ndescription: Liquid Data Go is a turnkey insights solution delivering affordable, actionable market, retailer,\n  and consumer intelligence for emerging and mid-market CPG and general merchandise brands with 15% more\n  market measurement coverage.\nproperties:\n- type: Documentation\n  url: https://www.circana.com/solutions/liquid-data-go\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/apis.yml
 tags:
 - Market Intelligence
 - CPG

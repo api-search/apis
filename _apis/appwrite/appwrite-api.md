@@ -32,6 +32,9 @@ properties:
 provider_name: Appwrite
 provider_slug: appwrite
 slug: appwrite-api
+source_yaml: "aid: appwrite:appwrite-api\nname: Appwrite API\ntags:\n- Authentication\n- Database\n- Storage\n- Functions\n- Open Source\n- Backend-as-a-Service\nhumanURL: https://appwrite.io/\nproperties:\n- url: https://appwrite.io/docs\n  type: Documentation\n- url: https://github.com/appwrite/appwrite\n  type: GitHubRepository\n- url: openapi/appwrite-openapi.yaml\n  type: OpenAPI\n- url: json-schema/user-schema.json\n  type: JSONSchema\n- url: json-structure/user-structure.json\n  type: JSONStructure\n- url: examples/user-example.json\n  type: Example\n- url: json-ld/appwrite-context.jsonld\n  type: JSONLD\n- url: rules/appwrite-spectral-rules.yml\n  type: SpectralRules\n- url: capabilities/shared/appwrite-api.yaml\n  type: NaftikoCapability\n- url: capabilities/mobile-backend.yaml\n  type: NaftikoCapability\n- url: vocabulary/appwrite-vocabulary.yaml\n  type: Vocabulary\ndescription: The Appwrite REST API provides programmatic access to authentication, databases, storage,\n  functions,\
+  \ and messaging for building open source web and mobile application backends.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/heads/main/apis.yml
 tags:
 - Authentication
 - Database

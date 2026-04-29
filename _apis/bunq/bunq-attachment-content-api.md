@@ -14,6 +14,8 @@ properties:
 provider_name: Bunq
 provider_slug: bunq
 slug: bunq-attachment-content-api
+source_yaml: "aid: bunq:bunq-attachment-content-api\nname: Bunq Attachment Content API\ntags:\n- Attachments\n- Content\n- Public\nscore: 87\nhumanURL: https://doc.bunq.com/#/content\nproperties:\n- url: openapi/bunq-attachment-public-attachment-publicuuid-content-openapi-original.yml\n  type: OpenAPI\n- url: https://doc.bunq.com/\n  type: Documentation\ndescription: The Bunq Attachment Content API is a tool that allows developers to easily manage and access\n  content attached to transactions within the Bunq banking system. This API enables users to retrieve,\n  update, and delete various types of attachments, such as receipts, invoices, and images, linked to their\n  transactions.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/apis.yml
 tags:
 - Attachments
 - Content

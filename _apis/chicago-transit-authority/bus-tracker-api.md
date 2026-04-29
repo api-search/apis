@@ -16,6 +16,8 @@ properties:
 provider_name: Chicago Transit Authority
 provider_slug: chicago-transit-authority
 slug: bus-tracker-api
+source_yaml: "aid: chicago-transit-authority:bus-tracker-api\nname: CTA Bus Tracker API\ndescription: The Bus Tracker API series provides real-time bus arrival predictions, vehicle locations,\n  route patterns, route lists, and stop directories for the CTA bus network. Endpoints support route,\n  stop, and vehicle-based queries returning JSON or XML. Authentication requires a developer API key issued\n  through the CTA Developer Center.\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://www.transitchicago.com/developers/bustracker/\nbaseURL: http://www.ctabustracker.com/bustime/api/v2\ntags:\n- Bus\n- Bus Tracker\n- Real-Time\n- Transit\nproperties:\n- type: Documentation\n  url: https://www.transitchicago.com/developers/bustracker/\n- type: TermsOfUse\n  url: https://www.transitchicago.com/developers/terms/\n- type: OpenAPI\n  url: openapi/cta-bus-tracker-openapi.yml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/apis.yml
 tags:
 - Bus
 - Bus Tracker

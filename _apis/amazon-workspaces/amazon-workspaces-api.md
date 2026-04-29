@@ -26,6 +26,9 @@ properties:
 provider_name: Amazon WorkSpaces
 provider_slug: amazon-workspaces
 slug: amazon-workspaces-api
+source_yaml: "aid: amazon-workspaces:amazon-workspaces-api\nname: Amazon WorkSpaces API\ndescription: The Amazon WorkSpaces API provides programmatic access to manage cloud-based virtual desktops.\n  It enables developers to create, modify, and terminate WorkSpaces, manage workspace bundles and directories,\n  configure IP access control groups, and automate desktop provisioning and lifecycle management at scale.\n  65 operations for workspace lifecycle, bundles, directories, images, and access control.\nhumanURL: https://aws.amazon.com/workspaces/\nbaseURL: https://workspaces.amazonaws.com\ntags:\n- AWS\n- Desktop\n- End User Computing\n- Virtual Desktop\nproperties:\n- type: Documentation\n  url: https://docs.aws.amazon.com/workspaces/\n- type: OpenAPI\n  url: openapi/amazon-workspaces-openapi-original.yaml\n- type: Pricing\n  url: https://aws.amazon.com/workspaces/pricing/\n- type: GettingStarted\n  url: https://aws.amazon.com/workspaces/getting-started/\n- type: FAQ\n  url: https://aws.amazon.com/workspaces/faqs/\n\
+  - type: APIReference\n  url: https://docs.aws.amazon.com/workspaces/latest/api/welcome.html\n- type: JSONSchema\n  url: json-schema/workspaces-workspace-schema.json\n- type: JSONLD\n  url: json-ld/amazon-workspaces-context.jsonld\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/apis.yml
 tags:
 - AWS
 - Desktop

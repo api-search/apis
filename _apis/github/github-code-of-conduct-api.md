@@ -14,6 +14,8 @@ properties:
 provider_name: GitHub
 provider_slug: github
 slug: github-code-of-conduct-api
+source_yaml: "aid: github:github-code-of-conduct-api\nname: GitHub Code of Conduct API\ntags:\n- Code of Conduct\nbaseURL: https://api.github.com\nhumanURL: https://docs.github.com/en/rest/codes-of-conduct/codes-of-conduct?apiVersion=2022-11-28\nproperties:\n- url: openapi/github-code-of-conduct-api-openapi.yml\n  type: OpenAPI\n- url: https://docs.github.com/en/rest/codes-of-conduct/codes-of-conduct\n  type: Documentation\ndescription: GitHubs Code of Conduct API lets apps discover and retrieve the community codes of conduct\n  that GitHub supports and see which one a repository has adopted. Through REST endpoints, clients can\n  list available templates (like the Contributor Covenant), fetch a specific code by key, and read a repositorys\n  code-of-conduct metadata and text, including fields such as name, key, URL, and body. This enables tooling\n  to display community standards, audit or report adoption, and bootstrap repo files.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/apis.yml
 tags:
 - Code of Conduct
 ---

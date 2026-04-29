@@ -14,6 +14,8 @@ properties:
 provider_name: CAMARA
 provider_slug: camara
 slug: identity-and-consent-management-api
+source_yaml: "aid: camara:identity-and-consent-management-api\nname: CAMARA Identity and Consent Management API\ndescription: Shared authorization and consent model across CAMARA APIs, built on OAuth 2.0 / OpenID Connect\n  Client-Initiated Backchannel Authentication (CIBA) so subscribers explicitly consent to application\n  use of network capabilities such as location, SIM-swap, or QoD on their behalf.\nhumanURL: https://github.com/camaraproject/IdentityAndConsentManagement\nbaseURL: https://api.example.com/identity-consent/v0\ntags:\n- OAuth\n- CIBA\n- Consent\n- Identity\nproperties:\n- type: Documentation\n  url: https://github.com/camaraproject/IdentityAndConsentManagement\n- type: Repository\n  url: https://github.com/camaraproject/IdentityAndConsentManagement\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/camara/refs/heads/main/apis.yml
 tags:
 - OAuth
 - CIBA

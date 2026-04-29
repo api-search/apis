@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azurestackhci
+source_yaml: "aid: microsoft-azure-one:azurestackhci\nname: Microsoft Azure Stack Hci\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://docs.azure.cn/en-us/azure-stack/hci/\nproperties:\n- url: openapi/azurestackhci-openapi-original.yml\n  type: OpenAPI\n- url: https://docs.azure.cn/en-us/azure-stack/hci/\n  type: Documentation\ndescription: Microsoft Azure Stack HCI is a hyper-converged infrastructure solution that brings together\n  compute, storage, and networking resources into a single software-defined platform. This allows organizations\n  to seamlessly extend their on-premises data centers to the cloud, creating a hybrid environment that\n  offers the flexibility and scalability of the public cloud with the security and control of a private\n  data center.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

@@ -12,6 +12,8 @@ properties:
 provider_name: Cloudinary
 provider_slug: cloudinary
 slug: permissions
+source_yaml: "aid: cloudinary:permissions\nname: Cloudinary Permissions API\ntags:\n- Access Control\n- Permissions\n- RBAC\n- Roles\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.cloudinary.com/v1_1\nhumanURL: https://cloudinary.com/documentation/permissions_api\nproperties:\n- url: https://cloudinary.com/documentation/permissions_api\n  type: Documentation\ndescription: The Permissions API assigns granular permissions to principals (users, groups, API keys)\n  by roles or directly. Supports folder-scoped, asset- scoped, and product-environment-scoped permission\n  grants and listing.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/apis.yml
 tags:
 - Access Control
 - Permissions

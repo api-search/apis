@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: usagemanagementclient
+source_yaml: "aid: microsoft-azure-one:usagemanagementclient\nname: Microsoft Azure Usage Management Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/rest/api/consumption/\nproperties:\n- url: openapi/usagemanagementclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/rest/api/consumption/\n  type: Documentation\ndescription: The Microsoft Azure Usage Management Client is a tool designed to help organizations effectively\n  manage their usage and consumption of Microsoft Azure services. By providing detailed insights and analysis\n  of how resources are being utilized, the Usage Management Client allows users to track and optimize\n  their spending, identify areas for cost savings, and make informed decisions about resource allocation.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

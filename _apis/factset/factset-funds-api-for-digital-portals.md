@@ -30,5 +30,8 @@ properties:
 provider_name: Factset
 provider_slug: factset
 slug: factset-funds-api-for-digital-portals
+source_yaml: "aid: factset:factset-funds-api-for-digital-portals\nname: FactSet Funds API for Digital Portals\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://example.com\nhumanURL: https://developer.factset.com/api-catalog/funds-api-digital-portals\noverlays: []\nproperties:\n- url: '\n\n    https://developer.factset.com/api-catalog/funds-api-digital-portals#overview'\n  type: Documentation\n- url: '\n\n    https://developer.factset.com/api-catalog/funds-api-digital-portals#sdkLibrary'\n  type: SDK\n- url: '\n\n    https://developer.factset.com/api-catalog/funds-api-digital-portals#notebooks'\n  type: Tutorials\n- url: '\n\n    https://developer.factset.com/api-catalog/funds-api-digital-portals#codeSnippet'\n  type: CodeExamples\n- url: '\n\n    https://developer.factset.com/api-catalog/funds-api-digital-portals#changelog       '\n  type: ChangeLog\ndescription: Search for mutual funds and ETFs using one single consolidated API,\
+  \ including a criteria-based\n  screener.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/apis.yml
 tags: []
 ---

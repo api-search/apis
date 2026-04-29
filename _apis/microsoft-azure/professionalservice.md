@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: professionalservice
+source_yaml: "aid: microsoft-azure:professionalservice\nname: Microsoft Azure Professional Service\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/\nproperties:\n- url: openapi/professionalservice-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/\n  type: Documentation\ndescription: Microsoft Azure Professional Services is a team of experts that helps businesses maximize\n  their investment in Azure cloud services. These professionals offer a range of services including architecture\n  design, implementation, migration, optimization, and ongoing support. They work closely with clients\n  to understand their unique business needs and goals, and develop customized solutions to address them.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

@@ -12,6 +12,8 @@ properties:
 provider_name: Cartography
 provider_slug: cartography
 slug: azure-ingest
+source_yaml: "aid: cartography:azure-ingest\nname: Cartography Azure Intel Module\ndescription: Cartography intel module that calls Azure APIs (App Service, AKS, CosmosDB, Container Instance,\n  Key Vault, Storage, Virtual Machines) to populate Azure nodes and relationships in the graph.\nhumanURL: https://lyft.github.io/cartography/modules/azure/index.html\ntags:\n- Azure\n- Cloud\n- Ingest\nproperties:\n- type: Documentation\n  url: https://lyft.github.io/cartography/modules/azure/index.html\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cartography/refs/heads/main/apis.yml
 tags:
 - Azure
 - Cloud

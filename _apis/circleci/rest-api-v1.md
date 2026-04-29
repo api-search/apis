@@ -14,6 +14,8 @@ properties:
 provider_name: CircleCI
 provider_slug: circleci
 slug: rest-api-v1
+source_yaml: "aid: circleci:rest-api-v1\nname: CircleCI REST API V1\ntags:\n- Builds\n- CI/CD\n- Continuous Integration\n- Legacy\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://circleci.com/api/v1.1\nhumanURL: https://circleci.com/docs/api/v1/\nproperties:\n- url: https://circleci.com/docs/api/v1/\n  type: Documentation\n- url: openapi/circleci-rest-api-v1-openapi.yml\n  type: OpenAPI\ndescription: The CircleCI REST API v1 is the legacy API that provides access to build information, project\n  details, and user data. While still available, CircleCI recommends migrating to the v2 API for newer\n  features and improved functionality. The v1 API supports operations for retrieving build details, triggering\n  builds, managing SSH keys, and accessing test metadata. Authentication is handled through API tokens\n  passed as query parameters or HTTP headers.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/apis.yml
 tags:
 - Builds
 - CI/CD

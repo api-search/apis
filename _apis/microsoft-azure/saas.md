@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: saas
+source_yaml: "aid: microsoft-azure:saas\nname: Microsoft Azure Marketplace Saa S Offers\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/partner-center/marketplace-offers/create-new-saas-offer\nproperties:\n- url: openapi/saas-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/partner-center/marketplace-offers/create-new-saas-offer\n  type: Documentation\ndescription: Microsoft Azure Marketplace SaaS Offers is a platform that provides a wide range of software\n  as a service (SaaS) solutions to help businesses streamline their operations, enhance productivity,\n  and improve efficiency. These offerings include tools for collaboration, customer relationship management,\n  data analytics, and more, all accessible through the cloud.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

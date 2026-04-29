@@ -14,6 +14,8 @@ properties:
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-test-cards-api
+source_yaml: "aid: adyen:adyen-test-cards-api\nname: Adyen Test Cards API\ntags:\n- Testing\n- Test Cards\n- Development\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://ca-test.adyen.com\nhumanURL: https://docs.adyen.com/development-resources/testing/create-test-cards\ndescription: The Test Cards API provides endpoints for generating custom test card numbers. For more information,\n  refer to Custom test cards documentation.\nproperties:\n- url: https://docs.adyen.com/development-resources/testing/create-test-cards\n  type: Documentation\n- url: openapi/test-cards-openapi-original.yml\n  type: OpenAPI\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/apis.yml
 tags:
 - Testing
 - Test Cards

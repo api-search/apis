@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: microsoft-netapp
+source_yaml: "aid: microsoft-azure:microsoft-netapp\nname: Microsoft Azure Microsoft Net App\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-netapp-files/\nproperties:\n- url: openapi/microsoft-netapp-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-netapp-files/\n  type: Documentation\ndescription: Microsoft Azure NetApp files is a storage service that provides high-performance file storage\n  that is optimized for use with Azure virtual machines. It allows users to easily deploy and manage file\n  shares in the cloud, providing a scalable solution for storing and accessing large amounts of data.\n  With features like automatic tiering and Geo-replication, Azure NetApp files offers a secure and reliable\n  storage solution for businesses looking to leverage the power of the cloud.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

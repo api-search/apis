@@ -14,6 +14,8 @@ properties:
 provider_name: Apicurio
 provider_slug: apicurio
 slug: apicurio-registry
+source_yaml: "aid: apicurio:apicurio-registry\nname: Apicurio Registry\ndescription: Apicurio Registry is a high-performance, runtime registry for schemas and API designs. It\n  stores and manages OpenAPI, AsyncAPI, Avro, JSON Schema, Protobuf, and other artifact types, providing\n  a REST API for schema management with compatibility checking and content versioning.\nhumanURL: https://www.apicur.io/registry/\ntags:\n- Avro\n- AsyncAPI\n- Open Source\n- OpenAPI\n- Protobuf\n- Schema Registry\nproperties:\n- type: Documentation\n  url: https://www.apicur.io/registry/docs/\n- type: GitHubRepository\n  url: https://github.com/Apicurio/apicurio-registry\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/apis.yml
 tags:
 - Avro
 - AsyncAPI

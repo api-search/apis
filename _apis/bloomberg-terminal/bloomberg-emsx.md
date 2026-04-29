@@ -12,6 +12,8 @@ properties:
 provider_name: Bloomberg Terminal
 provider_slug: bloomberg-terminal
 slug: bloomberg-emsx
+source_yaml: "aid: bloomberg-terminal:bloomberg-emsx\nname: Bloomberg EMSX\ndescription: Electronic trading and order management system integrated in the Bloomberg Terminal for routing\n  orders to brokers across equities, fixed income, FX, and derivatives with FIX connectivity and algorithmic\n  trading support.\nhumanURL: https://www.bloomberg.com/professional/solution/emsx/\nbaseURL: blpapi://localhost:8194\ntags:\n- EMSX\n- Order Management\n- Electronic Trading\n- FIX\nproperties:\n- type: Documentation\n  url: https://www.bloomberg.com/professional/solution/emsx/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-terminal/refs/heads/main/apis.yml
 tags:
 - EMSX
 - Order Management

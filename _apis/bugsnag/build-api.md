@@ -14,6 +14,8 @@ properties:
 provider_name: bugsnag
 provider_slug: bugsnag
 slug: build-api
+source_yaml: "aid: bugsnag:build-api\nname: Bugsnag Build API\ntags:\n- Builds\n- CI/CD\n- Deployments\n- Releases\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://build.bugsnag.com\nhumanURL: https://docs.bugsnag.com/api/build/\nproperties:\n- url: https://docs.bugsnag.com/api/build/\n  type: Documentation\n- url: openapi/bugsnag-build-openapi.yml\n  type: OpenAPI\ndescription: The Bugsnag Build API allows you to provide information about your application builds, releases,\n  and deployments. By notifying Bugsnag when you deploy, you can track which releases introduced new errors,\n  view error trends across releases, and identify regressions. The API accepts build metadata including\n  version numbers, source control information, and release stages. It integrates with CI/CD pipelines\n  to automate release tracking.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/apis.yml
 tags:
 - Builds
 - CI/CD

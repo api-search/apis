@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: recommendationsservice
+source_yaml: "aid: microsoft-azure:recommendationsservice\nname: Microsoft Azure Recommendations Service\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/\nproperties:\n- url: openapi/recommendationsservice-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/\n  type: Documentation\ndescription: Microsoft Azure Recommendations Service is a cloud-based tool that helps businesses enhance\n  customer engagement and increase sales by providing personalized product recommendations. By analyzing\n  customer behavior and preferences, the service generates targeted recommendations that are tailored\n  to the individual user's needs and interests. This helps companies deliver more relevant and valuable\n  content to their customers, ultimately leading to higher conversion rates and customer satisfaction.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

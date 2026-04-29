@@ -12,6 +12,8 @@ properties:
 provider_name: OpsRamp
 provider_slug: opsramp
 slug: opsramp
+source_yaml: "aid: opsramp:opsramp\nname: OpsRamp\ndescription: OpsRamp is an AIOps and IT operations management platform for hybrid infrastructure monitoring\n  and management.\nhumanURL: https://www.opsramp.com\ntags:\n- AIOps\nproperties:\n- type: Documentation\n  url: https://docs.opsramp.com\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/apis.yml
 tags:
 - AIOps
 ---

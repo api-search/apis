@@ -12,6 +12,8 @@ properties:
 provider_name: Barcode Scanners
 provider_slug: barcode-scanners
 slug: ean-search-api
+source_yaml: "aid: barcode-scanners:ean-search-api\nname: EAN-Search API\ndescription: Search and validate EAN-13, UPC-A, and ISBN codes with product information lookup and barcode\n  validation services.\nhumanURL: https://www.ean-search.org/\ntags:\n- Barcodes\n- EAN\n- ISBN\n- Product Search\n- UPC\nproperties:\n- type: Documentation\n  url: https://www.ean-search.org/ean-database-api.html\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/barcode-scanners/refs/heads/main/apis.yml
 tags:
 - Barcodes
 - EAN

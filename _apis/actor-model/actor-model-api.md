@@ -22,6 +22,8 @@ properties:
 provider_name: Actor Model
 provider_slug: actor-model
 slug: actor-model-api
+source_yaml: "aid: actor-model:actor-model-api\nname: Actor Model API\ntags:\n- Actor Model\n- Concurrency\n- Distributed Systems\n- Supervision\n- Cluster\nproperties:\n- type: HumanURL\n  url: https://en.wikipedia.org/wiki/Actor_model\n- type: BaseURL\n  url: https://api.example.com/actor-system/v1\n- type: OpenAPI\n  url: openapi/actor-model.json\n- type: JSONSchema\n  url: json-schema/\n- type: JSONStructure\n  url: json-structure/\n- type: Examples\n  url: examples/\ndescription: Reference API for actor lifecycle management, message passing, supervision hierarchies, cluster\n  membership, and system health in actor model systems. Applicable to frameworks including Akka, Erlang/OTP,\n  Microsoft Orleans, and Proto.Actor.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/actor-model/refs/heads/main/apis.yml
 tags:
 - Actor Model
 - Concurrency

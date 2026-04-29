@@ -14,6 +14,8 @@ properties:
 provider_name: Celery
 provider_slug: celery
 slug: celery-beat-api
+source_yaml: "aid: celery:celery-beat-api\nname: Celery Beat API\ntags:\n- Scheduling\n- Periodic Tasks\nhumanURL: https://docs.celeryq.dev/en/stable/userguide/periodic-tasks.html\nproperties:\n- url: https://docs.celeryq.dev/en/stable/userguide/periodic-tasks.html\n  type: Documentation\n- url: https://docs.celeryq.dev/en/stable/reference/celery.beat.html\n  type: Reference\ndescription: Celery Beat is the scheduler for periodic tasks, supporting crontab-style schedules, interval\n  schedules, and solar schedules. It can also be backed by a database scheduler for dynamic schedules.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/apis.yml
 tags:
 - Scheduling
 - Periodic Tasks

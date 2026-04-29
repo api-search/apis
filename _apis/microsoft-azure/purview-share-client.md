@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: purview-share-client
+source_yaml: "aid: microsoft-azure:purview-share-client\nname: Microsoft Azure Purview Share Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/analytics.purview.sharing-readme?view=azure-dotnet-preview\nproperties:\n- url: openapi/purview-share-client-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/analytics.purview.sharing-readme?view=azure-dotnet-preview\n  type: Documentation\ndescription: Microsoft Azure Purview Share Client is a tool that allows users to easily and securely share\n  data, business glossaries, and data insights across an organization. Users can quickly and efficiently\n  collaborate with colleagues, partners, and stakeholders, giving them access to the information they\n  need in a controlled and organized manner.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

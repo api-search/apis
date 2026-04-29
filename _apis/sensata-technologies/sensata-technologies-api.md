@@ -12,6 +12,8 @@ properties:
 provider_name: Sensata Technologies
 provider_slug: sensata-technologies
 slug: sensata-technologies-api
+source_yaml: "aid: sensata-technologies:sensata-technologies-api\nname: Sensata Technologies API\ntags:\n- Sensors\n- Electrical Protection\n- Industrial\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.sensata.com\nhumanURL: https://developer.sensata.com\nproperties:\n- url: https://developer.sensata.com/docs\n  type: Documentation\ndescription: The Sensata Technologies API provides access to platform services and data for enterprise\n  integration and automation.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sensata-technologies/refs/heads/main/apis.yml
 tags:
 - Sensors
 - Electrical Protection

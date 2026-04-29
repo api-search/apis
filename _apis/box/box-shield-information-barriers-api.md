@@ -14,6 +14,8 @@ properties:
 provider_name: Box
 provider_slug: box
 slug: box-shield-information-barriers-api
+source_yaml: "aid: box:box-shield-information-barriers-api\nname: Box Shield Information Barriers API\ntags:\n- Information Barriers\n- Security\n- Shield\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.box.com/2.0\nhumanURL: https://developer.box.com/reference/post-shield-information-barriers-change-status\nproperties:\n- url: https://developer.box.com/reference/post-shield-information-barriers-change-status\n  type: Documentation\n- url: openapi/shield-information-barriers-openapi-original.yml\n  type: OpenAPI\ndescription: The Box Shield Information Barriers API creates and manages information barriers that prevent\n  communication and collaboration between specific groups of users within an enterprise, supporting regulatory\n  compliance for financial services and other regulated industries.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/apis.yml
 tags:
 - Information Barriers
 - Security

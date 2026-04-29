@@ -32,6 +32,9 @@ properties:
 provider_name: Airtable
 provider_slug: airtable
 slug: airtable-scim-api
+source_yaml: "aid: airtable:airtable-scim-api\nname: Airtable SCIM API\ntags:\n- Groups\n- Identity\n- Provisioning\n- SCIM\n- Users\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://airtable.com/scim/v2\nhumanURL: https://airtable.com/developers/web/api/scim-overview\nproperties:\n- url: https://airtable.com/developers/web/api/scim-overview\n  type: Documentation\n- url: https://airtable.com/developers/web/api/model/scim-user-schema\n  type: APIReference\n- url: https://airtable.com/developers/web/api/create-scim-user\n  type: APIReference\n- url: https://airtable.com/developers/web/api/get-scim-user\n  type: APIReference\n- url: https://airtable.com/developers/web/api/put-scim-user\n  type: APIReference\n- url: https://airtable.com/developers/web/api/delete-scim-user\n  type: APIReference\n- url: https://airtable.com/developers/web/api/get-scim-group\n  type: APIReference\n- url: https://airtable.com/developers/web/api/delete-scim-group\n\
+  \  type: APIReference\n- url: https://support.airtable.com/docs/managing-users-via-idp-sync\n  type: GettingStarted\n- url: openapi/airtable-scim-api-openapi.yml\n  type: OpenAPI\n- url: json-ld/airtable-context.jsonld\n  type: JSON-LD\ndescription: The Airtable SCIM API supports the System for Cross-domain Identity Management specification\n  for automated user and group provisioning. It enables identity providers like Okta and Microsoft Entra\n  ID to manage user accounts and group memberships programmatically.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/apis.yml
 tags:
 - Groups
 - Identity

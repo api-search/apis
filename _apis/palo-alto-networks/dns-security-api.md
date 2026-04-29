@@ -32,6 +32,9 @@ properties:
 provider_name: Palo Alto Networks
 provider_slug: palo-alto-networks
 slug: dns-security-api
+source_yaml: "aid: palo-alto-networks:dns-security-api\nname: DNS Security API\ntags:\n- Beta\n- DNS\n- Domain Categorization\n- Domain Security\n- Threat Intelligence\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.dns.service.paloaltonetworks.com\nhumanURL: https://pan.dev/dns-security/api/\nproperties:\n- url: https://pan.dev/dns-security/api/\n  type: Documentation\n- url: https://pan.dev/cdss/docs/getstarted/\n  type: GettingStarted\n- url: https://pan.dev/cdss/docs/authentication/\n  type: Authentication\n- url: openapi/palo-alto-dns-security-api-openapi-original.yml\n  type: OpenAPI\n- url: json-schema/dns-security-api-domain-detail-schema.json\n  type: JSONSchema\n- url: json-schema/dns-security-api-network-stats-schema.json\n  type: JSONSchema\n- url: json-structure/dns-security-api-domain-detail-structure.json\n  type: JSONStructure\n- url: json-structure/dns-security-api-network-stats-structure.json\n  type: JSONStructure\n\
+  - url: json-ld/palo-alto-dns-security-api-context.jsonld\n  type: JSON-LD\n- url: examples/dns-security-api-domain-detail-example.json\n  type: Example\n- url: examples/dns-security-api-network-stats-example.json\n  type: Example\ndescription: A REST API (currently in beta) for retrieving DNS domain details, categorization information,\n  and contextual network access statistics from the Palo Alto Networks DNS Security service. Supports\n  querying domain reputation, categorization data, and related threat intelligence. Requires a DNS Security\n  subscription and uses API key authentication via the X-DNS-API-APIKEY header.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/apis.yml
 tags:
 - Beta
 - DNS

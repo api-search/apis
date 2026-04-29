@@ -18,6 +18,9 @@ properties:
 provider_name: Salesforce
 provider_slug: salesforce
 slug: salesforce-bulk-api
+source_yaml: "aid: salesforce:salesforce-bulk-api\nname: Salesforce Bulk API\ntags:\n- Bulk\n- CRM\n- Data Loading\n- ETL\n- Records\nimage: https://www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg\nhumanURL: https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_asynch/\nbaseURL: https://{instance}.salesforce.com/services/async\nproperties:\n- url: https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_asynch/\n  type: Documentation\n- url: https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_asynch/asynch_api_quickstart.htm\n  type: GettingStarted\n- url: https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_asynch/asynch_api_reference.htm\n  type: APIReference\n- url: https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_asynch/asynch_api_concepts_security.htm\n  type: Authentication\ndescription: The Salesforce Bulk API is a specialized REST-based interface that enables asynchronous processing\n\
+  \  of large numbers of records. It is optimized for loading or deleting large sets of data and supports\n  CSV, XML, and JSON formats.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/apis.yml
 tags:
 - Bulk
 - CRM

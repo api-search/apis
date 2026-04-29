@@ -12,6 +12,8 @@ properties:
 provider_name: Carto
 provider_slug: carto
 slug: import-api
+source_yaml: "aid: carto:import-api\nname: CARTO Import API\ndescription: Ingests files and URLs (CSV, GeoJSON, Shapefile, etc.) into a user's connected CARTO data\n  warehouse for downstream spatial analysis and mapping.\nhumanURL: https://docs.carto.com/carto-for-developers/reference/import-api-reference\nbaseURL: https://gcp-us-east1.api.carto.com\ntags:\n- Import\n- Ingestion\n- Data\nproperties:\n- type: Documentation\n  url: https://docs.carto.com/carto-for-developers/reference/import-api-reference\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carto/refs/heads/main/apis.yml
 tags:
 - Import
 - Ingestion

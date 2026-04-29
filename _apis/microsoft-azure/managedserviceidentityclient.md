@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: managedserviceidentityclient
+source_yaml: "aid: microsoft-azure:managedserviceidentityclient\nname: Microsoft Azure Managed Service Identity Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview\nproperties:\n- url: openapi/managedserviceidentityclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview\n  type: Documentation\ndescription: The Microsoft Azure Managed Service Identity Client is a tool designed to simplify the process\n  of managing identities and access control for Azure resources. This client enables developers to securely\n  access Azure services without the need to store credentials in their code or manage them manually.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

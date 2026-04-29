@@ -16,6 +16,8 @@ properties:
 provider_name: Administrative Office of the U.S. Courts
 provider_slug: administrative-office-of-the-u-s-courts
 slug: pacer-authentication-api
+source_yaml: "aid: administrative-office-of-the-u-s-courts:pacer-authentication-api\nname: PACER Authentication API\ndescription: The PACER Authentication API allows users to authenticate automatically and without a user\n  interface, facilitating programmatic access for automated systems to court records. Users provide PACER\n  credentials to receive an authentication token used to access the PCL API and other PACER services.\n  Required before using the PACER Case Locator API.\nhumanURL: https://pacer.uscourts.gov/help/pacer/pacer-authentication-api-user-guide\ntags:\n- Authentication\n- Courts\n- PACER\n- REST API\nproperties:\n- type: Documentation\n  url: https://pacer.uscourts.gov/help/pacer/pacer-authentication-api-user-guide\n- type: APIReference\n  url: https://pacer.uscourts.gov/help/pacer/pacer-authentication-api-user-guide\n- type: OpenAPI\n  url: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/openapi/pacer-authentication-api-openapi.yml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/apis.yml
 tags:
 - Authentication
 - Courts

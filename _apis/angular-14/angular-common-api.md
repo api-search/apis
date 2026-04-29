@@ -12,6 +12,8 @@ properties:
 provider_name: Angular 14
 provider_slug: angular-14
 slug: angular-common-api
+source_yaml: "aid: angular-14:angular-common-api\nname: Angular 14 Common API\ntags:\n- Directives\n- Pipes\n- Utilities\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://angular.io/api/common\nhumanURL: https://v14.angular.io/api/common\nproperties:\n- url: https://v14.angular.io/api/common\n  type: Documentation\ndescription: Common Angular 14 directives and pipes including NgIf, NgFor, DatePipe, CurrencyPipe, DecimalPipe,\n  and other shared utilities.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/angular-14/refs/heads/main/apis.yml
 tags:
 - Directives
 - Pipes

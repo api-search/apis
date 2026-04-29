@@ -12,6 +12,8 @@ properties:
 provider_name: Tronox Holdings
 provider_slug: tronox-holdings
 slug: tronox-holdings-api
+source_yaml: "aid: tronox-holdings:tronox-holdings-api\nname: Tronox Holdings API\ntags:\n- Titanium Dioxide\n- Chemical\n- Mining\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.tronox.com\nhumanURL: https://developer.tronox.com\nproperties:\n- url: https://developer.tronox.com/docs\n  type: Documentation\ndescription: The Tronox Holdings API provides access to platform services and data for enterprise integration\n  and automation.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tronox-holdings/refs/heads/main/apis.yml
 tags:
 - Titanium Dioxide
 - Chemical

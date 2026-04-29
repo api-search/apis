@@ -14,5 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: common-content-metadata-types
+source_yaml: "aid: microsoft-azure:common-content-metadata-types\nname: Microsoft Azure Common Content Metadata Types\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/search/search-blob-metadata-properties\nproperties:\n- url: openapi/common-content-metadata-types-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/search/search-blob-metadata-properties\n  type: Documentation\ndescription: Microsoft Azure Common Content Metadata Types is a metadata platform that allows users to\n  organize and categorize their content in an efficient and standardized manner. This platform provides\n  various types of metadata, such as keywords, descriptions, and tags, that can be used to easily search,\n  filter, and sort through content. By using these metadata types, users can improve the organization\n  and accessibility of their content, making it easier to manage and share\
+  \ with others.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

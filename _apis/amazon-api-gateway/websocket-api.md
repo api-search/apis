@@ -18,6 +18,8 @@ properties:
 provider_name: Amazon API Gateway
 provider_slug: amazon-api-gateway
 slug: websocket-api
+source_yaml: "name: Amazon API Gateway WebSocket API\ndescription: Build real-time two-way communication applications with WebSocket APIs.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nhumanURL: https://aws.amazon.com/api-gateway/\nbaseURL: https://apigateway.{region}.amazonaws.com\ntags:\n- Bi-Directional\n- Real-Time\n- WebSocket\nproperties:\n- type: Documentation\n  url: https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api.html\n- type: Getting Started\n  url: https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api-overview.html\n- type: AsyncAPI\n  url: asyncapi/amazon-api-gateway-websocket-asyncapi.yml\n- type: JSON-LD\n  url: json-ld/amazon-api-gateway-context.jsonld\naid: amazon-api-gateway:websocket-api\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/apis.yml
 tags:
 - Bi-Directional
 - Real-Time

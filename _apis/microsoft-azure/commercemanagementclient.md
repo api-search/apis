@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: commercemanagementclient
+source_yaml: "aid: microsoft-azure:commercemanagementclient\nname: Microsoft Azure Commerce Management Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/python/api/overview/azure/commerce?view=azure-python\nproperties:\n- url: openapi/commercemanagementclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/python/api/overview/azure/commerce?view=azure-python\n  type: Documentation\ndescription: The Microsoft Azure Commerce Management Client is a software tool designed to help businesses\n  effectively manage their commerce operations on the Azure cloud platform. With this client, users can\n  easily monitor, track, and analyze their sales, inventory, and customer data to make informed business\n  decisions. The client offers a range of features, including order processing, pricing management, and\n  promotional offers, all within a user-friendly interface.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

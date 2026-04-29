@@ -40,6 +40,9 @@ properties:
 provider_name: Databricks
 provider_slug: databricks
 slug: clusters-api
+source_yaml: "aid: databricks:clusters-api\nname: Databricks Clusters API\ntags:\n- Clusters\n- Compute\n- Infrastructure\nhumanURL: https://docs.databricks.com/api/workspace/clusters\nproperties:\n- url: https://docs.databricks.com/api/workspace/clusters\n  type: Documentation\n- url: openapi/databricks-openapi.yml\n  type: OpenAPI\n- url: json-schema/databricks-cluster-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-create-cluster-request-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-edit-cluster-request-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-cluster-details-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-spark-node-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-auto-scale-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-aws-attributes-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-azure-attributes-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-gcp-attributes-schema.json\n\
+  \  type: JSONSchema\n- url: json-schema/databricks-init-script-info-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-cluster-event-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-error-response-schema.json\n  type: JSONSchema\n- url: json-ld/databricks-context.jsonld\n  type: JSONLD\ndescription: The Databricks Clusters API allows you to create, start, edit, list, terminate, and delete\n  clusters. Clusters are managed cloud resources that enable you to run data engineering and data science\n  workloads on Apache Spark in the cloud. The API provides programmatic control over cluster lifecycle\n  management, configuration, and monitoring.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/apis.yml
 tags:
 - Clusters
 - Compute

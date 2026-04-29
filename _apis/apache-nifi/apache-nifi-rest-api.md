@@ -18,6 +18,8 @@ properties:
 provider_name: Apache NiFi
 provider_slug: apache-nifi
 slug: apache-nifi-rest-api
+source_yaml: "aid: apache-nifi:apache-nifi-rest-api\nname: Apache NiFi REST API\ndescription: The NiFi REST API provides comprehensive JWT-authenticated endpoints for managing processors,\n  connections, controller services, process groups, reporting tasks, provenance, flow versions, system\n  diagnostics, access control, parameter contexts, and data transfer. Base URL is http://nifi-host:8080/nifi-api.\n  OpenAPI spec available at /nifi-docs/swagger.yaml.\nhumanURL: https://nifi.apache.org/components/\ntags:\n- Dataflow\n- Flow Management\n- REST\n- JWT\nproperties:\n- type: Documentation\n  url: https://nifi.apache.org/components/\n- type: OpenAPI\n  url: https://nifi.apache.org/nifi-docs/swagger.yaml\n- type: GettingStarted\n  url: https://nifi.apache.org/documentation/guides/\n- type: GitHubRepository\n  url: https://github.com/apache/nifi\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-nifi/refs/heads/main/apis.yml
 tags:
 - Dataflow
 - Flow Management

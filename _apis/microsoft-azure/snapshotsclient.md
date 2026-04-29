@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: snapshotsclient
+source_yaml: "aid: microsoft-azure:snapshotsclient\nname: Microsoft Azure Snapshots Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/virtual-machines/snapshot-copy-managed-disk\nproperties:\n- url: openapi/snapshotsclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/virtual-machines/snapshot-copy-managed-disk\n  type: Documentation\ndescription: The Microsoft Azure Snapshots Client is a tool that provides users with the ability to create\n  and manage snapshots of virtual machines in the Azure cloud platform. Snapshots are essentially point-in-time\n  copies of a virtual machine's disk that can be used for backup, disaster recovery, or testing purposes.\n  With the Azure Snapshots Client, users can easily schedule, create, and delete snapshots, as well as\n  restore a virtual machine to a previous state using a snapshot.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

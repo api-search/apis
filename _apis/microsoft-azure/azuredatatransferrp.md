@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azuredatatransferrp
+source_yaml: "aid: microsoft-azure-one:azuredatatransferrp\nname: Microsoft Azure Data Transfer\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/databox/\nproperties:\n- url: openapi/azuredatatransferrp-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/databox/\n  type: Documentation\ndescription: Microsoft Azure Data Transfer is a service that allows users to securely and efficiently\n  transfer large volumes of data to and from the cloud. By utilizing Azure's high-speed network and reliable\n  infrastructure, Data Transfer ensures that data is transferred quickly and without errors.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

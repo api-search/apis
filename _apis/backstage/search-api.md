@@ -14,6 +14,8 @@ properties:
 provider_name: Backstage
 provider_slug: backstage
 slug: search-api
+source_yaml: "aid: backstage:search-api\nname: Backstage Search API\ntags:\n- Developer Portal\n- Discovery\n- Search\nhumanURL: https://backstage.io/docs/features/search/\nproperties:\n- url: https://backstage.io/docs/features/search/\n  type: Documentation\n- url: openapi/backstage-search-openapi.yml\n  type: OpenAPI\ndescription: The Backstage Search API provides endpoints for querying the Backstage search index. It enables\n  full-text search across all indexed content including catalog entities, TechDocs pages, and any other\n  content indexed by search collators. The API supports filtering by document type, pagination via cursors,\n  and term-based queries.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/apis.yml
 tags:
 - Developer Portal
 - Discovery

@@ -14,6 +14,8 @@ properties:
 provider_name: Slack
 provider_slug: slack
 slug: slack-lists-api
+source_yaml: "aid: slack:slack-lists-api\nname: Slack Lists API\ntags:\n- Lists\n- Project Management\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://slack.com/api\nhumanURL: https://docs.slack.dev/surfaces/lists\nproperties:\n- url: https://docs.slack.dev/surfaces/lists\n  type: Documentation\n- url: openapi/slack-lists-openapi.yml\n  type: OpenAPI\ndescription: The Slack Lists API provides methods for programmatically creating and managing Lists, a\n  structured data surface in Slack for tracking work items, tasks, and records. Methods include slackLists.create\n  and slackLists.update for managing lists, slackLists.items.create, slackLists.items.update, slackLists.items.delete,\n  and slackLists.items.deleteMultiple for managing individual records, slackLists.items.list and slackLists.items.info\n  for retrieving records, slackLists.download.start and slackLists.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/apis.yml
 tags:
 - Lists
 - Project Management

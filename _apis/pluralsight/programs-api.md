@@ -16,6 +16,8 @@ properties:
 provider_name: Pluralsight
 provider_slug: pluralsight
 slug: programs-api
+source_yaml: "name: Pluralsight Programs API\ndescription: GraphQL query for accessing the program catalog including structured learning programs and\n  curriculum offerings.\nimage: https://www.pluralsight.com/content/dam/pluralsight2/general/headers/logo.png\nhumanURL: https://developer.pluralsight.com\nbaseURL: https://paas-api.pluralsight.com/graphql\ntags:\n- Catalog\n- Curriculum\n- Graphql\n- Programs\nproperties:\n- type: Documentation\n  url: https://developer.pluralsight.com\n- type: GraphQL\n  url: https://paas-api.pluralsight.com/graphql\n- type: OpenAPI\n  url: openapi/programs.yml\ncontact:\n- FN: Pluralsight API Support\n  email: support@pluralsight.com\n  url: https://help.pluralsight.com\naid: pluralsight:programs-api\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/apis.yml
 tags:
 - Catalog
 - Curriculum

@@ -14,6 +14,8 @@ properties:
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-transaction-webhooks-api
+source_yaml: "aid: adyen:adyen-transaction-webhooks-api\nname: Adyen Transaction Webhooks API\ntags:\n- Transactions\n- Webhooks\n- Marketplaces\n- Business Accounts\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://balanceplatform-api-test.adyen.com\nhumanURL: https://docs.adyen.com/marketplaces-and-platforms/business-accounts/transactions/transaction-webhooks/\ndescription: Adyen sends webhooks to inform your system about incoming and outgoing transfers in your\n  platform. You can use these webhooks to build your implementation. For example, you can use this information\n  to update balances in your own dashboards or to keep track of incoming funds.\nproperties:\n- url: https://docs.adyen.com/marketplaces-and-platforms/business-accounts/transactions/transaction-webhooks/\n  type: Documentation\n- url: openapi/transaction-webhooks-openapi-original.yml\n  type: OpenAPI\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/apis.yml
 tags:
 - Transactions
 - Webhooks

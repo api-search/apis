@@ -12,6 +12,8 @@ properties:
 provider_name: Carrier Global
 provider_slug: carrier-global
 slug: i-vu-building-automation
+source_yaml: "aid: carrier-global:i-vu-building-automation\nname: Carrier i-Vu Building Automation\ndescription: i-Vu is Carrier's web-based commercial building automation system for monitoring and controlling\n  HVAC, lighting, and related building systems. It integrates with BACnet and other standard building\n  protocols rather than a public REST API surface.\nhumanURL: https://www.carrier.com/commercial/en/us/software/building-automation/i-vu-building-automation/\ntags:\n- Building Automation\n- BACnet\n- HVAC\nproperties:\n- type: Documentation\n  url: https://www.carrier.com/commercial/en/us/software/building-automation/i-vu-building-automation/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/apis.yml
 tags:
 - Building Automation
 - BACnet

@@ -12,6 +12,8 @@ properties:
 provider_name: Microsoft Azure Cloud
 provider_slug: azure-cloud
 slug: azure-networking-api
+source_yaml: "aid: azure-cloud:azure-networking-api\nname: Azure Networking API\ndescription: REST APIs for Azure networking resources including Virtual Networks, Load Balancers, Application\n  Gateways, VPN Gateways, Azure Firewall, Front Door, and ExpressRoute.\nhumanURL: https://learn.microsoft.com/en-us/rest/api/virtualnetwork/\nbaseURL: https://management.azure.com\ntags:\n- ExpressRoute\n- Firewall\n- Load Balancer\n- Networking\n- Virtual Network\n- VPN\nproperties:\n- type: Documentation\n  url: https://learn.microsoft.com/en-us/rest/api/virtualnetwork/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-cloud/refs/heads/main/apis.yml
 tags:
 - ExpressRoute
 - Firewall

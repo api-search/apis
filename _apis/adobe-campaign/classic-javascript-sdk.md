@@ -16,6 +16,9 @@ properties:
 provider_name: Adobe Campaign
 provider_slug: adobe-campaign
 slug: classic-javascript-sdk
+source_yaml: "name: Adobe Campaign Classic JavaScript SDK\ndescription: An open-source JavaScript SDK that wraps Adobe Campaign Classic SOAP APIs in a simple, expressive,\n  JavaScript-idiomatic interface. The SDK supports asynchronous promise-based operations for querying,\n  data management, workflow control, and session management. It works server-side with Node.js and client-side\n  in the browser, abstracting away SOAP calls, XML-to-JSON conversion, and type formatting. Compatible\n  with Campaign Classic v7 and v8.\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://opensource.adobe.com/acc-js-sdk/\nbaseURL: https://{instance}.campaign.adobe.com\ntags:\n- Campaign Classic\n- JavaScript SDK\n- Node.js\n- Open Source\n- SOAP Wrapper\nproperties:\n- type: Documentation\n  url: https://opensource.adobe.com/acc-js-sdk/\n- type: GitHubRepository\n  url: https://github.com/adobe/acc-js-sdk\n- type: NPMPackage\n  url: https://www.npmjs.com/package/@adobe/acc-js-sdk\n\
+  aid: adobe-campaign:classic-javascript-sdk\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/apis.yml
 tags:
 - Campaign Classic
 - JavaScript SDK

@@ -14,5 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: redisenterprisemanagementclient
+source_yaml: "aid: microsoft-azure:redisenterprisemanagementclient\nname: Microsoft Azure Redis Enterprise Management Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.redisenterprise-readme?view=azure-dotnet\nproperties:\n- url: openapi/redisenterprisemanagementclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.redisenterprise-readme?view=azure-dotnet\n  type: Documentation\ndescription: Microsoft Azure Redis Enterprise Management Client is a tool used to efficiently manage enterprise-level\n  Redis caches on the Azure cloud platform. With this client, users can easily create, configure, monitor,\n  and scale their Redis caches, allowing for increased performance and reliability of their applications.\n  The client also provides features such as data persistence, failover support,\
+  \ and security enhancements\n  to ensure that Redis caches are always available and secure.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

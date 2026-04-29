@@ -14,6 +14,8 @@ properties:
 provider_name: Boeing
 provider_slug: boeing
 slug: boeing-airports-aerodromes-api
+source_yaml: "aid: boeing:boeing-airports-aerodromes-api\nname: Boeing Airports and Aerodromes API\ndescription: The Boeing Airports and Aerodromes API provides current, worldwide aerodrome data from Jeppesen's\n  aeronautical database, including airport identifiers, location data, and operational information for\n  global flight operations.\nhumanURL: https://developer.boeing.com/apis/airports-aerodromes/\ntags:\n- Aviation\n- Airports\n- Aerodromes\n- Jeppesen\nproperties:\n- type: Documentation\n  url: https://developer.boeing.com/apis/airports-aerodromes/\n- type: Portal\n  url: https://developer.boeing.com/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boeing/refs/heads/main/apis.yml
 tags:
 - Aviation
 - Airports

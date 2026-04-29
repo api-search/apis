@@ -21,6 +21,9 @@ properties:
 provider_name: Amazon API Gateway
 provider_slug: aws-api-gateway
 slug: aws-api-gateway-v2
+source_yaml: "aid: aws-api-gateway:aws-api-gateway-v2\nname: Amazon API Gateway V2 (HTTP and WebSocket)\ndescription: The API Gateway V2 control plane API is used to create, deploy, and manage HTTP APIs and\n  WebSocket APIs in Amazon API Gateway. It provides resources for Apis, Routes, Integrations, Stages,\n  Deployments, and Authorizers for the newer HTTP and WebSocket API types.\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html\nbaseURL: https://apigateway.{region}.amazonaws.com\ntags:\n- API Gateway\n- AWS\n- HTTP\n- WebSocket\nproperties:\n- type: Documentation\n  url: https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html\n- type: APIReference\n  url: https://docs.aws.amazon.com/apigatewayv2/latest/api-reference/Welcome.html\n- type: GettingStarted\n  url: https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop.html\n- type:\
+  \ Documentation\n  url: https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api.html\n  title: WebSocket API Guide\n- type: OpenAPI\n  url: openapi/aws-api-gateway-v2-openapi.yml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/apis.yml
 tags:
 - API Gateway
 - AWS

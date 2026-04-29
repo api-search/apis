@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: paymentmanagementclient
+source_yaml: "aid: microsoft-azure-one:paymentmanagementclient\nname: Microsoft Azure Payment Management Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/\nproperties:\n- url: openapi/paymentmanagementclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/\n  type: Documentation\ndescription: Microsoft Azure Payment Management Client is a powerful tool that helps businesses manage\n  all aspects of their payment transactions securely and efficiently. With this client, companies can\n  easily process payments, manage customer billing information, and analyze payment data to gain valuable\n  insights into their financial health. The client also offers advanced features such as fraud detection\n  and prevention, recurring billing options, and seamless integration with various payment gateways.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

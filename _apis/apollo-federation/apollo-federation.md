@@ -22,6 +22,9 @@ properties:
 provider_name: Apollo Federation
 provider_slug: apollo-federation
 slug: apollo-federation
+source_yaml: "aid: apollo-federation:apollo-federation\nname: Apollo Federation\ndescription: Apollo Federation enables declarative composition of multiple subgraph APIs into a single\n  federated supergraph. The Apollo Router orchestrates requests across subgraphs, combining GraphQL APIs\n  and REST APIs (via Apollo Connectors) into a unified endpoint. Federation 2 defines the supergraph schema,\n  federation directives, and composition rules. The Rover CLI manages schema publishing and checks.\nhumanURL: https://www.apollographql.com/docs/federation/\ntags:\n- API Gateway\n- Federation\n- GraphQL\n- Microservices\n- Open Source\n- REST Integration\n- Router\n- Subgraphs\n- Supergraph\nproperties:\n- type: Documentation\n  url: https://www.apollographql.com/docs/federation/\n- type: GettingStarted\n  url: https://www.apollographql.com/docs/federation/quickstart/\n- type: JSONSchema\n  url: https://raw.githubusercontent.com/api-evangelist/apollo-federation/refs/heads/main/json-schema/supergraph-configuration.json\n\
+  - type: JSONSchema\n  url: https://raw.githubusercontent.com/api-evangelist/apollo-federation/refs/heads/main/json-schema/router-configuration.json\n- type: GitHubRepository\n  url: https://github.com/apollographql/federation\n- type: ChangeLog\n  url: https://www.apollographql.com/docs/graphos/reference/federation/versions\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apollo-federation/refs/heads/main/apis.yml
 tags:
 - API Gateway
 - Federation

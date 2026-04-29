@@ -18,6 +18,8 @@ properties:
 provider_name: Atlassian
 provider_slug: atlassian
 slug: atlassian-confluence-content-states-api
+source_yaml: "aid: atlassian:atlassian-confluence-content-states-api\nname: Atlassian Confluence Content States API\ndescription: The Atlassian Confluence Content States API enables management and tracking of content lifecycle\n  states within Confluence.\nhumanURL: https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-content-states/#api-group-content-states\ntags:\n- Confluence\n- Content\n- States\n- Wiki\nproperties:\n- type: OpenAPI\n  url: openapi/atlassian-wiki-rest-api-content-states--openapi-original.yml\n- type: Documentation\n  url: https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-content-states/\n- type: JSONLD\n  url: json-ld/atlassian-confluence-content-states-context.jsonld\n- type: JSONSchema\n  url: json-schema/atlassian-confluence-content-states-async-id-schema.json\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/apis.yml
 tags:
 - Confluence
 - Content

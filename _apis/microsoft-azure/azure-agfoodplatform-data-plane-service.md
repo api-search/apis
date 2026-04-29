@@ -14,5 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-agfoodplatform-data-plane-service
+source_yaml: "aid: microsoft-azure-one:azure-agfoodplatform-data-plane-service\nname: Microsoft Azure Ag Food Platform Data Plane Service\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.agfoodplatform-readme?view=azure-dotnet-preview\nproperties:\n- url: openapi/azure-agfoodplatform-data-plane-service-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.agfoodplatform-readme?view=azure-dotnet-preview\n  type: Documentation\ndescription: The Microsoft Azure Ag Food Platform Data Plane Service is designed to provide farmers and\n  agricultural businesses with a comprehensive solution for managing and analyzing their data. This service\n  allows users to collect, store, and process data from various sources, such as sensors, drones, and\n  satellite imagery, in order to gain valuable insights\
+  \ that can improve crop yield, optimize resource\n  allocation, and enhance overall operations.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

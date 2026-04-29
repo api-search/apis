@@ -28,6 +28,9 @@ properties:
 provider_name: Amazon IAM
 provider_slug: amazon-iam
 slug: aws-iam-api
+source_yaml: "aid: amazon-iam:aws-iam-api\nname: AWS IAM API\ndescription: The AWS IAM API provides programmatic access to manage users, groups, roles, policies, and\n  access keys for securing access to AWS services and resources.\nhumanURL: https://aws.amazon.com/iam/\nbaseURL: https://iam.amazonaws.com\ntags:\n- Access Management\n- Authentication\n- Authorization\n- Identity\n- Security\nproperties:\n- type: Documentation\n  url: https://docs.aws.amazon.com/IAM/latest/APIReference/\n- type: OpenAPI\n  url: openapi/amazon-iam-openapi.yml\n- type: APIReference\n  url: https://docs.aws.amazon.com/IAM/latest/APIReference/\n- type: GettingStarted\n  url: https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started.html\n- type: Pricing\n  url: https://aws.amazon.com/iam/pricing/\n- type: FAQ\n  url: https://aws.amazon.com/iam/faqs/\n- type: JSONSchema\n  url: json-schema/amazon-iam-user-schema.json\n- type: JSONStructure\n  url: json-structure/amazon-iam-user-structure.json\n- type: Example\n\
+  \  url: examples/amazon-iam-user-example.json\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/apis.yml
 tags:
 - Access Management
 - Authentication

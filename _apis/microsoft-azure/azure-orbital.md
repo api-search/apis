@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-orbital
+source_yaml: "aid: microsoft-azure:azure-orbital\nname: Microsoft Azure Orbital\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/orbital/\nproperties:\n- url: openapi/azure-orbital-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/orbital/\n  type: Documentation\ndescription: Microsoft Azure Orbital is a ground-breaking service that allows users to easily connect\n  and manage satellite data in the cloud. With Azure Orbital, customers can schedule, coordinate, and\n  process satellite data through a single, easy-to-use interface. This service enables organizations to\n  quickly access and analyze large amounts of satellite imagery and data, allowing for more efficient\n  decision-making and resource management.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

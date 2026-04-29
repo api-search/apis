@@ -14,6 +14,9 @@ properties:
 provider_name: automation-anywhere
 provider_slug: automation-anywhere
 slug: bot-insight-api
+source_yaml: "aid: automation-anywhere:bot-insight-api\nname: Automation Anywhere Bot Insight API\ntags:\n- Analytics\n- Bot Monitoring\n- Business Intelligence\n- Reporting\n- RPA\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://automationanywhere-be-prod.automationanywhere.com\nhumanURL: https://docs.automationanywhere.com/bundle/enterprise-v11.3/page/enterprise/topics/bot-insight/user/bot-insight-apis.html\nproperties:\n- url: https://docs.automationanywhere.com/bundle/enterprise-v11.3/page/enterprise/topics/bot-insight/user/bot-insight-apis.html\n  type: Documentation\n- url: openapi/automation-anywhere-bot-insight-openapi.yml\n  type: OpenAPI\ndescription: The Automation Anywhere Bot Insight API exposes real-time business process analytics and\n  operational intelligence data collected during bot execution. It allows developers to retrieve KPIs,\n  bot run histories, performance rankings, and failure analytics from the Control Room\
+  \ programmatically.\n  Results are paginated in sets of 1000 records and can be filtered by date ranges in ISO 8601 format.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/apis.yml
 tags:
 - Analytics
 - Bot Monitoring

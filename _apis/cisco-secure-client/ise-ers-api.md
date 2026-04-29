@@ -12,6 +12,8 @@ properties:
 provider_name: Cisco Secure Client
 provider_slug: cisco-secure-client
 slug: ise-ers-api
+source_yaml: "aid: cisco-secure-client:ise-ers-api\nname: Cisco ISE ERS API\ntags:\n- ERS\n- Identity\n- ISE\n- NAC\n- Posture\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://developer.cisco.com/docs/identity-services-engine/\nproperties:\n- url: https://developer.cisco.com/docs/identity-services-engine/\n  type: Documentation\ndescription: The Cisco Identity Services Engine External RESTful Services (ERS) API manages the network\n  access control plane that Secure Client integrates with for posture assessment and policy enforcement.\n  Endpoints cover endpoint identity groups, posture conditions, and authorization policies.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/apis.yml
 tags:
 - ERS
 - Identity

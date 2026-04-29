@@ -14,5 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: app-compliance-automation-tool-for-microsoft-365
+source_yaml: "aid: microsoft-azure-one:app-compliance-automation-tool-for-microsoft-365\nname: Microsoft Azure App Compliance Automation Tool for Microsoft 365\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/microsoft-365-app-certification/docs/acat-overview\nproperties:\n- url: openapiapp-compliance-automation-tool-for-microsoft-365-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/microsoft-365-app-certification/docs/acat-overview\n  type: Documentation\ndescription: The Microsoft Azure App Compliance Automation Tool for Microsoft 365 is a comprehensive solution\n  designed to streamline and simplify the compliance process for organizations using Microsoft's suite\n  of productivity tools. This tool automates the monitoring and enforcement of compliance policies, ensuring\n  that all data stored and shared within Microsoft 365 applications meets regulatory requirements\
+  \ and\n  internal policies.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

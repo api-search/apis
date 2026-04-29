@@ -14,6 +14,8 @@ properties:
 provider_name: GitHub
 provider_slug: github
 slug: github-licenses-api
+source_yaml: "aid: github:github-licenses-api\nname: GitHub Licenses API\ntags:\n- Licenses\nbaseURL: https://api.github.com/\nhumanURL: https://docs.github.com/en/rest/licenses?apiVersion=2022-11-28\nproperties:\n- url: openapi/github-licenses-api-openapi.yml\n  type: OpenAPI\n- url: https://docs.github.com/en/rest/licenses\n  type: Documentation\ndescription: The GitHub Licenses API lets you programmatically discover and retrieve open source license\n  information across GitHub. It provides endpoints to list the common licenses GitHub supports, get detailed\n  metadata and the canonical text for a specific license (by its SPDX identifier), and fetch the detected\n  license for a given repository.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/apis.yml
 tags:
 - Licenses
 ---

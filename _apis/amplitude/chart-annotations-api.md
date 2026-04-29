@@ -14,6 +14,8 @@ properties:
 provider_name: Amplitude
 provider_slug: amplitude
 slug: chart-annotations-api
+source_yaml: "aid: amplitude:chart-annotations-api\nname: Amplitude Chart Annotations API\ntags:\n- Analytics\n- Annotations\n- Charts\n- Reporting\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://amplitude.com\nhumanURL: https://amplitude.com/docs/apis/analytics/chart-annotations\nproperties:\n- url: https://amplitude.com/docs/apis/analytics/chart-annotations\n  type: Documentation\n- url: openapi/amplitude-chart-annotations-api-openapi.yml\n  type: OpenAPI\ndescription: The Amplitude Chart Annotations API enables developers to programmatically create, retrieve,\n  update, and delete annotations on Amplitude charts. Annotations mark significant events such as product\n  releases, marketing campaigns, or incidents on timeline-based charts. This API allows teams to automate\n  annotation management as part of their deployment or release pipelines, ensuring that important context\n  is always visible alongside analytics data.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/apis.yml
 tags:
 - Analytics
 - Annotations

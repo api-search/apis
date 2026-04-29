@@ -16,6 +16,8 @@ properties:
 provider_name: Autodesk Maya
 provider_slug: autodesk-maya
 slug: maya-cpp-api
+source_yaml: "aid: autodesk-maya:maya-cpp-api\nname: Maya C++ API\ndescription: C++ API providing low-level access to Maya's core functionality for creating plugins, custom\n  nodes, and high-performance tools. The API is organized into functional libraries including OpenMaya,\n  OpenMayaUI, OpenMayaAnim, OpenMayaFX, and OpenMayaRender.\nhumanURL: https://help.autodesk.com/view/MAYAUL/2026/ENU/\nbaseURL: https://localhost\ntags:\n- C++\n- Native\n- Performance\n- Plugins\nproperties:\n- type: Documentation\n  url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_MERGED_cpp_ref_index_html\n- type: APIReference\n  url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_cpp_ref_index_html\n- type: GettingStarted\n  url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_MERGED_Maya_SDK_Maya_SDK_html\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autodesk-maya/refs/heads/main/apis.yml
 tags:
 - C++
 - Native

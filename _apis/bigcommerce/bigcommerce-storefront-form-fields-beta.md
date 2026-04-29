@@ -14,6 +14,8 @@ properties:
 provider_name: BigCommerce
 provider_slug: bigcommerce
 slug: bigcommerce-storefront-form-fields-beta
+source_yaml: "aid: bigcommerce:bigcommerce-storefront-form-fields-beta\nname: Big Commerce Storefront form Fields (Beta)\ntags:\n- Fields\n- Forms\n- Storefronts\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.example.com\nhumanURL: https://developer.bigcommerce.com/\nproperties:\n- url: https://developer.bigcommerce.com/\n  type: Documentation\n- url: openapi/storefront-form-fields-beta-openapi-original.yml\n  type: OpenAPI\ndescription: The BigCommerce Storefront Form Fields (Beta) feature enables merchants to easily customize\n  the appearance and functionality of their online store's forms. With this tool, users can add, remove,\n  or reorder form fields in their storefront checkout process, such as adding new fields for customer\n  information or payment options.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/apis.yml
 tags:
 - Fields
 - Forms

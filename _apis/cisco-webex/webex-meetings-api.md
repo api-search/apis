@@ -16,6 +16,8 @@ properties:
 provider_name: Cisco Webex
 provider_slug: cisco-webex
 slug: webex-meetings-api
+source_yaml: "aid: cisco-webex:webex-meetings-api\nname: Webex Meetings API\ndescription: Enables scheduling, managing, and controlling Webex meetings programmatically. Provides endpoints\n  for creating meetings, managing attendees, preferences, and retrieving meeting details.\nimage: https://www.webex.com/content/dam/wbx/us/images/webex-logo.svg\nhumanURL: https://developer.webex.com/docs/meetings\nbaseURL: https://webexapis.com/v1\ntags:\n- Attendees\n- Conferencing\n- Meetings\n- Scheduling\n- Video\nproperties:\n- type: Documentation\n  url: https://developer.webex.com/docs/meetings\n- type: OpenAPI\n  url: openapi/cisco-webex-meetings-openapi.yml\n- type: Authentication\n  url: https://developer.webex.com/docs/getting-started#authentication\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/apis.yml
 tags:
 - Attendees
 - Conferencing

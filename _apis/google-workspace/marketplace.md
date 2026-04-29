@@ -16,6 +16,8 @@ properties:
 provider_name: Google Workspace
 provider_slug: google-workspace
 slug: marketplace
+source_yaml: "aid: google-workspace:marketplace\nname: Google Workspace Marketplace API\ndescription: Manage customer and user license status for Google Workspace Marketplace applications.\nhumanURL: https://developers.google.com/workspace/marketplace/overview\nbaseURL: https://appsmarket.googleapis.com\ntags:\n- Apps\n- Licensing\n- Marketplace\nproperties:\n- type: Documentation\n  url: https://developers.google.com/workspace/marketplace/overview\n- type: APIReference\n  url: https://developers.google.com/workspace/marketplace/reference/rest\n- type: Authentication\n  url: https://developers.google.com/workspace/marketplace/authorizing\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/apis.yml
 tags:
 - Apps
 - Licensing

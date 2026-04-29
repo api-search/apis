@@ -18,6 +18,8 @@ properties:
 provider_name: Apache Hive
 provider_slug: apache-hive
 slug: apache-hive-webhcat-api
+source_yaml: "aid: apache-hive:apache-hive-webhcat-api\nname: Apache Hive WebHCat REST API\ndescription: WebHCat (Templeton) REST API for Apache Hive providing DDL operations, HiveQL job submission,\n  and Hive Metastore metadata access over HTTP.\nhumanURL: https://cwiki.apache.org/confluence/display/Hive/WebHCat\nbaseURL: http://localhost:50111/templeton/v1\ntags:\n- Databases\n- Jobs\n- Metastore\n- REST\n- Tables\nproperties:\n- type: Documentation\n  url: https://cwiki.apache.org/confluence/display/Hive/WebHCat\n- type: OpenAPI\n  url: openapi/apache-hive-webhcat-openapi.yml\n- type: JSONSchema\n  url: json-schema/hive-webhcat-table-schema.json\n- type: JSON-LD\n  url: json-ld/apache-hive-webhcat-context.jsonld\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-hive/refs/heads/main/apis.yml
 tags:
 - Databases
 - Jobs

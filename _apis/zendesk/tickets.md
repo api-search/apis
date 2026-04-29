@@ -20,6 +20,8 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: tickets
+source_yaml: "aid: zendesk:tickets\nname: Zendesk Tickets API\ntags:\n- Tickets\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://{subdomain}.zendesk.com\nhumanURL: https://developer.zendesk.com/api-reference/ticketing/tickets/tickets/\nproperties:\n- url: https://developer.zendesk.com/api-reference/ticketing/tickets/tickets/\n  type: Documentation\n- url: openapi/tickets-openapi-original.yml\n  type: OpenAPI\n- url: openapi/zendesk-support-openapi.yml\n  type: OpenAPI\n- url: json-schema/zendesk-ticket-schema.json\n  type: JSONSchema\n- url: json-ld/zendesk-context.jsonld\n  type: JSON-LD\ndescription: The Zendesk Tickets API is the primary REST interface for managing support tickets programmatically.\n  It lets you create, read, update, and delete tickets; set core and custom fields (status, priority,\n  type, assignee, requester, organization, tags); and add public or internal comments with file attachments.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:
 - Tickets
 ---

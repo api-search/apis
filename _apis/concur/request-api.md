@@ -12,6 +12,8 @@ properties:
 provider_name: SAP Concur
 provider_slug: concur
 slug: request-api
+source_yaml: "aid: concur:request-api\nname: SAP Concur Request API\ndescription: REST API for managing pre-trip travel requests and approvals, enabling employees to submit\n  travel requests for authorization before booking.\nhumanURL: https://developer.concur.com/api-reference/request/v4.get-started.html\nbaseURL: https://us.api.concursolutions.com/travelrequest/v4/\ntags:\n- Approvals\n- REST\n- Travel Requests\nproperties:\n- type: Documentation\n  url: https://developer.concur.com/api-reference/request/v4.get-started.html\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/apis.yml
 tags:
 - Approvals
 - REST

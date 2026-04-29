@@ -32,6 +32,9 @@ properties:
 provider_name: Albato A Single No Code Platform For All Automations
 provider_slug: albato-a-single-no-code-platform-for-all-automations
 slug: connections-api
+source_yaml: "aid: albato-a-single-no-code-platform-for-all-automations:connections-api\nname: Albato Connections API\ntags:\n- Connections\n- App Integration\n- Webhooks\n- Authentication\nproperties:\n- url: https://albato.com\n  type: Documentation\n- url: openapi/albato-connections-openapi.yaml\n  type: OpenAPI\n- url: json-schema/albato-albato-connections-connection-schema.json\n  type: JSONSchema\n- url: json-schema/albato-albato-connections-app-schema.json\n  type: JSONSchema\n- url: json-schema/albato-albato-connections-webhook-schema.json\n  type: JSONSchema\n- url: json-structure/albato-albato-connections-connection-structure.json\n  type: JSONStructure\n- url: json-structure/albato-albato-connections-app-structure.json\n  type: JSONStructure\n- url: json-structure/albato-albato-connections-webhook-structure.json\n  type: JSONStructure\n- url: examples/albato-albato-connections-connection-example.json\n  type: Example\n- url: examples/albato-albato-connections-app-example.json\n\
+  \  type: Example\n- url: examples/albato-albato-connections-webhook-example.json\n  type: Example\nhumanURL: https://albato.com\nbaseURL: https://albato.com/api/v1\ndescription: REST API for managing app connections and webhooks in Albato. Supports connecting 1,000+\n  apps via OAuth, API key, basic auth, and creating inbound webhook endpoints.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/apis.yml
 tags:
 - Connections
 - App Integration

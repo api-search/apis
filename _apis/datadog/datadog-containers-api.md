@@ -14,6 +14,8 @@ properties:
 provider_name: Datadog
 provider_slug: datadog
 slug: datadog-containers-api
+source_yaml: "aid: datadog:datadog-containers-api\nname: Datadog Containers API\ntags:\n- Containers\n- Infrastructure\nhumanURL: https://docs.datadoghq.com/api/latest/containers/\nbaseURL: https://api.datadoghq.com\nimage: https://imgix.datadoghq.com/img/dd_logo_n_70x75.png\nproperties:\n- url: https://docs.datadoghq.com/api/latest/containers/\n  type: Documentation\n- url: https://docs.datadoghq.com/infrastructure/containers/\n  type: Reference\ndescription: The Containers API allows you to get all containers for your organization. It provides programmatic\n  access to container data collected from hosts running the Datadog Agent.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/apis.yml
 tags:
 - Containers
 - Infrastructure

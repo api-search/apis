@@ -16,6 +16,8 @@ properties:
 provider_name: Cloudflare
 provider_slug: cloudflare
 slug: cloudflare-page-shield-api
+source_yaml: "aid: cloudflare:cloudflare-page-shield-api\nname: Cloudflare Page Shield API\ntags:\n- Client-Side Security\n- Script Monitoring\n- Security\nhumanURL: https://developers.cloudflare.com/page-shield/\nbaseURL: https://api.cloudflare.com\nproperties:\n- url: https://developers.cloudflare.com/page-shield/\n  type: Documentation\n- url: https://developers.cloudflare.com/page-shield/reference/page-shield-api/\n  type: APIReference\n- url: https://developers.cloudflare.com/page-shield/get-started/\n  type: GettingStarted\ndescription: The Cloudflare Page Shield API enables developers to monitor and manage client-side resources\n  loaded by website visitors. It provides endpoints for detecting scripts, connections, and cookies, with\n  malicious script detection alerts and configurable security policies.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/apis.yml
 tags:
 - Client-Side Security
 - Script Monitoring

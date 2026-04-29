@@ -18,6 +18,8 @@ properties:
 provider_name: Cisco
 provider_slug: cisco
 slug: meraki-api
+source_yaml: "aid: cisco:meraki-api\nname: Cisco Meraki Dashboard API\ndescription: RESTful API for managing Cisco Meraki cloud-managed networking devices including wireless\n  access points, switches, security appliances, and cameras. Supports network configuration, monitoring,\n  and automation at scale.\nhumanURL: https://developer.cisco.com/meraki/api-v1/\nbaseURL: https://api.meraki.com/api/v1\ntags:\n- Cloud Managed\n- Meraki\n- Network Management\n- REST\nproperties:\n- type: Documentation\n  url: https://developer.cisco.com/meraki/api-v1/\n- type: APIReference\n  url: https://developer.cisco.com/meraki/api-v1/\n- type: GettingStarted\n  url: https://developer.cisco.com/meraki/api-v1/getting-started/\n- type: Authentication\n  url: https://developer.cisco.com/meraki/api-v1/#!authorization\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/apis.yml
 tags:
 - Cloud Managed
 - Meraki

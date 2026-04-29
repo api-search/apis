@@ -14,6 +14,8 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: object-layouts
+source_yaml: "aid: zendesk:object-layouts\nname: Zendesk Object Layouts API\ntags:\n- Object Layouts\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://{subdomain}.zendesk.com\nhumanURL: https://developer.zendesk.com/api-reference/ticketing/introduction/\nproperties:\n- url: https://developer.zendesk.com/api-reference/ticketing/introduction/\n  type: Documentation\n- url: openapi/object-layouts-openapi-original.yml\n  type: OpenAPI\ndescription: The Zendesk Object Layouts API lets you programmatically control how record pages look and\n  behave in Agent Workspace. It provides CRUD endpoints to define which fields and components appear for\n  an object (such as tickets, users, organizations, and Sunshine custom objects), how theyre grouped and\n  ordered into sections or panels, and any conditional visibility rules.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:
 - Object Layouts
 ---

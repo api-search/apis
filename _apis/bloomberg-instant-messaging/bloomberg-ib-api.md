@@ -12,6 +12,8 @@ properties:
 provider_name: Bloomberg Instant Messaging
 provider_slug: bloomberg-instant-messaging
 slug: bloomberg-ib-api
+source_yaml: "aid: bloomberg-instant-messaging:bloomberg-ib-api\nname: Bloomberg IB Messaging API\ndescription: Programmatic access to Bloomberg's secure IB messaging network for sending and receiving\n  messages within the Bloomberg Terminal ecosystem. Supports integration with trading and compliance systems\n  for automated messaging workflows.\nhumanURL: https://www.bloomberg.com/professional/product/bloomberg-messaging/\nbaseURL: blpapi://localhost:8194\ntags:\n- IB Messaging\n- Secure Messaging\n- Terminal Messaging\n- Compliance\nproperties:\n- type: Documentation\n  url: https://www.bloomberg.com/professional/product/bloomberg-messaging/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-instant-messaging/refs/heads/main/apis.yml
 tags:
 - IB Messaging
 - Secure Messaging

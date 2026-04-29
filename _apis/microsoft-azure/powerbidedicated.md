@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: powerbidedicated
+source_yaml: "aid: microsoft-azure:powerbidedicated\nname: Microsoft Azure Power Bidedicated\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-powerbidedicated-readme?view=azure-node-latest\nproperties:\n- url: openapi/powerbidedicated-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-powerbidedicated-readme?view=azure-node-latest\n  type: Documentation\ndescription: Microsoft Azure Power Bidedicated is a specialized service designed to provide customers\n  with dedicated infrastructure and resources within the Azure cloud platform. This service allows organizations\n  to have exclusive access to compute, storage, and networking resources, ensuring high performance, security,\n  and compliance with industry regulations.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

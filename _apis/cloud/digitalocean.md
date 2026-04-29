@@ -12,6 +12,8 @@ properties:
 provider_name: Cloud
 provider_slug: cloud
 slug: digitalocean
+source_yaml: "aid: cloud:digitalocean\nname: DigitalOcean\ntags:\n- DigitalOcean\n- Developer Cloud\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://www.digitalocean.com/\nproperties:\n- url: https://docs.digitalocean.com/reference/api/\n  type: Documentation\ndescription: DigitalOcean offers a developer-friendly REST API for Droplets, Kubernetes, App Platform,\n  Spaces, Volumes, Load Balancers, Databases, and Functions. Authentication uses bearer tokens.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloud/refs/heads/main/apis.yml
 tags:
 - DigitalOcean
 - Developer Cloud

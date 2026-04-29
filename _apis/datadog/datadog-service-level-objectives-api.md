@@ -14,6 +14,8 @@ properties:
 provider_name: Datadog
 provider_slug: datadog
 slug: datadog-service-level-objectives-api
+source_yaml: "aid: datadog:datadog-service-level-objectives-api\nname: Datadog Service Level Objectives API\ntags:\n- Reliability\n- Service Level Objectives\n- SLOs\nhumanURL: https://docs.datadoghq.com/api/latest/service-level-objectives/\nbaseURL: https://api.datadoghq.com\nimage: https://imgix.datadoghq.com/img/dd_logo_n_70x75.png\nproperties:\n- url: https://docs.datadoghq.com/api/latest/service-level-objectives/\n  type: Documentation\n- url: https://docs.datadoghq.com/monitors/service_level_objectives/\n  type: Reference\ndescription: The Service Level Objectives API provides a framework for defining clear targets around application\n  performance. SLOs help teams provide a consistent customer experience, balance feature development with\n  platform stability, and improve communication with internal and external users.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/apis.yml
 tags:
 - Reliability
 - Service Level Objectives

@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-sql-database-api-spec
+source_yaml: "aid: microsoft-azure:azure-sql-database-api-spec\nname: Microsoft Azure SQL Database API Spec\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/rest/api/sql/\nproperties:\n- url: openapi/azure-sql-database-api-spec-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/rest/api/sql/\n  type: Documentation\ndescription: The Microsoft Azure SQL Database API Spec is a set of guidelines and specifications that\n  define how developers can interact with Azure SQL Database through its API. It outlines the various\n  endpoints, methods, parameters, and data formats that developers can use to query, manipulate, and manage\n  data stored in Azure SQL Database. The API Spec also includes information on authentication, error handling,\n  and best practices for working with the Azure SQL Database API.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

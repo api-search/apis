@@ -14,6 +14,9 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: organization-memberships
+source_yaml: "aid: zendesk:organization-memberships\nname: Zendesk Organization Memberships API\ntags:\n- Organization Memberships\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://{subdomain}.zendesk.com\nhumanURL: https://developer.zendesk.com/api-reference/ticketing/organizations/organization_memberships/\nproperties:\n- url: https://developer.zendesk.com/api-reference/ticketing/organizations/organization_memberships/\n  type: Documentation\n- url: openapi/organization-memberships-openapi-original.yml\n  type: OpenAPI\ndescription: The Zendesk Organization Memberships API lets you programmatically manage the links between\n  users and organizations in Zendesk. With it, you can create, list, find, and delete organization membership\n  records; query memberships for a specific user or organization or across the account; set a users default\n  organization; and perform bulk create/destroy operations to keep memberships in sync with external\
+  \ directories.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:
 - Organization Memberships
 ---

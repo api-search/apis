@@ -16,5 +16,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: resourcemanagementclient
+source_yaml: "aid: microsoft-azure:resourcemanagementclient\nname: Microsoft Azure Resource Management Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-resource-manager/\nproperties:\n- url: openapi/resourcemanagementclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-resource-manager/\n  type: Documentation\n- url: https://learn.microsoft.com/en-us/rest/api/resources/\n  type: API Reference\ndescription: The Microsoft Azure Resource Management Client is a tool that allows users to manage their\n  Azure resources in a more efficient and streamlined manner. With this client, users can easily create,\n  deploy, update, and delete resources such as virtual machines, databases, web apps, and more all from\n  a single interface. It also enables users to define and enforce policies for their resources, track\n  usage and performance, and automate\
+  \ resource management tasks through scripts and templates.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: common-referenced-parameters-file
+source_yaml: "aid: microsoft-azure-one:common-referenced-parameters-file\nname: Microsoft Azure Common Referenced Parameters File\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/parameter-files\nproperties:\n- url: openapi/common-referenced-parameters-file-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/parameter-files\n  type: Documentation\ndescription: The Microsoft Azure Common Referenced Parameters File provides a centralized location for\n  storing commonly used parameters that can be referenced in multiple Azure Resource Manager templates.\n  This file helps streamline the deployment process by allowing users to define and manage parameters\n  in one place, making it easier to update and maintain configurations across different resources and\n  deployments.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

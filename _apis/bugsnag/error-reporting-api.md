@@ -14,6 +14,8 @@ properties:
 provider_name: bugsnag
 provider_slug: bugsnag
 slug: error-reporting-api
+source_yaml: "aid: bugsnag:error-reporting-api\nname: Bugsnag Error Reporting API\ntags:\n- Error Monitoring\n- Error Reporting\n- Events\n- Notifications\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://notify.bugsnag.com\nhumanURL: https://docs.bugsnag.com/api/error-reporting/\nproperties:\n- url: https://docs.bugsnag.com/api/error-reporting/\n  type: Documentation\n- url: openapi/bugsnag-error-reporting-openapi.yml\n  type: OpenAPI\ndescription: The Bugsnag Error Reporting API allows applications to report error and exception details\n  directly to the Bugsnag dashboard. If there is no official SDK available for your platform, you can\n  use this API to send error payloads manually. The API accepts structured JSON payloads containing exception\n  details, stack traces, device information, and application metadata. It is the underlying mechanism\n  used by all official Bugsnag notifier SDKs to deliver error data.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/apis.yml
 tags:
 - Error Monitoring
 - Error Reporting

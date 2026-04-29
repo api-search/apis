@@ -26,6 +26,9 @@ properties:
 provider_name: Amazon IAM Access Analyzer
 provider_slug: amazon-iam-access-analyzer
 slug: aws-access-analyzer-api
+source_yaml: "aid: amazon-iam-access-analyzer:aws-access-analyzer-api\nname: AWS IAM Access Analyzer API\ndescription: The AWS IAM Access Analyzer API provides programmatic access to create and manage analyzers,\n  findings, archive rules, and policy validations to identify and remediate unintended resource access\n  across AWS accounts and organizations.\nhumanURL: https://aws.amazon.com/iam/features/analyze-access/\nbaseURL: https://access-analyzer.amazonaws.com\ntags:\n- Access Control\n- IAM\n- Policy Management\n- Security\nproperties:\n- type: Documentation\n  url: https://docs.aws.amazon.com/access-analyzer/latest/APIReference/Welcome.html\n- type: OpenAPI\n  url: openapi/amazon-iam-access-analyzer-openapi-original.yml\n- type: GettingStarted\n  url: https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html\n- type: Pricing\n  url: https://aws.amazon.com/iam/pricing/\n- type: FAQ\n  url: https://aws.amazon.com/iam/faqs/\n- type: JSONSchema\n  url: json-schema/iam-access-analyzer-analyzer-schema.json\n\
+  - type: JSONStructure\n  url: json-structure/iam-access-analyzer-analyzer-structure.json\n- type: Example\n  url: examples/iam-access-analyzer-analyzer-example.json\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/apis.yml
 tags:
 - Access Control
 - IAM

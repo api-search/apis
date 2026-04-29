@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-stack-azure-bridge-client
+source_yaml: "aid: microsoft-azure-one:azure-stack-azure-bridge-client\nname: Microsoft Azure Stack Azure Bridge Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure-stack/\nproperties:\n- url: openapi/azure-stack-azure-bridge-client-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure-stack/\n  type: Documentation\ndescription: Microsoft Azure Stack Azure Bridge Client is a tool designed to connect on-premises data\n  centers to the Azure public cloud. It acts as a bridge between the two environments, allowing organizations\n  to seamlessly extend their infrastructure and services to the cloud. The Azure Bridge Client enables\n  easy access to Azure resources, simplifies hybrid cloud management, and provides a unified platform\n  for deploying, managing, and monitoring applications across both on-premises and cloud environments.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

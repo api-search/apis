@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: common-incident-types
+source_yaml: "aid: microsoft-azure:common-incident-types\nname: Microsoft Azure Common Incident Types\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/dynamics365/field-service/configure-incident-types\nproperties:\n- url: openapi/common-incident-types-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/dynamics365/field-service/configure-incident-types\n  type: Documentation\ndescription: Microsoft Azure Common Incident Types is a comprehensive monitoring and alerting system that\n  helps users to identify and respond to common incidents that may occur within their Azure environment.\n  This tool monitors critical systems and services, such as virtual machines, storage accounts, and networking\n  resources, to detect issues like performance degradation, connectivity issues, and resource limitations.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

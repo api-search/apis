@@ -18,6 +18,9 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-resource-manager-api
+source_yaml: "aid: microsoft-azure:azure-resource-manager-api\nname: Microsoft Azure Resource Manager API\ntags:\n- ARM\n- Infrastructure\n- Resource Management\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-resource-manager/\nproperties:\n- url: openapi/azure-resource-manager-openapi.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/rest/api/resources/\n  type: Documentation\n- url: https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resources-rest\n  type: GettingStarted\n- url: json-ld/azure-resource-manager-context.jsonld\n  type: JSONLD\ndescription: Azure Resource Manager is the deployment and management service for Azure that provides a\n  management layer enabling you to create, update, and delete resources in your Azure account. The REST\n  API provides operations for managing resources, resource groups, deployments, subscriptions, tenants,\n  and\
+  \ policies, serving as the foundational control plane for all Azure resource management operations.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags:
 - ARM
 - Infrastructure

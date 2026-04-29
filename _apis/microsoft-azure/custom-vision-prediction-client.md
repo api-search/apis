@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: custom-vision-prediction-client
+source_yaml: "aid: microsoft-azure:custom-vision-prediction-client\nname: Microsoft Azure Custom Vision Prediction Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/\nproperties:\n- url: openapi/custom-vision-prediction-client-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/\n  type: Documentation\ndescription: The Microsoft Azure Custom Vision Prediction Client is a solution that allows users to easily\n  predict and classify images with high accuracy. By using machine learning algorithms, the prediction\n  client can analyze and interpret images based on pre-trained models or custom models created by the\n  user.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

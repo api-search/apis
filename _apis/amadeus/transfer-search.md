@@ -34,6 +34,9 @@ properties:
 provider_name: Amadeus
 provider_slug: amadeus
 slug: transfer-search
+source_yaml: "aid: amadeus:transfer-search\nname: Amadeus Transfer Search API\ntags:\n- Ground Transportation\n- Search\n- Transfers\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.amadeus.com\nhumanURL: https://developers.amadeus.com/self-service/category/cars-and-transfers/api-doc/transfer-search\nproperties:\n- url: https://developers.amadeus.com/self-service/category/cars-and-transfers/api-doc/transfer-search\n  type: Documentation\n- url: https://developers.amadeus.com/self-service/category/cars-and-transfers/api-doc/transfer-search/api-reference\n  type: APIReference\n- url: openapi/transfer-search-openapi.yaml\n  type: OpenAPI\n- type: JSONSchema\n  url: json-schema/transfer-search-address-schema.json\n- type: JSONSchema\n  url: json-schema/transfer-search-addresscommon-schema.json\n- type: JSONSchema\n  url: json-schema/transfer-search-baggage-schema.json\n- type: JSONSchema\n  url: json-schema/transfer-search-cancellationrule-schema.json\n\
+  - type: JSONSchema\n  url: json-schema/transfer-search-contact-schema.json\n- type: JSONStructure\n  url: json-structure/transfer-search-address-structure.json\n- type: JSONStructure\n  url: json-structure/transfer-search-addresscommon-structure.json\n- type: JSONStructure\n  url: json-structure/transfer-search-baggage-structure.json\n- type: JSONLD\n  url: json-ld/amadeus-transfer-search-context.jsonld\ndescription: The Amadeus Transfer Search API provides live prices for private transfers, hourly services,\n  taxis, shared transfers, airport express, airport buses, private jets, and helicopter transfers. It\n  searches across multiple mobility providers to find the best options for ground transportation.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/apis.yml
 tags:
 - Ground Transportation
 - Search

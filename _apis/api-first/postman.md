@@ -12,6 +12,8 @@ properties:
 provider_name: API-First
 provider_slug: api-first
 slug: postman
+source_yaml: "aid: api-first:postman\nname: Postman - API Platform\ndescription: Postman provides an API platform supporting API-first design with collaborative workspace,\n  design-first features, mock servers, testing, and documentation generation.\nhumanURL: https://www.postman.com\ntags:\n- API Design\n- API Testing\n- API-First\nproperties:\n- type: Documentation\n  url: https://www.postman.com/api-first/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-first/refs/heads/main/apis.yml
 tags:
 - API Design
 - API Testing

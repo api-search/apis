@@ -18,6 +18,8 @@ properties:
 provider_name: Google Workspace
 provider_slug: google-workspace
 slug: sheets
+source_yaml: "aid: google-workspace:sheets\nname: Google Sheets API\ndescription: Read and write data in Google Sheets.\nimage: https://www.gstatic.com/images/branding/product/2x/sheets_2020q4_48dp.png\nhumanURL: https://developers.google.com/sheets/api\nbaseURL: https://sheets.googleapis.com\ntags:\n- Analytics\n- Data\n- Spreadsheets\nproperties:\n- type: Documentation\n  url: https://developers.google.com/sheets/api/guides/concepts\n- type: CodeExamples\n  url: https://developers.google.com/sheets/api/samples\n- type: Quickstart\n  url: https://developers.google.com/sheets/api/quickstart/python\n- type: APIReference\n  url: https://developers.google.com/workspace/sheets/api/reference/rest\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/apis.yml
 tags:
 - Analytics
 - Data

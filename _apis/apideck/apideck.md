@@ -16,6 +16,8 @@ properties:
 provider_name: Apideck
 provider_slug: apideck
 slug: apideck
+source_yaml: "aid: apideck:apideck\nname: Apideck\ntags:\n- Integrations\n- Unified API\nhumanURL: ' https://www.apideck.com/'\nbaseURL: https://unify.apideck.com\nproperties:\n- url: ' https://www.apideck.com/'\n  type: Documentation\n- url: https://developers.apideck.com/apis\n  type: Documentation\n- url: https://developers.apideck.com/get-started\n  type: GettingStarted\ndescription: Apideck is the leading Unified API that doesn't store sensitive customer data. Build and\n  maintain native integrations into your product with an exceptional Developer Experience.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/apis.yml
 tags:
 - Integrations
 - Unified API

@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: siterecoverymanagementclient
+source_yaml: "aid: microsoft-azure:siterecoverymanagementclient\nname: Microsoft Azure Site Recovery Management Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/site-recovery/\nproperties:\n- url: openapi/siterecoverymanagementclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/site-recovery/\n  type: Documentation\ndescription: The Microsoft Azure Site Recovery Management Client is a tool that allows users to manage\n  and monitor their disaster recovery plans on the Azure platform. This client provides a centralized\n  dashboard for setting up, configuring, and testing disaster recovery scenarios, as well as for monitoring\n  the health and performance of replication and failover processes. Users can easily initiate failovers,\n  perform test failovers, and track replication progress, all from one convenient interface.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

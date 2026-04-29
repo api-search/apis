@@ -12,6 +12,8 @@ properties:
 provider_name: WNS Holdings
 provider_slug: wns-holdings
 slug: wns-holdings-api
+source_yaml: "aid: wns-holdings:wns-holdings-api\nname: WNS Holdings API\ntags:\n- Business Process Outsourcing\n- Analytics\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.wns.com\nhumanURL: https://developer.wns.com\nproperties:\n- url: https://developer.wns.com/docs\n  type: Documentation\ndescription: The WNS Holdings API provides access to platform services and data for enterprise integration\n  and automation.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wns-holdings/refs/heads/main/apis.yml
 tags:
 - Business Process Outsourcing
 - Analytics

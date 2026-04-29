@@ -20,5 +20,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-openai
+source_yaml: "aid: microsoft-azure-one:azure-openai\nname: Microsoft Azure Open Ai\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/\nproperties:\n- url: openapi/azure-openai-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/ai-services/openai/\n  type: Documentation\n- url: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference\n  type: API Reference\n- url: https://azure.microsoft.com/en-us/pricing/details/azure-openai/\n  type: Pricing\n- url: https://learn.microsoft.com/en-us/azure/ai-services/openai/overview\n  type: GettingStarted\ndescription: Microsoft Azure Open AI is a platform that provides access to cutting-edge artificial intelligence\n  technologies for developers and businesses. It offers a wide range of AI services, including natural\n  language processing, computer vision, and machine learning, to help organizations\
+  \ leverage the power\n  of AI in their applications and workflows.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: microsoft-sentinel-upload-indicators-api
+source_yaml: "aid: microsoft-azure:microsoft-sentinel-upload-indicators-api\nname: Microsoft Azure Microsoft Sentinel Upload Indicators API\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/sentinel/upload-indicators-api\nproperties:\n- url: openapi/microsoft-sentinel-upload-indicators-api-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/sentinel/upload-indicators-api\n  type: Documentation\ndescription: The Microsoft Azure Microsoft Sentinel Upload Indicators API is a tool designed to allow\n  users to quickly and easily upload indicators of compromise (IOCs) into their Azure Sentinel workspace.\n  This API streamlines the process of sharing threat intelligence data, enabling organizations to better\n  identify and respond to security threats in real-time.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

@@ -14,6 +14,8 @@ properties:
 provider_name: Bunq
 provider_slug: bunq
 slug: bunq-billing-contract-subscription-api
+source_yaml: "aid: bunq:bunq-billing-contract-subscription-api\nname: Bunq Billing Contract Subscription API\ntags:\n- Billing\n- Contracts\n- Subscriptions\n- Users\nhumanURL: https://doc.bunq.com/#/billing-contract-subscription/List_all_BillingContractSubscription_for_User\nproperties:\n- url: openapi/bunq-user-userid-billing-contract-subscription-openapi-original.yml\n  type: OpenAPI\n- url: https://doc.bunq.com/\n  type: Documentation\ndescription: The Bunq Billing Contract Subscription API is a tool that allows businesses to create and\n  manage subscription billing contracts with their customers. This API provides businesses with the ability\n  to automate recurring billing processes, set up payment schedules, and track customer invoices. By using\n  this API, businesses can streamline their subscription billing procedures, reduce manual administrative\n  tasks, and improve overall efficiency in managing customer contracts.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/apis.yml
 tags:
 - Billing
 - Contracts

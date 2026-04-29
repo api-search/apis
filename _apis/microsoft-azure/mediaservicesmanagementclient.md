@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: mediaservicesmanagementclient
+source_yaml: "aid: microsoft-azure:mediaservicesmanagementclient\nname: Microsoft Azure Media Services Management Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.media-readme?view=azure-dotnet\nproperties:\n- url: openapi/mediaservicesmanagementclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.media-readme?view=azure-dotnet\n  type: Documentation\ndescription: Microsoft Azure Media Services Management Client is a tool that allows users to manage and\n  monitor their media assets on the Azure platform. With this client, users can easily upload, encode,\n  and deliver video and audio content to a global audience. It provides options for transcoding, streaming,\n  and content protection to ensure optimal viewing experiences for users.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

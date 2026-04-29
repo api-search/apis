@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-monitor-metrics-data-api
+source_yaml: "aid: microsoft-azure:azure-monitor-metrics-data-api\nname: Microsoft Azure Monitor Metrics Data API\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/rest/api/monitor/metrics?view=rest-monitor-2023-10-01\nproperties:\n- url: openapi/azure-monitor-metrics-data-api-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/rest/api/monitor/metrics?view=rest-monitor-2023-10-01\n  type: Documentation\ndescription: The Microsoft Azure Monitor Metrics Data API allows users to access and retrieve real-time\n  monitoring data for various resources within the Azure cloud platform. This API provides a unified interface\n  for querying and analyzing metrics data, making it easier for developers and administrators to monitor\n  the performance and health of their applications and services.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

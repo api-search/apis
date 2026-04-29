@@ -12,6 +12,8 @@ properties:
 provider_name: AutoTrac
 provider_slug: autotrac
 slug: jornada-api
+source_yaml: "aid: autotrac:jornada-api\nname: AutoTrac Jornada Driver Journey API\ndescription: The AutoTrac Jornada platform manages driver journey logs and compliance with Brazilian driving\n  hour regulations, tracking driving time, rest periods, and journey records for long-distance transport\n  compliance (Lei do Caminhoneiro).\nhumanURL: https://www.autotrac.com.br\ntags:\n- Driver Management\n- Journey Logs\n- Compliance\n- Transportation Regulations\nproperties:\n- type: Website\n  url: https://www.autotrac.com.br\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autotrac/refs/heads/main/apis.yml
 tags:
 - Driver Management
 - Journey Logs

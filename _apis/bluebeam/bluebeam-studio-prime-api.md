@@ -18,6 +18,9 @@ properties:
 provider_name: bluebeam
 provider_slug: bluebeam
 slug: bluebeam-studio-prime-api
+source_yaml: "aid: bluebeam:bluebeam-studio-prime-api\nname: Bluebeam Studio Prime Integration API\ntags:\n- Construction\n- Drawing\n- Markup\n- PDF\n- Project Management\n- Studio Prime\nimage: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/image.png\nhumanURL: https://developers.bluebeam.com/\nbaseURL: https://api.bluebeam.com\nproperties:\n- url: https://support.bluebeam.com/integrations/develop-integrations.html\n  type: Documentation\n- url: https://support.bluebeam.com/developer/getting-started-dev-portal.html\n  type: GettingStarted\n- url: https://support.bluebeam.com/developer/authentication-guide.html\n  type: Authentication\n- url: https://support.bluebeam.com/integrations/int-overview.html\n  type: Documentation\ndescription: The Bluebeam Studio Prime Integration API leverages the Bluebeam Public API to enable third-party\n  application integrations with Studio Prime. APIs support programmatic access to project drawing sets,\n  session management,\
+  \ and markup synchronization for construction project management platforms.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/apis.yml
 tags:
 - Construction
 - Drawing

@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: virtualwanasaservicemanagementclient
+source_yaml: "aid: microsoft-azure:virtualwanasaservicemanagementclient\nname: Microsoft Azure Virtual Wanas Aservice Management Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/virtual-wan/\nproperties:\n- url: openapi/virtualwanasaservicemanagementclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/virtual-wan/\n  type: Documentation\ndescription: Microsoft Azure VirtualWANAsAServiceManagementClient is a service management client that\n  provides a centralized platform for managing virtual wide area networks (WANs) hosted on the Azure cloud\n  computing platform. This service allows users to easily create, configure, and manage virtual WANs to\n  securely connect multiple branch offices, data centers, and cloud environments.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

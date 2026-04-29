@@ -12,6 +12,8 @@ properties:
 provider_name: Databricks
 provider_slug: databricks
 slug: recipients-api
+source_yaml: "aid: databricks:recipients-api\nname: Databricks Recipients API\ntags:\n- Access Control\n- Data Sharing\n- Delta Sharing\nhumanURL: https://docs.databricks.com/api/workspace/recipients\nproperties:\n- url: https://docs.databricks.com/api/workspace/recipients\n  type: Documentation\ndescription: The Databricks Recipients API is part of Delta Sharing and allows you to create, update,\n  list, and delete recipients. A recipient is an entity that receives shared data from a provider, and\n  can be either a Databricks workspace or an open-protocol recipient using bearer tokens.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/apis.yml
 tags:
 - Access Control
 - Data Sharing

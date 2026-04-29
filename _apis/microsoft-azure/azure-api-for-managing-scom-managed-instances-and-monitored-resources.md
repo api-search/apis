@@ -14,5 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-api-for-managing-scom-managed-instances-and-monitored-resources
+source_yaml: "aid: microsoft-azure:azure-api-for-managing-scom-managed-instances-and-monitored-resources\nname: Microsoft Azure API for Managing Scom Managed Instances and Monitored Resources\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/scom-manage-instance/overview\nproperties:\n- url: openapiazure-api-for-managing-scom-managed-instances-and-monitored-resources-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-monitor/scom-manage-instance/overview\n  type: Documentation\ndescription: Microsoft Azure API for managing SCOM managed instances and monitored resources provides\n  developers with a comprehensive set of tools and capabilities to efficiently manage System Center Operations\n  Manager (SCOM) resources on the Azure platform. This API allows users to programmatically access and\n  interact with SCOM managed instances, including creating,\
+  \ updating, and deleting resources, as well\n  as retrieving information about monitored resources and triggering actions based on monitoring data.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

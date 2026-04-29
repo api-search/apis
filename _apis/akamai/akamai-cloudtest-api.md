@@ -12,5 +12,7 @@ properties:
 provider_name: Akamai
 provider_slug: akamai
 slug: akamai-cloudtest-api
+source_yaml: "aid: akamai:akamai-cloudtest-api\nname: Akamai CloudTest API\ntags: []\nhumanURL: https://techdocs.akamai.com/cloudtest/reference/api\nproperties:\n- url: https://techdocs.akamai.com/cloudtest/reference/api\n  type: Documentation\ndescription: You can use the CloudTest API service to plan for peak traffic performance by performance\n  testing your environment safely and at scale to identify areas in your site or app that need strengthening.\n  To have success with this API you need to first create your tests and other content in the CloudTest\n  UI and understand the concepts there.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/apis.yml
 tags: []
 ---

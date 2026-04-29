@@ -12,6 +12,8 @@ properties:
 provider_name: Splunk
 provider_slug: splunk
 slug: splunk-cloud-admin-config-service-openapi
+source_yaml: "aid: splunk:splunk-cloud-admin-config-service-openapi\nname: Splunk Cloud ACS OpenAPI Specification\ndescription: The OpenAPI 3.0 specification for the Splunk Cloud Admin Config Service (ACS) API. It includes\n  all parameters, response codes, and other metadata needed to send requests to the ACS API endpoint.\nhumanURL: https://admin.splunk.com/service/info/specs/v2/openapi.json\ntags:\n- Administration\n- Cloud\n- OpenAPI\nproperties:\n- type: OpenAPI\n  url: https://admin.splunk.com/service/info/specs/v2/openapi.json\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/apis.yml
 tags:
 - Administration
 - Cloud

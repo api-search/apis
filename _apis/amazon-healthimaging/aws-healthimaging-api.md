@@ -28,6 +28,9 @@ properties:
 provider_name: Amazon HealthImaging
 provider_slug: amazon-healthimaging
 slug: aws-healthimaging-api
+source_yaml: "aid: amazon-healthimaging:aws-healthimaging-api\nname: AWS HealthImaging API\ndescription: The AWS HealthImaging API provides programmatic access to create and manage datastores, image\n  sets, and DICOM import jobs for storing and retrieving medical imaging data at scale. The API is HIPAA-eligible\n  and supports sub-second image retrieval.\nhumanURL: https://aws.amazon.com/healthimaging/\nbaseURL: https://medical-imaging.us-east-1.amazonaws.com\ntags:\n- Healthcare\n- HIPAA\n- Medical Imaging\n- DICOM\n- Datastores\nproperties:\n- type: Documentation\n  url: https://docs.aws.amazon.com/healthimaging/latest/devguide/API_Reference.html\n- type: OpenAPI\n  url: openapi/amazon-healthimaging-openapi.yaml\n- type: GettingStarted\n  url: https://aws.amazon.com/healthimaging/getting-started/\n- type: Pricing\n  url: https://aws.amazon.com/healthimaging/pricing/\n- type: FAQ\n  url: https://aws.amazon.com/healthimaging/faqs/\n- type: APIReference\n  url: https://docs.aws.amazon.com/healthimaging/latest/devguide/API_Reference.html\n\
+  - type: Authentication\n  url: https://docs.aws.amazon.com/healthimaging/latest/devguide/security-iam.html\n- type: JSONSchema\n  url: json-schema/healthimaging-datastore-schema.json\n- type: JSONLD\n  url: json-ld/amazon-healthimaging-context.jsonld\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/apis.yml
 tags:
 - Healthcare
 - HIPAA

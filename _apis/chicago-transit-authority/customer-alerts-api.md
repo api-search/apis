@@ -12,6 +12,8 @@ properties:
 provider_name: Chicago Transit Authority
 provider_slug: chicago-transit-authority
 slug: customer-alerts-api
+source_yaml: "aid: chicago-transit-authority:customer-alerts-api\nname: CTA Customer Alerts API\ndescription: The Customer Alerts API delivers real-time service status, planned outages, and disruption\n  information for CTA bus and rail services. It provides both a route-level status feed and per-route\n  or per-station detail. Authentication is not required for the public Customer Alerts feeds.\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://www.transitchicago.com/developers/alerts/\nbaseURL: http://www.transitchicago.com/api/1.0\ntags:\n- Customer Alerts\n- Real-Time\n- Service Status\n- Transit\nproperties:\n- type: Documentation\n  url: https://www.transitchicago.com/developers/alerts/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/apis.yml
 tags:
 - Customer Alerts
 - Real-Time

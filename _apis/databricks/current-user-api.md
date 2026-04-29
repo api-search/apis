@@ -12,6 +12,8 @@ properties:
 provider_name: Databricks
 provider_slug: databricks
 slug: current-user-api
+source_yaml: "aid: databricks:current-user-api\nname: Databricks Current User API\ntags:\n- Authentication\n- Identity\n- Users\nhumanURL: https://docs.databricks.com/api/workspace/currentuser\nproperties:\n- url: https://docs.databricks.com/api/workspace/currentuser\n  type: Documentation\ndescription: The Databricks Current User API allows you to retrieve information about the currently authenticated\n  user or service principal. It returns identity details including username, display name, and group memberships\n  for the caller making the API request.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/apis.yml
 tags:
 - Authentication
 - Identity

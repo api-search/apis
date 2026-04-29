@@ -14,6 +14,9 @@ properties:
 provider_name: Binance
 provider_slug: binance
 slug: spot-websocket-streams
+source_yaml: "aid: binance:spot-websocket-streams\nname: Binance Spot WebSocket Streams\ntags:\n- Cryptocurrency\n- Market Data\n- Real-Time\n- Streaming\n- WebSocket\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: wss://stream.binance.com\nhumanURL: https://developers.binance.com/docs/binance-spot-api-docs/web-socket-streams\nproperties:\n- url: https://developers.binance.com/docs/binance-spot-api-docs/web-socket-streams\n  type: Documentation\n- url: asyncapi/binance-spot-websocket-streams-asyncapi.yml\n  type: AsyncAPI\ndescription: Binance Spot WebSocket Streams deliver real-time market data updates via persistent WebSocket\n  connections. Developers can subscribe to individual symbol ticker streams, aggregate trade streams,\n  kline and candlestick data, depth-of-book updates, and mini-ticker streams. The service supports both\n  single and combined stream subscriptions, enabling efficient consumption of live market data for trading\n  bots,\
+  \ dashboards, and analytics applications without polling the REST API.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/apis.yml
 tags:
 - Cryptocurrency
 - Market Data

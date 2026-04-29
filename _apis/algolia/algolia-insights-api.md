@@ -14,6 +14,8 @@ properties:
 provider_name: Algolia
 provider_slug: algolia
 slug: algolia-insights-api
+source_yaml: "aid: algolia:algolia-insights-api\nname: Algolia Insights API\ndescription: The Insights API lets you collect events related to your search and discovery experience.\n  Events represent user interactions with your app or website. They unlock powerful features, such as\n  recommendations, personalization, smarter search results, and analytics that help you optimize your\n  user experience.\nhumanURL: https://www.algolia.com/doc/rest-api/insights/\nbaseURL: https://insights.algolia.io\ntags:\n- Insights\n- Events\n- Search\n- User Behavior\nproperties:\n- type: Documentation\n  url: https://www.algolia.com/doc/rest-api/insights/\n- type: OpenAPI\n  url: openapi/algolia-insights-api-openapi.yml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/apis.yml
 tags:
 - Insights
 - Events

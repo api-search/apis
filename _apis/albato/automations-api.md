@@ -32,6 +32,9 @@ properties:
 provider_name: Albato
 provider_slug: albato
 slug: automations-api
+source_yaml: "aid: albato:automations-api\nname: Albato Automations API\ntags:\n- Automation\n- Workflow\n- No-Code\n- Executions\nproperties:\n- url: https://albato.com\n  type: Documentation\n- url: openapi/albato-automations-openapi.yaml\n  type: OpenAPI\n- url: json-schema/albato-albato-automations-automation-schema.json\n  type: JSONSchema\n- url: json-schema/albato-albato-automations-automation-step-schema.json\n  type: JSONSchema\n- url: json-schema/albato-albato-automations-execution-schema.json\n  type: JSONSchema\n- url: json-structure/albato-albato-automations-automation-structure.json\n  type: JSONStructure\n- url: json-structure/albato-albato-automations-automation-step-structure.json\n  type: JSONStructure\n- url: json-structure/albato-albato-automations-execution-structure.json\n  type: JSONStructure\n- url: examples/albato-albato-automations-automation-example.json\n  type: Example\n- url: examples/albato-albato-automations-automation-step-example.json\n  type: Example\n\
+  - url: examples/albato-albato-automations-execution-example.json\n  type: Example\nhumanURL: https://albato.com\nbaseURL: https://albato.com/api/v1\ndescription: REST API for managing multi-step automation workflows in Albato. Supports creating, enabling,\n  disabling, and monitoring automation executions across 1,000+ connected apps.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/apis.yml
 tags:
 - Automation
 - Workflow

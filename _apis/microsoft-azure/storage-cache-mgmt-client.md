@@ -14,5 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: storage-cache-mgmt-client
+source_yaml: "aid: microsoft-azure:storage-cache-mgmt-client\nname: Microsoft Azure Storage Cache Mgmt Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.storagecache-readme?view=azure-dotnet\nproperties:\n- url: openapi/storage-cache-mgmt-client-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.storagecache-readme?view=azure-dotnet\n  type: Documentation\ndescription: The Microsoft Azure Storage Cache Mgmt Client is a tool that allows users to manage and optimize\n  their cache storage within Azure Storage. This client provides functionalities such as creating, deleting,\n  updating, and monitoring cache storage to help efficiently store and retrieve data. By utilizing the\n  Cache Mgmt Client, users can improve the performance and responsiveness of their applications by effectively\n\
+  \  managing their cache storage resources.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

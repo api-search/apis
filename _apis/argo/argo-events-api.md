@@ -18,6 +18,8 @@ properties:
 provider_name: Argo
 provider_slug: argo
 slug: argo-events-api
+source_yaml: "aid: argo:argo-events-api\nname: Argo Events API\ndescription: Kubernetes-native API for the Argo Events event-driven automation framework. Exposes CRD-based\n  resources including EventSource, EventBus, and Sensor for triggering Argo Workflows and Kubernetes actions\n  in response to over 20 event types including webhooks, S3, cron, and messaging queues.\nhumanURL: https://argoproj.github.io/argo-events/APIs/\ntags:\n- Automation\n- Event-Driven\n- Events\n- Kubernetes\nproperties:\n- type: Documentation\n  url: https://argoproj.github.io/argo-events/\n- type: APIReference\n  url: https://argoproj.github.io/argo-events/APIs/\n- type: GitHubRepository\n  url: https://github.com/argoproj/argo-events\n- type: AsyncAPI\n  url: asyncapi/argo-events-asyncapi.yml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/apis.yml
 tags:
 - Automation
 - Event-Driven

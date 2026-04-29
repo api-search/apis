@@ -16,6 +16,8 @@ properties:
 provider_name: AT&T Developer Hub
 provider_slug: at-t-developer-hub
 slug: att-network-insights-api
+source_yaml: "aid: at-t-developer-hub:att-network-insights-api\nname: AT&T Network Insights API\ndescription: Delivers performance metrics and device-level network data, providing developers with insights\n  into network conditions, signal quality, and performance indicators for connected devices on the AT&T\n  network.\nhumanURL: https://devex-web.att.com/developer-hub/\nbaseURL: https://api.att.com\ntags:\n- Network Performance\n- Metrics\n- 5G\n- Monitoring\nproperties:\n- type: Documentation\n  url: https://devex-web.att.com/developer-hub/\n- type: GettingStarted\n  url: https://devex-web.att.com/developer-hub/docs/network-api-accelerator-program\n- type: OpenAPI\n  url: openapi/at-t-developer-hub-network-insights-api.yaml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/apis.yml
 tags:
 - Network Performance
 - Metrics

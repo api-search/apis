@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: contentsafety-service
+source_yaml: "aid: microsoft-azure-one:contentsafety-service\nname: Microsoft Azure Content Safety Service\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/ai-services/content-safety/\nproperties:\n- url: openapi/contentsafety-service-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/ai-services/content-safety/\n  type: Documentation\ndescription: Microsoft Azure Content Safety Service is a tool designed to help businesses protect their\n  online content from harmful or inappropriate material. This service uses advanced AI technology to analyze\n  and filter out content that violates company policies or regulations. It can detect and block content\n  such as hate speech, violence, or explicit material in real-time, ensuring that only safe and compliant\n  content is accessible to users.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

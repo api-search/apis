@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: notificationhubsmanagementclient
+source_yaml: "aid: microsoft-azure:notificationhubsmanagementclient\nname: Microsoft Azure Notification Hubs Management Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/notification-hubs/\nproperties:\n- url: openapi/notificationhubsmanagementclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/notification-hubs/\n  type: Documentation\ndescription: The Microsoft Azure Notification Hubs Management Client is a tool designed to manage and\n  control the Notification Hubs service within the Azure platform. This client allows users to easily\n  create, manage, and send notifications to their mobile applications or devices across multiple platforms,\n  including iOS, Android, and Windows.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

@@ -14,6 +14,8 @@ properties:
 provider_name: Boomi
 provider_slug: boomi
 slug: platform-soap-api
+source_yaml: "aid: boomi:platform-soap-api\nname: Boomi Platform SOAP API\ntags:\n- Integration\n- Platform\n- SOAP\nhumanURL: https://developer.boomi.com/docs/APIs/PlatformSOAPAPI/APIObjects/API_objects_and_object-based_operations\nproperties:\n- url: https://developer.boomi.com/docs/APIs/PlatformSOAPAPI/APIObjects/API_objects_and_object-based_operations\n  type: Documentation\n- url: https://developer.boomi.com/docs/APIs/PlatformAPI/Introduction/Platform_API\n  type: GettingStarted\ndescription: The Boomi Platform SOAP API provides the same programmatic access to the Boomi Enterprise\n  Platform as the REST API but through a SOAP interface. The WSDL is available at api.boomi.com and the\n  API uses WS-Security with UsernameToken for authentication. It supports GET, QUERY, CREATE, UPDATE,\n  EXECUTE, and DELETE operations on platform objects.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/apis.yml
 tags:
 - Integration
 - Platform

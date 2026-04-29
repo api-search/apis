@@ -12,6 +12,8 @@ properties:
 provider_name: HubSpot
 provider_slug: hubspot
 slug: hubspot-cms-content-audit-api
+source_yaml: "aid: hubspot:hubspot-cms-content-audit-api\nname: HubSpot CMS Content Audit API\ntags:\n- Audit\n- CMS\n- Content\n- Logs\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.hubapi.com\nhumanURL: https://developers.hubspot.com/docs/guides/api/cms/content-audit\nproperties:\n- url: https://developers.hubspot.com/docs/guides/api/cms/content-audit\n  type: Documentation\ndescription: The CMS content audit API allows you to query audit logs of CMS changes that occurred within\n  your HubSpot account. You can filter and sort on content object changes by type, time period, or HubSpot\n  user ID to track content change history.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/apis.yml
 tags:
 - Audit
 - CMS

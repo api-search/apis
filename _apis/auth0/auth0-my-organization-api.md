@@ -12,6 +12,8 @@ properties:
 provider_name: Auth0
 provider_slug: auth0
 slug: auth0-my-organization-api
+source_yaml: "aid: auth0:auth0-my-organization-api\nname: Auth0 My Organization API\ndescription: 'The Auth0 My Organization API provides organization-scoped endpoints for business customers\n  to manage their own Organizations, including IdP configuration, SCIM, and Home Realm Discovery.\n\n  '\nhumanURL: https://auth0.com/docs/api/myorganization\nbaseURL: https://your-tenant.auth0.com\ntags:\n- Authentication\n- B2B\n- Identity\n- Organizations\nproperties:\n- type: Documentation\n  url: https://auth0.com/docs/api/myorganization\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/apis.yml
 tags:
 - Authentication
 - B2B

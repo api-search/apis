@@ -14,5 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: searchindexclient
+source_yaml: "aid: microsoft-azure:searchindexclient\nname: Microsoft Azure Search Index Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/python/api/azure-search-documents/azure.search.documents.indexes.searchindexclient?view=azure-python\nproperties:\n- url: openapi/searchindexclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/python/api/azure-search-documents/azure.search.documents.indexes.searchindexclient?view=azure-python\n  type: Documentation\ndescription: The Microsoft Azure Search Index Client is a tool that allows developers to create and manage\n  search indexes within their applications. This client enables users to easily integrate powerful search\n  capabilities into their services, making it easier for end-users to find relevant information quickly.\n  With the Index Client, developers can define the structure of their search indexes, upload and\
+  \ manage\n  content, perform advanced search queries, and retrieve search results efficiently.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

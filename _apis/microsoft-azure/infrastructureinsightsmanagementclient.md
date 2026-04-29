@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: infrastructureinsightsmanagementclient
+source_yaml: "aid: microsoft-azure:infrastructureinsightsmanagementclient\nname: Microsoft Azure Infrastructure Insights Management Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/\nproperties:\n- url: openapi/infrastructureinsightsmanagementclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/\n  type: Documentation\ndescription: The Microsoft Azure Infrastructure Insights Management Client is a powerful tool designed\n  to provide organizations with comprehensive monitoring and management capabilities for their Azure infrastructure.\n  This client enables users to gain real-time insights into the performance, availability, and health\n  of their cloud resources, allowing them to proactively identify and address potential issues.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

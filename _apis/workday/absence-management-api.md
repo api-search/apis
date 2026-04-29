@@ -18,6 +18,8 @@ properties:
 provider_name: Workday
 provider_slug: workday
 slug: absence-management-api
+source_yaml: "aid: workday:absence-management-api\nname: Workday Absence Management API\ndescription: Absence Management API for managing leave balances, time-off requests, leaves of absence,\n  and eligible absence types for workers.\nimage: https://www.workday.com/content/dam/web/images/logo/workday-logo.svg\nhumanURL: https://community.workday.com/sites/default/files/file-hosting/restapi/index.html\nbaseURL: https://wd2-impl-services1.workday.com/ccx/api/absenceManagement/\ntags:\n- Absence Management\n- Leave Balances\n- Leave of Absence\n- Time Off\nproperties:\n- type: Documentation\n  url: https://community.workday.com/sites/default/files/file-hosting/restapi/index.html\n- type: OpenAPI\n  url: openapi/absenceManagement.yml\n- type: JSONSchema\n  url: json-schema/time-off.json\n- type: JSONLD\n  url: json-ld/absenceManagement-context.jsonld\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/apis.yml
 tags:
 - Absence Management
 - Leave Balances

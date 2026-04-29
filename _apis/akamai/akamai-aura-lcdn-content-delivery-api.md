@@ -12,5 +12,7 @@ properties:
 provider_name: Akamai
 provider_slug: akamai
 slug: akamai-aura-lcdn-content-delivery-api
+source_yaml: "aid: akamai:akamai-aura-lcdn-content-delivery-api\nname: Akamai Aura LCDN Content Delivery API\ntags: []\nhumanURL: https://techdocs.akamai.com/aura-lcdn-content-delivery/reference/api\nproperties:\n- url: https://techdocs.akamai.com/aura-lcdn-content-delivery/reference/api\n  type: Documentation\ndescription: This API allows the LCDN Operator or Content Provider to define which content will be ingested,\n  cached, and delivered by an Aura LCDN.This API allows the CDN operator or content provider to manage\n  their own content delivery options, including origin servers, CDN prefixes, URI Filters and TLS Profiles.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/apis.yml
 tags: []
 ---

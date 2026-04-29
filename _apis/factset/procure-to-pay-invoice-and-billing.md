@@ -34,5 +34,8 @@ properties:
 provider_name: Factset
 provider_slug: factset
 slug: procure-to-pay-invoice-and-billing
+source_yaml: "aid: factset:procure-to-pay-invoice-and-billing\nname: Procure to Pay Invoice and Billing\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://example.com\nhumanURL: '\n\n  https://developer.factset.com/api-catalog/procure-to-pay-invoice-and-billing'\noverlays:\n- url: overlays/procure-to-pay-api-scim-openapi-search.yml\n  type: APIs.io Search\n- url: overlays/procure-to-pay-api-scim-openapi-api-evangelist-ratings.yml\n  type: API Evangelist Ratings\nproperties:\n- url: '\n\n    https://developer.factset.com/api-catalog/procure-to-pay-invoice-and-billing#overview'\n  type: Documentation\n- url: '\n\n    https://developer.factset.com/api-catalog/procure-to-pay-invoice-and-billing#sdkLibrary'\n  type: SDK\n- url: '\n\n    https://developer.factset.com/api-catalog/procure-to-pay-invoice-and-billing#notebooks'\n  type: Tutorials\n- url: '\n\n    https://developer.factset.com/api-catalog/procure-to-pay-invoice-and-billing#codeSnippet'\n\
+  \  type: CodeExamples\n- url: '\n\n    https://developer.factset.com/api-catalog/procure-to-pay-invoice-and-billing#changelog'\n  type: ChangeLog\n- url: openapi/procure-to-pay-api-scim-openapi-original.yml\n  type: OpenAPI\ndescription: List and download available PDF invoices. Generate custom billing reports.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/apis.yml
 tags: []
 ---

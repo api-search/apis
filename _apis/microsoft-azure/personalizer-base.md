@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: personalizer-base
+source_yaml: "aid: microsoft-azure-one:personalizer-base\nname: Microsoft Azure Personalizer Base\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/ai-services/personalizer/\nproperties:\n- url: openapi/personalizer-base-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/ai-services/personalizer/\n  type: Documentation\ndescription: Microsoft Azure Personalizer Base is a service that uses machine learning algorithms to deliver\n  personalized content recommendations. By analyzing user behavior and preferences, Personalizer Base\n  can generate recommendations that are tailored to each individual's unique needs and interests. This\n  service is particularly useful for companies looking to enhance their customer experience by providing\n  personalized recommendations for products, services, or content.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

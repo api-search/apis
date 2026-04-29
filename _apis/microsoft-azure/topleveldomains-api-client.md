@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: topleveldomains-api-client
+source_yaml: "aid: microsoft-azure:topleveldomains-api-client\nname: Microsoft Azure Top Level Domains API Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/rest/api/appservice/top-level-domains/list?view=rest-appservice-2024-04-01\nproperties:\n- url: openapi/topleveldomains-api-client-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/rest/api/appservice/top-level-domains/list?view=rest-appservice-2024-04-01\n  type: Documentation\ndescription: The Microsoft Azure Top Level Domains API Client is a tool that allows users to interact\n  with the Microsoft Azure domain management system through a simplified interface. With this API client,\n  users can easily access and manage top-level domain names associated with their Azure account, enabling\n  them to register, renew, update, and delete domains with ease.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

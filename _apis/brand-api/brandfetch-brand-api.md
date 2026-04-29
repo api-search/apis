@@ -14,6 +14,8 @@ properties:
 provider_name: Brand API (Brandfetch)
 provider_slug: brand-api
 slug: brandfetch-brand-api
+source_yaml: "aid: brand-api:brandfetch-brand-api\nname: Brandfetch Brand API\ntags:\n- Brands\n- Logos\n- Colors\n- Fonts\n- Firmographics\nhumanURL: https://docs.brandfetch.com/docs/brand-api\nproperties:\n- url: openapi/brandfetch-brand-api.yml\n  type: OpenAPI\n- url: https://docs.brandfetch.com/docs/brand-api\n  type: Documentation\ndescription: 'Brand API provides programmatic access to any company''s brand assets through a single API\n  call. Returns the latest logos, color schemes, fonts, images, and firmographic information. Supports\n  lookup by domain (e.g. nike.com), stock/ETF ticker (e.g. NKE), ISIN code, or crypto symbol (e.g. BTC).\n  Base endpoint: GET /v2/brands/{identifier}. Authentication via Bearer token. Free sandbox testing available\n  on the brandfetch.com domain.'\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/apis.yml
 tags:
 - Brands
 - Logos

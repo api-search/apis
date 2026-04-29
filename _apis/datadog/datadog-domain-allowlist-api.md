@@ -12,6 +12,8 @@ properties:
 provider_name: Datadog
 provider_slug: datadog
 slug: datadog-domain-allowlist-api
+source_yaml: "aid: datadog:datadog-domain-allowlist-api\nname: Datadog Domain Allowlist API\ntags:\n- Access Control\n- Domain Allowlist\n- Security\nhumanURL: https://docs.datadoghq.com/api/latest/domain-allowlist/\nbaseURL: https://api.datadoghq.com\nimage: https://imgix.datadoghq.com/img/dd_logo_n_70x75.png\nproperties:\n- url: https://docs.datadoghq.com/api/latest/domain-allowlist/\n  type: Documentation\ndescription: The Domain Allowlist API allows you to manage the email domain allowlist for your organization.\n  It supports getting and updating the list of allowed email domains.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/apis.yml
 tags:
 - Access Control
 - Domain Allowlist

@@ -14,6 +14,8 @@ properties:
 provider_name: Slack
 provider_slug: slack
 slug: slack-apps-api
+source_yaml: "aid: slack:slack-apps-api\nname: Slack Apps API\ntags:\n- Applications\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://slack.com/api\nhumanURL: https://docs.slack.dev/reference/methods\nproperties:\n- url: https://docs.slack.dev/reference/methods\n  type: Documentation\n- url: openapi/slack-apps-openapi.yml\n  type: OpenAPI\ndescription: The Slack Apps API is a set of platform APIs and tools that let developers build apps to\n  extend Slack and automate work. With it, you can read and write data via the Web API (messages, channels,\n  files, reactions), receive real-time events using the Events API or Socket Mode, and create interactive\n  experiences with Block Kit, modals, buttons, shortcuts, and slash commands. Apps can post messages,\n  run workflows, add custom steps to Workflow Builder, manage conversations, and act as bot users.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/apis.yml
 tags:
 - Applications
 ---

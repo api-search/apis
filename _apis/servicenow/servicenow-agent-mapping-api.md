@@ -12,6 +12,8 @@ properties:
 provider_name: ServiceNow
 provider_slug: servicenow
 slug: servicenow-agent-mapping-api
+source_yaml: "aid: servicenow:servicenow-agent-mapping-api\nname: ServiceNow Agent Mapping API\ntags:\n- Agent Workspace\n- Integration\n- Mapping\n- Routing\nimage: https://www.servicenow.com/content/dam/servicenow-assets/images/meganav/servicenow-logo.svg\nhumanURL: https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/integrate/inbound-rest/concept/agent-mapping-api.html\nbaseURL: https://{instance}.service-now.com/api/now/agent_mapping\nproperties:\n- url: https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/integrate/inbound-rest/concept/agent-mapping-api.html\n  type: Documentation\ndescription: The ServiceNow Agent Mapping API provides REST endpoints for managing agent mapping configurations.\n  It enables external systems to create and manage mappings between external agent identifiers and ServiceNow\n  agent records for routing and assignment purposes.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/apis.yml
 tags:
 - Agent Workspace
 - Integration

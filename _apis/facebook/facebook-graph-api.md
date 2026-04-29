@@ -18,6 +18,8 @@ properties:
 provider_name: Facebook
 provider_slug: facebook
 slug: facebook-graph-api
+source_yaml: "aid: facebook:facebook-graph-api\nname: Facebook Graph API\ndescription: The primary way to read and write data to the Facebook social graph, providing access to\n  user profiles, posts, pages, photos, videos, comments, and social interactions. Supports nodes, edges,\n  and fields for flexible data access.\nhumanURL: https://developers.facebook.com/docs/graph-api\nbaseURL: https://graph.facebook.com\ntags:\n- Comments\n- Graph\n- Pages\n- Photos\n- Posts\n- Social\n- Users\n- Videos\nproperties:\n- type: Documentation\n  url: https://developers.facebook.com/docs/graph-api/overview\n- type: APIReference\n  url: https://developers.facebook.com/docs/graph-api/reference\n- type: Authentication\n  url: https://developers.facebook.com/docs/facebook-login/access-tokens\n- type: OpenAPI\n  url: openapi/facebook-graph-api.yaml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/apis.yml
 tags:
 - Comments
 - Graph

@@ -14,6 +14,8 @@ properties:
 provider_name: Qlik
 provider_slug: qlik
 slug: reloads
+source_yaml: "aid: qlik:reloads\nname: Qlik Reloads API\ndescription: Triggers and manages app data reloads to refresh analytics application data via REST API\n  instead of only through the JSON-RPC WebSocket API.\nhumanURL: https://qlik.dev/apis/rest/reloads/\ntags:\n- Data Refresh\n- Reloads\nproperties:\n- type: Documentation\n  url: https://qlik.dev/apis/rest/reloads/\n- type: OpenAPI\n  url: https://qlik.dev/specs/rest/reloads.json\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/apis.yml
 tags:
 - Data Refresh
 - Reloads

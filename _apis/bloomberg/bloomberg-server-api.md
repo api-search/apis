@@ -14,6 +14,8 @@ properties:
 provider_name: Bloomberg
 provider_slug: bloomberg
 slug: bloomberg-server-api
+source_yaml: "aid: bloomberg:bloomberg-server-api\nname: Bloomberg Server API (SAPI)\ndescription: Delivers real-time market data, historical data, reference data, and calculation engine capabilities\n  from the Bloomberg Terminal for server applications.\nhumanURL: https://www.bloomberg.com/professional/products/data/data-connectivity/server-api/\ntags:\n- Enterprise\n- Historical Data\n- Market Data\n- Real-Time\n- Reference Data\n- Server API\nproperties:\n- type: Documentation\n  url: https://www.bloomberg.com/professional/support/api-library/\n- type: SDK\n  url: https://bloomberg.github.io/blpapi-docs/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/apis.yml
 tags:
 - Enterprise
 - Historical Data

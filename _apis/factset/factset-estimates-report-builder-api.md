@@ -34,5 +34,8 @@ properties:
 provider_name: Factset
 provider_slug: factset
 slug: factset-estimates-report-builder-api
+source_yaml: "aid: factset:factset-estimates-report-builder-api\nname: FactSet Estimates Report Builder API\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://example.com\nhumanURL: '\n\n  https://developer.factset.com/api-catalog/factset-estimates-report-builder-api'\noverlays:\n- url: overlays/estimates-report-builder-openapi-search.yml\n  type: APIs.io Search\n- url: overlays/estimates-report-builder-openapi-api-evangelist-ratings.yml\n  type: API Evangelist Ratings\nproperties:\n- url: '\n\n    https://developer.factset.com/api-catalog/factset-estimates-report-builder-api#overview'\n  type: Documentation\n- url: '\n\n    https://developer.factset.com/api-catalog/factset-estimates-report-builder-api#sdkLibrary'\n  type: SDK\n- url: '\n\n    https://developer.factset.com/api-catalog/factset-estimates-report-builder-api#notebooks'\n  type: Tutorials\n- url: '\n\n    https://developer.factset.com/api-catalog/factset-estimates-report-builder-api#codeSnippet'\n\
+  \  type: CodeExamples\n- url: '\n\n    https://developer.factset.com/api-catalog/factset-estimates-report-builder-api#changelog'\n  type: ChangeLog\n- url: openapi/estimates-report-builder-openapi-original.yml\n  type: OpenAPI\ndescription: The FactSet Estimates Report Builder APIs return consensus estimate data with fiscal periods\n  and line items structured in a presentation-ready format.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/apis.yml
 tags: []
 ---

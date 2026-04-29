@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-reservation-api
+source_yaml: "aid: microsoft-azure:azure-reservation-api\nname: Microsoft Azure Reservation API\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/cost-management-billing/reservations/reservation-apis\nproperties:\n- url: openapi/azure-reservation-api-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/cost-management-billing/reservations/reservation-apis\n  type: Documentation\ndescription: The Microsoft Azure Reservation API allows users to manage and optimize their cloud resources\n  by enabling them to pre-purchase Azure services like virtual machines, databases, and storage for a\n  specified period of time at a discounted rate. By making reservations in advance, users can ensure availability\n  and capacity for their workloads while also saving costs compared to on-demand pricing.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

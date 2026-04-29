@@ -12,6 +12,8 @@ properties:
 provider_name: CarsXE
 provider_slug: carsxe
 slug: vehicle-recalls-api
+source_yaml: "aid: carsxe:vehicle-recalls-api\nname: CarsXE Vehicle Recalls API\ndescription: Returns safety-recall and campaign data for a given VIN, sourced from manufacturer and NHTSA\n  data, for use in inspection, compliance, and pre-purchase workflows.\nhumanURL: https://api.carsxe.com/vehicle-recalls\nbaseURL: https://api.carsxe.com\ntags:\n- Recalls\n- Safety\n- Compliance\nproperties:\n- type: Documentation\n  url: https://api.carsxe.com/vehicle-recalls\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/apis.yml
 tags:
 - Recalls
 - Safety

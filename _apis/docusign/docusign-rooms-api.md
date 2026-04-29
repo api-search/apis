@@ -22,6 +22,9 @@ properties:
 provider_name: Docusign
 provider_slug: docusign
 slug: docusign-rooms-api
+source_yaml: "aid: docusign:docusign-rooms-api\nname: Docusign Rooms API\ntags:\n- Collaboration\n- Mortgages\n- Real Estate\n- Transactions\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://demo.rooms.docusign.com/restapi\nhumanURL: https://developers.docusign.com/docs/rooms-api/\nproperties:\n- url: https://developers.docusign.com/docs/rooms-api/reference/\n  type: Documentation\n- url: openapi/docusign-rooms-openapi-original.yml\n  type: OpenAPI\n- url: https://developers.docusign.com/docs/rooms-api/rooms101/\n  type: GettingStarted\n- url: https://developers.docusign.com/docs/rooms-api/how-to/\n  type: Tutorials\n- url: https://developers.docusign.com/docs/rooms-api/rooms101/rules-and-limits/\n  type: RateLimits\n- url: https://developers.docusign.com/docs/rooms-api/sdks/\n  type: SDK\ndescription: The Docusign Rooms API enables developers to streamline complex agreements with multiple\n  parties, tasks, documents, and stages through\
+  \ secure digital workspaces. It supports real estate and\n  mortgage transactions by bringing each party together in a central location where you can manage transactions,\n  integrate with other Docusign functionality, and track each step of the process.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/apis.yml
 tags:
 - Collaboration
 - Mortgages

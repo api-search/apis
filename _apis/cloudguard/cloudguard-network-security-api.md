@@ -12,6 +12,8 @@ properties:
 provider_name: CloudGuard
 provider_slug: cloudguard
 slug: cloudguard-network-security-api
+source_yaml: "aid: cloudguard:cloudguard-network-security-api\nname: CloudGuard Network Security API\ntags:\n- Cloud Firewall\n- Network Security\nhumanURL: https://www.checkpoint.com/cloudguard/cloud-network-security/\nproperties:\n- url: https://www.checkpoint.com/cloudguard/cloud-network-security/\n  type: Documentation\ndescription: CloudGuard Network Security delivers cloud-native firewalling and threat prevention with\n  management APIs for gateway provisioning, rule management, and integrations with CI/CD pipelines.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudguard/refs/heads/main/apis.yml
 tags:
 - Cloud Firewall
 - Network Security

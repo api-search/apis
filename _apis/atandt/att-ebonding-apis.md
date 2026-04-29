@@ -12,6 +12,8 @@ properties:
 provider_name: AT&T
 provider_slug: atandt
 slug: att-ebonding-apis
+source_yaml: "aid: atandt:att-ebonding-apis\nname: AT&T eBonding APIs\ndescription: Seamless API integration with AT&T's wireless and wireline IT and ordering systems. eBonding\n  APIs enable enterprise partners and resellers to integrate their BSS/OSS systems directly with AT&T's\n  backend systems for automated order management and status updates.\nhumanURL: https://devex-web.att.com/ebonding-common\nbaseURL: https://devex-web.att.com\ntags:\n- eBonding\n- Enterprise\n- BSS\n- OSS\n- Integration\nproperties:\n- type: Documentation\n  url: https://devex-web.att.com/ebonding-common\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/apis.yml
 tags:
 - eBonding
 - Enterprise

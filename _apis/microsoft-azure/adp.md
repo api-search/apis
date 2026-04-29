@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: adp
+source_yaml: "aid: microsoft-azure-one:adp\nname: Microsoft Azure Adp\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/robomq.adptoad?tab=overview\nproperties:\n- url: openapi/adp-openapi-original.yml\n  type: OpenAPI\n- url: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/robomq.adptoad?tab=overview\n  type: Documentation\ndescription: Microsoft Azure ADP, or Azure Active Directory Premium, is a cloud-based identity and access\n  management service that helps organizations manage and secure user identities and access to applications\n  and resources within their environment. With Azure ADP, businesses can implement single sign-on capabilities\n  for their users, streamline access control, enforce multi-factor authentication, and automate user provisioning\n  and deprovisioning processes.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

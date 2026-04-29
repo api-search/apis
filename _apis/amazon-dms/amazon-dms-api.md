@@ -16,6 +16,8 @@ properties:
 provider_name: Amazon DMS
 provider_slug: amazon-dms
 slug: amazon-dms-api
+source_yaml: "aid: amazon-dms:amazon-dms-api\nname: Amazon DMS API\ndescription: The AWS Database Migration Service API provides programmatic access to create and manage\n  replication instances, endpoints, replication tasks, and monitor migration progress for database migrations\n  to AWS.\nhumanURL: https://aws.amazon.com/dms/\nbaseURL: https://dms.amazonaws.com\ntags:\n- Database Migration\n- Data Replication\n- AWS\nproperties:\n- type: Documentation\n  url: https://docs.aws.amazon.com/dms/latest/APIReference/\n- type: OpenAPI\n  url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/openapi/amazon-dms-openapi.yaml\n- type: GettingStarted\n  url: https://aws.amazon.com/dms/getting-started/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/apis.yml
 tags:
 - Database Migration
 - Data Replication

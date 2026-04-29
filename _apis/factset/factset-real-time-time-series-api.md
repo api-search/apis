@@ -32,5 +32,8 @@ properties:
 provider_name: Factset
 provider_slug: factset
 slug: factset-real-time-time-series-api
+source_yaml: "aid: factset:factset-real-time-time-series-api\nname: FactSet Real-Time Time Series API\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://example.com\nhumanURL: https://developer.factset.com/api-catalog/real-time-time-series-api\noverlays:\n- url: overlays/real-time-time-series-openapi-search.yml\n  type: APIs.io Search\n- url: overlays/real-time-time-series-openapi-api-evangelist-ratings.yml\n  type: API Evangelist Ratings\nproperties:\n- url: '\n\n    https://developer.factset.com/api-catalog/real-time-time-series-api#overview'\n  type: Documentation\n- url: '\n\n    https://developer.factset.com/api-catalog/real-time-time-series-api#sdkLibrary'\n  type: SDK\n- url: '\n\n    https://developer.factset.com/api-catalog/real-time-time-series-api#notebooks'\n  type: Tutorials\n- url: '\n\n    https://developer.factset.com/api-catalog/real-time-time-series-api#codeSnippet'\n  type: CodeExamples\n- url: '\n\n    https://developer.factset.com/api-catalog/real-time-time-series-api#changelog'\n\
+  \  type: ChangeLog\n- url: openapi/real-time-time-series-openapi-original.yml\n  type: OpenAPI\ndescription: Time series data, end-of-day or intraday, tick-by-tick or subsampled. Additional vendor-specific\n  endpoints provide a modified interface for seamless integration with the ChartIQ chart library.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/apis.yml
 tags: []
 ---

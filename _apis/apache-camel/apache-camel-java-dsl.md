@@ -16,6 +16,8 @@ properties:
 provider_name: Apache Camel
 provider_slug: apache-camel
 slug: apache-camel-java-dsl
+source_yaml: "aid: apache-camel:apache-camel-java-dsl\nname: Apache Camel Java DSL API\ndescription: The Apache Camel Java DSL provides a fluent API for defining integration routes using Enterprise\n  Integration Patterns. Developers define RouteBuilder subclasses to connect Camel components via endpoints,\n  processors, and transformers.\nhumanURL: https://camel.apache.org/manual/java-dsl.html\ntags:\n- DSL\n- Integration\n- Java\n- Routing\nproperties:\n- type: Documentation\n  url: https://camel.apache.org/manual/java-dsl.html\n- type: APIReference\n  url: https://camel.apache.org/manual/camelcontext.html\n- type: GettingStarted\n  url: https://camel.apache.org/manual/getting-started.html\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-camel/refs/heads/main/apis.yml
 tags:
 - DSL
 - Integration

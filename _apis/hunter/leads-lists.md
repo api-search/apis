@@ -18,6 +18,8 @@ properties:
 provider_name: Hunter
 provider_slug: hunter
 slug: leads-lists
+source_yaml: "aid: hunter:leads-lists\nname: Hunter Leads Lists API\ndescription: Allows you to manage leads lists in Hunter, including listing, creating, updating, and deleting\n  lead collection groups.\nimage: https://hunter.io/images/hunter-logo.png\nhumanURL: https://hunter.io/api/leads\nbaseURL: https://api.hunter.io/v2\ntags:\n- Leads\n- Lists\n- Management\n- Organization\nproperties:\n- type: Documentation\n  url: https://hunter.io/api-documentation/v2#leads_lists\n- type: OpenAPI\n  url: openapi/hunter-api-openapi.yml\n- type: JSONSchema\n  url: json-schema/hunter-lead-schema.json\n- type: JSONLD\n  url: json-ld/hunter-context.jsonld\ncontact:\n- FN: Hunter Support\n  email: support@hunter.io\n  url: https://hunter.io/contact\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/apis.yml
 tags:
 - Leads
 - Lists

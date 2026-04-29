@@ -14,6 +14,8 @@ properties:
 provider_name: Amplitude
 provider_slug: amplitude
 slug: attribution-api
+source_yaml: "aid: amplitude:attribution-api\nname: Amplitude Attribution API\ntags:\n- Analytics\n- Attribution\n- Campaigns\n- Marketing\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api2.amplitude.com\nhumanURL: https://amplitude.com/docs/apis/analytics/attribution\nproperties:\n- url: https://amplitude.com/docs/apis/analytics/attribution\n  type: Documentation\n- url: openapi/amplitude-attribution-api-openapi.yml\n  type: OpenAPI\ndescription: The Amplitude Attribution API allows developers to send attribution campaign events to Amplitude\n  from ad networks, attribution providers, or custom marketing tools. It associates users with the campaigns,\n  channels, and creatives that drove their acquisition or re-engagement. This API is used to enrich Amplitude\n  user profiles with marketing attribution data for campaign performance analysis and ROI measurement.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/apis.yml
 tags:
 - Analytics
 - Attribution

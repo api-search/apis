@@ -14,5 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: managedapplicationclient
+source_yaml: "aid: microsoft-azure:managedapplicationclient\nname: Microsoft Azure Managed Application Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/\nproperties:\n- url: openapi/managedapplicationclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/\n  type: Documentation\ndescription: Microsoft Azure Managed Application Client is a service provided by Microsoft that helps\n  businesses deploy, manage, and monitor applications in the cloud. This client allows users to easily\n  create, customize, and scale applications without the need for extensive technical expertise or infrastructure\n  management. With Azure Managed Application Client, businesses can streamline their operations, improve\n  efficiency, and reduce costs by leveraging Microsoft's secure and\
+  \ reliable cloud platform.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

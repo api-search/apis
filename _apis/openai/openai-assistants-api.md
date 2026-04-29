@@ -16,6 +16,8 @@ properties:
 provider_name: OpenAI
 provider_slug: openai
 slug: openai-assistants-api
+source_yaml: "aid: openai:openai-assistants-api\nname: OpenAI Assistants API\ntags:\n- Assistants\nscore: 1329\nbaseURL: https://api.openai.com\nhumanURL: https://platform.openai.com/docs/assistants/overview\nproperties:\n- url: https://platform.openai.com/docs/assistants/overview\n  type: Documentation\n- url: https://platform.openai.com/docs/api-reference/assistants\n  type: Documentation\n- url: openapi/assistants-openapi-original.yml\n  type: OpenAPI\ndescription: The Assistants API allows you to build AI assistants within your own applications. An Assistant\n  has instructions and can leverage models, tools, and knowledge to respond to user queries. The Assistants\n  API currently supports three types of tools - Code Interpreter, Retrieval, and Function calling. In\n  the future, we plan to release more OpenAI-built tools, and allow you to provide your own tools on our\n  platform.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/apis.yml
 tags:
 - Assistants
 ---

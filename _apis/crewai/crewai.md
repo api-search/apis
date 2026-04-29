@@ -12,6 +12,8 @@ properties:
 provider_name: CrewAI
 provider_slug: crewai
 slug: crewai
+source_yaml: "aid: crewai:crewai\nname: CrewAI\ndescription: CrewAI is a framework for orchestrating role-playing autonomous AI agents that collaborate\n  on complex tasks.\nhumanURL: https://www.crewai.com\ntags:\n- AI Automation\nproperties:\n- type: Documentation\n  url: https://docs.crewai.com\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crewai/refs/heads/main/apis.yml
 tags:
 - AI Automation
 ---

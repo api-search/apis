@@ -22,6 +22,8 @@ properties:
 provider_name: acuity-brands
 provider_slug: acuity-brands
 slug: acuity-brands-api
+source_yaml: "aid: acuity-brands:acuity-brands-api\nname: Acuity Brands API\ntags:\n- Lighting\n- B2B\n- Inventory\n- Order Management\n- Building Controls\nproperties:\n- type: HumanURL\n  url: https://api-docs.acuitybrands.com/\n- type: BaseURL\n  url: https://api.acuitybrands.com/v1\n- type: OpenAPI\n  url: openapi/acuity-brands.json\n- type: JSONSchema\n  url: json-schema/\n- type: JSONStructure\n  url: json-structure/\n- type: Examples\n  url: examples/\ndescription: B2B REST APIs for Acuity Brands distributors covering inventory availability, order status\n  tracking, product catalog, and web content. Enables integration of Acuity Brands data into distributor\n  ERP, e-commerce, and ordering systems.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/apis.yml
 tags:
 - Lighting
 - B2B

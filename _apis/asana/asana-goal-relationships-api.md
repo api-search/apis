@@ -14,5 +14,7 @@ properties:
 provider_name: Asana
 provider_slug: asana
 slug: asana-goal-relationships-api
+source_yaml: "aid: asana:asana-goal-relationships-api\nname: Asana Goal Relationships  API\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://developers.asana.com/\nproperties:\n- url: openapi/asana-goal-relationships-api-openapi.yml\n  type: OpenAPI\n- type: Documentation\n  url: https://developers.asana.com/reference/goal-relationships\ndescription: The Asana Goal Relationships API allows users to create and manage relationships between\n  different goals within their Asana workspace. This API enables users to define dependencies between\n  goals, track progress, and visualize the overall hierarchy and connections between various goals. By\n  using this API, businesses and teams can gain a better understanding of how different goals align with\n  each other and make strategic decisions to prioritize their objectives more effectively.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/apis.yml
 tags: []
 ---

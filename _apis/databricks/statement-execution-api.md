@@ -12,6 +12,8 @@ properties:
 provider_name: Databricks
 provider_slug: databricks
 slug: statement-execution-api
+source_yaml: "aid: databricks:statement-execution-api\nname: Databricks Statement Execution API\ntags:\n- Queries\n- SQL\n- Warehouses\nhumanURL: https://docs.databricks.com/api/workspace/statementexecution\nproperties:\n- url: https://docs.databricks.com/api/workspace/statementexecution\n  type: Documentation\ndescription: The Databricks Statement Execution API allows you to execute SQL statements on Databricks\n  SQL warehouses and retrieve results. It provides a synchronous and asynchronous interface for running\n  SQL queries, checking execution status, fetching result data, and canceling statements.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/apis.yml
 tags:
 - Queries
 - SQL

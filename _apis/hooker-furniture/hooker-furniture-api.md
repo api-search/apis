@@ -12,6 +12,8 @@ properties:
 provider_name: Hooker Furniture
 provider_slug: hooker-furniture
 slug: hooker-furniture-api
+source_yaml: "aid: hooker-furniture:hooker-furniture-api\nname: Hooker Furniture API\ntags:\n- Furniture\n- Home Products\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.hookerfurniture.com\nhumanURL: https://developer.hookerfurniture.com\nproperties:\n- url: https://developer.hookerfurniture.com/docs\n  type: Documentation\ndescription: The Hooker Furniture API provides access to platform services and data for enterprise integration\n  and automation.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hooker-furniture/refs/heads/main/apis.yml
 tags:
 - Furniture
 - Home Products

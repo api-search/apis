@@ -26,6 +26,9 @@ properties:
 provider_name: Amazon Mainframe Modernization
 provider_slug: amazon-mainframe-modernization
 slug: aws-mainframe-modernization-api
+source_yaml: "aid: amazon-mainframe-modernization:aws-mainframe-modernization-api\nname: AWS Mainframe Modernization API\ndescription: The AWS Mainframe Modernization API provides programmatic access to create and manage applications,\n  environments, deployments, and batch job executions for mainframe application modernization on AWS.\n  Covers 25 paths and 33 operations for the full modernization lifecycle.\nhumanURL: https://aws.amazon.com/mainframe-modernization/\nbaseURL: https://m2.amazonaws.com\ntags:\n- Mainframe\n- Migration\n- Modernization\n- COBOL\n- Batch Processing\nproperties:\n- type: Documentation\n  url: https://docs.aws.amazon.com/m2/latest/APIReference/Welcome.html\n- type: OpenAPI\n  url: openapi/amazon-mainframe-modernization-openapi-original.yaml\n- type: GettingStarted\n  url: https://aws.amazon.com/mainframe-modernization/getting-started/\n- type: Pricing\n  url: https://aws.amazon.com/mainframe-modernization/pricing/\n- type: FAQ\n  url: https://aws.amazon.com/mainframe-modernization/faqs/\n\
+  - type: JSONSchema\n  url: json-schema/amazon-mainframe-modernization-application-summary-schema.json\n- type: JSONStructure\n  url: json-structure/amazon-mainframe-modernization-application-summary-structure.json\n- type: JSON-LD\n  url: json-ld/amazon-mainframe-modernization-context.jsonld\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/apis.yml
 tags:
 - Mainframe
 - Migration

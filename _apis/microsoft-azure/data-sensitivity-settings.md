@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: data-sensitivity-settings
+source_yaml: "aid: microsoft-azure:data-sensitivity-settings\nname: Microsoft Azure Data Sensitivity Settings\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/data-sensitivity-settings\nproperties:\n- url: openapi/data-sensitivity-settings-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/defender-for-cloud/data-sensitivity-settings\n  type: Documentation\ndescription: Microsoft Azure Data Sensitivity Settings is a feature that allows users to classify and\n  label their data based on its sensitivity level. By categorizing data as either public, confidential,\n  or highly confidential, users can apply specific security measures and access controls to ensure that\n  sensitive information is protected.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

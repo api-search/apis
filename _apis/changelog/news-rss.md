@@ -14,6 +14,8 @@ properties:
 provider_name: Changelog
 provider_slug: changelog
 slug: news-rss
+source_yaml: "aid: changelog:news-rss\nname: Changelog News RSS Feed\ndescription: The Changelog News RSS feed surfaces the latest developer news curated by the Changelog team.\n  Changelog News is a weekly newsletter and short podcast covering what is happening in software development,\n  open source, and the broader developer ecosystem.\nhumanURL: https://changelog.com/news\nbaseURL: https://changelog.com\ntags:\n- Developer News\n- News\n- Newsletter\n- RSS\nproperties:\n- type: RSSFeed\n  url: https://changelog.com/news/feed\n- type: Documentation\n  url: https://changelog.com/news\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/changelog/refs/heads/main/apis.yml
 tags:
 - Developer News
 - News

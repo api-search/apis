@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: relay-api
+source_yaml: "aid: microsoft-azure:relay-api\nname: Microsoft Azure Relay API\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/rest/api/relay/\nproperties:\n- url: openapi/relay-api-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/rest/api/relay/\n  type: Documentation\ndescription: Microsoft Azure Relay API provides a secure way to establish communication between on-premises\n  and cloud-based applications, enabling seamless data exchange and interaction between different environments.\n  By acting as a bridge between the two, the Azure Relay API allows for real-time messaging and event-driven\n  scenarios, making it easier for organizations to integrate their systems and services.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

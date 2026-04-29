@@ -32,6 +32,9 @@ properties:
 provider_name: Albato A Single No Code Platform For All Automations
 provider_slug: albato-a-single-no-code-platform-for-all-automations
 slug: automations-api
+source_yaml: "aid: albato-a-single-no-code-platform-for-all-automations:automations-api\nname: Albato Automations API\ntags:\n- Automation\n- Workflow\n- No-Code\n- Executions\nproperties:\n- url: https://albato.com\n  type: Documentation\n- url: openapi/albato-automations-openapi.yaml\n  type: OpenAPI\n- url: json-schema/albato-albato-automations-automation-schema.json\n  type: JSONSchema\n- url: json-schema/albato-albato-automations-automation-step-schema.json\n  type: JSONSchema\n- url: json-schema/albato-albato-automations-execution-schema.json\n  type: JSONSchema\n- url: json-structure/albato-albato-automations-automation-structure.json\n  type: JSONStructure\n- url: json-structure/albato-albato-automations-automation-step-structure.json\n  type: JSONStructure\n- url: json-structure/albato-albato-automations-execution-structure.json\n  type: JSONStructure\n- url: examples/albato-albato-automations-automation-example.json\n  type: Example\n- url: examples/albato-albato-automations-automation-step-example.json\n\
+  \  type: Example\n- url: examples/albato-albato-automations-execution-example.json\n  type: Example\nhumanURL: https://albato.com\nbaseURL: https://albato.com/api/v1\ndescription: REST API for managing multi-step automation workflows in Albato. Supports creating, enabling,\n  disabling, and monitoring automation executions across connected apps.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/apis.yml
 tags:
 - Automation
 - Workflow

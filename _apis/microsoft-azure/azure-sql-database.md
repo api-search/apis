@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-sql-database
+source_yaml: "aid: microsoft-azure:azure-sql-database\nname: Microsoft Azure SQL Database\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql\nproperties:\n- url: openapi/azure-sql-database-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql\n  type: Documentation\ndescription: Microsoft Azure SQL Database is a cloud-based relational database service offered by Microsoft.\n  It allows users to store and manage relational data in the cloud, eliminating the need for on-premises\n  hardware and maintenance. With Azure SQL Database, users can scale their databases up or down as needed,\n  ensuring optimal performance and cost efficiency. The service also offers built-in security features,\n  automated backups, and high availability to ensure data is always accessible and protected.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

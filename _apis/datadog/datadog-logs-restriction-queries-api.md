@@ -12,6 +12,8 @@ properties:
 provider_name: Datadog
 provider_slug: datadog
 slug: datadog-logs-restriction-queries-api
+source_yaml: "aid: datadog:datadog-logs-restriction-queries-api\nname: Datadog Logs Restriction Queries API\ntags:\n- Access Control\n- Logs\n- RBAC\nhumanURL: https://docs.datadoghq.com/api/latest/logs-restriction-queries/\nbaseURL: https://api.datadoghq.com\nimage: https://imgix.datadoghq.com/img/dd_logo_n_70x75.png\nproperties:\n- url: https://docs.datadoghq.com/api/latest/logs-restriction-queries/\n  type: Documentation\ndescription: The Logs Restriction Queries API allows you to manage restriction queries that control which\n  logs the logs_read_data permission grants read access to, enabling fine-grained log access control by\n  role.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/apis.yml
 tags:
 - Access Control
 - Logs

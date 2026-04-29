@@ -22,6 +22,8 @@ properties:
 provider_name: Indeed
 provider_slug: indeed
 slug: job-sync
+source_yaml: "aid: indeed:job-sync\nname: Indeed Job Sync API\ndescription: A GraphQL API that enables ATS partners to create, upsert, expire, and get status for job\n  postings on Indeed. Supports qualifications, working hours, salary, benefits, and employer information.\nimage: https://www.indeed.com/images/indeed-logo.png\nhumanURL: https://docs.indeed.com/job-sync-api/\nbaseURL: https://apis.indeed.com/graphql\ntags:\n- ATS\n- GraphQL\n- Jobs\n- Postings\nproperties:\n- type: Documentation\n  url: https://docs.indeed.com/job-sync-api/\n- type: GettingStarted\n  url: https://docs.indeed.com/job-sync-api/job-sync-api-guide\n- type: FAQ\n  url: https://docs.indeed.com/job-sync-api/reference/faq\n- type: Sandbox\n  url: https://docs.indeed.com/getstarted/simulated-graphql-environment\n- type: OpenAPI\n  url: openapi/indeed-employer-api-openapi.yml\n- type: JSONLD\n  url: json-ld/indeed-context.jsonld\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/apis.yml
 tags:
 - ATS
 - GraphQL

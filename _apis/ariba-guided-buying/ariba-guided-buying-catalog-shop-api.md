@@ -30,6 +30,9 @@ properties:
 provider_name: Ariba Guided Buying
 provider_slug: ariba-guided-buying
 slug: ariba-guided-buying-catalog-shop-api
+source_yaml: "aid: ariba-guided-buying:ariba-guided-buying-catalog-shop-api\nname: Ariba Guided Buying - Public Catalogs Shop API\ndescription: The Public Catalogs Shop API enables applications to retrieve data related to catalog items,\n  filter facets, and matching search suggestions from public catalogs on SAP Business Network. This API\n  supports SAP Ariba Buying, base edition, integrated with SAP S/4HANA Cloud Public Edition.\nhumanURL: https://help.sap.com/docs/ariba-apis\nbaseURL: https://openapi.ariba.com/api/catalog-shop/v1/prod\ntags:\n- Catalog\n- Procurement\n- Shopping\nproperties:\n- type: Documentation\n  url: https://help.sap.com/doc/f2393ece78554efab2087b984c6fa90b/cloud/en-US/5e12bd6c87f24e0781a5fcdfb410ddc6.pdf\n- type: OpenAPI\n  url: openapi/ariba-guided-buying-catalog-shop-api.yaml\n- type: JSONSchema\n  url: json-schema/catalog-shop-api-shop-response-schema.json\n- type: JSONSchema\n  url: json-schema/catalog-shop-api-catalog-item-schema.json\n- type: JSONSchema\n\
+  \  url: json-schema/catalog-shop-api-facet-schema.json\n- type: JSONSchema\n  url: json-schema/catalog-shop-api-items-response-schema.json\n- type: JSONSchema\n  url: json-schema/catalog-shop-api-auto-complete-response-schema.json\n- type: JSONStructure\n  url: json-structure/catalog-shop-api-shop-response-structure.json\n- type: JSONStructure\n  url: json-structure/catalog-shop-api-catalog-item-structure.json\n- type: JSON-LD\n  url: json-ld/ariba-guided-buying-catalog-shop-api-context.jsonld\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ariba-guided-buying/refs/heads/main/apis.yml
 tags:
 - Catalog
 - Procurement

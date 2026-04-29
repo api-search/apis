@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: providerhub
+source_yaml: "aid: microsoft-azure:providerhub\nname: Microsoft Azure Provider Hub\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.providerhub-readme?view=azure-dotnet\nproperties:\n- url: openapi/providerhub-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.providerhub-readme?view=azure-dotnet\n  type: Documentation\ndescription: The Microsoft Azure Provider Hub is a centralized platform that enables businesses to easily\n  access and manage their Azure services. This hub serves as a control panel where users can seamlessly\n  provision, monitor, and optimize their cloud resources. It offers a range of tools and features that\n  simplify the management of Azure services, including automated workflows, advanced monitoring capabilities,\n  and detailed analytics.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

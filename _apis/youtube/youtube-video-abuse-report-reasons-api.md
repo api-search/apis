@@ -16,6 +16,8 @@ properties:
 provider_name: Youtube
 provider_slug: youtube
 slug: youtube-video-abuse-report-reasons-api
+source_yaml: "aid: youtube:youtube-video-abuse-report-reasons-api\nname: Youtube Video Abuse Report Reasons API\ntags:\n- Moderation\n- Videos\nimage: https://www.youtube.com/img/desktop/yt_1200.png\nhumanURL: https://developers.google.com/youtube/v3/docs/videoAbuseReportReasons\nbaseURL: https://www.googleapis.com/youtube/v3\nproperties:\n- url: https://developers.google.com/youtube/v3/docs/videoAbuseReportReasons\n  type: Documentation\n- url: https://developers.google.com/youtube/v3/getting-started\n  type: GettingStarted\n- url: https://developers.google.com/youtube/v3/guides/authentication\n  type: Authentication\ndescription: Retrieves a list of reasons that can be used to report abusive videos, supporting programmatic\n  submission of video abuse reports.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/apis.yml
 tags:
 - Moderation
 - Videos

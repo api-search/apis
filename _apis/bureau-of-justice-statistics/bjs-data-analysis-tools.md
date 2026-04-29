@@ -24,6 +24,9 @@ properties:
 provider_name: Bureau of Justice Statistics
 provider_slug: bureau-of-justice-statistics
 slug: bjs-data-analysis-tools
+source_yaml: "aid: bureau-of-justice-statistics:bjs-data-analysis-tools\nname: BJS Data Analysis Tools\ntags:\n- Federal Government\n- Statistics\n- Dashboards\nhumanURL: https://bjs.ojp.gov/data/data-analysis-tools\nproperties:\n- url: https://bjs.ojp.gov/data/data-analysis-tools\n  type: Documentation\n- url: https://learcat.bjs.ojp.gov/\n  type: Tool\n- url: https://bjs.ojp.gov/recidivism-patterns-explorer\n  type: Tool\n- url: https://fccps.bjs.ojp.gov/\n  type: Tool\n- url: https://csat.bjs.ojp.gov/\n  type: Tool\n- url: https://bjs.ojp.gov/jeet\n  type: Tool\n- url: https://ncvs.bjs.ojp.gov/Home\n  type: Tool\ndescription: A suite of interactive web-based data tools providing access to BJS statistical data on crime,\n  corrections, courts, law enforcement, and victimization. Tools include LEARCAT (law enforcement agency\n  crime data), Recidivism Patterns Explorer, Federal Criminal Case Processing Statistics, and NCVS Dashboard.\nfeatures:\n- Law Enforcement Crime Data (LEARCAT)\n\
+  - Recidivism Analysis\n- Federal Criminal Case Processing\n- Corrections Statistical Analysis\n- Justice Expenditure Data\n- Parole and Probation Dashboards\nuseCases:\n- Criminal justice research\n- Recidivism policy analysis\n- Justice system spending analysis\n- Interactive data exploration\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/apis.yml
 tags:
 - Federal Government
 - Statistics

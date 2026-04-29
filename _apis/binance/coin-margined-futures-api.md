@@ -14,6 +14,9 @@ properties:
 provider_name: Binance
 provider_slug: binance
 slug: coin-margined-futures-api
+source_yaml: "aid: binance:coin-margined-futures-api\nname: Binance COIN-M Futures API\ntags:\n- Coin Margined\n- Cryptocurrency\n- Derivatives\n- Futures\n- Trading\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://dapi.binance.com\nhumanURL: https://developers.binance.com/docs/derivatives/coin-margined-futures/general-info\nproperties:\n- url: https://developers.binance.com/docs/derivatives/coin-margined-futures/general-info\n  type: Documentation\n- url: openapi/binance-coin-margined-futures-openapi.yml\n  type: OpenAPI\ndescription: The Binance COIN-M Futures API provides access to coin-margined perpetual and delivery futures\n  contracts, where the margin and settlement currency is the base cryptocurrency rather than a stablecoin.\n  This allows traders to use BTC, ETH, and other cryptocurrencies as collateral for leveraged positions.\n  The API supports order placement, position management, margin adjustments, and market data retrieval\n\
+  \  for coin-margined derivatives products.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/apis.yml
 tags:
 - Coin Margined
 - Cryptocurrency

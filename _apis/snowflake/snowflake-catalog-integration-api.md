@@ -16,6 +16,8 @@ properties:
 provider_name: Snowflake
 provider_slug: snowflake
 slug: snowflake-catalog-integration-api
+source_yaml: "aid: snowflake:snowflake-catalog-integration-api\nname: Snowflake Catalog Integration API\ndescription: The Snowflake Catalog Integration API is a REST API that you can use to access, update, and\n  perform certain actions on Catalog Integration resource in a Snowflake database.\ntags:\n- Catalog\n- Integrations\nproperties:\n- type: OpenAPI\n  url: openapi/catalog-integration.yaml\n- type: Documentation\n  url: https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/reference/catalog-integration\n- type: JSONLD\n  url: json-ld/catalog-integration-context.jsonld\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/apis.yml
 tags:
 - Catalog
 - Integrations

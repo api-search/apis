@@ -12,6 +12,8 @@ properties:
 provider_name: Zayo Group Holdings
 provider_slug: zayo-group
 slug: zayo-group-api
+source_yaml: "aid: zayo-group:zayo-group-api\nname: Zayo Group Holdings API\ntags:\n- Fiber\n- Network\n- Infrastructure\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.zayo.com\nhumanURL: https://developer.zayo.com\nproperties:\n- url: https://developer.zayo.com/docs\n  type: Documentation\ndescription: The Zayo Group Holdings API provides access to platform services and data for enterprise\n  integration and automation.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zayo-group/refs/heads/main/apis.yml
 tags:
 - Fiber
 - Network

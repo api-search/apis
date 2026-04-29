@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-easm
+source_yaml: "aid: microsoft-azure:azure-easm\nname: Microsoft Azure Easm\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/external-attack-surface-management/\nproperties:\n- url: openapi/azure-easm-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/external-attack-surface-management/\n  type: Documentation\ndescription: EASM discovers and maps your digital attack surface to provide an \"outside-in\" perspective\n  using probes to discover assets. The assets are provided with detailed metadata associated, including\n  vulnerabilities, configurations and web components, allowing customers to view and prioritize external\n  risk. The EASM REST API enables you to develop clients that integrate with your application.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

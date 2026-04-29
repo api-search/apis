@@ -16,6 +16,8 @@ properties:
 provider_name: GitLab
 provider_slug: gitlab
 slug: gitlab-oauth2-api
+source_yaml: "aid: gitlab:gitlab-oauth2-api\nname: GitLab OAuth 2.0 API\ntags:\n- Authentication\n- Authorization\n- OAuth\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://gitlab.com\nhumanURL: https://docs.gitlab.com/api/oauth2/\noverlays: []\nproperties:\n- url: openapi/gitlab-oauth2-openapi.yml\n  type: OpenAPI\n- url: https://docs.gitlab.com/api/oauth2/\n  type: Documentation\n- url: https://docs.gitlab.com/integration/oauth_provider/\n  type: Authentication\ndescription: The GitLab OAuth 2.0 API enables third-party services to access GitLab resources on behalf\n  of users using the OAuth 2.0 protocol. It supports authorization code with PKCE, device authorization\n  grant, and resource owner password credentials flows, allowing secure delegation of access to GitLab\n  resources.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/apis.yml
 tags:
 - Authentication
 - Authorization

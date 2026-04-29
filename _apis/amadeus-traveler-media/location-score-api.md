@@ -14,6 +14,8 @@ properties:
 provider_name: Amadeus Traveler Media
 provider_slug: amadeus-traveler-media
 slug: location-score-api
+source_yaml: "aid: amadeus-traveler-media:location-score-api\nname: Location Score API\ndescription: The Amadeus Location Score API scores geographic locations for different traveler personas\n  including Shopping, Restaurant, Nightlife, Sightseeing, and Beach. Helps travelers and travel apps understand\n  the character of a neighborhood or destination for their travel style.\nhumanURL: https://developers.amadeus.com/self-service/category/destination-experiences/api-doc/location-score\nbaseURL: https://test.api.amadeus.com/v1\ntags:\n- Destinations\n- Location\n- Scoring\n- Tourism\n- Travel\nproperties:\n- type: Documentation\n  url: https://developers.amadeus.com/self-service/category/destination-experiences/api-doc/location-score\n- type: OpenAPI\n  url: openapi/amadeus-traveler-media-location-score-openapi.yaml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/apis.yml
 tags:
 - Destinations
 - Location

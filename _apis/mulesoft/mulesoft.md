@@ -14,6 +14,8 @@ properties:
 provider_name: MuleSoft
 provider_slug: mulesoft
 slug: mulesoft
+source_yaml: "aid: mulesoft:mulesoft\nname: MuleSoft Anypoint Platform\ndescription: MuleSoft Anypoint Platform unifies API management with integration, providing a complete\n  solution to connect any application, data source, or device with reusable APIs and integrations.\nhumanURL: https://www.mulesoft.com/platform/api\ntags:\n- API Gateway\n- API Management\n- Enterprise\nproperties:\n- type: Documentation\n  url: https://docs.mulesoft.com/\n- type: GettingStarted\n  url: https://docs.mulesoft.com/general/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/apis.yml
 tags:
 - API Gateway
 - API Management

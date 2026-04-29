@@ -20,6 +20,8 @@ properties:
 provider_name: Amazon MQ
 provider_slug: amazon-mq
 slug: mq-api
+source_yaml: "aid: amazon-mq:mq-api\nname: Amazon MQ API\ndescription: Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ that makes\n  it easy to set up and operate message brokers in the cloud, enabling you to migrate to a message broker\n  without writing the code that typically enables interoperability with existing applications.\nhumanURL: https://aws.amazon.com/mq/\nbaseURL: http://mq.{region}.amazonaws.com\ntags:\n- Broadcasting\n- Media Processing\n- Media\nproperties:\n- type: Documentation\n  url: https://docs.aws.amazon.com/mq/\n- type: OpenAPI\n  url: openapi/amazon-mq-openapi-original.yml\n- type: GettingStarted\n  url: https://aws.amazon.com/mq/getting-started/\n- type: Pricing\n  url: https://aws.amazon.com/mq/pricing/\n- type: FAQ\n  url: https://aws.amazon.com/mq/faqs/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/apis.yml
 tags:
 - Broadcasting
 - Media Processing

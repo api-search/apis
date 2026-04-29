@@ -12,5 +12,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: anomaly-detector-client
+source_yaml: "aid: microsoft-azure-one:anomaly-detector-client\nname: Microsoft Azure Anomaly Detector Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nproperties:\n- url: openapi/anomaly-detector-client-openapi-original.yml\n  type: OpenAPI\ndescription: The Anomaly Detector API detects anomalies automatically in time series data. It supports\n  two kinds of mode, one is for stateless using, another is for stateful using. In stateless mode, there\n  are three functionalities. Entire Detect is for detecting the whole series with model trained by the\n  time series, Last Detect is detecting last point with model trained by points before. ChangePoint Detect\n  is for detecting trend changes in time series.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

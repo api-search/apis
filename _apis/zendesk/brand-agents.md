@@ -14,6 +14,8 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: brand-agents
+source_yaml: "aid: zendesk:brand-agents\nname: Zendesk Brand Agents API\ntags:\n- Brand Agents\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://{subdomain}.zendesk.com\nhumanURL: https://developer.zendesk.com/api-reference/ticketing/account-configuration/brand_agents/\nproperties:\n- url: https://developer.zendesk.com/api-reference/ticketing/account-configuration/brand_agents/\n  type: Documentation\n- url: openapi/brand-agents-openapi-original.yml\n  type: OpenAPI\ndescription: The Zendesk Brand Agents API lets you programmatically manage which agents have access to\n  which brands in a multibrand Zendesk Support account. It provides endpoints to list the agents associated\n  with a given brand and to add or remove agents from that brand, so you can automate onboarding/offboarding,\n  sync brand access from external directories, and enforce leastprivilege access at scale.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:
 - Brand Agents
 ---

@@ -14,6 +14,8 @@ properties:
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-data-protection-api
+source_yaml: "aid: adyen:adyen-data-protection-api\nname: Adyen Data Protection API\ntags:\n- Data Protection\n- GDPR\n- Privacy\n- Erasure\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://ca-test.adyen.com\nhumanURL: https://docs.adyen.com/development-resources/data-protection-api/\ndescription: Adyen Data Protection API provides a way for you to process Subject Erasure Requests as mandated\n  in GDPR. Use our API to submit a request to delete shopper's data, including payment details and other\n  related information.\nproperties:\n- url: https://docs.adyen.com/development-resources/data-protection-api/\n  type: Documentation\n- url: openapi/data-protection-openapi-original.yml\n  type: OpenAPI\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/apis.yml
 tags:
 - Data Protection
 - GDPR

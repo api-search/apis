@@ -14,6 +14,8 @@ properties:
 provider_name: Bunq
 provider_slug: bunq
 slug: bunq-installation-installation-server-public-key-api
+source_yaml: "aid: bunq:bunq-installation-installation-server-public-key-api\nname: Bunq Installation Installation Server Public Key API\ntags:\n- Installations\n- Keys\n- Public\n- Servers\nproperties:\n- url: openapi/bunq-installation-installationid-server-public-key-openapi-original.yml\n  type: OpenAPI\n- url: https://doc.bunq.com/\n  type: Documentation\ndescription: The Bunq Installation Installation Server Public Key API allows users to securely register\n  and authenticate their devices with the Bunq installation server. By generating a unique public key\n  for each device, users can securely communicate with the server, ensuring that their data remains private\n  and protected. This API streamlines the process of setting up a new device and provides a secure method\n  for users to access their Bunq accounts.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/apis.yml
 tags:
 - Installations
 - Keys

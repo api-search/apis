@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-cosmos-db-for-postgresql
+source_yaml: "aid: microsoft-azure:azure-cosmos-db-for-postgresql\nname: Microsoft Azure Cosmos Db for Postgre SQL\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/cosmos-db/postgresql/\nproperties:\n- url: openapi/azure-cosmos-db-for-postgresql-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/cosmos-db/postgresql/\n  type: Documentation\ndescription: Microsoft Azure Cosmos DB for PostgreSQL is a globally distributed, multi-model database\n  service that allows users to store and manage data at a massive scale across geographic regions. It\n  provides high availability and low latency for read and write operations, ensuring consistent performance\n  for applications that require real-time data access.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

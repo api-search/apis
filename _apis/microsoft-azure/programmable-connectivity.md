@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: programmable-connectivity
+source_yaml: "aid: microsoft-azure:programmable-connectivity\nname: Microsoft Azure Programmable Connectivity\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://azure.microsoft.com/en-us/products/programmable-connectivity\nproperties:\n- url: openapi/programmable-connectivity-openapi-original.yml\n  type: OpenAPI\n- url: https://azure.microsoft.com/en-us/products/programmable-connectivity\n  type: Documentation\ndescription: Microsoft Azure Programmable Connectivity is a cloud-based service that allows users to easily\n  create and manage their network connections. With programmable connectivity, users can seamlessly integrate\n  their applications with various network services such as virtual private networks (VPNs), content delivery\n  networks (CDNs), and third-party services. This service provides flexibility and scalability, enabling\n  users to adjust their network resources based on their specific needs.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

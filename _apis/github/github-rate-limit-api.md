@@ -16,6 +16,8 @@ properties:
 provider_name: GitHub
 provider_slug: github
 slug: github-rate-limit-api
+source_yaml: "aid: github:github-rate-limit-api\nname: GitHub Rate Limit API\ntags:\n- Rate Limits\nbaseURL: https://api.github.com/\nhumanURL: '\n\n  https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api?apiVersion=2022-11-28'\noverlays:\n- url: overlays/github-rate-limit-openapi-search.yml\n  type: OpenAPI\nproperties:\n- url: openapi/github-rate-limit-openapi.yml\n  type: OpenAPI\n- url: https://docs.github.com/en/rest/rate-limit\n  type: Documentation\ndescription: GitHubs Rate Limit API lets you programmatically see how much API quota you have left and\n  when it will reset, so you can avoid hitting API rate limit exceeded errors. By calling the /rate_limit\n  endpoint (or by reading the X-RateLimit headers on any response), you get current limit, remaining,\n  used, and reset time for different resource categories (for example, core REST, search, and GraphQL).\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/apis.yml
 tags:
 - Rate Limits
 ---

@@ -14,6 +14,8 @@ properties:
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-payouts-api
+source_yaml: "aid: adyen:adyen-payouts-api\nname: Adyen Payouts API\ntags:\n- Payouts\n- Transfers\n- Online Payments\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://pal-test.adyen.com\nhumanURL: https://docs.adyen.com/online-payments/online-payouts\ndescription: A set of API endpoints that allow you to store payout details, confirm, or decline a payout.\n  For more information, refer to Online payouts.\nproperties:\n- url: https://docs.adyen.com/online-payments/online-payouts\n  type: Documentation\n- url: openapi/payouts-openapi-original.yml\n  type: OpenAPI\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/apis.yml
 tags:
 - Payouts
 - Transfers

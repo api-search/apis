@@ -14,6 +14,8 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: brands
+source_yaml: "aid: zendesk:brands\nname: Zendesk Brands API\ntags:\n- Brands\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://{subdomain}.zendesk.com\nhumanURL: https://developer.zendesk.com/api-reference/ticketing/account-configuration/brands/\nproperties:\n- url: https://developer.zendesk.com/api-reference/ticketing/account-configuration/brands/\n  type: Documentation\n- url: openapi/brands-openapi-original.yml\n  type: OpenAPI\ndescription: The Zendesk Brands API is part of the Zendesk Support API that lets you programmatically\n  manage a multibrand setup. It provides endpoints to list, create, update, delete, and fetch the default\n  brand, along with brand-specific settings used across the agent workspace, Help Center, and email.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:
 - Brands
 ---

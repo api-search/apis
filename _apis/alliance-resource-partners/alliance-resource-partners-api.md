@@ -12,6 +12,8 @@ properties:
 provider_name: Alliance Resource Partners
 provider_slug: alliance-resource-partners
 slug: alliance-resource-partners-api
+source_yaml: "aid: alliance-resource-partners:alliance-resource-partners-api\nname: Alliance Resource Partners API\ntags:\n- Coal\n- Mining\n- Energy\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.arlp.com\nhumanURL: https://developer.arlp.com\nproperties:\n- url: https://developer.arlp.com/docs\n  type: Documentation\ndescription: The Alliance Resource Partners API provides access to platform services and data for enterprise\n  integration and automation.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alliance-resource-partners/refs/heads/main/apis.yml
 tags:
 - Coal
 - Mining

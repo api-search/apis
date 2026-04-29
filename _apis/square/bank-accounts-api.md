@@ -16,6 +16,8 @@ properties:
 provider_name: Square
 provider_slug: square
 slug: bank-accounts-api
+source_yaml: "aid: square:bank-accounts-api\nname: Square Bank Accounts API\ntags:\n- Bank Accounts\n- Financial Technology\n- Payments\nhumanURL: https://developer.squareup.com/docs/bank-accounts-api\nproperties:\n- url: https://developer.squareup.com/docs/bank-accounts-api\n  type: Documentation\n- url: https://developer.squareup.com/reference/square/bank-accounts-api\n  type: APIReference\n- url: openapi/square-openapi.yml\n  type: OpenAPI\ndescription: The Bank Accounts API lets applications retrieve a list of a seller's bank accounts and get\n  details about specific bank accounts linked to a Square account.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/apis.yml
 tags:
 - Bank Accounts
 - Financial Technology

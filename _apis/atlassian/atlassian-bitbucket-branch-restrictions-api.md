@@ -12,6 +12,8 @@ properties:
 provider_name: Atlassian
 provider_slug: atlassian
 slug: atlassian-bitbucket-branch-restrictions-api
+source_yaml: "aid: atlassian:atlassian-bitbucket-branch-restrictions-api\nname: Atlassian Bitbucket Branch Restrictions API\ndescription: The Atlassian Bitbucket Branch Restrictions API enables managing branch restrictions for\n  repositories in Bitbucket Cloud.\nhumanURL: https://developer.atlassian.com/cloud/bitbucket/rest/api-group-branch-restrictions/#api-group-branch-restrictions\ntags:\n- Bitbucket\n- Branches\n- Restrictions\nproperties:\n- type: Documentation\n  url: https://developer.atlassian.com/cloud/bitbucket/rest/api-group-branch-restrictions/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/apis.yml
 tags:
 - Bitbucket
 - Branches

@@ -18,6 +18,8 @@ properties:
 provider_name: Splunk
 provider_slug: splunk
 slug: splunk-intelligence-management-api
+source_yaml: "aid: splunk:splunk-intelligence-management-api\nname: Splunk Intelligence Management API\ndescription: The Splunk Intelligence Management (formerly ThreatStream) API provides REST v2.0 endpoints\n  for managing threat intelligence data including indicators, observables, and intelligence sources. It\n  supports STIX and TAXII formats for sharing cyber threat intelligence over HTTPS.\nhumanURL: https://docs.splunk.com/Documentation/SIM/current/Develop/RESTv20\ntags:\n- Indicators\n- Security\n- STIX\n- TAXII\n- Threat Intelligence\nproperties:\n- type: Documentation\n  url: https://docs.splunk.com/Documentation/SIM/current/Develop/RESTv20\n- type: Documentation\n  url: https://docs.splunk.com/Documentation/SIM/current/User/Threatintelsources\n  title: Threat Intel Sources\n- type: Documentation\n  url: https://docs.splunk.com/Documentation/SIM/current/Intro/UsagePolicy\n  title: Usage Policy\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/apis.yml
 tags:
 - Indicators
 - Security

@@ -12,6 +12,8 @@ properties:
 provider_name: Apache Solr
 provider_slug: apache-solr
 slug: apache-solr-indexing-api
+source_yaml: "aid: apache-solr:apache-solr-indexing-api\nname: Apache Solr Indexing API\ndescription: The Solr Indexing API provides HTTP endpoints for adding, updating, and deleting documents\n  from the search index. It supports JSON, XML, CSV, and binary Solr formats via the /update handler,\n  atomic updates, optimistic concurrency, document routing in SolrCloud, and the DataImportHandler for\n  bulk loading from databases and file systems.\nhumanURL: https://solr.apache.org/guide/solr/latest/indexing-guide/indexing-with-update-handlers.html\ntags:\n- Indexing\n- Documents\n- REST\n- Updates\nproperties:\n- type: Documentation\n  url: https://solr.apache.org/guide/solr/latest/indexing-guide/indexing-with-update-handlers.html\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/apis.yml
 tags:
 - Indexing
 - Documents

@@ -14,6 +14,8 @@ properties:
 provider_name: Angular
 provider_slug: angular
 slug: angular-router-api
+source_yaml: "aid: angular:angular-router-api\nname: Angular Router API\ntags:\n- Guards\n- Navigation\n- Render Mode\n- Routing\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://angular.dev/api/router\nhumanURL: https://angular.dev/api/router\nproperties:\n- url: https://angular.dev/api/router\n  type: Documentation\n- url: https://angular.dev/guide/routing\n  type: Guide\ndescription: The Angular Router API provides navigation and routing for single-page applications including\n  lazy loading, route guards, resolvers, child routes, functional interceptors, and route-level render\n  mode configuration.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/angular/refs/heads/main/apis.yml
 tags:
 - Guards
 - Navigation

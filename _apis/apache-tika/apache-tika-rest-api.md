@@ -14,6 +14,8 @@ properties:
 provider_name: Apache Tika
 provider_slug: apache-tika
 slug: apache-tika-rest-api
+source_yaml: "aid: apache-tika:apache-tika-rest-api\nname: Apache Tika REST API\ndescription: 'The Tika Server REST API provides HTTP endpoints for content type detection, text extraction,\n  metadata extraction, and language detection from uploaded documents. Key endpoints include: PUT /tika\n  for full text extraction, PUT /meta for metadata-only extraction, PUT /detect/stream for MIME type detection,\n  PUT /language/stream for language detection, and GET /parsers for listing available parsers. The server\n  supports streaming large files and returns JSON or plain text responses.'\nhumanURL: https://cwiki.apache.org/confluence/display/TIKA/TikaServer\ntags:\n- REST\n- Content Extraction\n- Metadata\n- Document Processing\n- Text Extraction\nproperties:\n- type: Documentation\n  url: https://cwiki.apache.org/confluence/display/TIKA/TikaServer\n- type: Documentation\n  url: https://tika.apache.org/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/apis.yml
 tags:
 - REST
 - Content Extraction

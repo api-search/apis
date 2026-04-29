@@ -14,6 +14,8 @@ properties:
 provider_name: Atlassian
 provider_slug: atlassian
 slug: atlassian-jira-notification-scheme-api
+source_yaml: "aid: atlassian:atlassian-jira-notification-scheme-api\nname: Atlassian Jira Notification Scheme API\ndescription: The Atlassian Jira Notification Scheme API enables managing notification schemes for Jira\n  projects.\nhumanURL: https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-notification-schemes/#api-group-issue-notification-schemes\ntags:\n- Jira\n- Notifications\nproperties:\n- type: OpenAPI\n  url: openapi/atlassian-rest-api-3-notificationscheme--openapi-original.yml\n- type: Documentation\n  url: https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-notification-schemes/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/apis.yml
 tags:
 - Jira
 - Notifications

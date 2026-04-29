@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-queue-storage
+source_yaml: "aid: microsoft-azure:azure-queue-storage\nname: Microsoft Azure Queue Storage\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/storage/queues/\nproperties:\n- url: openapi/azure-queue-storage-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/storage/queues/\n  type: Documentation\ndescription: Microsoft Azure Queue Storage is a cloud-based service that allows users to store large amounts\n  of messages in a queue for later processing. This service provides reliable and scalable message delivery\n  for applications that need to decouple their components and scale independently. Azure Queue Storage\n  can be used for tasks such as queuing up work items, passing messages between components, or handling\n  asynchronous communication between different parts of an application.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

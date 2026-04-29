@@ -12,6 +12,8 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: sell-collaborations
+source_yaml: "aid: zendesk:sell-collaborations\nname: Zendesk Sell Collaborations API\ntags:\n- Collaborations\n- CRM\n- Sell\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.getbase.com\nhumanURL: https://developer.zendesk.com/api-reference/sales-crm/resources/collaborations/\nproperties:\n- url: https://developer.zendesk.com/api-reference/sales-crm/resources/collaborations/\n  type: Documentation\ndescription: The Zendesk Sell Collaborations API provides a simple interface to manage collaborations.\n  You can create, read, and delete collaborations to enable team members to work together on leads, contacts,\n  and deals.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:
 - Collaborations
 - CRM

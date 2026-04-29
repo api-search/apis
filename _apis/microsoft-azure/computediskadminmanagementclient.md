@@ -14,5 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: computediskadminmanagementclient
+source_yaml: "aid: microsoft-azure:computediskadminmanagementclient\nname: Microsoft Azure Compute Disk Admin Management Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles/compute\nproperties:\n- url: openapi/computediskadminmanagementclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles/compute\n  type: Documentation\ndescription: Microsoft Azure Compute Disk Admin Management Client is a tool designed to help administrators\n  manage and administer disk resources within the Azure cloud computing platform. The client provides\n  a user-friendly interface for tasks such as creating, resizing, and deleting disk resources, as well\n  as monitoring disk performance and usage metrics. It also allows administrators to set up automated\n  tasks, manage access permissions, and troubleshoot\
+  \ any issues related to disk resources.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

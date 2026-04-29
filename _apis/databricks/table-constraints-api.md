@@ -12,6 +12,8 @@ properties:
 provider_name: Databricks
 provider_slug: databricks
 slug: table-constraints-api
+source_yaml: "aid: databricks:table-constraints-api\nname: Databricks Table Constraints API\ntags:\n- Data Quality\n- Tables\n- Unity Catalog\nhumanURL: https://docs.databricks.com/api/workspace/tableconstraints\nproperties:\n- url: https://docs.databricks.com/api/workspace/tableconstraints\n  type: Documentation\ndescription: The Databricks Table Constraints API allows you to create and delete primary key and foreign\n  key constraints on Unity Catalog tables. Table constraints define relationships between tables, supporting\n  data integrity and enabling query optimization across the lakehouse.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/apis.yml
 tags:
 - Data Quality
 - Tables

@@ -16,6 +16,8 @@ properties:
 provider_name: BNP Paribas
 provider_slug: bnp-paribas
 slug: bnp-paribas-cib-api
+source_yaml: "aid: bnp-paribas:bnp-paribas-cib-api\nname: BNP Paribas CIB API\ndescription: BNP Paribas Corporate and Institutional Banking (CIB) API platform provides programmatic\n  access to capital markets, payment services, securities services, advisory, finance, and treasury solutions\n  for corporate and institutional clients. APIs include payment initiation, fund availability checks,\n  SEPA direct debit management, and open banking compliance services.\nhumanURL: https://developers.cib.bnpparibas.com/api-catalog\ntags:\n- Banking\n- CIB\n- Capital Markets\n- Payments\n- Open Banking\nproperties:\n- type: Portal\n  url: https://developers.cib.bnpparibas.com/api-catalog\n- type: Documentation\n  url: https://developers.cib.bnpparibas.com/api-catalog\n- type: GettingStarted\n  url: https://developers.cib.bnpparibas.com/how-to\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bnp-paribas/refs/heads/main/apis.yml
 tags:
 - Banking
 - CIB

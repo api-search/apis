@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: kafka-restproxy-apis
+source_yaml: "aid: microsoft-azure-one:kafka-restproxy-apis\nname: Microsoft Azure Kafka Restproxy APIs\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/hdinsight/kafka/rest-proxy\nproperties:\n- url: openapi/kafka-restproxy-apis-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/hdinsight/kafka/rest-proxy\n  type: Documentation\ndescription: Microsoft Azure Kafka Restproxy APIs allow developers to interact with Apache Kafka clusters\n  in Azure using HTTP/REST protocols. This API enables users to easily produce and consume messages from\n  Kafka topics, as well as manage topics, partitions, and consumer groups. With Azure Kafka Restproxy\n  APIs, developers can seamlessly integrate Kafka messaging functionality into their applications without\n  the need for complex Kafka client libraries.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

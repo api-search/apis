@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: securityuserconfiguration
+source_yaml: "aid: microsoft-azure:securityuserconfiguration\nname: Microsoft Azure Security User Configuration\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/security/\nproperties:\n- url: openapi/securityuserconfiguration-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/security/\n  type: Documentation\ndescription: Microsoft Azure Security User Configuration allows users to configure and manage security\n  settings for their Azure resources. This includes setting up user access controls, defining permissions\n  and roles, and implementing security policies to protect data and applications hosted on the Azure platform.\n  Users can customize authentication methods, enable multi-factor authentication, and monitor user activity\n  to ensure compliance with security standards.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

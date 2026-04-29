@@ -14,6 +14,8 @@ properties:
 provider_name: Bunq
 provider_slug: bunq
 slug: bunq-user-registry-api
+source_yaml: "aid: bunq:bunq-user-registry-api\nname: Bunq User Registry API\ntags:\n- Items\n- Registries\n- Settlements\n- Users\nproperties:\n- url: openapi/bunq-user-userid-registry-openapi-original.yml\n  type: OpenAPI\n- url: https://doc.bunq.com/\n  type: Documentation\ndescription: The Bunq User Registry API is a tool that allows developers to access and manage user information\n  within the Bunq platform. With this API, users can easily retrieve details such as contact information,\n  account numbers, and transaction history for each individual user. This streamlined access to user data\n  enables developers to create personalized and efficient user experiences, as well as securely authenticate\n  users and verify their identity.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/apis.yml
 tags:
 - Items
 - Registries

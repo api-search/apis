@@ -22,6 +22,8 @@ properties:
 provider_name: Google Marketing Platform Admin
 provider_slug: google-marketing-platform
 slug: admin
+source_yaml: "aid: google-marketing-platform:admin\nname: Google Marketing Platform Admin API\ndescription: The Marketing Platform Admin API enables programmatic management of organization-level settings\n  including links to Google Analytics accounts, service level configuration, and organization administration.\nhumanURL: https://developers.google.com/marketing-platform/devguides/api/admin/v1/rest\nbaseURL: https://marketingplatformadmin.googleapis.com\ntags:\n- Admin\n- Analytics\n- Organizations\nproperties:\n- type: Documentation\n  url: https://developers.google.com/marketing-platform/devguides/api/admin/v1/rest\n- type: OpenAPI\n  url: openapi/openapi.yml\n- type: Authentication\n  url: https://developers.google.com/docs/api/how-tos/authorizing\n- type: GettingStarted\n  url: https://developers.google.com/marketing-platform/devguides/api/admin/v1/rest\n- type: JSONSchema\n  url: json-schema/json-schema.yml\n- type: JSONLD\n  url: json-ld/json-ld.yml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/apis.yml
 tags:
 - Admin
 - Analytics

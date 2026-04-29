@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: open-energy-platform-management-service-apis
+source_yaml: "aid: microsoft-azure:open-energy-platform-management-service-apis\nname: Microsoft Azure Open Energy Platform Management Service APIs\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-oep-readme?view=azure-node-preview\nproperties:\n- url: openapiopen-energy-platform-management-service-apis-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-oep-readme?view=azure-node-preview\n  type: Documentation\ndescription: The Microsoft Azure Open Energy Platform Management Service APIs provide developers with\n  a set of tools and resources to efficiently manage and integrate energy data within their applications.\n  These APIs allow users to access real-time energy consumption information, analyze historical data,\n  and make informed decisions to optimize energy usage and reduce costs.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

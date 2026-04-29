@@ -18,6 +18,8 @@ properties:
 provider_name: AWS Step Functions
 provider_slug: aws-step-functions
 slug: aws-step-functions
+source_yaml: "aid: aws-step-functions:aws-step-functions\nname: AWS Step Functions\ndescription: AWS Step Functions is a serverless orchestration service that lets you coordinate distributed\n  applications and microservices using visual workflows, integrating with AWS services and supporting\n  error handling and retries. Define workflows in Amazon States Language with standard and express workflow\n  types.\nhumanURL: https://aws.amazon.com/step-functions/\nbaseURL: https://states.{region}.amazonaws.com\ntags:\n- iPaaS\n- Orchestration\n- Serverless\nproperties:\n- type: Documentation\n  url: https://docs.aws.amazon.com/step-functions/\n- type: GettingStarted\n  url: https://docs.aws.amazon.com/step-functions/latest/dg/getting-started.html\n- type: OpenAPI\n  url: openapi/aws-step-functions-openapi.json\n- type: APIReference\n  url: https://docs.aws.amazon.com/step-functions/latest/apireference/Welcome.html\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/apis.yml
 tags:
 - iPaaS
 - Orchestration

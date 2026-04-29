@@ -14,5 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-monitor-data-collection-rule-associations-api
+source_yaml: "aid: microsoft-azure:azure-monitor-data-collection-rule-associations-api\nname: Microsoft Azure Monitor Data Collection Rule Associations API\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/rest/api/monitor/data-collection-rule-associations?view=rest-monitor-2023-03-11\nproperties:\n- url: openapiazure-monitor-data-collection-rule-associations-api-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/rest/api/monitor/data-collection-rule-associations?view=rest-monitor-2023-03-11\n  type: Documentation\ndescription: The Microsoft Azure Monitor Data Collection Rule Associations API allows users to manage\n  associations between data collection rules and target resources within their Azure environment. By utilizing\n  this API, users can easily create, update, or delete associations to ensure that the collected data\n  is delivered to the appropriate destinations\
+  \ for processing and analysis.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

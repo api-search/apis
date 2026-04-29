@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-maps-spatial-service
+source_yaml: "aid: microsoft-azure:azure-maps-spatial-service\nname: Microsoft Azure Maps Spatial Service\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-maps/\nproperties:\n- url: openapi/azure-maps-spatial-service-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-maps/\n  type: Documentation\ndescription: Microsoft Azure Maps Spatial Service is a powerful tool that allows developers to analyze\n  and visualize location-based data in their applications. By integrating spatial intelligence into their\n  software, users can easily understand complex geospatial relationships, identify patterns, and make\n  informed decisions based on real-time location data.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

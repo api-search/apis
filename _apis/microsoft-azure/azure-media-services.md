@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-media-services
+source_yaml: "aid: microsoft-azure:azure-media-services\nname: Microsoft Azure Media Services\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/sr-cyrl-rs/azure/media-services/latest/\nproperties:\n- url: openapi/azure-media-services-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/sr-cyrl-rs/azure/media-services/latest/\n  type: Documentation\ndescription: Microsoft Azure Media Services is a cloud-based platform that provides a set of services\n  designed to help organizations deliver high-quality media content to their audiences. From live streaming\n  events to on-demand video playback, Azure Media Services offers a range of tools and features to support\n  every aspect of media delivery.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

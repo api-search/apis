@@ -12,6 +12,8 @@ properties:
 provider_name: Cogent Communications
 provider_slug: cogent-communications
 slug: cogent-communications-api
+source_yaml: "aid: cogent-communications:cogent-communications-api\nname: Cogent Communications API\ntags:\n- Internet\n- Network\n- Data Center\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.cogentco.com\nhumanURL: https://developer.cogentco.com\nproperties:\n- url: https://developer.cogentco.com/docs\n  type: Documentation\ndescription: The Cogent Communications API provides access to platform services and data for enterprise\n  integration and automation.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cogent-communications/refs/heads/main/apis.yml
 tags:
 - Internet
 - Network

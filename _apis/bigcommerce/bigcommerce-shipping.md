@@ -16,6 +16,8 @@ properties:
 provider_name: BigCommerce
 provider_slug: bigcommerce
 slug: bigcommerce-shipping
+source_yaml: "aid: bigcommerce:bigcommerce-shipping\nname: Big Commerce Shipping\ntags:\n- Shipping\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.example.com\nhumanURL: https://developer.bigcommerce.com/\nproperties:\n- url: https://developer.bigcommerce.com/\n  type: Documentation\n- url: openapi/shipping-openapi-original.yml\n  type: OpenAPI\n- url: https://developer.bigcommerce.com/docs/rest-management/shipping-v2\n  type: API Reference\ndescription: BigCommerce Shipping is a service that helps ecommerce businesses manage and optimize their\n  shipping processes. It provides businesses with access to discounted shipping rates, real-time shipping\n  quotes, and the ability to print shipping labels directly from the BigCommerce platform. Additionally,\n  BigCommerce Shipping streamlines the fulfillment process by automatically updating order status and\n  tracking information for customers.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/apis.yml
 tags:
 - Shipping
 ---

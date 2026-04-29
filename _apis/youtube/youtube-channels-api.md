@@ -20,6 +20,8 @@ properties:
 provider_name: Youtube
 provider_slug: youtube
 slug: youtube-channels-api
+source_yaml: "aid: youtube:youtube-channels-api\nname: Youtube Channels API\ntags:\n- Channels\n- Videos\nimage: https://www.youtube.com/img/desktop/yt_1200.png\nhumanURL: https://developers.google.com/youtube/v3/docs/channels\nbaseURL: https://www.googleapis.com/youtube/v3\nproperties:\n- url: https://developers.google.com/youtube/v3/docs/channels/list\n  type: Documentation\n- url: https://developers.google.com/youtube/v3/getting-started\n  type: GettingStarted\n- url: https://developers.google.com/youtube/v3/guides/authentication\n  type: Authentication\n- url: openapi/youtube-data-api-openapi.yml\n  type: OpenAPI\n- url: json-schema/youtube-channel-schema.json\n  type: JSONSchema\ndescription: Provides access to YouTube channel data including channel metadata, statistics, and settings\n  for both the authenticated user and other public channels.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/apis.yml
 tags:
 - Channels
 - Videos

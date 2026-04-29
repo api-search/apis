@@ -18,6 +18,8 @@ properties:
 provider_name: Youtube
 provider_slug: youtube
 slug: youtube-captions-api
+source_yaml: "aid: youtube:youtube-captions-api\nname: Youtube Captions API\ntags:\n- Captions\n- Videos\nimage: https://www.youtube.com/img/desktop/yt_1200.png\nhumanURL: https://developers.google.com/youtube/v3/docs/captions\nbaseURL: https://www.googleapis.com/youtube/v3\nproperties:\n- url: https://developers.google.com/youtube/v3/docs/captions\n  type: Documentation\n- url: https://developers.google.com/youtube/v3/getting-started\n  type: GettingStarted\n- url: https://developers.google.com/youtube/v3/guides/authentication\n  type: Authentication\n- url: openapi/youtube-data-api-openapi.yml\n  type: OpenAPI\ndescription: Manages caption tracks associated with YouTube videos. A caption track is associated with\n  exactly one YouTube video and supports upload, update, download, and deletion operations.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/apis.yml
 tags:
 - Captions
 - Videos

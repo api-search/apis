@@ -14,6 +14,8 @@ properties:
 provider_name: CA Technologies (Broadcom)
 provider_slug: ca
 slug: broadcom-blazemeter
+source_yaml: "aid: ca:broadcom-blazemeter\nname: Broadcom BlazeMeter\ntags:\n- API Testing\n- Load Testing\n- Performance Testing\n- Service Virtualization\nhumanURL: https://www.blazemeter.com/\nproperties:\n- url: https://www.blazemeter.com/api-docs\n  type: Documentation\n- url: https://a.blazemeter.com/api/v4\n  type: API\ndescription: Continuous testing platform for API, web, mobile, and performance testing. Exposes a REST\n  API for orchestrating tests, reports, and service virtualization.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ca/refs/heads/main/apis.yml
 tags:
 - API Testing
 - Load Testing

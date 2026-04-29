@@ -18,6 +18,8 @@ properties:
 provider_name: Archbee
 provider_slug: archbee
 slug: archbee-api
+source_yaml: "aid: archbee:archbee-api\nname: Archbee API\ndescription: The Archbee API enables programmatic management of documentation spaces, pages, and content\n  within the Archbee documentation platform.\nhumanURL: https://www.archbee.com/\nbaseURL: https://api.archbee.com\ntags:\n- API Documentation\n- Documentation Management\n- Knowledge Base\n- Technical Writing\nproperties:\n- type: Documentation\n  url: https://docs.archbee.com/\n- type: GettingStarted\n  url: https://docs.archbee.com/getting-started\n- type: APIReference\n  url: https://docs.archbee.com/\n- type: OpenAPI\n  url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/openapi/archbee-api.yaml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/apis.yml
 tags:
 - API Documentation
 - Documentation Management

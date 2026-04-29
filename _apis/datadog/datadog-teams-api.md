@@ -14,6 +14,8 @@ properties:
 provider_name: Datadog
 provider_slug: datadog
 slug: datadog-teams-api
+source_yaml: "aid: datadog:datadog-teams-api\nname: Datadog Teams API\ntags:\n- Account Management\n- Teams\nhumanURL: https://docs.datadoghq.com/api/latest/teams/\nbaseURL: https://api.datadoghq.com\nimage: https://imgix.datadoghq.com/img/dd_logo_n_70x75.png\nproperties:\n- url: https://docs.datadoghq.com/api/latest/teams/\n  type: Documentation\n- url: https://docs.datadoghq.com/account_management/teams/\n  type: Reference\ndescription: The Teams API allows you to view and manage teams within Datadog. Teams can be associated\n  with incidents, dashboards, and other resources to organize ownership and collaboration within your\n  organization.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/apis.yml
 tags:
 - Account Management
 - Teams

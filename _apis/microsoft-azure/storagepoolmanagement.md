@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: storagepoolmanagement
+source_yaml: "aid: microsoft-azure:storagepoolmanagement\nname: Microsoft Azure Storage Pool Management\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.storagepool-readme?view=azure-dotnet\nproperties:\n- url: openapi/storagepoolmanagement-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.storagepool-readme?view=azure-dotnet\n  type: Documentation\ndescription: Microsoft Azure Storage Pool Management is a service that allows organizations to efficiently\n  manage their storage resources within the Azure cloud platform. With Storage Pool Management, users\n  can easily create, configure, and manage storage pools to optimize performance, availability, and cost.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

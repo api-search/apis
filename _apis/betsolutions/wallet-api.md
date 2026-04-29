@@ -14,6 +14,8 @@ properties:
 provider_name: BetSolutions
 provider_slug: betsolutions
 slug: wallet-api
+source_yaml: "aid: betsolutions:wallet-api\nname: BetSolutions Wallet API\ntags:\n- Wallet\n- Payments\n- Transfer\n- Seamless\nhumanURL: https://docs.betsolutions.com/\nproperties:\n- type: Documentation\n  url: https://docs.betsolutions.com/\n- type: OpenAPI\n  url: openapi/betsolutions-wallet-api.yaml\ndescription: Two-mode wallet integration for casino operators. Transfer mode provides deposit, withdraw,\n  and balance operations managed by BetSolutions. Seamless mode enables operator-side wallet management\n  with bet, win, cancel bet, change win, and balance endpoints called by BetSolutions on the operator's\n  server.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/apis.yml
 tags:
 - Wallet
 - Payments

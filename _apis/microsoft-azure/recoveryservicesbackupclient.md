@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: recoveryservicesbackupclient
+source_yaml: "aid: microsoft-azure:recoveryservicesbackupclient\nname: Microsoft Azure Recovery Services Backup Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/backup/\nproperties:\n- url: openapi/recoveryservicesbackupclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/backup/\n  type: Documentation\ndescription: The Microsoft Azure Recovery Services Backup Client is a tool that provides backup and recovery\n  solutions for protecting data stored on Windows machines. It allows users to easily schedule regular\n  backups of their files, applications, and system settings to Azure cloud storage. In the event of a\n  data loss or system failure, the Backup Client offers a fast and reliable way to restore the most recent\n  copies of files and data.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

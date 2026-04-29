@@ -16,6 +16,8 @@ properties:
 provider_name: Splunk
 provider_slug: splunk
 slug: splunk-cloud-admin-config-service-api
+source_yaml: "aid: splunk:splunk-cloud-admin-config-service-api\nname: Splunk Cloud Admin Config Service (ACS) API\ndescription: The Admin Config Service (ACS) is a cloud-native API that provides programmatic self-service\n  administration capabilities for Splunk Cloud Platform. Administrators can use the ACS API to manage\n  indexes, IP allow lists, HEC tokens, users, and roles without assistance from Splunk Support. ACS provides\n  an OpenAPI 3.0 specification.\nhumanURL: https://docs.splunk.com/Documentation/SplunkCloud/latest/Config/ACSIntro\ntags:\n- Administration\n- Cloud\n- Configuration\n- Management\nproperties:\n- type: Documentation\n  url: https://docs.splunk.com/Documentation/SplunkCloud/latest/Config/ACSIntro\n- type: GettingStarted\n  url: https://docs.splunk.com/Documentation/SplunkCloud/latest/Config/ACSusage\n- type: APIReference\n  url: https://docs.splunk.com/Documentation/SplunkCloud/latest/Config/ACSREF\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/apis.yml
 tags:
 - Administration
 - Cloud

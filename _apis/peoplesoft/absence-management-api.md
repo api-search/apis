@@ -12,6 +12,8 @@ properties:
 provider_name: PeopleSoft
 provider_slug: peoplesoft
 slug: absence-management-api
+source_yaml: "name: PeopleSoft Absence Management API\ndescription: REST API for creating, updating, and retrieving absence requests, viewing employee absence\n  balances by type, and retrieving absence configuration rules. Supports Absence Management chatbot skill\n  and self-service integrations.\nimage: https://www.oracle.com/a/ocom/img/cb71-psft-logo.jpg\nhumanURL: https://docs.oracle.com/cd/F70351_01/cs92pbr27/eng/cs/eccs/UnderstandingRESTAPIEndpointsForPeopleSoftAbsenceManagementApplicationServicesabsence.html\nbaseURL: https://{hostname}:{port}/psft/api/hcm/absence/v1\ntags:\n- Absence Management\n- HCM\n- Leave\n- Time Off\nproperties:\n- type: Documentation\n  url: https://docs.oracle.com/cd/F70351_01/cs92pbr27/eng/cs/eccs/UnderstandingRESTAPIEndpointsForPeopleSoftAbsenceManagementApplicationServicesabsence.html\ncontact:\n- FN: Oracle Support\n  email: support@oracle.com\n  url: https://support.oracle.com\naid: peoplesoft:absence-management-api\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/apis.yml
 tags:
 - Absence Management
 - HCM

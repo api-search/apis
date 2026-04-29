@@ -16,6 +16,8 @@ properties:
 provider_name: BigCommerce
 provider_slug: bigcommerce
 slug: bigcommerce-catalog-product-variants
+source_yaml: "aid: bigcommerce:bigcommerce-catalog-product-variants\nname: Big Commerce Catalog  Product Variants\ntags:\n- Catalogs\n- Products\n- Variants\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.example.com\nhumanURL: https://developer.bigcommerce.com/\nproperties:\n- url: https://developer.bigcommerce.com/\n  type: Documentation\n- url: openapi/catalog-product-variants-openapi-original.yml\n  type: OpenAPI\n- url: https://developer.bigcommerce.com/docs/rest-catalog/product-variants\n  type: API Reference\ndescription: BigCommerce Catalog - Product Variants is a feature that allows online retailers to easily\n  manage and display different versions or options of a product on their website. This tool enables merchants\n  to create and track various product variants, such as different sizes, colors, or materials, all within\n  a single product listing.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/apis.yml
 tags:
 - Catalogs
 - Products

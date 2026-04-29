@@ -12,6 +12,8 @@ properties:
 provider_name: Prestige Consumer Healthcare
 provider_slug: prestige-consumer-healthcare
 slug: prestige-consumer-healthcare-api
+source_yaml: "aid: prestige-consumer-healthcare:prestige-consumer-healthcare-api\nname: Prestige Consumer Healthcare API\ntags:\n- Consumer Healthcare\n- OTC\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.prestigeconsumerhealthcare.com\nhumanURL: https://developer.prestigeconsumerhealthcare.com\nproperties:\n- url: https://developer.prestigeconsumerhealthcare.com/docs\n  type: Documentation\ndescription: The Prestige Consumer Healthcare API provides access to platform services and data for enterprise\n  integration and automation.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prestige-consumer-healthcare/refs/heads/main/apis.yml
 tags:
 - Consumer Healthcare
 - OTC

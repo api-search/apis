@@ -12,6 +12,8 @@ properties:
 provider_name: Veeva Systems
 provider_slug: veeva-systems
 slug: veeva-systems-api
+source_yaml: "aid: veeva-systems:veeva-systems-api\nname: Veeva Systems API\ntags:\n- Healthcare\n- SaaS\n- Life Sciences\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.veeva.com\nhumanURL: https://developer.veeva.com\nproperties:\n- url: https://developer.veeva.com/docs\n  type: Documentation\ndescription: The Veeva Systems API provides access to platform services and data for enterprise integration\n  and automation.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veeva-systems/refs/heads/main/apis.yml
 tags:
 - Healthcare
 - SaaS

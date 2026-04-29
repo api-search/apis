@@ -14,6 +14,8 @@ properties:
 provider_name: Slack
 provider_slug: slack
 slug: slack-pins-api
+source_yaml: "aid: slack:slack-pins-api\nname: Slack Pins API\ntags:\n- Pins\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://slack.com/api\nhumanURL: https://docs.slack.dev/reference/methods\nproperties:\n- url: https://docs.slack.dev/reference/methods\n  type: Documentation\n- url: openapi/slack-pins-openapi.yml\n  type: OpenAPI\ndescription: The Slack Pins API is a set of Web API methods that let your app manage pinned items in conversations\n  so important content is easy to find. With pins.add, pins.list, and pins.remove, you can programmatically\n  pin or unpin messages, files, and file comments in channels, private channels, and DMs by providing\n  the conversation ID and the message timestamp or file/comment ID.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/apis.yml
 tags:
 - Pins
 ---

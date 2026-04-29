@@ -14,6 +14,8 @@ properties:
 provider_name: GitHub
 provider_slug: github
 slug: github-projects-api
+source_yaml: "aid: github:github-projects-api\nname: GitHub Projects API\ntags:\n- Projects\nbaseURL: https://api.github.com/\nhumanURL: https://docs.github.com/en/rest/projects?apiVersion=2022-11-28\noverlays:\n- url: overlays/github-projects-openapi-search.yml\n  type: OpenAPI\nproperties:\n- url: openapi/github-projects-api-openapi.yml\n  type: OpenAPI\n- url: https://docs.github.com/en/rest/projects\n  type: Documentation\ndescription: The GitHub Projects API enables developers to programmatically create and manage GitHub Projects,\n  which are flexible tools for planning and tracking work using customizable boards, tables, and roadmaps.\n  Through these REST API endpoints, you can create projects at the repository, organization, or user level,\n  add and organize items like issues and pull requests, manage project fields and views, update item statuses\n  and metadata, and automate project workflows.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/apis.yml
 tags:
 - Projects
 ---

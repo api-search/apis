@@ -14,6 +14,9 @@ properties:
 provider_name: broadridge
 provider_slug: broadridge
 slug: broadridge-fund-data-api
+source_yaml: "aid: broadridge:broadridge-fund-data-api\nname: Broadridge Fund Data Distribution (Galaxia) API\ntags:\n- Asset Management\n- Financial Services\n- Fund Data\n- Regulatory Reporting\n- UCITS\nimage: https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/image.png\nhumanURL: https://www.broadridge.com/financial-services/asset-management/global-funds/simplify-financial-and-regulatory-reporting/fund-data-distribution-with-the-galaxia-data-api\nbaseURL: https://dataapi-web.fundslibrary.net\nproperties:\n- url: https://www.broadridge.com/financial-services/asset-management/global-funds/simplify-financial-and-regulatory-reporting/fund-data-distribution-with-the-galaxia-data-api\n  type: Documentation\n- url: https://dataapi-web.fundslibrary.net/\n  type: Reference\ndescription: The Broadridge Galaxia Fund Data API enables access to and distribution of global fund data\n  for regulatory reporting and investor communications. APIs provide fund data dissemination\
+  \ for UCITS,\n  PRIIPS, MiFID II, and other regulatory requirements across asset managers and distributors.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/apis.yml
 tags:
 - Asset Management
 - Financial Services

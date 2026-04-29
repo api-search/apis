@@ -22,6 +22,9 @@ properties:
 provider_name: Chaos Mesh
 provider_slug: chaos-mesh
 slug: chaos-mesh-api
+source_yaml: "aid: chaos-mesh:chaos-mesh-api\nname: Chaos Mesh API\ntags:\n- Chaos Engineering\n- CRDs\n- Dashboard\n- Experiments\n- Fault Injection\n- Kubernetes\n- Workflows\nhumanURL: https://chaos-mesh.org/docs/\nproperties:\n- url: https://chaos-mesh.org/docs/\n  type: Documentation\n- type: Getting Started\n  url: https://chaos-mesh.org/docs/quick-start/\n- type: GitHubRepository\n  url: https://github.com/chaos-mesh/chaos-mesh\n- type: OpenAPI\n  url: openapi/chaos-mesh-dashboard-api-openapi.yml\n- type: JSONSchema\n  url: json-schema/chaos-mesh-experiment-schema.json\n- type: JSONLD\n  url: json-ld/chaos-mesh-context.jsonld\ndescription: Chaos Mesh provides Kubernetes Custom Resources and a REST API for orchestrating chaos experiments\n  including network faults, pod failures, IO chaos, stress testing, kernel chaos, DNS chaos, time chaos,\n  JVM chaos, and HTTP request injection. The Chaos Dashboard exposes a REST API for creating, running,\n  scheduling, and observing experiments\
+  \ and multi-step workflows, with RBAC and event auditing.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/apis.yml
 tags:
 - Chaos Engineering
 - CRDs

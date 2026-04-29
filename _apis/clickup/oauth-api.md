@@ -14,6 +14,8 @@ properties:
 provider_name: clickup
 provider_slug: clickup
 slug: oauth-api
+source_yaml: "aid: clickup:oauth-api\nname: ClickUp OAuth API\ntags:\n- Authentication\n- Authorization\n- OAuth\n- Project Management\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.clickup.com\nhumanURL: https://developer.clickup.com/docs/authentication\nproperties:\n- url: https://developer.clickup.com/docs/authentication\n  type: Documentation\n- url: openapi/clickup-oauth-openapi.yml\n  type: OpenAPI\ndescription: The ClickUp OAuth API implements the authorization code grant type, allowing third-party\n  applications to authenticate users and access their ClickUp Workspaces. Workspace owners or admins can\n  create OAuth apps, and users authorize access by granting permissions to specific Workspaces. The API\n  provides endpoints for obtaining authorization codes, exchanging them for access tokens, and retrieving\n  the authenticated user's information.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/apis.yml
 tags:
 - Authentication
 - Authorization

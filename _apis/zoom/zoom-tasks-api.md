@@ -12,6 +12,8 @@ properties:
 provider_name: Zoom
 provider_slug: zoom
 slug: zoom-tasks-api
+source_yaml: "aid: zoom:zoom-tasks-api\nname: Zoom Tasks API\ndescription: The Zoom Tasks API enables developers to manage and automate tasks within the Zoom ecosystem,\n  including creating, viewing, updating, and deleting tasks with support for collaborators, assignees,\n  and comments.\nhumanURL: https://developers.zoom.us/docs/api/tasks/\nbaseURL: https://api.zoom.us/v2\ntags:\n- Productivity\n- Project Management\n- Tasks\nproperties:\n- type: Documentation\n  url: https://developers.zoom.us/docs/api/tasks/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/apis.yml
 tags:
 - Productivity
 - Project Management

@@ -14,6 +14,8 @@ properties:
 provider_name: Checkly
 provider_slug: checkly
 slug: checkly
+source_yaml: "aid: checkly:checkly\nname: Checkly\ndescription: Checkly is a monitoring-as-code platform for API and synthetic monitoring with Playwright-based\n  browser checks and programmable API checks.\nhumanURL: https://www.checklyhq.com\ntags:\n- Monitoring\n- Testing\nproperties:\n- type: Documentation\n  url: https://www.checklyhq.com/docs/\n- type: GitHub Repository\n  url: https://github.com/checkly\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/checkly/refs/heads/main/apis.yml
 tags:
 - Monitoring
 - Testing

@@ -38,6 +38,9 @@ properties:
 provider_name: Productiv
 provider_slug: productiv
 slug: developer-api
+source_yaml: "aid: productiv:developer-api\nname: Productiv Developer API\ndescription: The Productiv Developer APIs support integrating custom applications into the Productiv platform,\n  allowing external developers to define and publish new connected applications. Includes APIs for pushing\n  usage events and user information, Data Export APIs for fetching app portfolio details, provisioning\n  workflows, and audit events.\nhumanURL: https://docs.app.productiv.com/developer-api/index.html\nbaseURL: https://public-api.productiv.com\ntags:\n- Application Portfolio\n- Audit Events\n- Data Export\n- Provisioning\n- SaaS Management\n- Spend Data\n- Usage Analytics\nproperties:\n- type: Documentation\n  url: https://docs.app.productiv.com/developer-api/index.html\n- type: OpenAPI\n  url: openapi/productiv-developer-openapi.yml\n- type: Authentication\n  url: https://docs.app.productiv.com/developer-api/authorization.html\n- type: GettingStarted\n  url: https://docs.app.productiv.com/developer-api/data-export-getting-started.html\n\
+  - type: JSONSchema\n  url: json-schema/application.json\n- type: JSONSchema\n  url: json-schema/app-summary.json\n- type: JSONSchema\n  url: json-schema/app-details.json\n- type: JSONSchema\n  url: json-schema/usage-event.json\n- type: JSONSchema\n  url: json-schema/spend-data.json\n- type: JSONSchema\n  url: json-schema/provisioned-user.json\n- type: JSONSchema\n  url: json-schema/org-chart-user.json\n- type: JSONSchema\n  url: json-schema/provisioning-workflow.json\n- type: JSONSchema\n  url: json-schema/audit-event.json\n- type: JSONLD\n  url: json-ld/productiv-context.jsonld\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/apis.yml
 tags:
 - Application Portfolio
 - Audit Events

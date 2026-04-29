@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-log-analytics-query-packs
+source_yaml: "aid: microsoft-azure:azure-log-analytics-query-packs\nname: Microsoft Azure Log Analytics Query Packs\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/logs/query-packs\nproperties:\n- url: openapi/azure-log-analytics-query-packs-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-monitor/logs/query-packs\n  type: Documentation\ndescription: Microsoft Azure Log Analytics Query Packs is a feature that allows users to easily access\n  pre-built queries for analyzing log data in their Azure environment. These query packs are designed\n  to help users quickly identify and troubleshoot issues within their systems by providing tailored queries\n  for specific use cases. By utilizing query packs, users can save time and effort in creating complex\n  queries, as well as leverage best practices and expert knowledge in log data analysis.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

@@ -14,6 +14,8 @@ properties:
 provider_name: CAMARA
 provider_slug: camara
 slug: number-verification-api
+source_yaml: "aid: camara:number-verification-api\nname: CAMARA Number Verification API\ndescription: Silent, cryptographically strong verification that the mobile number a user claims to own\n  is actually the number of the SIM attached to the device making the request. Replaces SMS one-time-password\n  flows with an operator-authenticated check over the data connection, reducing fraud and user friction\n  in onboarding and login.\nhumanURL: https://github.com/camaraproject/NumberVerification\nbaseURL: https://api.example.com/number-verification/v0\ntags:\n- Identity\n- Authentication\n- Anti-Fraud\n- MSISDN\nproperties:\n- type: Documentation\n  url: https://github.com/camaraproject/NumberVerification\n- type: Repository\n  url: https://github.com/camaraproject/NumberVerification\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/camara/refs/heads/main/apis.yml
 tags:
 - Identity
 - Authentication

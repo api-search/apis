@@ -12,6 +12,8 @@ properties:
 provider_name: Brandwatch
 provider_slug: brandwatch
 slug: consumer-research-api
+source_yaml: "aid: brandwatch:consumer-research-api\nname: Brandwatch Consumer Research API\ntags:\n- Consumer Research\n- Data Export\n- Real-time Streaming\nhumanURL: https://www.brandwatch.com/products/apis/\nproperties:\n- url: https://www.brandwatch.com/products/apis/\n  type: Documentation\ndescription: Export analysis results for further research and integration with existing systems. Supports\n  real-time data streaming alongside consumer conversation data for continuous monitoring and research\n  workflows.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/apis.yml
 tags:
 - Consumer Research
 - Data Export

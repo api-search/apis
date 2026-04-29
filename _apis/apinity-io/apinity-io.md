@@ -16,6 +16,8 @@ properties:
 provider_name: Apinity.io
 provider_slug: apinity-io
 slug: apinity-io
+source_yaml: "aid: apinity-io:apinity-io\nname: Apinity.io API\ndescription: The Apinity API enables organizations to manage their compliant API marketplace programmatically,\n  including API registration, discovery, subscription management, and governance policy enforcement across\n  partner ecosystems.\nhumanURL: https://apinity.io/\nbaseURL: https://api.apinity.io\ntags:\n- API Governance\n- API Marketplace\n- Compliance\n- Integration\nproperties:\n- type: Documentation\n  url: https://apinity.io/\n- type: JSONSchema\n  url: json-schema/apinity-marketplace-schema.json\n- type: JSON-LD\n  url: json-ld/apinity-context.jsonld\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apinity-io/refs/heads/main/apis.yml
 tags:
 - API Governance
 - API Marketplace

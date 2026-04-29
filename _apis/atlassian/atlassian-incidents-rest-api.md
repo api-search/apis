@@ -12,6 +12,8 @@ properties:
 provider_name: Atlassian
 provider_slug: atlassian
 slug: atlassian-incidents-rest-api
+source_yaml: "aid: atlassian:atlassian-incidents-rest-api\nname: Atlassian Incidents REST API\ndescription: The Atlassian Incidents REST API enables managing major incidents across Atlassian products.\nhumanURL: https://developer.atlassian.com/cloud/incidents/\ntags:\n- Alerts\n- Incidents\n- ITSM\nproperties:\n- type: Documentation\n  url: https://developer.atlassian.com/cloud/incidents/rest/api-group-major-incident/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/apis.yml
 tags:
 - Alerts
 - Incidents

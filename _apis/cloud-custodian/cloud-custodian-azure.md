@@ -14,6 +14,8 @@ properties:
 provider_name: Cloud Custodian
 provider_slug: cloud-custodian
 slug: cloud-custodian-azure
+source_yaml: "aid: cloud-custodian:cloud-custodian-azure\nname: Cloud Custodian Azure Provider\ndescription: The Cloud Custodian Azure provider enables policy-as-code management of Microsoft Azure resources\n  including virtual machines, storage accounts, network security groups, and other Azure services. Policies\n  can enforce security requirements, tagging standards, and cost controls across Azure subscriptions.\nhumanURL: https://cloudcustodian.io/docs/azure/gettingstarted.html\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nproperties:\n- url: https://cloudcustodian.io/docs/azure/gettingstarted.html\n  type: Getting Started\n- url: https://cloudcustodian.io/docs/azure/policy/resources/index.html\n  type: Reference\ntags:\n- Azure\n- Cloud Security\n- Compliance\n- Policy as Code\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloud-custodian/refs/heads/main/apis.yml
 tags:
 - Azure
 - Cloud Security

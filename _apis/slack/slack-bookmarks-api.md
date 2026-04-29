@@ -14,6 +14,8 @@ properties:
 provider_name: Slack
 provider_slug: slack
 slug: slack-bookmarks-api
+source_yaml: "aid: slack:slack-bookmarks-api\nname: Slack Bookmarks API\ntags:\n- Bookmarks\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://slack.com/api\nhumanURL: https://docs.slack.dev/reference/methods\nproperties:\n- url: https://docs.slack.dev/reference/methods\n  type: Documentation\n- url: openapi/slack-bookmarks-openapi.yml\n  type: OpenAPI\ndescription: The Slack Bookmarks API provides the ability to add, remove, edit, or list curated resources\n  directly in public channels, private channels, direct messages, multi-person direct messages, and shared\n  channels. Bookmarks can contain external resources such as websites, spreadsheets, dashboards, wikis,\n  and news articles, as well as internal resources such as messages, files, or other channels within Slack.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/apis.yml
 tags:
 - Bookmarks
 ---

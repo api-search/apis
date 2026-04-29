@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: metrics-advisor
+source_yaml: "aid: microsoft-azure-one:metrics-advisor\nname: Microsoft Azure Metrics Advisor\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/ai-services/metrics-advisor/\nproperties:\n- url: openapi/metrics-advisor-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/ai-services/metrics-advisor/\n  type: Documentation\ndescription: Microsoft Azure Metrics Advisor is a powerful tool that helps organizations monitor and analyze\n  their data in real-time to make informed decisions. By using advanced machine learning algorithms, Metrics\n  Advisor can detect anomalies, forecast trends, and provide recommendations for optimizing performance.\n  It allows users to easily track key metrics and KPIs across various data sources, enabling them to quickly\n  identify issues and take proactive measures to address them.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

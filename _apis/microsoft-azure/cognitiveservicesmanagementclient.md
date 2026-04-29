@@ -16,5 +16,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: cognitiveservicesmanagementclient
+source_yaml: "aid: microsoft-azure-one:cognitiveservicesmanagementclient\nname: Microsoft Azure Cognitive Services Management Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.cognitiveservices-readme?view=azure-dotnet\nproperties:\n- url: openapi/cognitiveservicesmanagementclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.cognitiveservices-readme?view=azure-dotnet\n  type: Documentation\n- url: https://learn.microsoft.com/en-us/rest/api/cognitiveservices/\n  type: API Reference\ndescription: Microsoft Azure Cognitive Services Management Client is a powerful tool that allows users\n  to easily manage and monitor their cognitive services resources on the Azure platform. With this client,\n  users can create, delete, update, and view details of their cognitive services resources\
+  \ like Vision,\n  Speech, Language, and Search. Users can also access usage and billing information, set up alerts for\n  resource limits, and configure authentication and authorization settings for their cognitive services.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

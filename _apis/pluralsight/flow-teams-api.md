@@ -14,6 +14,8 @@ properties:
 provider_name: Pluralsight
 provider_slug: pluralsight
 slug: flow-teams-api
+source_yaml: "name: Pluralsight Flow Teams API\ndescription: REST API for managing Flow engineering teams and team membership data.\nimage: https://www.pluralsight.com/content/dam/pluralsight2/general/headers/logo.png\nhumanURL: https://help.pluralsight.com/hc/en-us/sections/24176771997588-Customer-API-references\nbaseURL: https://<workspace>.appfireflow.com/v3/customer/core\ntags:\n- Engineering Data\n- Management\n- Teams\nproperties:\n- type: Documentation\n  url: https://help.pluralsight.com/hc/en-us/sections/24176771997588-Customer-API-references\n- type: OpenAPI\n  url: openapi/flow-teams.yml\ncontact:\n- FN: Pluralsight API Support\n  email: support@pluralsight.com\n  url: https://help.pluralsight.com\naid: pluralsight:flow-teams-api\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/apis.yml
 tags:
 - Engineering Data
 - Management

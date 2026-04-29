@@ -20,6 +20,9 @@ properties:
 provider_name: LinkedIn
 provider_slug: linkedin
 slug: linkedin-sales-navigator-api
+source_yaml: "aid: linkedin:linkedin-sales-navigator-api\nname: LinkedIn Sales Navigator API\ntags:\n- CRM\n- Sales\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.linkedin.com\nhumanURL: https://learn.microsoft.com/en-us/linkedin/sales/\nproperties:\n- url: https://learn.microsoft.com/en-us/linkedin/sales/\n  type: Documentation\n- url: https://learn.microsoft.com/en-us/linkedin/sales/display-services/\n  type: APIReference\n- url: https://learn.microsoft.com/en-us/linkedin/sales/analytics-services/\n  type: APIReference\n- url: https://learn.microsoft.com/en-us/linkedin/sales/sync-services/\n  type: APIReference\n- url: openapi/linkedin-sales-navigator.yml\n  type: OpenAPI\ndescription: LinkedIn Sales Navigator is a leading social selling tool that builds and nurtures customer\n  relationships to lead to increased sales performance. By leveraging the power of LinkedIn's Sales Navigator,\n  you can add exposure to sales leaders who\
+  \ are already engaged on LinkedIn and increase your product's\n  engagement by integrating LinkedIn Sales Navigator seamlessly into your customers' workflow.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/apis.yml
 tags:
 - CRM
 - Sales

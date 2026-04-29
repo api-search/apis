@@ -12,6 +12,8 @@ properties:
 provider_name: Cisco Secure Client
 provider_slug: cisco-secure-client
 slug: secure-access-api
+source_yaml: "aid: cisco-secure-client:secure-access-api\nname: Cisco Secure Access API\ntags:\n- SASE\n- Secure Access\n- SSE\n- ZTNA\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://developer.cisco.com/docs/cloud-security/secure-access/\nproperties:\n- url: https://developer.cisco.com/docs/cloud-security/secure-access/\n  type: Documentation\ndescription: The Cisco Secure Access API is the management interface for Cisco's converged SSE platform\n  that Secure Client connects to as a SASE endpoint agent. Endpoints cover network tunnels, ZTNA application\n  definitions, posture profiles, and reporting.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/apis.yml
 tags:
 - SASE
 - Secure Access

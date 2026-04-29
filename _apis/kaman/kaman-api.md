@@ -12,6 +12,8 @@ properties:
 provider_name: Kaman Corporation
 provider_slug: kaman
 slug: kaman-api
+source_yaml: "aid: kaman:kaman-api\nname: Kaman Corporation API\ntags:\n- Aerospace\n- Distribution\n- Industrial\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.kaman.com\nhumanURL: https://developer.kaman.com\nproperties:\n- url: https://developer.kaman.com/docs\n  type: Documentation\ndescription: The Kaman Corporation API provides access to platform services and data for enterprise integration\n  and automation.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kaman/refs/heads/main/apis.yml
 tags:
 - Aerospace
 - Distribution

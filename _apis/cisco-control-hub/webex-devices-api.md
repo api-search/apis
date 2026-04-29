@@ -14,6 +14,8 @@ properties:
 provider_name: Cisco Control Hub
 provider_slug: cisco-control-hub
 slug: webex-devices-api
+source_yaml: "aid: cisco-control-hub:webex-devices-api\nname: Webex Devices API\ntags:\n- Configuration\n- Devices\n- Endpoints\n- Room Systems\nhumanURL: https://developer.webex.com/docs/api/v1/devices\nbaseURL: https://webexapis.com/v1\nproperties:\n- url: https://developer.webex.com/docs/api/v1/devices\n  type: Documentation\n- url: https://developer.webex.com/docs/api/v1/openapi.json\n  type: OpenAPI\ndescription: Manage Webex Room and Desk Devices, MPP phones, and headsets; query device status and push\n  configuration.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/apis.yml
 tags:
 - Configuration
 - Devices

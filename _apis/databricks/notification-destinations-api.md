@@ -12,6 +12,8 @@ properties:
 provider_name: Databricks
 provider_slug: databricks
 slug: notification-destinations-api
+source_yaml: "aid: databricks:notification-destinations-api\nname: Databricks Notification Destinations API\ntags:\n- Alerts\n- Integration\n- Notifications\nhumanURL: https://docs.databricks.com/api/workspace/notificationdestinations\nproperties:\n- url: https://docs.databricks.com/api/workspace/notificationdestinations\n  type: Documentation\ndescription: The Databricks Notification Destinations API allows you to create, update, list, and delete\n  notification destinations for a workspace. Notification destinations define where alerts and notifications\n  are sent, supporting integrations with email, Slack, PagerDuty, webhooks, and other channels.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/apis.yml
 tags:
 - Alerts
 - Integration

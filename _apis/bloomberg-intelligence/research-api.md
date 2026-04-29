@@ -12,6 +12,8 @@ properties:
 provider_name: Bloomberg Intelligence
 provider_slug: bloomberg-intelligence
 slug: research-api
+source_yaml: "aid: bloomberg-intelligence:research-api\nname: Bloomberg Intelligence Research API\ndescription: Access to Bloomberg Intelligence research reports, analyst insights, industry analysis, and\n  company research across equities, credit, government, and ESG.\nhumanURL: https://www.bloomberg.com/professional/solution/bloomberg-intelligence/\nbaseURL: https://api.bloomberg.com/intelligence\ntags:\n- Analysis\n- ESG\n- Industry Research\n- Reports\n- Research\nproperties:\n- type: Documentation\n  url: https://www.bloomberg.com/professional/solution/bloomberg-intelligence/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-intelligence/refs/heads/main/apis.yml
 tags:
 - Analysis
 - ESG

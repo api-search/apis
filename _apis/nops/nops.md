@@ -26,6 +26,9 @@ properties:
 provider_name: nOps
 provider_slug: nops
 slug: nops
+source_yaml: "aid: nops:nops\nname: nOps\ntags:\n- Costs\n- FinOps\nhumanURL: ' https://www.nops.io/'\nbaseURL: https://app.nops.io\nproperties:\n- url: ' https://www.nops.io/'\n  type: Documentation\n- url: https://app.nops.io/public_redoc/\n  type: Documentation\n- url: openapi/nops-nops-openapi.yml\n  type: OpenAPI\n- url: json-schema/map-migration-project.json\n  type: JSONSchema\n- url: json-schema/map-migration-product.json\n  type: JSONSchema\n- url: json-schema/map-migration-resource.json\n  type: JSONSchema\n- url: json-schema/scheduler.json\n  type: JSONSchema\n- url: json-ld/nops-context.jsonld\n  type: JSONLD\ndescription: nOps is an AWS-focused cloud management platform that helps engineering and FinOps teams\n  cut costs, improve governance, and keep environments well-architected. It ingests AWS billing and telemetry\n  data (such as CUR, CloudTrail, and CloudWatch) to surface real-time insights, flag anomalies, and recommend\n  actions like rightsizing, eliminating idle resources,\
+  \ scheduling non‑production workloads, optimizing\n  EBS/S3, and increasing efficient use of Spot.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nops/refs/heads/main/apis.yml
 tags:
 - Costs
 - FinOps

@@ -14,5 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: purviewmanagementclient
+source_yaml: "aid: microsoft-azure:purviewmanagementclient\nname: Microsoft Azure Purview Management Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.purview-readme?view=azure-dotnet\nproperties:\n- url: openapi/purviewmanagementclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.purview-readme?view=azure-dotnet\n  type: Documentation\ndescription: The Microsoft Azure Purview Management Client is a comprehensive tool that allows organizations\n  to efficiently manage their data governance and compliance efforts. With this client, users can easily\n  discover, classify, and map their data assets across their entire organization in a centralized and\n  seamless way. It provides a unified view of all data sources, making it easier to understand and govern\n  data usage, access, and\
+  \ storage.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

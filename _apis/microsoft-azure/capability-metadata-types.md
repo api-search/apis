@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: capability-metadata-types
+source_yaml: "aid: microsoft-azure:capability-metadata-types\nname: Microsoft Azure Capability Metadata Types\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/govern-metadata-standards\nproperties:\n- url: openapi/capability-metadata-types-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/govern-metadata-standards\n  type: Documentation\ndescription: Microsoft Azure Capability Metadata Types provide detailed information about the capabilities\n  and features of various Azure services. These metadata types help users understand the functionalities\n  of each service and how they can be utilized to meet specific business needs.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

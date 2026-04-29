@@ -12,6 +12,8 @@ properties:
 provider_name: API.Video
 provider_slug: api-video
 slug: analytics
+source_yaml: "aid: api-video:analytics\nname: api.video Analytics API\ndescription: The api.video Analytics API provides viewer engagement metrics, playback statistics, and\n  performance data for both video on demand and live streaming content.\nhumanURL: https://docs.api.video/reference\ntags:\n- Analytics\n- Engagement\n- Metrics\n- Video\nproperties:\n- type: Documentation\n  url: https://docs.api.video/reference\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/apis.yml
 tags:
 - Analytics
 - Engagement

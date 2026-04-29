@@ -12,6 +12,8 @@ properties:
 provider_name: GitHub
 provider_slug: github
 slug: github-private-registries-api
+source_yaml: "aid: github:github-private-registries-api\nname: GitHub Private Registries API\ntags:\n- Packages\n- Registries\nbaseURL: https://api.github.com\nhumanURL: https://docs.github.com/en/rest/private-registries?apiVersion=2022-11-28\nproperties:\n- url: https://docs.github.com/en/rest/private-registries\n  type: Documentation\ndescription: The GitHub Private Registries API lets organizations configure and manage private package\n  registries. It provides endpoints to list, create, get, update, and delete private registry configurations\n  at the organization level, as well as retrieve the public key used for private registry encryption.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/apis.yml
 tags:
 - Packages
 - Registries

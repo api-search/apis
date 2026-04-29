@@ -20,6 +20,8 @@ properties:
 provider_name: Block
 provider_slug: block
 slug: block-square-api
+source_yaml: "aid: block:block-square-api\nname: Square API\ndescription: RESTful API for building commerce applications on the Square platform. Provides payment processing,\n  order management, catalog management, customer profiles, loyalty programs, invoicing, and merchant operations.\n  Supports OAuth 2.0 and personal access token authentication. Available in sandbox and production environments.\nhumanURL: https://developer.squareup.com/\ntags:\n- Commerce\n- eCommerce\n- Payments\n- Point Of Sale\n- Square\nproperties:\n- type: Documentation\n  url: https://developer.squareup.com/docs\n- type: OpenAPI\n  url: openapi/block-square-api-openapi.yaml\n- type: NaftikoCapability\n  url: capabilities/block-square-commerce.yaml\n- type: SpectralRules\n  url: rules/block-spectral-rules.yml\n- type: Vocabulary\n  url: vocabulary/block-vocabulary.yaml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/apis.yml
 tags:
 - Commerce
 - eCommerce

@@ -14,6 +14,8 @@ properties:
 provider_name: Cisco Control Hub
 provider_slug: cisco-control-hub
 slug: webex-calling-api
+source_yaml: "aid: cisco-control-hub:webex-calling-api\nname: Webex Calling API\ntags:\n- Calling\n- Phone Numbers\n- Telephony\n- Voice\nhumanURL: https://developer.webex.com/docs/api/v1/webex-calling-organization-settings\nbaseURL: https://webexapis.com/v1\nproperties:\n- url: https://developer.webex.com/docs/api/v1/webex-calling-organization-settings\n  type: Documentation\n- url: https://developer.webex.com/docs/api/v1/openapi.json\n  type: OpenAPI\ndescription: Manage Webex Calling features, phone numbers, dial plans, voice portals, and other organization-wide\n  voice settings.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/apis.yml
 tags:
 - Calling
 - Phone Numbers

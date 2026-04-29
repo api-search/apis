@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: windowsesu
+source_yaml: "aid: microsoft-azure:windowsesu\nname: Microsoft Azure Windows Extended Security Updates\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/lifecycle/faq/extended-security-updates\nproperties:\n- url: openapi/windowsesu-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/lifecycle/faq/extended-security-updates\n  type: Documentation\ndescription: Microsoft Azure Windows Extended Security Updates provides extended support and security\n  updates for outdated Windows operating systems, such as Windows 7 and Windows Server 2008. This service\n  allows customers to continue receiving crucial security patches and updates for their legacy systems\n  beyond their end-of-life date, ensuring that their environments remain secure and compliant.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

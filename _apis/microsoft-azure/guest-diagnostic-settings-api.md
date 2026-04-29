@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: guest-diagnostic-settings-api
+source_yaml: "aid: microsoft-azure:guest-diagnostic-settings-api\nname: Microsoft Azure Guest Diagnostic Settings API\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/rest/api/monitor/diagnostic-settings?view=rest-monitor-2021-05-01-preview\nproperties:\n- url: openapi/guest-diagnostic-settings-api-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/rest/api/monitor/diagnostic-settings?view=rest-monitor-2021-05-01-preview\n  type: Documentation\ndescription: The Microsoft Azure Guest Diagnostic Settings API allows users to configure diagnostic settings\n  for virtual machines running on the Azure platform. By using this API, users can specify which types\n  of diagnostic data they want to collect, such as performance metrics, logs, or event traces. This data\n  can then be sent to a storage account or event hub for analysis and monitoring.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

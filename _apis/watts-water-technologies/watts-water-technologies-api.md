@@ -12,6 +12,8 @@ properties:
 provider_name: Watts Water Technologies
 provider_slug: watts-water-technologies
 slug: watts-water-technologies-api
+source_yaml: "aid: watts-water-technologies:watts-water-technologies-api\nname: Watts Water Technologies API\ntags:\n- Water\n- Industrial\n- Infrastructure\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.wattswater.com\nhumanURL: https://developer.wattswater.com\nproperties:\n- url: https://developer.wattswater.com/docs\n  type: Documentation\ndescription: The Watts Water Technologies API provides access to platform services and data for enterprise\n  integration and automation.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/watts-water-technologies/refs/heads/main/apis.yml
 tags:
 - Water
 - Industrial

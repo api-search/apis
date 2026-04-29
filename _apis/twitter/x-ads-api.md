@@ -18,6 +18,8 @@ properties:
 provider_name: X (Twitter)
 provider_slug: twitter
 slug: x-ads-api
+source_yaml: "aid: twitter:x-ads-api\nname: X Ads API\ndescription: The X Ads API enables programmatic management of advertising campaigns on the X platform\n  including campaign creation and scheduling, custom audience building, creative management (draft posts,\n  cards, media), and analytics retrieval for campaign performance metrics. Supports both synchronous and\n  asynchronous analytics endpoints for reporting.\nimage: https://abs.twimg.com/favicons/twitter.ico\nhumanURL: https://docs.x.com/x-ads-api\nbaseURL: https://ads-api.x.com\nproperties:\n- type: Documentation\n  url: https://docs.x.com/x-ads-api\n- type: GettingStarted\n  url: https://docs.x.com/x-ads-api/getting-started/create-a-campaign\n- type: RateLimits\n  url: https://docs.x.com/x-ads-api/fundamentals/rate-limiting\n- type: PostmanCollection\n  url: postman/x-ads-api-postman-collection.json\ntags:\n- Advertising\n- Campaigns\n- Analytics\n- Audiences\n- Creatives\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/apis.yml
 tags:
 - Advertising
 - Campaigns

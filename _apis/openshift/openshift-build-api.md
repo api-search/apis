@@ -12,6 +12,8 @@ properties:
 provider_name: OpenShift
 provider_slug: openshift
 slug: openshift-build-api
+source_yaml: "aid: openshift:openshift-build-api\nname: OpenShift Build API\ndescription: API for managing application builds and build configurations.\nhumanURL: https://docs.openshift.com/container-platform/latest/cicd/builds/understanding-builds.html\nbaseURL: https://api.openshift.com/apis/build.openshift.io/v1\ntags:\n- Builds\n- CI/CD\n- Source-To-Image\nproperties:\n- type: Documentation\n  url: https://docs.openshift.com/container-platform/latest/cicd/builds/understanding-builds.html\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/apis.yml
 tags:
 - Builds
 - CI/CD

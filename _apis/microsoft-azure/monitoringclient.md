@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: monitoringclient
+source_yaml: "aid: microsoft-azure:monitoringclient\nname: Microsoft Azure Monitoring Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/\nproperties:\n- url: openapi/monitoringclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-monitor/\n  type: Documentation\ndescription: The Microsoft Azure Monitoring Client is a tool designed to help organizations track and\n  analyze the performance of their applications and services hosted on the Azure platform. By providing\n  real-time insights into various metrics such as response times, error rates, and resource utilization,\n  the Monitoring Client enables users to quickly identify and troubleshoot issues that may be impacting\n  the efficiency of their cloud-based systems.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

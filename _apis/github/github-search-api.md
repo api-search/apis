@@ -14,6 +14,8 @@ properties:
 provider_name: GitHub
 provider_slug: github
 slug: github-search-api
+source_yaml: "aid: github:github-search-api\nname: GitHub Search API\ntags:\n- Discovery\n- Search\nbaseURL: https://api.github.com/\nhumanURL: https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28\noverlays:\n- url: overlays/github-search-openapi-search.yml\n  type: OpenAPI\nproperties:\n- url: openapi/github-search-api-openapi.yml\n  type: OpenAPI\n- url: https://docs.github.com/en/rest/search\n  type: Documentation\ndescription: The GitHub Search API lets you programmatically find and filter content across GitHubincluding\n  repositories, code, issues and pull requests, commits, users, topics, and labelsusing a powerful query\n  language with qualifiers (for example by language, stars, forks, org/user, path/filename, label, state,\n  author, or committer).\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/apis.yml
 tags:
 - Discovery
 - Search

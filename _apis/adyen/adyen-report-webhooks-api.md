@@ -14,6 +14,8 @@ properties:
 provider_name: Adyen
 provider_slug: adyen
 slug: adyen-report-webhooks-api
+source_yaml: "aid: adyen:adyen-report-webhooks-api\nname: Adyen Report Webhooks API\ntags:\n- Reports\n- Webhooks\n- Balance Platform\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://balanceplatform-api-test.adyen.com\nhumanURL: https://docs.adyen.com/api-explorer/report-webhooks/1/overview\ndescription: Adyen sends webhooks to inform your system that reports were generated and are ready to be\n  downloaded. You can download reports programmatically by making an HTTP GET request.\nproperties:\n- url: https://docs.adyen.com/api-explorer/report-webhooks/1/overview\n  type: Documentation\n- url: openapi/report-webhooks-openapi-original.yml\n  type: OpenAPI\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/apis.yml
 tags:
 - Reports
 - Webhooks

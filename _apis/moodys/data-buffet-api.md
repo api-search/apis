@@ -20,6 +20,9 @@ properties:
 provider_name: Moody's
 provider_slug: moodys
 slug: data-buffet-api
+source_yaml: "aid: moodys:data-buffet-api\nname: Moody's Data Buffet API\ntags:\n- Demographics\n- Economic Data\n- Forecasts\n- Time Series\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.economy.com\ncontact:\n- FN: API Evangelist\n  email: kin@apievangelist.com\nhumanURL: https://www.economy.com/products/tools/data-buffet\nproperties:\n- url: https://api.economy.com/data/v1/swagger\n  type: Documentation\n- url: https://github.com/moodysanalytics/databuffet-api-codesamples\n  type: GitHubOrganization\n- url: openapi/moodys-data-buffet-api-openapi.yml\n  type: OpenAPI\n- url: json-schema/moodys-time-series-schema.json\n  type: JSONSchema\n- url: json-ld/moodys-context.jsonld\n  type: JSONLD\ndescription: Moody's Analytics Data Buffet application program interface enables you to retrieve economic,\n  demographic and financial time series directly from the Data Buffet repository, including international\n  and subnational economic and\
+  \ demographic time series data and forecasts.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/apis.yml
 tags:
 - Demographics
 - Economic Data

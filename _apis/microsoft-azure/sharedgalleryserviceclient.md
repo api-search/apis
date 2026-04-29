@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: sharedgalleryserviceclient
+source_yaml: "aid: microsoft-azure:sharedgalleryserviceclient\nname: Microsoft Azure Shared Gallery Service Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/virtual-machines/share-gallery-direct\nproperties:\n- url: openapi/sharedgalleryserviceclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/virtual-machines/share-gallery-direct\n  type: Documentation\ndescription: Microsoft Azure Shared Gallery Service Client is a tool that allows users to easily access\n  and manage shared image resources in the Azure Gallery. Users can upload, store, and share image templates,\n  virtual machines, and other resources in a centralized location. The Shared Gallery Service Client provides\n  a user-friendly interface for browsing, searching, and deploying shared resources, making it easier\n  for teams to collaborate and streamline their development processes.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

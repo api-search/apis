@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: qnamaker-client
+source_yaml: "aid: microsoft-azure-one:qnamaker-client\nname: Microsoft Azure Qn Amaker Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/ai-services/qnamaker/\nproperties:\n- url: openapi/qnamaker-client-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/ai-services/qnamaker/\n  type: Documentation\ndescription: Microsoft Azure QnA Maker Client is a powerful tool that allows users to easily create and\n  manage their own question and answer databases. Users can input their own questions and corresponding\n  answers, train the system to better understand user queries, and then integrate the QnA Maker into various\n  applications and platforms. This client is designed to streamline the process of building conversational\n  AI experiences and providing users with accurate and efficient responses to their questions.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

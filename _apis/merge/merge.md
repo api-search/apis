@@ -12,6 +12,8 @@ properties:
 provider_name: Merge
 provider_slug: merge
 slug: merge
+source_yaml: "aid: merge:merge\nname: Merge\ntags:\n- Integrations\n- Platform\n- Unified API\nhumanURL: ' https://www.merge.dev/'\nproperties:\n- url: ' https://www.merge.dev/'\n  type: Documentation\ndescription: Merge is the leading provider of customer-facing integrations for frontier LLMs, Fortune\n  500 organizations, and thousands of other B2B SaaS companies.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/apis.yml
 tags:
 - Integrations
 - Platform

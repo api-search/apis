@@ -14,6 +14,8 @@ properties:
 provider_name: Apache Kafka
 provider_slug: apache-kafka
 slug: kafka-connect-api
+source_yaml: "aid: apache-kafka:kafka-connect-api\nname: Kafka Connect REST API\ndescription: Kafka Connect REST API for managing connectors, their configurations, tasks, and offsets\n  for integrating Kafka with external data systems including databases, object stores, and search indexes.\nhumanURL: https://kafka.apache.org/documentation/#connect_rest\nbaseURL: http://localhost:8083\ntags:\n- Connect\n- Connectors\n- Integration\nproperties:\n- type: Documentation\n  url: https://kafka.apache.org/documentation/#connect_rest\n- type: OpenAPI\n  url: openapi/kafka-connect.yml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/apis.yml
 tags:
 - Connect
 - Connectors

@@ -26,6 +26,9 @@ properties:
 provider_name: LinkedIn
 provider_slug: linkedin
 slug: linkedin-regulatory-api
+source_yaml: "aid: linkedin:linkedin-regulatory-api\nname: LinkedIn Regulatory API\ntags:\n- Compliance\n- Regulatory\n- Transparency\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.linkedin.com\nhumanURL: https://learn.microsoft.com/en-us/linkedin/dma/\nproperties:\n- url: https://learn.microsoft.com/en-us/linkedin/dma/\n  type: Documentation\n- url: https://learn.microsoft.com/en-us/linkedin/dma/member-data-portability/\n  type: Documentation\n- url: https://learn.microsoft.com/en-us/linkedin/dma/pages-data-portability-overview\n  type: Documentation\n- url: https://learn.microsoft.com/en-us/linkedin/dma/transparency/advertiser-transparency\n  type: Documentation\n- url: https://learn.microsoft.com/en-us/linkedin/dma/transparency/advertiser-transparency-faq\n  type: FAQ\n- url: https://learn.microsoft.com/en-us/linkedin/dma/recent-changes\n  type: ChangeLog\n- url: openapi/linkedin-regulations-data-portability.yml\n  type: OpenAPI\n\
+  - url: openapi/linkedin-regulatory-ads-transparency.yml\n  type: OpenAPI\ndescription: LinkedIn Regulatory APIs provide access to data portability and ads transparency capabilities\n  for regulatory compliance, including the Digital Markets Act (DMA) requirements for organization data\n  portability and advertiser transparency reporting.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/apis.yml
 tags:
 - Compliance
 - Regulatory

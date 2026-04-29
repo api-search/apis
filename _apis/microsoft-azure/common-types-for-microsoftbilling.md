@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: common-types-for-microsoftbilling
+source_yaml: "aid: microsoft-azure-one:common-types-for-microsoftbilling\nname: Microsoft Azure Common Types for Microsoft Billing\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/cost-management-billing/\nproperties:\n- url: openapi/common-types-for-microsoftbilling-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/cost-management-billing/\n  type: Documentation\ndescription: Microsoft Azure Common Types For Microsoft Billing is a comprehensive tool that provides\n  users with a variety of options for managing their billing and invoicing needs within the Microsoft\n  Azure platform. This tool allows users to easily track and monitor their usage and spending, as well\n  as set up automated billing processes to ensure accurate and timely payments.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

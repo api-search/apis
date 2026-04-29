@@ -22,6 +22,9 @@ properties:
 provider_name: Docusign
 provider_slug: docusign
 slug: docusign-click-api
+source_yaml: "aid: docusign:docusign-click-api\nname: Docusign Click API\ntags:\n- Clickwrap\n- Compliance\n- Consent\n- Terms of Service\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://demo.docusign.net/clickapi\nhumanURL: https://developers.docusign.com/docs/click-api/\nproperties:\n- url: https://developers.docusign.com/docs/click-api/reference/\n  type: Documentation\n- url: openapi/docusign-click-openapi-original.yml\n  type: OpenAPI\n- url: https://developers.docusign.com/docs/click-api/click101/\n  type: GettingStarted\n- url: https://developers.docusign.com/docs/click-api/how-to/\n  type: Tutorials\n- url: https://developers.docusign.com/docs/click-api/click101/rules-and-limits/\n  type: RateLimits\n- url: https://developers.docusign.com/docs/click-api/sdks/\n  type: SDK\ndescription: The Docusign Click API enables developers to implement and manage elastic templates (clickwraps)\n  to capture customer consent to standard agreement\
+  \ terms with a single click. It supports terms and conditions,\n  terms of service, terms of use, privacy policies, and more, with Docusign handling the rendering and\n  acceptance tracking.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/apis.yml
 tags:
 - Clickwrap
 - Compliance

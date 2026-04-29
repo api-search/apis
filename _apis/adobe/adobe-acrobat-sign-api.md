@@ -20,6 +20,8 @@ properties:
 provider_name: Adobe
 provider_slug: adobe
 slug: adobe-acrobat-sign-api
+source_yaml: "aid: adobe:adobe-acrobat-sign-api\nname: Adobe Acrobat Sign API\ntags:\n- Documents\n- E-Signatures\nhumanURL: https://developer.adobe.com/document-services/apis/sign-api/\nbaseURL: https://api.adobesign.com\nproperties:\n- type: Documentation\n  url: https://opensource.adobe.com/acrobat-sign/developer_guide/index.html\n- type: APIReference\n  url: https://opensource.adobe.com/acrobat-sign/developer_guide/apiusage.html\n- type: GettingStarted\n  url: https://opensource.adobe.com/acrobat-sign/developer_guide/gstarted.html\n- type: SDK\n  url: https://developer.adobe.com/acrobat-sign/docs/overview/sdks/rest\n- type: ChangeLog\n  url: https://opensource.adobe.com/acrobat-sign/releasenotes/acrobatsignreleasenotes.html\ndescription: Embed e-signature workflows and manage signing agreements programmatically.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/apis.yml
 tags:
 - Documents
 - E-Signatures

@@ -12,6 +12,8 @@ properties:
 provider_name: AAR Corp
 provider_slug: aar
 slug: aar-parts-supply
+source_yaml: "aid: aar:aar-parts-supply\nname: AAR Parts Supply\ntags:\n- Aviation\n- Parts Supply\n- Aircraft Parts\n- Aerospace\nhumanURL: https://www.aarcorp.com\nproperties:\n- url: https://www.aarcorp.com\n  type: Documentation\ndescription: AAR's parts supply division distributes new and used aircraft and engine parts to commercial\n  airlines, MROs, and government customers globally. Shipped and received 23 million commercial parts\n  in FY2025 across global platforms.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/apis.yml
 tags:
 - Aviation
 - Parts Supply

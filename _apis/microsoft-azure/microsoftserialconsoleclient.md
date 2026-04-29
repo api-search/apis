@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: microsoftserialconsoleclient
+source_yaml: "aid: microsoft-azure:microsoftserialconsoleclient\nname: Microsoft Azure Microsoft Serial Console Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/troubleshoot/azure/virtual-machines/windows/serial-console-windows\nproperties:\n- url: openapi/microsoftserialconsoleclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/troubleshoot/azure/virtual-machines/windows/serial-console-windows\n  type: Documentation\ndescription: The Microsoft Azure Microsoft Serial Console Client is a tool that allows users to interact\n  with virtual machines through a serial console connection. This feature is particularly useful when\n  there are networking issues that prevent access to the VM through traditional methods. With the Serial\n  Console Client, users can troubleshoot and diagnose issues directly from the Azure portal, regardless\n  of the state of the VM.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

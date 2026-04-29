@@ -14,6 +14,9 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: bookmarks
+source_yaml: "aid: zendesk:bookmarks\nname: Zendesk Bookmarks API\ntags:\n- Bookmarks\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://{subdomain}.zendesk.com\nhumanURL: https://developer.zendesk.com/api-reference/ticketing/ticket-management/bookmarks/\nproperties:\n- url: https://developer.zendesk.com/api-reference/ticketing/ticket-management/bookmarks/\n  type: Documentation\n- url: openapi/bookmarks-openapi-original.yml\n  type: OpenAPI\ndescription: The Zendesk Bookmarks API lets you programmatically manage an agents personal starred items\n  in Zendesk, providing endpoints to list, create, and delete bookmarks. A bookmark is a lightweight record\n  that points to another Zendesk resource (for example, something an agent wants quick access to in the\n  interface), and its scoped to the user who created it. With the API you can fetch all of a users bookmarks,\n  add new ones to surface important work, and remove those that are no longer\
+  \ relevant.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:
 - Bookmarks
 ---

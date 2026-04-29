@@ -12,6 +12,8 @@ properties:
 provider_name: HubSpot
 provider_slug: hubspot
 slug: hubspot-pipelines-api
+source_yaml: "aid: hubspot:hubspot-pipelines-api\nname: HubSpot Pipelines API\ntags:\n- CRM\n- Pipelines\n- Sales\n- Stages\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.hubapi.com\nhumanURL: https://developers.hubspot.com/docs/api/crm/pipelines\nproperties:\n- url: https://developers.hubspot.com/docs/api/crm/pipelines\n  type: Documentation\ndescription: Pipelines allow you to track records through defined stages in a process, such as sales deals\n  or support tickets. The pipelines endpoints allow you to create, retrieve, update, and delete pipelines\n  and pipeline stages for deals, tickets, and other object types.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/apis.yml
 tags:
 - CRM
 - Pipelines

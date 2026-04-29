@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: storage
+source_yaml: "aid: microsoft-azure:storage\nname: Microsoft Azure Storage\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/storage/\nproperties:\n- url: openapi/storage-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/storage/\n  type: Documentation\ndescription: Microsoft Azure Storage is a cloud storage solution that allows users to store and manage\n  large amounts of data in a secure and scalable way. It provides a range of storage options, including\n  blob storage for unstructured data, table storage for structured data, file storage for file-based data,\n  and queue storage for message-based communication. Azure Storage also offers features such as data encryption,\n  replication, and access control, ensuring that data is protected and always available.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

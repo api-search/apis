@@ -14,6 +14,8 @@ properties:
 provider_name: Atlassian
 provider_slug: atlassian
 slug: atlassian-jira-permission-scheme-api
+source_yaml: "aid: atlassian:atlassian-jira-permission-scheme-api\nname: Atlassian Jira Permission Scheme API\ndescription: The Atlassian Jira Permission Scheme API enables creating and managing permission schemes\n  for controlling access within Jira.\nhumanURL: https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-project-permission-schemes/#api-group-project-permission-schemes\ntags:\n- Jira\n- Permissions\n- Schemes\nproperties:\n- type: OpenAPI\n  url: openapi/atlassian-rest-api-3-permissionscheme--openapi-original.yml\n- type: Documentation\n  url: https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-project-permission-schemes/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/apis.yml
 tags:
 - Jira
 - Permissions

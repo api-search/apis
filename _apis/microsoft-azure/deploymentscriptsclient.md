@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: deploymentscriptsclient
+source_yaml: "aid: microsoft-azure:deploymentscriptsclient\nname: Microsoft Azure Deployment Scripts Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-script-template\nproperties:\n- url: openapi/deploymentscriptsclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-script-template\n  type: Documentation\ndescription: Microsoft Azure Deployment Scripts Client is a tool that allows developers to automate the\n  deployment of their applications on the Azure cloud platform. With this client, developers can write\n  scripts that define the configuration and resources needed for their applications to run smoothly on\n  Azure. These scripts can then be executed to quickly and efficiently deploy the application, saving\n  time and reducing the risk of manual errors.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

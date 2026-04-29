@@ -16,6 +16,8 @@ properties:
 provider_name: Kong
 provider_slug: kong
 slug: kong-mesh
+source_yaml: "aid: kong:kong-mesh\nname: Kong Mesh\ndescription: Kong Mesh is an enterprise-grade service mesh built on top of Kuma and Envoy, providing universal\n  service mesh capabilities across Kubernetes and virtual machine environments. It supports mTLS, traffic\n  policies, service discovery, observability, and multi-zone deployments.\nhumanURL: https://developer.konghq.com/mesh/\nbaseURL: https://konghq.com/\ntags:\n- Envoy\n- Kubernetes\n- mTLS\n- Service Mesh\nproperties:\n- type: Documentation\n  url: https://developer.konghq.com/mesh/\n- type: ChangeLog\n  url: https://developer.konghq.com/mesh/changelog/\n- type: GettingStarted\n  url: https://developer.konghq.com/mesh/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/apis.yml
 tags:
 - Envoy
 - Kubernetes

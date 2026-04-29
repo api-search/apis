@@ -12,6 +12,8 @@ properties:
 provider_name: Apollo
 provider_slug: apollo
 slug: apollo-client
+source_yaml: "aid: apollo:apollo-client\nname: Apollo Client\ndescription: Apollo Client provides libraries and integrations for connecting to Apollo.io's sales platform\n  from external applications and CRM systems.\nhumanURL: https://www.apollo.io/integrations\ntags:\n- CRM\n- Integrations\n- Salesforce\n- SDKs\nproperties:\n- type: Documentation\n  url: https://www.apollo.io/integrations\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apollo/refs/heads/main/apis.yml
 tags:
 - CRM
 - Integrations

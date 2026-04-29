@@ -30,6 +30,9 @@ properties:
 provider_name: Mailchimp
 provider_slug: mailchimp
 slug: mailchimp-transactional-api
+source_yaml: "aid: mailchimp:mailchimp-transactional-api\nname: Mailchimp Transactional API\ntags:\n- Email Delivery\n- Messaging\n- Transactional Email\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://mandrillapp.com/api/1.0\nhumanURL: https://mailchimp.com/developer/transactional/\noverlays: []\nproperties:\n- url: https://mailchimp.com/developer/transactional/docs/fundamentals/\n  type: Documentation\n- url: openapi/mailchimp-transactional-api-openapi.yml\n  type: OpenAPI\n- url: json-ld/context.jsonld\n  type: JSONLD\n- url: https://mailchimp.com/developer/transactional/guides/quick-start/\n  type: GettingStarted\n- url: https://mailchimp.com/developer/transactional/docs/authentication-delivery/\n  type: Authentication\n- url: https://mailchimp.com/developer/transactional/docs/webhooks/\n  type: Webhooks\n- url: https://mailchimp.com/developer/transactional/api/\n  type: APIReference\n- url: https://mailchimp.com/developer/transactional/guides/send-first-email/\n\
+  \  type: GettingStarted\n- url: https://mailchimp.com/developer/transactional/docs/outbound-email/\n  type: Outbound Email\n- url: https://mailchimp.com/developer/transactional/docs/tags-metadata/\n  type: Tags and Metadata\ndescription: Mailchimp Transactional (formerly Mandrill) is a powerful email delivery service that lets\n  you send personalized, one-to-one emails like password resets, order confirmations, and welcome messages.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/apis.yml
 tags:
 - Email Delivery
 - Messaging

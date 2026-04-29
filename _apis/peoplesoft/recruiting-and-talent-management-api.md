@@ -14,6 +14,8 @@ properties:
 provider_name: PeopleSoft
 provider_slug: peoplesoft
 slug: recruiting-and-talent-management-api
+source_yaml: "name: PeopleSoft Recruiting and Talent Management API\ndescription: REST endpoints for job search services, Candidate Gateway self-service, recruiting solutions,\n  and talent management workflows.\nimage: https://www.oracle.com/a/ocom/img/cb71-psft-logo.jpg\nhumanURL: https://docs.oracle.com/cd/F85027_01/hcm92pbr47/eng/hcm/ecch/UnderstandingRESTAPIEndpointsForPeopleSoftJobSearchServiceshrsjobs.html\nbaseURL: https://{hostname}:{port}/psft/api/hcm/recruiting/v1\ntags:\n- Candidate Gateway\n- Job Search\n- Recruiting\n- Talent Management\nproperties:\n- type: Documentation\n  url: https://docs.oracle.com/cd/F85027_01/hcm92pbr47/eng/hcm/ecch/UnderstandingRESTAPIEndpointsForPeopleSoftJobSearchServiceshrsjobs.html\n- type: OpenAPI\n  url: openapi/recruiting-talent-management.yml\ncontact:\n- FN: Oracle Support\n  email: support@oracle.com\n  url: https://support.oracle.com\naid: peoplesoft:recruiting-and-talent-management-api\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/apis.yml
 tags:
 - Candidate Gateway
 - Job Search

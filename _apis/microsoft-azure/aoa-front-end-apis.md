@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: aoa-front-end-apis
+source_yaml: "aid: microsoft-azure:aoa-front-end-apis\nname: Microsoft Azure Aoa Front End APIs\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/rest/api/azure/\nproperties:\n- url: openapi/aoa-front-end-apis-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/rest/api/azure/\n  type: Documentation\ndescription: Microsoft Azure AOA front end APIs allow developers to easily interact with and manage their\n  applications hosted on the Azure platform. These APIs provide a set of tools and functionalities that\n  enable developers to build and customize user interfaces, integrate data and services, and automate\n  processes. With Azure AOA front end APIs, developers can create responsive and user-friendly interfaces,\n  streamline workflows, and enhance the overall user experience of their applications.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

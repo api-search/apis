@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azurebridgeadminclient
+source_yaml: "aid: microsoft-azure:azurebridgeadminclient\nname: Microsoft Azure Bridge Admin Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles\nproperties:\n- url: openapi/azurebridgeadminclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles\n  type: Documentation\ndescription: The Microsoft Azure Bridge Admin Client is a tool that enables administrators to manage and\n  monitor their Azure Bridge environments with ease. This client provides a user-friendly interface for\n  setting up and configuring bridge configurations, monitoring traffic and performance metrics, and managing\n  permissions for users within the Azure Bridge system.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

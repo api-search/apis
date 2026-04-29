@@ -16,6 +16,8 @@ properties:
 provider_name: ARGUS Enterprise
 provider_slug: argus-enterprise
 slug: argus-enterprise-core
+source_yaml: "aid: argus-enterprise:argus-enterprise-core\nname: ARGUS Enterprise Core API\ndescription: Core REST API for the ARGUS Enterprise platform providing programmatic access to commercial\n  real estate investment management capabilities including property data, portfolio management, cash flow\n  projections, valuations, tenants, leases, and reporting. Authentication via bearer token.\nhumanURL: https://www.altusgroup.com/solutions/argus-enterprise/\nbaseURL: https://api.argusenterprise.com/v1\ntags:\n- Analytics\n- Cash Flow\n- Leases\n- Portfolio Management\n- Properties\n- Reporting\n- Valuations\nproperties:\n- type: Documentation\n  url: https://www.altusgroup.com/argus/downloads/argus-enterprise/\n- type: OpenAPI\n  url: openapi/argus-enterprise-core-openapi.yml\n- type: Authentication\n  url: https://www.altusgroup.com/support/start-using-argus-intelligence/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/apis.yml
 tags:
 - Analytics
 - Cash Flow

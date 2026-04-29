@@ -14,5 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: face-client
+source_yaml: "aid: microsoft-azure-one:face-client\nname: Microsoft Azure Face Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.vision.face-readme?view=azure-dotnet-preview\nproperties:\n- url: openapi/face-client-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.vision.face-readme?view=azure-dotnet-preview\n  type: Documentation\ndescription: Microsoft Azure Face Client is a powerful tool that allows developers to easily integrate\n  facial recognition capabilities into their applications. With Azure Face Client, users can detect and\n  recognize faces in images, verify the identity of individuals, and analyze facial attributes such as\n  age, gender, and emotion. The API offers real-time processing of facial data and can be used to enhance\n  security measures, personalize user experiences, and streamline\
+  \ business operations.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

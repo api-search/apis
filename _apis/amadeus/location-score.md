@@ -34,6 +34,9 @@ properties:
 provider_name: Amadeus
 provider_slug: amadeus
 slug: location-score
+source_yaml: "aid: amadeus:location-score\nname: Amadeus Location Score API\ntags:\n- Analytics\n- Location\n- Market Insights\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.amadeus.com\nhumanURL: https://developers.amadeus.com/self-service/category/market-insights/api-doc/location-score\nproperties:\n- url: https://developers.amadeus.com/self-service/category/market-insights/api-doc/location-score\n  type: Documentation\n- url: https://developers.amadeus.com/self-service/category/market-insights/api-doc/location-score/api-reference\n  type: APIReference\n- url: openapi/location-score-openapi.yaml\n  type: OpenAPI\n- type: JSONSchema\n  url: json-schema/location-score-category-rated-areas-schema.json\n- type: JSONSchema\n  url: json-schema/location-score-errors-schema.json\n- type: JSONSchema\n  url: json-schema/location-score-meta-schema.json\n- type: JSONSchema\n  url: json-schema/location-score-response-error-schema.json\n- type:\
+  \ JSONSchema\n  url: json-schema/location-score-response-locationscore-schema.json\n- type: JSONStructure\n  url: json-structure/location-score-category-rated-areas-structure.json\n- type: JSONStructure\n  url: json-structure/location-score-errors-structure.json\n- type: JSONStructure\n  url: json-structure/location-score-meta-structure.json\n- type: JSONLD\n  url: json-ld/amadeus-location-score-context.jsonld\ndescription: The Amadeus Location Score API provides travel and location intelligence scores for specific\n  areas. It evaluates locations based on various criteria to help travel applications assess the desirability\n  and characteristics of different neighborhoods and areas.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/apis.yml
 tags:
 - Analytics
 - Location

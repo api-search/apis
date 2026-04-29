@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-traffic-collector
+source_yaml: "aid: microsoft-azure:azure-traffic-collector\nname: Microsoft Azure Traffic Collector\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/expressroute/traffic-collector\nproperties:\n- url: openapi/azure-traffic-collector-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/expressroute/traffic-collector\n  type: Documentation\ndescription: Microsoft Azure Traffic Collector is a tool used to collect and analyze network traffic data\n  in real time. It is designed to help businesses monitor and manage their networks more effectively by\n  providing insights into network performance, security threats, and other key metrics. The Traffic Collector\n  gathers data from various sources, such as virtual machines, network appliances, and cloud services,\n  and consolidates it into a centralized dashboard for easy access and analysis.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

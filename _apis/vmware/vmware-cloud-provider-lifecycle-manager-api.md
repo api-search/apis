@@ -12,6 +12,8 @@ properties:
 provider_name: VMware
 provider_slug: vmware
 slug: vmware-cloud-provider-lifecycle-manager-api
+source_yaml: "aid: vmware:vmware-cloud-provider-lifecycle-manager-api\nname: VMware Cloud Provider Lifecycle Manager API\ndescription: API for managing the lifecycle of VMware cloud provider environments including deployment,\n  upgrade, and configuration of VMware products for service providers.\nhumanURL: https://developer.broadcom.com/xapis/vmware-cloud-provider-lifecycle-manager-api/latest/\nbaseURL: https://{{vclm-host}}/api\ntags:\n- Cloud Provider\n- Deployment\n- Lifecycle Management\n- Service Provider\nproperties:\n- type: APIReference\n  url: https://developer.broadcom.com/xapis/vmware-cloud-provider-lifecycle-manager-api/latest/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/apis.yml
 tags:
 - Cloud Provider
 - Deployment

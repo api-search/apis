@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-openai-api-version-2023-05-15
+source_yaml: "aid: microsoft-azure:azure-openai-api-version-2023-05-15\nname: Microsoft Azure Open Ai API Version 20230515\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference\nproperties:\n- url: openapi/azure-openai-api-version-2023-05-15-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference\n  type: Documentation\ndescription: Microsoft Azure Open AI API Version 20230515 is an advanced artificial intelligence platform\n  that provides developers with powerful tools for natural language processing, machine learning, and\n  automation. This latest version offers improved performance and enhanced capabilities, allowing users\n  to access cutting-edge AI models and algorithms for a wide range of applications.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

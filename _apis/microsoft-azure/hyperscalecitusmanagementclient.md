@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: hyperscalecitusmanagementclient
+source_yaml: "aid: microsoft-azure:hyperscalecitusmanagementclient\nname: Microsoft Azure Hyperscale Citus Management Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://docs.citusdata.com/en/v9.2/portals/citus_cloud.html\nproperties:\n- url: openapi/hyperscalecitusmanagementclient-openapi-original.yml\n  type: OpenAPI\n- url: https://docs.citusdata.com/en/v9.2/portals/citus_cloud.html\n  type: Documentation\ndescription: The Microsoft Azure Hyperscale Citus Management Client is a tool designed to help users efficiently\n  manage their distributed databases in the cloud. This client provides a user-friendly interface for\n  monitoring and controlling various aspects of the databases, such as scaling, performance tuning, and\n  backup management. With the Citus Management Client, users can easily add or remove nodes, allocate\n  resources, and troubleshoot any issues that may arise.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

@@ -14,6 +14,8 @@ properties:
 provider_name: CloudEvents
 provider_slug: cloudevents
 slug: cloudevents-subscriptions
+source_yaml: "aid: cloudevents:cloudevents-subscriptions\nname: CloudEvents Subscriptions API\ndescription: The CloudEvents Subscriptions API specification defines a standard REST API for managing\n  subscriptions to event streams. It enables clients to create, list, update, and delete subscriptions\n  with filter criteria, providing a vendor-neutral way to manage event delivery configurations across\n  different event brokers and message systems.\nhumanURL: https://github.com/cloudevents/spec/blob/main/subscriptions/spec.md\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nproperties:\n- type: Documentation\n  url: https://github.com/cloudevents/spec/blob/main/subscriptions/spec.md\n- type: OpenAPI\n  url: openapi/cloudevents-subscriptions-openapi.yml\ntags:\n- REST\n- Specification\n- Subscriptions\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudevents/refs/heads/main/apis.yml
 tags:
 - REST
 - Specification

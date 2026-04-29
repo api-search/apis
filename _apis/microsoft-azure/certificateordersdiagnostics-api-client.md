@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: certificateordersdiagnostics-api-client
+source_yaml: "aid: microsoft-azure:certificateordersdiagnostics-api-client\nname: Microsoft Azure Certificate Orders Diagnostics API Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/rest/api/appservice/certificate-orders-diagnostics?view=rest-appservice-2024-04-01\nproperties:\n- url: openapi/certificateordersdiagnostics-api-client-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/rest/api/appservice/certificate-orders-diagnostics?view=rest-appservice-2024-04-01\n  type: Documentation\ndescription: The Microsoft Azure Certificate Orders Diagnostics API Client is a tool designed to provide\n  detailed diagnostic information about certificate orders on the Azure platform. This API client allows\n  users to obtain insights into the status of their certificate orders, identify any potential issues,\n  and troubleshoot any errors that may arise during the ordering process.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

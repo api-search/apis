@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: synapsemanagementclient
+source_yaml: "aid: microsoft-azure:synapsemanagementclient\nname: Microsoft Azure Synapse Management Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/python/api/azure-mgmt-synapse/azure.mgmt.synapse.synapsemanagementclient?view=azure-python\nproperties:\n- url: openapi/synapsemanagementclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/python/api/azure-mgmt-synapse/azure.mgmt.synapse.synapsemanagementclient?view=azure-python\n  type: Documentation\ndescription: Microsoft Azure Synapse Management Client is a powerful tool that allows users to easily\n  manage and monitor their data workloads in Azure Synapse Analytics. With this tool, users can perform\n  tasks such as creating and monitoring Apache Spark pools, viewing and analyzing query performance metrics,\n  managing data integrations, and configuring access controls.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

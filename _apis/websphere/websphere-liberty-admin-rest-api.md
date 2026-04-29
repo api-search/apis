@@ -26,6 +26,9 @@ properties:
 provider_name: IBM WebSphere
 provider_slug: websphere
 slug: websphere-liberty-admin-rest-api
+source_yaml: "aid: websphere:websphere-liberty-admin-rest-api\nname: WebSphere Liberty Admin REST API\ndescription: RESTful administrative API for WebSphere Liberty servers, providing configuration and runtime\n  management capabilities. The Admin REST Connector enables secure remote access through HTTPS calls or\n  Java clients.\nbaseURL: https://localhost:9443/ibm/api\nhumanURL: https://www.ibm.com/docs/en/was-liberty\ntags:\n- Administration\n- Configuration\n- Liberty\n- REST API\nproperties:\n- type: Documentation\n  url: https://www.ibm.com/docs/en/was-liberty/base?topic=liberty-admin-rest-api\n- type: OpenAPI\n  url: openapi/websphere-liberty-admin-rest-api.yml\n- type: GettingStarted\n  url: https://www.ibm.com/docs/en/was-liberty/base?topic=api-getting-started\n- type: APIReference\n  url: https://openliberty.io/docs/latest/reference/feature/restConnector-2.0.html\n- type: Documentation\n  url: https://www.ibm.com/docs/en/was-liberty/base?topic=center-setting-up-admin\n- type: JSONSchema\n\
+  \  url: json-schema/application.json\n- type: JSONSchema\n  url: json-schema/server.json\n- type: JSONLD\n  url: json-ld/context.jsonld\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/apis.yml
 tags:
 - Administration
 - Configuration

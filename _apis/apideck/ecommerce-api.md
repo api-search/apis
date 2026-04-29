@@ -14,6 +14,8 @@ properties:
 provider_name: Apideck
 provider_slug: apideck
 slug: ecommerce-api
+source_yaml: "aid: apideck:ecommerce-api\nname: Apideck Ecommerce API\ntags:\n- Ecommerce\n- Orders\n- Products\n- Unified API\nhumanURL: https://developers.apideck.com/apis/ecommerce/reference\nbaseURL: https://unify.apideck.com\nproperties:\n- url: https://developers.apideck.com/apis/ecommerce/reference\n  type: Documentation\n- url: https://specs.apideck.com/ecommerce.yml\n  type: OpenAPI\ndescription: The Apideck Ecommerce API is a unified API for managing orders, products, customers, and\n  stores across multiple ecommerce platforms such as Shopify, BigCommerce, WooCommerce, Magento, and Etsy.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/apis.yml
 tags:
 - Ecommerce
 - Orders

@@ -16,6 +16,8 @@ properties:
 provider_name: BigCommerce
 provider_slug: bigcommerce
 slug: bigcommerce-store-information
+source_yaml: "aid: bigcommerce:bigcommerce-store-information\nname: Big Commerce Store Information\ntags:\n- Stores\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.example.com\nhumanURL: https://developer.bigcommerce.com/\nproperties:\n- url: https://developer.bigcommerce.com/\n  type: Documentation\n- url: openapi/store-information-openapi-original.yml\n  type: OpenAPI\n- url: https://developer.bigcommerce.com/docs/rest-management/store-information\n  type: API Reference\ndescription: BigCommerce Store Information is a feature on the BigCommerce platform that allows store\n  owners to easily access and manage key information about their online store. This feature provides valuable\n  insights into sales metrics, customer data, inventory levels, and marketing performance. Store owners\n  can track their store's performance, analyze trends, and make informed decisions to optimize their online\n  business.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/apis.yml
 tags:
 - Stores
 ---

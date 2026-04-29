@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: policystatesclient
+source_yaml: "aid: microsoft-azure:policystatesclient\nname: Microsoft Azure Policy States Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/governance/policy/overview\nproperties:\n- url: openapi/policystatesclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/governance/policy/overview\n  type: Documentation\ndescription: The Microsoft Azure Policy States Client is a tool that allows organizations to define and\n  enforce policies for resources within their Azure environment. It provides a centralized platform where\n  administrators can create, manage, and assign policies that govern the configuration and behavior of\n  their resources. By using the Azure Policy States Client, organizations can ensure compliance with internal\n  standards, industry regulations, and best practices.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

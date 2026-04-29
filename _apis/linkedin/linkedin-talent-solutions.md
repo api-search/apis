@@ -26,6 +26,9 @@ properties:
 provider_name: LinkedIn
 provider_slug: linkedin
 slug: linkedin-talent-solutions
+source_yaml: "aid: linkedin:linkedin-talent-solutions\nname: LinkedIn Talent Solutions\ntags:\n- Hiring\n- Recruiting\n- Talent\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.linkedin.com\nhumanURL: https://learn.microsoft.com/en-us/linkedin/talent/\nproperties:\n- url: https://learn.microsoft.com/en-us/linkedin/talent/\n  type: Documentation\n- url: https://learn.microsoft.com/en-us/linkedin/talent/getting-started\n  type: GettingStarted\n- url: openapi/linkedin-talent-job-posting.yml\n  type: OpenAPI\n- url: openapi/linkedin-talent-learning-parent-application.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/linkedin/talent/release-notes\n  type: ReleaseNotes\n- url: https://learn.microsoft.com/en-us/linkedin/talent/versioning\n  type: Documentation\n- url: openapi/linkedin-talent-recruiter-system-connect.yml\n  type: OpenAPI\n- url: https://www.postman.com/linkedin-developer-apis/workspace/linkedin-talent-solutions/overview\n\
+  \  type: PostmanWorkspace\ndescription: The LinkedIn Talent Solutions enhances candidate sourcing and recruiting experience for ATSs\n  and applications using the world's largest professional network. Follow the links below to learn more\n  about the LinkedIn Talent Solutions APIs.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/apis.yml
 tags:
 - Hiring
 - Recruiting

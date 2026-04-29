@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: applicationinsightsclient
+source_yaml: "aid: microsoft-azure-one:applicationinsightsclient\nname: Microsoft Azure Application Insights Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview\nproperties:\n- url: openapi/applicationinsightsclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview\n  type: Documentation\ndescription: Microsoft Azure Application Insights Client is a software development kit (SDK) that allows\n  developers to monitor and track the performance of their applications running on the Azure cloud platform.\n  The client collects and analyzes telemetry data, such as performance metrics, error logs, and user interactions,\n  to provide insights into the application's health and usage.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

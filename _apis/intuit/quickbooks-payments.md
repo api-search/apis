@@ -16,6 +16,8 @@ properties:
 provider_name: Intuit
 provider_slug: intuit
 slug: quickbooks-payments
+source_yaml: "aid: intuit:quickbooks-payments\nname: QuickBooks Payments API\ntags:\n- Credit Cards\n- eCommerce\n- Financial\n- Payments\nhumanURL: https://developer.intuit.com/app/developer/qbpayments/docs/learn/explore-the-quickbooks-payments-api\nproperties:\n- url: https://developer.intuit.com/app/developer/qbpayments/docs/learn/explore-the-quickbooks-payments-api\n  type: Documentation\n- url: https://developer.intuit.com/app/developer/qbpayments/docs/get-started\n  type: GettingStarted\n- url: https://developer.intuit.com/app/developer/qbpayments/docs/develop\n  type: APIReference\ndescription: The QuickBooks Payments API enables developers to process credit card charges, bank account\n  debits (ACH), and manage payment methods within the QuickBooks ecosystem. It supports tokenized card\n  storage, refunds, and the ability to link payments directly to QuickBooks Online invoices for seamless\n  reconciliation.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/apis.yml
 tags:
 - Credit Cards
 - eCommerce

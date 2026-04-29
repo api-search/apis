@@ -12,6 +12,8 @@ properties:
 provider_name: Automated Sorting Systems
 provider_slug: automated-sorting-systems
 slug: beumer-api
+source_yaml: "aid: automated-sorting-systems:beumer-api\nname: BEUMER Group Sortation API\ndescription: BEUMER Group provides sortation systems for airports, parcel, and distribution centers with\n  software integration capabilities via standard industrial protocols (OPC-UA, PLC interfaces) and higher-level\n  WMS/WCS REST APIs for order management and throughput monitoring.\nhumanURL: https://www.beumer.com/en/industries/logistics/\ntags:\n- Airport Logistics\n- Parcel Sorting\n- Industrial Integration\n- OPC-UA\nproperties:\n- type: Website\n  url: https://www.beumer.com/en/industries/logistics/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automated-sorting-systems/refs/heads/main/apis.yml
 tags:
 - Airport Logistics
 - Parcel Sorting

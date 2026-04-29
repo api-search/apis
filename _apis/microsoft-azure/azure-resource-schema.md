@@ -22,6 +22,9 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-resource-schema
+source_yaml: "aid: microsoft-azure:azure-resource-schema\nname: Microsoft Azure Resource JSON Schema\ntags:\n- JSON Schema\n- Resource Model\n- Schema\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types\nproperties:\n- url: json-schema/microsoft-azure-resource-schema.json\n  type: JSONSchema\n- url: json-schema/microsoft-azure-error-response-schema.json\n  type: JSONSchema\n- url: json-schema/microsoft-azure-resource-group-schema.json\n  type: JSONSchema\n- url: json-schema/microsoft-azure-subscription-schema.json\n  type: JSONSchema\n- url: json-schema/microsoft-azure-deployment-schema.json\n  type: JSONSchema\n- url: json-schema/microsoft-azure-managed-cluster-schema.json\n  type: JSONSchema\ndescription: JSON Schema definitions for core Azure Resource Manager data models including the base Resource\n  type, Resource Groups, Subscriptions, Deployments,\
+  \ Managed Clusters, and the standard Error Response\n  format. These schemas define the canonical structure of Azure resources as documented in the Azure REST\n  API specifications.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags:
 - JSON Schema
 - Resource Model

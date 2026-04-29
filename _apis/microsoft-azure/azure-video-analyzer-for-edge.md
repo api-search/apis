@@ -14,5 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-video-analyzer-for-edge
+source_yaml: "aid: microsoft-azure:azure-video-analyzer-for-edge\nname: Microsoft Azure Video Analyzer for Edge\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/javascript/api/@azure/video-analyzer-edge/?view=azure-node-legacy\nproperties:\n- url: openapi/azure-video-analyzer-for-edge-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/javascript/api/@azure/video-analyzer-edge/?view=azure-node-legacy\n  type: Documentation\ndescription: Microsoft Azure Video Analyzer for Edge is a cloud service that enables customers to build\n  AI capabilities for video analysis directly on the edge devices. By leveraging the power of Azure AI\n  technologies, this service allows users to detect, track, and analyze objects and events in real-time\n  video streams. With built-in support for various edge devices such as cameras, drones, and IoT devices,\n  organizations can easily deploy and\
+  \ scale their video analytics solutions.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

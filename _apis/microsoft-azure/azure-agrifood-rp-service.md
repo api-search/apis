@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-agrifood-rp-service
+source_yaml: "aid: microsoft-azure-one:azure-agrifood-rp-service\nname: Microsoft Azure Agri Food Rp Service\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://azure.microsoft.com/en-us/products/data-manager-for-agriculture\nproperties:\n- url: openapi/azure-agrifood-rp-service-openapi-original.yml\n  type: OpenAPI\n- url: https://azure.microsoft.com/en-us/products/data-manager-for-agriculture\n  type: Documentation\ndescription: Microsoft Azure Agri Food RP Service is a cloud-based platform designed to revolutionize\n  the agriculture and food industry by providing advanced analytics, data management, and software solutions.\n  This service enables farmers, food producers, and distributors to optimize their operations, improve\n  crop yields, reduce waste, and enhance sustainability.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

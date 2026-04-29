@@ -12,6 +12,8 @@ properties:
 provider_name: Cloud
 provider_slug: cloud
 slug: cloudflare
+source_yaml: "aid: cloud:cloudflare\nname: Cloudflare\ntags:\n- Cloudflare\n- Edge\n- Network\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://www.cloudflare.com/\nproperties:\n- url: https://developers.cloudflare.com/api/\n  type: Documentation\ndescription: Cloudflare offers an edge-attached cloud (Workers, R2, D1, Durable Objects, Queues, AI Gateway)\n  accessible via the Cloudflare REST API authenticated with API tokens.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloud/refs/heads/main/apis.yml
 tags:
 - Cloudflare
 - Edge

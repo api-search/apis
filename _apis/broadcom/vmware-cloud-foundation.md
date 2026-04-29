@@ -20,6 +20,8 @@ properties:
 provider_name: Broadcom
 provider_slug: broadcom
 slug: vmware-cloud-foundation
+source_yaml: "aid: broadcom:vmware-cloud-foundation\nname: Broadcom VMware Cloud Foundation API\ntags:\n- Cloud Infrastructure\n- Data Center\n- SDDC\nhumanURL: https://developer.broadcom.com/xapis/sddc-manager-api/latest/\nproperties:\n- url: https://developer.broadcom.com/xapis/sddc-manager-api/latest/\n  type: Documentation\n- url: openapi/broadcom-vmware-cloud-foundation-openapi.yml\n  type: OpenAPI\n- url: json-schema/broadcom-workload-domain-schema.json\n  type: JSONSchema\n- url: json-schema/broadcom-task-schema.json\n  type: JSONSchema\n- url: json-ld/broadcom-context.jsonld\n  type: JSONLD\ndescription: The VMware Cloud Foundation API provides RESTful endpoints for managing SDDC (Software-Defined\n  Data Center) infrastructure through the SDDC Manager. It enables automation of host commissioning, cluster\n  management, workload domain lifecycle, network pool configuration, task monitoring, and VCF management\n  component deployments.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/apis.yml
 tags:
 - Cloud Infrastructure
 - Data Center

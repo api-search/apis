@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: securityadminconfiguration
+source_yaml: "aid: microsoft-azure:securityadminconfiguration\nname: Microsoft Azure Security Admin Configuration\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/security/\nproperties:\n- url: openapi/securityadminconfiguration-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/security/\n  type: Documentation\ndescription: Microsoft Azure SecurityAdminConfiguration is a service that helps organizations secure their\n  Azure environments by providing advanced configuration settings and monitoring capabilities. This service\n  allows users to customize security settings, create access controls, and monitor compliance with industry\n  security standards. With SecurityAdminConfiguration, organizations can strengthen their security posture\n  and mitigate potential risks associated with cloud computing.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

@@ -16,6 +16,8 @@ properties:
 provider_name: Visualforce
 provider_slug: visualforce
 slug: visualforce-api
+source_yaml: "aid: visualforce:visualforce-api\nname: Visualforce\ndescription: Visualforce is the Salesforce framework for building custom user interfaces using tag-based\n  markup and Apex server-side controllers. Developers use it to create pages, email templates, and PDF\n  documents within the Salesforce platform.\nhumanURL: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/\ntags:\n- MVC\n- Salesforce\n- UI Framework\nproperties:\n- type: Documentation\n  url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/\n- type: APIReference\n  url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_compref.htm\n- type: GettingStarted\n  url: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_quick_start.htm\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visualforce/refs/heads/main/apis.yml
 tags:
 - MVC
 - Salesforce

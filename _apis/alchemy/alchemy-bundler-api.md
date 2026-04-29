@@ -10,6 +10,8 @@ properties: []
 provider_name: Alchemy
 provider_slug: alchemy
 slug: alchemy-bundler-api
+source_yaml: "aid: alchemy:alchemy-bundler-api\nname: Alchemy Bundler API\ntags:\n- Bundler\n- Account Abstraction\n- ERC-4337\nhumanURL: https://www.alchemy.com/bundler\ndescription: The Alchemy Bundler API implements the ERC-4337 Account Abstraction bundler standard, allowing\n  UserOperations to be submitted to the blockchain. Developers can send, estimate, and track UserOperations\n  using standard eth_sendUserOperation and related methods.\nproperties: []\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/apis.yml
 tags:
 - Bundler
 - Account Abstraction

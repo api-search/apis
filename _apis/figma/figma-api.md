@@ -37,6 +37,9 @@ properties:
 provider_name: Figma
 provider_slug: figma
 slug: figma-api
+source_yaml: "aid: figma:figma-api\nname: Figma API\ndescription: Figma allows designers to create and prototype their digital experiences - together in real-time\n  and in one place - helping them turn their ideas and visions into products, faster. Figma's mission\n  is to make design accessible to everyone. The Figma API is one of the ways we aim to do that.\nimage: https://www.figma.com/favicon.ico\nbaseURL: https://api.figma.com\nhumanURL: https://www.figma.com/developers\ntags:\n- Design\n- Users\nproperties:\n- type: OpenAPI\n  url: openapi/figma-api-openapi.yml\n- type: OpenAPI\n  url: openapi/figma-rest-api-openapi.yml\n  title: Figma REST API\n- type: AsyncAPI\n  url: asyncapi/figma-webhooks-asyncapi.yml\n- type: JSONSchema\n  url: json-schema/figma-file-schema.json\n- type: JSONSchema\n  url: json-schema/figma-component-schema.json\n- type: JSONSchema\n  url: json-schema/figma-user-schema.json\n- type: JSONSchema\n  url: json-schema/figma-error-response-payload-schema.json\n- type:\
+  \ JSONSchema\n  url: json-schema/figma-get-me-response-body-schema.json\n- type: JSONStructure\n  url: json-structure/figma-get-me-response-body-structure.json\n- type: JSONStructure\n  url: json-structure/figma-error-response-payload-structure.json\n- type: JSONStructure\n  url: json-structure/figma-user-structure.json\n- type: JSONLD\n  url: json-ld/figma-context.jsonld\n- type: Documentation\n  url: https://developers.figma.com/docs/rest-api/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/apis.yml
 tags:
 - Design
 - Users

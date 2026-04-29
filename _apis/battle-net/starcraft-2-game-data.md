@@ -14,6 +14,8 @@ properties:
 provider_name: Battle.net
 provider_slug: battle-net
 slug: starcraft-2-game-data
+source_yaml: "aid: battle-net:starcraft-2-game-data\nname: StarCraft II Game Data API\ndescription: Provides access to StarCraft II game data including league data for multiple game modes.\n  Requires OAuth 2.0 client credentials flow.\nhumanURL: https://community.developer.battle.net/documentation/starcraft-2/game-data-apis\ntags:\n- Games\n- Gaming\n- Starcraft\nproperties:\n- type: Documentation\n  url: https://community.developer.battle.net/documentation/starcraft-2/game-data-apis\n- type: Authentication\n  url: https://community.developer.battle.net/documentation/guides/using-oauth\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/apis.yml
 tags:
 - Games
 - Gaming

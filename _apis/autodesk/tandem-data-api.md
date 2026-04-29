@@ -14,6 +14,8 @@ properties:
 provider_name: Autodesk
 provider_slug: autodesk
 slug: tandem-data-api
+source_yaml: "aid: autodesk:tandem-data-api\nname: Autodesk Tandem Data API\ndescription: The Tandem Data API enables reading BIM model data and reading/writing custom schema properties\n  for facility management. It facilitates integration with external systems like asset management platforms,\n  work-order systems, and IoT sensors for creating and managing digital twins.\nhumanURL: https://aps.autodesk.com/developer/overview/tandem-data-api\nbaseURL: https://developer.api.autodesk.com\ntags:\n- Digital Twins\n- Facility Management\n- IoT\nproperties:\n- type: Documentation\n  url: https://aps.autodesk.com/developer/overview/tandem-data-api\n- type: OpenAPI\n  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-tandem-data-openapi.yml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/apis.yml
 tags:
 - Digital Twins
 - Facility Management

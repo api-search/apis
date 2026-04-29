@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: speech-services-api-v32-preview1
+source_yaml: "aid: microsoft-azure:speech-services-api-v32-preview1\nname: Microsoft Azure Speech Services API V32preview1\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/\nproperties:\n- url: openapi/speech-services-api-v32-preview1-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/\n  type: Documentation\ndescription: Microsoft Azure Speech Services API V32preview1 is a cutting-edge tool that provides advanced\n  speech recognition and synthesis capabilities. With this API, users can easily convert spoken language\n  into text and vice versa, creating seamless interactions between human users and machines. This powerful\n  tool also includes features such as speaker recognition, language identification, and keyword spotting,\n  making it a versatile and indispensable solution for a wide range of applications.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

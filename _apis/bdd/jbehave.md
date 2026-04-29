@@ -14,6 +14,8 @@ properties:
 provider_name: BDD (Behavior-Driven Development)
 provider_slug: bdd
 slug: jbehave
+source_yaml: "aid: bdd:jbehave\nname: JBehave\ndescription: JBehave is a pioneering BDD framework for Java and JVM languages. It supports web, REST API,\n  and microservices testing with integration for JUnit, Spring, Maven, and Gradle. JBehave Web extends\n  the framework for browser-based BDD testing.\nhumanURL: https://jbehave.org/\ntags:\n- BDD\n- Testing\n- Java\n- JVM\nproperties:\n- type: Documentation\n  url: https://jbehave.org/reference/latest/\n- type: GitHubRepository\n  url: https://github.com/jbehave/jbehave-core\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bdd/refs/heads/main/apis.yml
 tags:
 - BDD
 - Testing

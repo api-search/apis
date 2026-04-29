@@ -14,6 +14,8 @@ properties:
 provider_name: Candid
 provider_slug: candid
 slug: premier-api
+source_yaml: "aid: candid:premier-api\nname: Candid Premier API\ndescription: Deep nonprofit profile data. Returns comprehensive records for a given organization including\n  financials, programs, leadership, board, grants received and awarded, operating details, affiliations,\n  and FTA (Financial Trend Analysis). Supports a Profile PDF generation endpoint for building ready-to-share\n  nonprofit briefs.\nhumanURL: https://developer.candid.org/reference/welcome\nbaseURL: https://api.candid.org/premier\ntags:\n- Nonprofits\n- Financials\n- Profiles\n- PDF\nproperties:\n- type: Documentation\n  url: https://developer.candid.org/reference/welcome\n- type: Portal\n  url: https://developer.candid.org/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/candid/refs/heads/main/apis.yml
 tags:
 - Nonprofits
 - Financials

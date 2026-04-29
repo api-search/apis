@@ -12,6 +12,8 @@ properties:
 provider_name: BNSF
 provider_slug: bnsf
 slug: bnsf-pricing-rates-api
+source_yaml: "aid: bnsf:bnsf-pricing-rates-api\nname: BNSF Pricing & Rates API\ndescription: The BNSF Pricing & Rates API provides access to freight shipping prices and rates for both\n  carload and intermodal shipments, enabling customers to obtain BNSF shipping costs programmatically.\nhumanURL: https://www.bnsf.com/ship-with-bnsf/support-services/customer-api/\ntags:\n- Freight\n- Pricing\n- Rates\n- Shipping\nproperties:\n- type: Documentation\n  url: https://www.bnsf.com/ship-with-bnsf/support-services/customer-api/catalog/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/apis.yml
 tags:
 - Freight
 - Pricing

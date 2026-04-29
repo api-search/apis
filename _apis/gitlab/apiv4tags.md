@@ -14,6 +14,8 @@ properties:
 provider_name: GitLab
 provider_slug: gitlab
 slug: apiv4tags
+source_yaml: "aid: gitlab:apiv4tags\nname: GitLab Tags API\ntags:\n- Git\n- Source Control\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://gitlab.com/api/v4\nhumanURL: https://docs.gitlab.com/api/tags/\noverlays: []\nproperties:\n- url: https://docs.gitlab.com/api/tags/\n  type: Documentation\n- url: https://docs.gitlab.com/api/rest/authentication/\n  type: Authentication\ndescription: The GitLab Tags API provides programmatic access to manage Git tags within GitLab projects.\n  It supports listing, creating, and deleting tags, as well as retrieving tag details for version management\n  and release workflows.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/apis.yml
 tags:
 - Git
 - Source Control

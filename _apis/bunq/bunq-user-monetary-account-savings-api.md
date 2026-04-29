@@ -14,6 +14,8 @@ properties:
 provider_name: Bunq
 provider_slug: bunq
 slug: bunq-user-monetary-account-savings-api
+source_yaml: "aid: bunq:bunq-user-monetary-account-savings-api\nname: Bunq User Monetary Account Savings API\ntags:\n- Accounts\n- Items\n- Monetary\n- Savings\n- Users\nscore: 301\nproperties:\n- url: openapi/bunq-user-userid-monetary-account-savings-openapi-original.yml\n  type: OpenAPI\n- url: https://doc.bunq.com/\n  type: Documentation\ndescription: The Bunq User Monetary Account Savings API is a financial tool that allows users to easily\n  save and manage their money. With this API, users can set up different savings goals, track their progress,\n  and automate transfers to their savings account. This API also provides insights into spending habits\n  and suggests ways to save more effectively. By using the Bunq User Monetary Account Savings API, users\n  can take control of their finances and work towards achieving their financial goals with ease.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/apis.yml
 tags:
 - Accounts
 - Items

@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: mixedrealityremoterendering
+source_yaml: "aid: microsoft-azure:mixedrealityremoterendering\nname: Microsoft Azure Mixed Reality Remote Rendering\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/java/api/com.azure.mixedreality.remoterendering?view=azure-java-stable\nproperties:\n- url: openapi/mixedrealityremoterendering-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/java/api/com.azure.mixedreality.remoterendering?view=azure-java-stable\n  type: Documentation\ndescription: Microsoft Azure Mixed Reality Remote Rendering allows users to create high-fidelity, immersive\n  mixed reality experiences without the need for powerful local hardware. Through cloud-based rendering\n  capabilities, users can offload the complex rendering processes to remote servers, enabling them to\n  stream high-quality graphics and visuals directly to their mixed reality devices.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

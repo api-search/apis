@@ -16,6 +16,8 @@ properties:
 provider_name: SAP Concur
 provider_slug: concur
 slug: expense-api
+source_yaml: "aid: concur:expense-api\nname: SAP Concur Expense API\ndescription: REST API for managing expense reports, entries, allocations, and attendees. Supports creating,\n  updating, and submitting expense reports with receipt images, policy validation, and approval workflows.\nhumanURL: https://developer.concur.com/api-reference/expense/expense-report/v4.expenses.html\nbaseURL: https://us.api.concursolutions.com/expensereports/v4/\ntags:\n- Expense Reports\n- Expense Tracking\n- REST\n- Spend Management\nproperties:\n- type: Documentation\n  url: https://developer.concur.com/api-reference/expense/expense-report/v4.expenses.html\n- type: APIReference\n  url: https://developer.concur.com/api-reference/expense/expense-report/v4.expenses.html\n- type: GettingStarted\n  url: https://developer.concur.com/api-reference/expense/expense-report/v4.expenses-get-started.html\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/apis.yml
 tags:
 - Expense Reports
 - Expense Tracking

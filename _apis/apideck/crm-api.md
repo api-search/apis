@@ -14,6 +14,8 @@ properties:
 provider_name: Apideck
 provider_slug: apideck
 slug: crm-api
+source_yaml: "aid: apideck:crm-api\nname: Apideck CRM API\ntags:\n- Contacts\n- CRM\n- Leads\n- Unified API\nhumanURL: https://developers.apideck.com/apis/crm/reference\nbaseURL: https://unify.apideck.com\nproperties:\n- url: https://developers.apideck.com/apis/crm/reference\n  type: Documentation\n- url: openapi/apideck-crm-openapi.yml\n  type: OpenAPI\ndescription: The Apideck CRM API is a unified API for managing customer relationships through opportunities,\n  companies, leads, contacts, pipelines, notes, and activities across multiple CRM platforms such as Salesforce,\n  HubSpot, Pipedrive, and Zoho CRM.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/apis.yml
 tags:
 - Contacts
 - CRM

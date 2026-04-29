@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-tenant-action-groups-api
+source_yaml: "aid: microsoft-azure:azure-tenant-action-groups-api\nname: Microsoft Azure Tenant Action Groups API\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/action-groups\nproperties:\n- url: openapi/azure-tenant-action-groups-api-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/action-groups\n  type: Documentation\ndescription: The Microsoft Azure Tenant Action Groups API allows users to programmatically manage and\n  configure action groups within their Azure tenant. Action groups are collections of notification preferences\n  and actions that can be triggered in response to alerts and events in Azure Monitor. With this API,\n  users can create, update, and delete action groups, as well as configure the specific notifications\n  and actions to be taken when a particular event occurs.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

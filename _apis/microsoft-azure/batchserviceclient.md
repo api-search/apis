@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: batchserviceclient
+source_yaml: "aid: microsoft-azure-one:batchserviceclient\nname: Microsoft Azure Batch Service Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/batch/\nproperties:\n- url: openapi/batchserviceclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/batch/\n  type: Documentation\ndescription: The Microsoft Azure Batch Service Client is a cloud-based service that allows developers\n  to efficiently run large-scale parallel and high-performance computing (HPC) workloads in the Azure\n  cloud.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

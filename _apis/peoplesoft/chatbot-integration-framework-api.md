@@ -16,6 +16,8 @@ properties:
 provider_name: PeopleSoft
 provider_slug: peoplesoft
 slug: chatbot-integration-framework-api
+source_yaml: "name: PeopleSoft Chatbot Integration Framework API\ndescription: Integration framework for connecting PeopleSoft with Oracle Digital Assistant (ODA) including\n  REST services for chatbot data retrieval and embedded chatbot UI on Fluid pages (PICASO). Requires PeopleTools\n  8.57.07+.\nimage: https://www.oracle.com/a/ocom/img/cb71-psft-logo.jpg\nhumanURL: https://docs.oracle.com/cd/E52319_01/infoportal/chatbot.html\nbaseURL: https://{hostname}:{port}/psft/api/chatbot/v1\ntags:\n- Chatbot\n- Conversational AI\n- Digital Assistant\n- PICASO\nproperties:\n- type: Documentation\n  url: https://docs.oracle.com/cd/E52319_01/infoportal/chatbot.html\n- type: FAQ\n  url: https://docs.oracle.com/cd/E52319_01/infoportal/peoplesoft_chatbot_faq.html\n- type: OpenAPI\n  url: openapi/chatbot-integration.yml\ncontact:\n- FN: Oracle Support\n  email: support@oracle.com\n  url: https://support.oracle.com\naid: peoplesoft:chatbot-integration-framework-api\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/apis.yml
 tags:
 - Chatbot
 - Conversational AI

@@ -14,6 +14,8 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: deleted-tickets
+source_yaml: "aid: zendesk:deleted-tickets\nname: Zendesk Deleted Tickets API\ntags:\n- Deleted Tickets\n- Tickets\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://{subdomain}.zendesk.com\nhumanURL: https://developer.zendesk.com/api-reference/ticketing/tickets/tickets/\nproperties:\n- url: https://developer.zendesk.com/api-reference/ticketing/tickets/tickets/\n  type: Documentation\n- url: openapi/deleted-tickets-openapi-original.yml\n  type: OpenAPI\ndescription: The Zendesk Deleted Tickets API lets you manage tickets that have been soft-deleted in Zendesk\n  Support. It provides endpoints to list and inspect deleted tickets, restore them to an active state\n  if they were removed by mistake, or permanently delete them when you need to purge data. The API also\n  supports bulk restore and bulk permanent deletion for handling many tickets at once.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:
 - Deleted Tickets
 - Tickets

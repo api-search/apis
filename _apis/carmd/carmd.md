@@ -12,6 +12,8 @@ properties:
 provider_name: CarMD
 provider_slug: carmd
 slug: carmd
+source_yaml: "aid: carmd:carmd\nname: CarMD Vehicle API\ntags:\n- Automobiles\n- Diagnostics\nhumanURL: https://www.carmd.com/\nproperties:\n- url: https://www.carmd.com/\n  type: Documentation\ndescription: CarMD's vehicle API provides access to code definitions, vehicle images, and diagnostics\n  for predicting upcoming vehicle issues.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carmd/refs/heads/main/apis.yml
 tags:
 - Automobiles
 - Diagnostics

@@ -14,6 +14,8 @@ properties:
 provider_name: Apache Kylin
 provider_slug: apache-kylin
 slug: rest-api
+source_yaml: "aid: apache-kylin:rest-api\nname: Apache Kylin REST API\ndescription: The Kylin REST API provides endpoints for SQL query execution, model management, project\n  management, job management, and table management for administering the Kylin OLAP engine.\nhumanURL: https://kylin.apache.org/docs/restapi/\ntags:\n- JDBC\n- OLAP\n- REST\n- SQL\nproperties:\n- type: Documentation\n  url: https://kylin.apache.org/docs/restapi/\n- type: OpenAPI\n  url: openapi/apache-kylin-rest-api.yaml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/apis.yml
 tags:
 - JDBC
 - OLAP

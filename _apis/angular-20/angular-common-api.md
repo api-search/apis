@@ -12,6 +12,8 @@ properties:
 provider_name: Angular 20
 provider_slug: angular-20
 slug: angular-common-api
+source_yaml: "aid: angular-20:angular-common-api\nname: Angular 20 Common API\ntags:\n- Directives\n- Pipes\n- Utilities\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://angular.dev/api/common\nhumanURL: https://angular.dev/api/common\nproperties:\n- url: https://angular.dev/api/common\n  type: Documentation\ndescription: Common Angular 20 directives and pipes with stable built-in control flow (@if, @for, @switch)\n  and improved pipe performance.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/angular-20/refs/heads/main/apis.yml
 tags:
 - Directives
 - Pipes

@@ -12,6 +12,8 @@ properties:
 provider_name: BetSolutions
 provider_slug: betsolutions
 slug: table-games-api
+source_yaml: "aid: betsolutions:table-games-api\nname: BetSolutions Table Games API\ntags:\n- Table Games\n- Multiplayer\n- Tournaments\n- Gaming\nhumanURL: https://docs.betsolutions.com/\nproperties:\n- type: Documentation\n  url: https://docs.betsolutions.com/\ndescription: Multiplayer table game integration supporting Backgammon, Bura, Okey, Domino, and Seka. Includes\n  tournament management with types and statuses, and achievement systems for player engagement.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/apis.yml
 tags:
 - Table Games
 - Multiplayer

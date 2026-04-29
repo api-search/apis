@@ -12,6 +12,8 @@ properties:
 provider_name: AmerisourceBergen
 provider_slug: amerisourcebergen
 slug: website
+source_yaml: "aid: amerisourcebergen:website\nname: AmerisourceBergen Website\ntags:\n- Pharmaceutical Distribution\n- Healthcare\n- Drug Distribution\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://www.cencora.com\nhumanURL: https://www.amerisourcebergen.com\nproperties:\n- type: Website\n  url: https://www.amerisourcebergen.com\ndescription: AmerisourceBergen (now Cencora) is one of the largest global pharmaceutical distributors,\n  serving pharmaceutical manufacturers, healthcare providers, and patients worldwide. The company does\n  not currently publish a public developer API.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amerisourcebergen/refs/heads/main/apis.yml
 tags:
 - Pharmaceutical Distribution
 - Healthcare

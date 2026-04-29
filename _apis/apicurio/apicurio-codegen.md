@@ -12,6 +12,8 @@ properties:
 provider_name: Apicurio
 provider_slug: apicurio
 slug: apicurio-codegen
+source_yaml: "aid: apicurio:apicurio-codegen\nname: Apicurio Codegen\ndescription: Apicurio Codegen generates Java JAX-RS server stubs and client code from OpenAPI specifications,\n  enabling design-first API development workflows.\nhumanURL: https://github.com/Apicurio/apicurio-codegen\ntags:\n- Code Generation\n- JAX-RS\n- Java\n- OpenAPI\nproperties:\n- type: GitHubRepository\n  url: https://github.com/Apicurio/apicurio-codegen\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/apis.yml
 tags:
 - Code Generation
 - JAX-RS

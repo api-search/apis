@@ -14,6 +14,8 @@ properties:
 provider_name: Archer Daniels Midland
 provider_slug: archer-daniels-midland
 slug: commodity-data-api
+source_yaml: "aid: archer-daniels-midland:commodity-data-api\nname: Archer Daniels Midland Commodity Data API\ndescription: The ADM Commodity Data API represents data integration capabilities for agricultural commodity\n  pricing, supply chain logistics, and product information for partner integrations.\nhumanURL: https://www.adm.com/en-us/\nbaseURL: https://api.adm.com\ntags:\n- Agriculture\n- Commodities\n- Food Processing\n- Supply Chain\n- Grain\n- Nutrition\nproperties:\n- type: Documentation\n  url: https://www.adm.com/en-us/\n- type: OpenAPI\n  url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/openapi/archer-daniels-midland-commodity-data-api-openapi.yml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/apis.yml
 tags:
 - Agriculture
 - Commodities

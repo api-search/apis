@@ -14,6 +14,9 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: group-memberships
+source_yaml: "aid: zendesk:group-memberships\nname: Zendesk Group Memberships API\ntags:\n- Groups\n- Memberships\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://{subdomain}.zendesk.com\nhumanURL: https://developer.zendesk.com/api-reference/ticketing/groups/group_memberships/\nproperties:\n- url: https://developer.zendesk.com/api-reference/ticketing/groups/group_memberships/\n  type: Documentation\n- url: openapi/group-memberships-openapi-original.yml\n  type: OpenAPI\ndescription: The Zendesk Group Memberships API lets you programmatically manage the relationship between\n  users (typically agents) and groups in a Zendesk Support account. With it, you can list memberships\n  across the account or scoped to a specific user or group, add a user to a group, remove a user from\n  a group, and set which group is an agents default. Each membership ties a user_id to a group_id and\n  can indicate the default group that agent belongs to, which\
+  \ affects ticket routing and workflows.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:
 - Groups
 - Memberships

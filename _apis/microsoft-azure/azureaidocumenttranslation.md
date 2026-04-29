@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azureaidocumenttranslation
+source_yaml: "aid: microsoft-azure:azureaidocumenttranslation\nname: Microsoft Azure Ai Document Translation\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/ai-services/translator/\nproperties:\n- url: openapi/azureaidocumenttranslation-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/ai-services/translator/\n  type: Documentation\ndescription: Microsoft Azure AI Document Translation is a cloud-based service that allows users to easily\n  translate documents at scale. By leveraging advanced machine learning algorithms, Azure AI Document\n  Translation can accurately translate various types of documents, including text, images, and scanned\n  files, into multiple languages. This service helps businesses and organizations streamline their translation\n  process, save time, and reach a wider audience by breaking down language barriers.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

@@ -42,6 +42,9 @@ properties:
 provider_name: Databricks
 provider_slug: databricks
 slug: jobs-api
+source_yaml: "aid: databricks:jobs-api\nname: Databricks Jobs API\ntags:\n- Jobs\n- Orchestration\n- Scheduling\n- Workflows\nhumanURL: https://docs.databricks.com/api/workspace/jobs\nproperties:\n- url: https://docs.databricks.com/api/workspace/jobs\n  type: Documentation\n- url: openapi/databricks-openapi.yml\n  type: OpenAPI\n- url: json-schema/databricks-job-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-create-job-request-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-task-settings-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-job-cluster-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-job-email-notifications-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-webhook-notifications-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-cron-schedule-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-git-source-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-library-schema.json\n\
+  \  type: JSONSchema\n- url: json-schema/databricks-access-control-request-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-job-settings-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-run-schema.json\n  type: JSONSchema\n- url: json-schema/databricks-run-task-schema.json\n  type: JSONSchema\n- url: json-ld/databricks-context.jsonld\n  type: JSONLD\ndescription: The Databricks Jobs API allows you to create, edit, delete, and trigger jobs. Jobs are the\n  primary mechanism for running automated workloads on Databricks, including notebooks, JARs, Python scripts,\n  and Spark submit applications. The API supports complex multi-task workflows with dependencies, scheduling,\n  and monitoring capabilities.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/apis.yml
 tags:
 - Jobs
 - Orchestration

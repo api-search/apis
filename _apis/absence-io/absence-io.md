@@ -28,6 +28,8 @@ properties:
 provider_name: Absence.io
 provider_slug: absence-io
 slug: absence-io
+source_yaml: "aid: absence-io:absence-io\nname: Absence.io API\ntags:\n- Absences\n- Employees\n- Leave Management\nhumanURL: https://www.absence.io/\nproperties:\n- type: Documentation\n  url: https://docs.absence.io/\n- type: Authentication\n  url: https://docs.absence.io/#authentication\n- type: OpenAPI\n  url: openapi/absence-io-openapi.yml\n- type: SDK\n  url: https://www.npmjs.com/package/absence.io\n  title: Node.js SDK\n- type: JSONSchema\n  url: json-schema/absence-schema.json\n  title: Absence Schema\n- type: JSONSchema\n  url: json-schema/user-schema.json\n  title: User Schema\n- type: JSONSchema\n  url: json-schema/allowance-schema.json\n  title: Allowance Schema\ndescription: Absence.io REST API v2 allows seamless integration of absence management features into software\n  applications. Retrieve, create, update, and delete records for absences, users, allowances, departments,\n  locations, reason types, and timespans. All requests and responses use JSON format with Hawk authentication.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/apis.yml
 tags:
 - Absences
 - Employees

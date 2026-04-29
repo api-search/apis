@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: networkmanager
+source_yaml: "aid: microsoft-azure:networkmanager\nname: Microsoft Azure Network Manager\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/virtual-network-manager/\nproperties:\n- url: openapi/networkmanager-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/virtual-network-manager/\n  type: Documentation\ndescription: Microsoft Azure NetworkManager is a comprehensive networking solution that allows businesses\n  to easily manage and monitor their network infrastructure. With NetworkManager, users can create and\n  configure virtual networks, set up custom routing rules, and monitor network performance in real-time.\n  This powerful tool also provides advanced security features such as network segmentation and encryption\n  to help protect sensitive data.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

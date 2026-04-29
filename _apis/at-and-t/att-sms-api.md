@@ -20,6 +20,8 @@ properties:
 provider_name: AT&T
 provider_slug: at-and-t
 slug: att-sms-api
+source_yaml: "aid: at-and-t:att-sms-api\nname: AT&T SMS API\ndescription: A RESTful API enabling established businesses to broadcast SMS short code messages to AT&T\n  subscribers in the United States. Supports sending to up to 50 recipients per call and up to 1 million\n  messaging API calls monthly. Includes delivery status callbacks and GSMA OneAPI-compatible endpoints.\nhumanURL: https://developer.att.com/sms\nbaseURL: https://api.att.com\ntags:\n- SMS\n- Messaging\n- Short Code\n- Notifications\nproperties:\n- type: Documentation\n  url: https://developer.att.com/sms/docs\n- type: APIReference\n  url: https://developer.att.com/sms/docs/v2\n- type: Authentication\n  url: https://developer.att.com/oauth-2/docs\n- type: GettingStarted\n  url: https://developer.att.com/sms\n- type: OpenAPI\n  url: openapi/at-and-t-sms-api.yaml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/apis.yml
 tags:
 - SMS
 - Messaging

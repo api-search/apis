@@ -16,6 +16,8 @@ properties:
 provider_name: Slack
 provider_slug: slack
 slug: slack-conversations-api
+source_yaml: "aid: slack:slack-conversations-api\nname: Slack Conversations API\ntags:\n- Conversations\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://slack.com/api\nhumanURL: https://docs.slack.dev/apis/web-api/using-the-conversations-api\nproperties:\n- url: https://docs.slack.dev/apis/web-api/using-the-conversations-api\n  type: Documentation\n- url: openapi/slack-conversations-openapi.yml\n  type: OpenAPI\n- url: json-schema/slack-channel-schema.json\n  type: JSONSchema\ndescription: The Slack Conversations API is the unified Web API for working with all types of Slack conversationspublic\n  and private channels, direct messages, and multi-person DMs. It lets apps discover and inspect conversations,\n  list members, and read message history and threads, as well as create, join, invite, leave, and archive\n  channels where permissions allow.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/apis.yml
 tags:
 - Conversations
 ---

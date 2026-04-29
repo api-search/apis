@@ -12,6 +12,8 @@ properties:
 provider_name: SAP Concur
 provider_slug: concur
 slug: travel-api
+source_yaml: "aid: concur:travel-api\nname: SAP Concur Travel API\ndescription: REST API for managing travel itineraries, bookings, and travel profiles. Supports searching\n  for travel options, creating bookings, and managing travel policies and preferences.\nhumanURL: https://developer.concur.com/api-reference/travel/\nbaseURL: https://us.api.concursolutions.com/travel/\ntags:\n- Bookings\n- Itineraries\n- REST\n- Travel\nproperties:\n- type: Documentation\n  url: https://developer.concur.com/api-reference/travel/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/apis.yml
 tags:
 - Bookings
 - Itineraries

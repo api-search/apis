@@ -12,6 +12,8 @@ properties:
 provider_name: Boomi
 provider_slug: boomi
 slug: mft-api
+source_yaml: "aid: boomi:mft-api\nname: Boomi MFT API\ntags:\n- Managed File Transfer\n- MFT\n- REST\n- SOAP\nhumanURL: https://developer.boomi.com/docs/APIs/MFT/overview\nproperties:\n- url: https://developer.boomi.com/docs/APIs/MFT/overview\n  type: Documentation\ndescription: 'The Boomi Managed File Transfer (MFT) API provides two main types of APIs for interacting\n  with MFT services: REST APIs and SOAP APIs. REST APIs are designed around a resource-oriented model\n  using standard HTTP methods, while SOAP APIs offer a structured, protocol-driven alternative. The API\n  covers AFT Management, AuditLog, Content Upload and Download, Health Check, and File Sharing operations.'\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/apis.yml
 tags:
 - Managed File Transfer
 - MFT

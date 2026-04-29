@@ -14,5 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: privateendpointconnection-types
+source_yaml: "aid: microsoft-azure-one:privateendpointconnection-types\nname: Microsoft Azure Private Endpoint Connection Types\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview\nproperties:\n- url: openapi/privateendpointconnection-types-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview\n  type: Documentation\ndescription: Microsoft Azure Private Endpoint Connection Types allows users to create secure and private\n  connections between their Azure resources and services. This feature provides a more secure way to access\n  and interact with cloud services, ensuring that sensitive data is protected from external threats. Users\n  can choose from different connection types such as Virtual Network, Azure Load Balancer, or Azure Application\n  Gateway to establish a secure and private connection\
+  \ for their resources.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

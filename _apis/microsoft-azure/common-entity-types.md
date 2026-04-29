@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: common-entity-types
+source_yaml: "aid: microsoft-azure:common-entity-types\nname: Microsoft Azure Common Entity Types\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/sentinel/entities-reference\nproperties:\n- url: openapi/common-entity-types-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/sentinel/entities-reference\n  type: Documentation\ndescription: Microsoft Azure Common Entity Types is a tool that helps users easily access and manage different\n  types of entities within the Azure environment. By categorizing entities based on common characteristics,\n  such as virtual machines, databases, storage accounts, and networks, users can efficiently organize\n  and navigate their resources. This tool allows users to quickly identify and interact with specific\n  entities, streamlining the management and operation of their Azure deployments.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

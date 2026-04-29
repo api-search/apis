@@ -14,6 +14,8 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: custom-objects
+source_yaml: "aid: zendesk:custom-objects\nname: Zendesk Custom Objects API\ntags:\n- Custom Objects\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://{subdomain}.zendesk.com\nhumanURL: https://developer.zendesk.com/api-reference/custom-data/introduction/\nproperties:\n- url: https://developer.zendesk.com/api-reference/custom-data/introduction/\n  type: Documentation\n- url: openapi/custom-objects-openapi-original.yml\n  type: OpenAPI\ndescription: The Zendesk Custom Objects API lets you model and store your own business datasuch as orders,\n  subscriptions, devices, or contractsdirectly in Zendesk and relate it to native resources like tickets,\n  users, and organizations. With it, you define object types and fields, create, read, update, and delete\n  records, and establish one-to-one or one-to-many relationships so agents and workflows can access rich\n  context in the Agent Workspace.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:
 - Custom Objects
 ---

@@ -16,6 +16,8 @@ properties:
 provider_name: Amazon Cognito
 provider_slug: aws-cognito
 slug: aws-cognito-identity
+source_yaml: "aid: aws-cognito:aws-cognito-identity\nname: Amazon Cognito Identity (Federated Identities)\ndescription: Federated identity service that issues temporary AWS credentials to authenticated and unauthenticated\n  users from Cognito user pools, social identity providers (Facebook, Google, Apple), and SAML-based enterprise\n  IdPs.\nhumanURL: https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-identity.html\nbaseURL: https://cognito-identity.{region}.amazonaws.com\ntags:\n- AWS\n- Credentials\n- Federation\n- Identity\nproperties:\n- type: Documentation\n  url: https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-identity.html\n- type: APIReference\n  url: https://docs.aws.amazon.com/cognitoidentity/latest/APIReference/Welcome.html\n- type: OpenAPI\n  url: openapi/aws-cognito-identity-openapi.yaml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/apis.yml
 tags:
 - AWS
 - Credentials

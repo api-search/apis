@@ -18,6 +18,8 @@ properties:
 provider_name: CenturyLink (Lumen Technologies)
 provider_slug: centurylink
 slug: lumen-developer-center
+source_yaml: "aid: centurylink:lumen-developer-center\nname: Lumen Developer Center APIs\ntags:\n- Enterprise\n- Lumen\n- OAuth 2.0\n- Partner\n- REST\nhumanURL: https://developer.lumen.com/\nproperties:\n- url: https://developer.lumen.com/\n  type: Website\n- url: https://developer.lumen.com/apis\n  type: Reference\n- url: https://developer.centurylink.com/apis\n  type: LegacyDeveloper\n- url: https://developer-test.centurylink.com/content/using-oauth-20-access-lumen-apis\n  type: Authentication\ndescription: The Lumen Developer Center publishes Lumen's enterprise API catalog, including Location,\n  Quote, Order (PX CreateOrder), Service Inventory, Billing, Outbound Notification, and Trouble Ticket\n  APIs. All APIs use OAuth 2.0 Client Credentials and require Partner Developer Portal registration and\n  administrator enablement.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centurylink/refs/heads/main/apis.yml
 tags:
 - Enterprise
 - Lumen

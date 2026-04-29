@@ -18,6 +18,9 @@ properties:
 provider_name: Boomi
 provider_slug: boomi
 slug: datahub-api
+source_yaml: "aid: boomi:datahub-api\nname: Boomi DataHub API\ntags:\n- Data Hub\n- Master Data\n- REST\nhumanURL: https://help.boomi.com/docs/Atomsphere/Master%20Data%20Hub/REST%20APIs/r-mdm-REST_APIs_f43499a6-3d1c-4102-bf13-94b02659dd9f\nproperties:\n- url: https://help.boomi.com/docs/Atomsphere/Master%20Data%20Hub/REST%20APIs/r-mdm-REST_APIs_f43499a6-3d1c-4102-bf13-94b02659dd9f\n  type: Documentation\n- url: https://help.boomi.com/docs/Atomsphere/Master%20Data%20Hub/REST%20APIs/r-mdm-Platform_API_368dc28d-455d-4aa2-970e-d2332c7ada83\n  type: APIReference\n- url: https://help.boomi.com/docs/Atomsphere/Master%20Data%20Hub/REST%20APIs/r-mdm-Repository_API_659e32f2-99ce-444e-8201-8a9ae1d92c9b\n  type: APIReference\n- url: openapi/boomi-datahub-api-openapi.yml\n  type: OpenAPI\ndescription: The Boomi DataHub REST APIs enable programmatic access to the master data management system\n  through the DataHub Platform API and Repository API. The Platform API enables platform-level operations\n \
+  \ on master data domains, while the Repository API supports data repository operations with JWT authentication.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/apis.yml
 tags:
 - Data Hub
 - Master Data

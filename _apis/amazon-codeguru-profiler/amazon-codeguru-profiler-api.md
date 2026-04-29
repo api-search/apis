@@ -16,6 +16,8 @@ properties:
 provider_name: Amazon CodeGuru Profiler
 provider_slug: amazon-codeguru-profiler
 slug: amazon-codeguru-profiler-api
+source_yaml: "aid: amazon-codeguru-profiler:amazon-codeguru-profiler-api\nname: Amazon CodeGuru Profiler API\ndescription: The Amazon CodeGuru Profiler REST API.\nhumanURL: https://docs.aws.amazon.com/codeguru/latest/profiler-api/Welcome.html\nbaseURL: https://codeguru-profiler.us-east-1.amazonaws.com\ntags:\n- Amazon\n- AWS\n- Application Performance\n- Profiling\n- DevOps\nproperties:\n- type: Documentation\n  url: https://docs.aws.amazon.com/codeguruprofiler/\n- type: APIReference\n  url: https://docs.aws.amazon.com/codeguru/latest/profiler-api/Welcome.html\n- type: OpenAPI\n  url: openapi/amazon-codeguru-profiler-openapi-original.yaml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/apis.yml
 tags:
 - Amazon
 - AWS

@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-web-pubsub-service-rest-api
+source_yaml: "aid: microsoft-azure:azure-web-pubsub-service-rest-api\nname: Microsoft Azure Web Pub Sub Service  API\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/rest/api/webpubsub/\nproperties:\n- url: openapi/azure-web-pubsub-service-rest-api-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/rest/api/webpubsub/\n  type: Documentation\ndescription: Microsoft Azure Web Pub Sub Service Rest API is a powerful tool that allows developers to\n  build scalable real-time web applications by providing a way to push data to connected clients in real-time.\n  This service enables the exchange of real-time messages between clients and servers, making it easy\n  to create interactive, collaborative applications.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: predictionendpoint
+source_yaml: "aid: microsoft-azure:predictionendpoint\nname: Microsoft Azure Prediction Endpoint\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/use-prediction-api\nproperties:\n- url: openapi/predictionendpoint-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/use-prediction-api\n  type: Documentation\ndescription: Microsoft Azure Prediction Endpoint is a machine learning service that allows users to deploy\n  predictive models to the cloud and make real-time predictions on new data. This service provides an\n  easy and scalable solution for businesses to integrate predictive analytics into their applications\n  without the need for extensive coding or infrastructure setup.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

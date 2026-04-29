@@ -16,6 +16,8 @@ properties:
 provider_name: Appian
 provider_slug: appian
 slug: deployment-rest-api
+source_yaml: "aid: appian:deployment-rest-api\nname: Appian Deployment REST API\ntags:\n- CI/CD\n- Deployment\n- Packages\nhumanURL: https://docs.appian.com/suite/help/25.4/Deployment_Rest_API.html\nproperties:\n- url: https://docs.appian.com/suite/help/25.4/Deployment_Rest_API.html\n  type: Documentation\n- url: https://docs.appian.com/suite/help/25.4/Export_Package_API.html\n  type: Reference\n- url: https://docs.appian.com/suite/help/25.4/Web_API_Authentication.html\n  type: Authentication\ndescription: The Appian Deployment REST API provides endpoints for exporting, inspecting, and importing\n  applications and packages. It enables automation of CI/CD pipelines including exports, inspections,\n  and imports, and supports post-deployment processes for external deployments.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/apis.yml
 tags:
 - CI/CD
 - Deployment

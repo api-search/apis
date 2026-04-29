@@ -12,6 +12,8 @@ properties:
 provider_name: Apache Libcloud
 provider_slug: apache-libcloud
 slug: storage-api
+source_yaml: "aid: apache-libcloud:storage-api\nname: Apache Libcloud Storage API\ndescription: The Libcloud Storage API provides a unified Python interface for object storage operations\n  across AWS S3, Azure Blob Storage, GCP Cloud Storage, Rackspace Cloud Files, and OpenStack Swift.\nhumanURL: https://libcloud.readthedocs.io/en/stable/storage/\ntags:\n- Cloud\n- Object Storage\n- Python\nproperties:\n- type: Documentation\n  url: https://libcloud.readthedocs.io/en/stable/storage/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-libcloud/refs/heads/main/apis.yml
 tags:
 - Cloud
 - Object Storage

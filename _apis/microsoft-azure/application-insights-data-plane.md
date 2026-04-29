@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: application-insights-data-plane
+source_yaml: "aid: microsoft-azure-one:application-insights-data-plane\nname: Microsoft Azure Application Insights Data Plane\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview\nproperties:\n- url: openapi/application-insights-data-plane-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview\n  type: Documentation\ndescription: Microsoft Azure Application Insights Data Plane is a powerful tool that allows users to analyze\n  and gain insights from data collected by their applications. The data plane enables users to track and\n  monitor the performance, usage, and user interactions of their applications in real time. This data\n  can be used to identify and troubleshoot issues, optimize performance, and make informed decisions to\n  improve user experience.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

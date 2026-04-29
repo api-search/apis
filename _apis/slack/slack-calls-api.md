@@ -14,6 +14,8 @@ properties:
 provider_name: Slack
 provider_slug: slack
 slug: slack-calls-api
+source_yaml: "aid: slack:slack-calls-api\nname: Slack Calls API\ntags:\n- Calls\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://slack.com/api\nhumanURL: https://docs.slack.dev/reference/methods\nproperties:\n- url: https://docs.slack.dev/reference/methods\n  type: Documentation\n- url: openapi/slack-calls-openapi.yml\n  type: OpenAPI\ndescription: Slack's Calls API lets apps represent thirdparty voice or video calls inside Slack by creating\n  a call object with a join URL and metadata, so users see a rich call message with a Join button, status,\n  and participant list in channels or DMs. Through endpoints to create, update, and end callsand to add\n  or remove participantsan app can keep that call message in sync as people join or leave and as the call\n  progresses.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/apis.yml
 tags:
 - Calls
 ---

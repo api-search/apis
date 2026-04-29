@@ -16,6 +16,8 @@ properties:
 provider_name: Apache CloudStack
 provider_slug: apache-cloudstack
 slug: apache-cloudstack-api
+source_yaml: "aid: apache-cloudstack:apache-cloudstack-api\nname: Apache CloudStack API\ndescription: The CloudStack API provides comprehensive REST endpoints for managing virtual machines, networks,\n  storage volumes, accounts, domains, zones, and all cloud infrastructure resources using a query-parameter-based\n  command dispatch pattern with HMAC-SHA1 authentication and asynchronous job support.\nhumanURL: https://cloudstack.apache.org/api/\nbaseURL: http://localhost:8080/client/api\ntags:\n- Cloud\n- IaaS\n- REST\n- Virtual Machines\nproperties:\n- type: Documentation\n  url: https://cloudstack.apache.org/api/\n- type: OpenAPI\n  url: openapi/apache-cloudstack-api-openapi.yaml\n- type: GettingStarted\n  url: https://docs.cloudstack.apache.org/en/latest/installguide/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/apis.yml
 tags:
 - Cloud
 - IaaS

@@ -12,6 +12,8 @@ properties:
 provider_name: ServiceNow
 provider_slug: servicenow
 slug: servicenow-automation-center-api
+source_yaml: "aid: servicenow:servicenow-automation-center-api\nname: ServiceNow Automation Center API\ntags:\n- Automation\n- Orchestration\n- Platform\n- Workflows\nimage: https://www.servicenow.com/content/dam/servicenow-assets/images/meganav/servicenow-logo.svg\nhumanURL: https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/integrate/inbound-rest/concept/auto-api.html\nbaseURL: https://{instance}.service-now.com/api/sn_automation_center\nproperties:\n- url: https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/integrate/inbound-rest/concept/auto-api.html\n  type: Documentation\ndescription: The ServiceNow Automation Center API provides REST endpoints for managing and executing automation\n  workflows on the Now Platform. It supports programmatic control of automation tasks, enabling external\n  systems to trigger, monitor, and manage automated processes.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/apis.yml
 tags:
 - Automation
 - Orchestration

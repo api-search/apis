@@ -16,6 +16,8 @@ properties:
 provider_name: affirm
 provider_slug: affirm
 slug: disputes-api
+source_yaml: "aid: affirm:disputes-api\nname: Affirm Disputes API\ntags:\n- Chargebacks\n- Disputes\n- Fintech\n- Merchant\n- Payments\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.affirm.com\nhumanURL: https://docs.affirm.com/developers/reference/introduction\nproperties:\n- url: https://docs.affirm.com/developers/reference/introduction\n  type: Documentation\n- url: openapi/affirm-disputes-openapi.yml\n  type: OpenAPI\n- url: json-schema/affirm-dispute-schema.json\n  type: JSONSchema\ndescription: The Affirm Disputes API (V3) provides merchants with programmatic access to manage payment\n  disputes initiated by customers. It supports listing and retrieving individual dispute records, submitting\n  evidence to contest a dispute, and closing disputes. The API integrates with the file upload capability\n  so merchants can attach supporting documentation as evidence when responding to disputes.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/apis.yml
 tags:
 - Chargebacks
 - Disputes

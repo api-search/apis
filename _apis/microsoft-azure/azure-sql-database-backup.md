@@ -14,5 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-sql-database-backup
+source_yaml: "aid: microsoft-azure:azure-sql-database-backup\nname: Microsoft Azure SQL Database Backup\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-sql/database/automated-backups-overview?view=azuresql\nproperties:\n- url: openapi/azure-sql-database-backup-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-sql/database/automated-backups-overview?view=azuresql\n  type: Documentation\ndescription: Microsoft Azure SQL Database Backup is a cloud-based service that allows users to create\n  backups of their SQL databases stored in the Azure cloud. This service provides a secure and reliable\n  way to protect critical data by creating scheduled backups that can be easily restored in case of data\n  loss or corruption. Azure SQL Database Backup also offers features such as point-in-time restore and\n  geo-redundant backups, ensuring that data is always\
+  \ available and protected against unforeseen events.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

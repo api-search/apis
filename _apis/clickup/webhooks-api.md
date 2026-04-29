@@ -16,6 +16,8 @@ properties:
 provider_name: clickup
 provider_slug: clickup
 slug: webhooks-api
+source_yaml: "aid: clickup:webhooks-api\nname: ClickUp Webhooks API\ntags:\n- Events\n- Project Management\n- Real-Time\n- Webhooks\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.clickup.com\nhumanURL: https://developer.clickup.com/docs/webhooks\nproperties:\n- url: https://developer.clickup.com/docs/webhooks\n  type: Documentation\n- url: openapi/clickup-webhooks-openapi.yml\n  type: OpenAPI\n- url: asyncapi/clickup-webhooks-asyncapi.yml\n  type: AsyncAPI\ndescription: The ClickUp Webhooks API enables developers to subscribe to real-time events within a Workspace.\n  When subscribed events occur, ClickUp sends HTTP POST requests to a specified endpoint URL with event\n  details. Webhooks support events for tasks, lists, folders, spaces, and goals. Each webhook payload\n  is signed with a shared secret for verification, ensuring the event originated from ClickUp.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/apis.yml
 tags:
 - Events
 - Project Management

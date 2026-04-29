@@ -16,6 +16,8 @@ properties:
 provider_name: Amadeus Reservations
 provider_slug: amadeus-reservations
 slug: flight-create-orders-api
+source_yaml: "aid: amadeus-reservations:flight-create-orders-api\nname: Flight Create Orders API\ndescription: The Amadeus Flight Create Orders API enables creation of flight bookings from flight offers\n  returned by the Flight Offers Search API. Create confirmed airline reservations for one or more travelers,\n  receive booking confirmations with PNR codes, and manage the complete flight order lifecycle from creation\n  to ticketing.\nhumanURL: https://developers.amadeus.com/self-service/category/flights/api-doc/flight-create-orders\nbaseURL: https://test.api.amadeus.com/v1\ntags:\n- Booking\n- Flights\n- Orders\n- Reservations\n- Travel\nproperties:\n- type: Documentation\n  url: https://developers.amadeus.com/self-service/category/flights/api-doc/flight-create-orders\n- type: APIReference\n  url: https://developers.amadeus.com/self-service/category/flights/api-doc/flight-create-orders/api-reference\n- type: OpenAPI\n  url: openapi/amadeus-reservations-flight-create-orders-openapi.yaml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/apis.yml
 tags:
 - Booking
 - Flights

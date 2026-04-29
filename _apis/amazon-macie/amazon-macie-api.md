@@ -26,6 +26,9 @@ properties:
 provider_name: Amazon Macie
 provider_slug: amazon-macie
 slug: amazon-macie-api
+source_yaml: "aid: amazon-macie:amazon-macie-api\nname: Amazon Macie API\ndescription: The Amazon Macie API provides programmatic access to create and manage the resources, data,\n  and activities for discovering, classifying, and protecting sensitive data stored in Amazon S3 buckets.\n  Covers 54 paths and 79 operations for findings management, classification jobs, bucket security, custom\n  identifiers, multi-account administration, and allow lists.\nhumanURL: https://aws.amazon.com/macie/\nbaseURL: https://macie2.amazonaws.com\ntags:\n- Data Security\n- Sensitive Data\n- Privacy\n- Compliance\n- S3\nproperties:\n- type: Documentation\n  url: https://docs.aws.amazon.com/macie/latest/userguide/what-is-macie.html\n- type: OpenAPI\n  url: openapi/amazon-macie-openapi-original.yaml\n- type: GettingStarted\n  url: https://aws.amazon.com/macie/getting-started/\n- type: Pricing\n  url: https://aws.amazon.com/macie/pricing/\n- type: FAQ\n  url: https://aws.amazon.com/macie/faq/\n- type: JSONSchema\n\
+  \  url: json-schema/amazon-macie-finding-schema.json\n- type: JSONStructure\n  url: json-structure/amazon-macie-finding-structure.json\n- type: JSON-LD\n  url: json-ld/amazon-macie-context.jsonld\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/apis.yml
 tags:
 - Data Security
 - Sensitive Data

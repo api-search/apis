@@ -12,6 +12,8 @@ properties:
 provider_name: Cisco Secure Client
 provider_slug: cisco-secure-client
 slug: duo-admin-api
+source_yaml: "aid: cisco-secure-client:duo-admin-api\nname: Cisco Duo Admin API\ntags:\n- Authentication\n- Duo\n- MFA\n- Zero Trust\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://duo.com/docs/adminapi\nproperties:\n- url: https://duo.com/docs/adminapi\n  type: Documentation\ndescription: The Duo Admin API configures multi-factor authentication policies, users, groups, and integrations\n  used by Secure Client deployments for ZTNA and adaptive authentication. Authentication uses an HMAC\n  signature scheme over the request and integration keys.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/apis.yml
 tags:
 - Authentication
 - Duo

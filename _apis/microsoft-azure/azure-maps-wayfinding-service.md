@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-maps-wayfinding-service
+source_yaml: "aid: microsoft-azure:azure-maps-wayfinding-service\nname: Microsoft Azure Maps Wayfinding Service\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-maps/how-to-creator-wayfinding\nproperties:\n- url: openapi/azure-maps-wayfinding-service-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-maps/how-to-creator-wayfinding\n  type: Documentation\ndescription: Microsoft Azure Maps Wayfinding Service is a cloud-based service that provides interactive\n  maps and navigation capabilities for users to easily create and use custom wayfinding experiences in\n  their applications. With this service, developers can integrate real-time directions, route optimization,\n  and location-based services into their applications, allowing users to navigate complex indoor and outdoor\n  environments with ease.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

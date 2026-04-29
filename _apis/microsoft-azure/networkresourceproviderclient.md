@@ -14,5 +14,8 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: networkresourceproviderclient
+source_yaml: "aid: microsoft-azure:networkresourceproviderclient\nname: Microsoft Azure Network Resource Provider Client\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types\nproperties:\n- url: openapi/networkresourceproviderclient-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types\n  type: Documentation\ndescription: The Microsoft Azure Network Resource Provider Client is a tool that allows users to efficiently\n  manage and configure network resources within the Azure cloud platform. With this client, users can\n  easily create and manage virtual networks, subnets, load balancers, and virtual private networks. The\n  client also enables users to monitor network performance, set up security rules, and establish connectivity\n  between on-premises\
+  \ networks and Azure resources.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

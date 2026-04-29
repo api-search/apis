@@ -36,6 +36,9 @@ properties:
 provider_name: Figma
 provider_slug: figma
 slug: figma-analytics-api
+source_yaml: "aid: figma:figma-analytics-api\nname: Figma Analytics API\ndescription: Figma Analytics API provides endpoints for tracking component, style, and variable usage\n  across team libraries, enabling design system adoption measurement.\nimage: https://www.figma.com/favicon.ico\nbaseURL: https://api.figma.com\nhumanURL: https://developers.figma.com/docs/rest-api/library-analytics-intro/\ntags:\n- Analytics\n- Design Systems\n- Libraries\nproperties:\n- type: OpenAPI\n  url: openapi/figma-analytics-api-openapi.yml\n- type: JSONSchema\n  url: json-schema/figma-analytics-get-library-analytics-usages-response-body-schema.json\n- type: JSONSchema\n  url: json-schema/figma-analytics-library-analytics-usages-by-component-schema.json\n- type: JSONSchema\n  url: json-schema/figma-analytics-library-analytics-usages-by-file-schema.json\n- type: JSONSchema\n  url: json-schema/figma-analytics-library-analytics-actions-by-component-schema.json\n- type: JSONSchema\n  url: json-schema/figma-analytics-library-analytics-actions-by-team-schema.json\n\
+  - type: JSONSchema\n  url: json-schema/figma-analytics-library-analytics-style-usages-by-asset-schema.json\n- type: JSONSchema\n  url: json-schema/figma-analytics-library-analytics-style-usages-by-file-schema.json\n- type: JSONSchema\n  url: json-schema/figma-analytics-library-analytics-variable-usages-by-asset-schema.json\n- type: JSONSchema\n  url: json-schema/figma-analytics-library-analytics-variable-usages-by-file-schema.json\n- type: JSONSchema\n  url: json-schema/figma-analytics-error-response-payload-schema.json\n- type: JSONLD\n  url: json-ld/figma-analytics-context.jsonld\n- type: Documentation\n  url: https://developers.figma.com/docs/rest-api/library-analytics-intro/\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/apis.yml
 tags:
 - Analytics
 - Design Systems

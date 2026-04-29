@@ -14,6 +14,8 @@ properties:
 provider_name: Cloudmersive
 provider_slug: cloudmersive
 slug: cloudmersive-image-api
+source_yaml: "aid: cloudmersive:cloudmersive-image-api\nname: Cloudmersive Image Recognition and Processing API\ntags:\n- Computer Vision\n- Image Processing\n- Image Recognition\nhumanURL: https://cloudmersive.com/image-recognition-and-processing-api\nproperties:\n- url: https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Image%20Recognition%20and%20Processing%20API\n  type: Documentation\n- url: https://api-console.cloudmersive.com/swagger/api/image\n  type: OpenAPI\ndescription: 'Recognize and process images: classify, detect objects, NSFW detection, face detection,\n  image editing, filters, and resizing.'\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/apis.yml
 tags:
 - Computer Vision
 - Image Processing

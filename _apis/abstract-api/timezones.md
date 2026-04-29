@@ -18,6 +18,8 @@ properties:
 provider_name: Abstract API
 provider_slug: abstract-api
 slug: timezones
+source_yaml: "aid: abstract-api:timezones\nname: Timezone API\ntags:\n- Timezones\n- Time\n- Date\n- Calendar\nhumanURL: https://www.abstractapi.com/api/time-date-timezone-api\nbaseURL: https://timezone.abstractapi.com/v1/\nproperties:\n- url: https://docs.abstractapi.com/api/timezones.md\n  type: Documentation\n- url: openapi/abstract-api-timezones.yaml\n  type: OpenAPI\n- url: json-schema/timezones-convert-time-response-schema.json\n  type: JSONSchema\n- url: examples/timezones-convert-time-response-example.json\n  type: Example\ndescription: Find, convert, and manage time and timezone data across the world. Supports lookup by location\n  or coordinates and returns local time, timezone abbreviation, UTC offset, and DST information.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/apis.yml
 tags:
 - Timezones
 - Time

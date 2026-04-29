@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: azure-quota-extension-api
+source_yaml: "aid: microsoft-azure:azure-quota-extension-api\nname: Microsoft Azure Quota Extension API\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/rest/api/quota/\nproperties:\n- url: openapi/azure-quota-extension-api-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/rest/api/quota/\n  type: Documentation\ndescription: The Microsoft Azure Quota Extension API allows users to programmatically manage and extend\n  their resource quotas in the Azure cloud platform. With this API, developers can request additional\n  resources or adjust existing quotas for services such as virtual machines, storage, or networking. By\n  leveraging this API, organizations can easily scale their infrastructure to meet growing demands and\n  ensure that they have sufficient resources to support their applications and workloads.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

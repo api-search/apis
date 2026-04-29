@@ -14,5 +14,7 @@ properties:
 provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 slug: speaker-identification-api
+source_yaml: "aid: microsoft-azure:speaker-identification-api\nname: Microsoft Azure Speaker Identification API\ntags: []\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nhumanURL: https://learn.microsoft.com/en-us/rest/api/speakerrecognition/\nproperties:\n- url: openapi/speaker-identification-api-openapi-original.yml\n  type: OpenAPI\n- url: https://learn.microsoft.com/en-us/rest/api/speakerrecognition/\n  type: Documentation\ndescription: Microsoft Azure Speaker Identification API is a tool that allows users to identify and verify\n  speakers in audio recordings. By analyzing features such as voice patterns, pitch, and tempo, this API\n  can help users accurately determine the identity of the speaker in a given audio file. This can be particularly\n  useful in various applications, such as call center analytics, security and surveillance, and speech\n  recognition technology.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
 tags: []
 ---

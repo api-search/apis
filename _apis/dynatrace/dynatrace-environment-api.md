@@ -16,6 +16,9 @@ properties:
 provider_name: Dynatrace
 provider_slug: dynatrace
 slug: dynatrace-environment-api
+source_yaml: "aid: dynatrace:dynatrace-environment-api\nname: Dynatrace Environment API\ntags:\n- Analytics\n- Automation\n- Intelligence\n- Monitoring\n- Observability\nhumanURL: https://docs.dynatrace.com/docs/dynatrace-api/environment-api\nbaseURL: https://mySampleEnv.live.dynatrace.com/api/v2\nimage: https://www.dynatrace.com/logo.png\nproperties:\n- url: https://docs.dynatrace.com/docs/dynatrace-api/environment-api\n  type: Documentation\n- url: https://docs.dynatrace.com/docs/discover-dynatrace/references/dynatrace-api/basics/dynatrace-api-authentication\n  type: Authentication\n- url: https://developer.dynatrace.com/develop/sdks/client-classic-environment-v2/\n  type: SDK\ndescription: The Dynatrace Environment API provides access to monitoring data and configuration settings\n  for a specific Dynatrace environment. It includes endpoints for metrics, problems, events, logs, entities,\n  settings, and synthetic monitoring, and is the primary API for interacting with observability data\
+  \ within\n  a Dynatrace environment.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/apis.yml
 tags:
 - Analytics
 - Automation

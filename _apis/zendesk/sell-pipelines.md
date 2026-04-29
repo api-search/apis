@@ -12,6 +12,8 @@ properties:
 provider_name: Zendesk
 provider_slug: zendesk
 slug: sell-pipelines
+source_yaml: "aid: zendesk:sell-pipelines\nname: Zendesk Sell Pipelines API\ntags:\n- CRM\n- Pipelines\n- Sell\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nbaseURL: https://api.getbase.com\nhumanURL: https://developer.zendesk.com/api-reference/sales-crm/resources/pipelines/\nproperties:\n- url: https://developer.zendesk.com/api-reference/sales-crm/resources/pipelines/\n  type: Documentation\ndescription: The Zendesk Sell Pipelines API provides a read-only interface to your sales pipeline definitions.\n  Sales pipelines consist of a sequence of stages that deals progress through as they move toward closing.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
 tags:
 - CRM
 - Pipelines

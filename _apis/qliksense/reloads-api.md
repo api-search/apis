@@ -12,6 +12,8 @@ properties:
 provider_name: Qlik Sense APIs
 provider_slug: qliksense
 slug: reloads-api
+source_yaml: "aid: qliksense:reloads-api\nname: Qlik Reload API\ndescription: Trigger and manage data reload operations for Qlik Sense apps.\nhumanURL: https://qlik.dev/apis/rest/reloads\nbaseURL: https://your-tenant.qlikcloud.com/api/v1/reloads\ntags:\n- Data\n- ETL\n- Reload\n- REST\nproperties:\n- type: Documentation\n  url: https://qlik.dev/apis/rest/reloads\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/apis.yml
 tags:
 - Data
 - ETL
