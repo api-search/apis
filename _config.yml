@@ -1,6 +1,6 @@
 name: APIs.io APIs
 description: Browse individual APIs across the APIs.io network.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://apis.io/assets/branding/apisio-social-card.png
 url: https://apis.apis.io
 
 node: website
